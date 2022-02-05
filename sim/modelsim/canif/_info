@@ -1,0 +1,218 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/tristan
+Ecanif_top
+Z0 w1643911754
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 153
+Z4 d/home/tristan/dev/fpga/canif/sim/modelsim
+Z5 8/home/tristan/dev/fpga/canif/rtl/canif_top.vhd
+Z6 F/home/tristan/dev/fpga/canif/rtl/canif_top.vhd
+l0
+L9 1
+VfWgGamT[jIDT;mMJG?B^?0
+!s100 <B?`8gJeVNRMIM3JS8mI@2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1643912602
+!i10b 1
+Z9 !s108 1643912602.000000
+Z10 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/canif_top.vhd|
+Z11 !s107 /home/tristan/dev/fpga/canif/rtl/canif_top.vhd|
+!i113 1
+Z12 o-work canif -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+DPx7 neorv32 15 neorv32_package 0 22 Y]1DB:?0nHOj`42;2GDnL1
+DEx7 neorv32 11 neorv32_top 0 22 JQVmN]n0cf5OW5:3D[FJm3
+Z14 DPx14 ctu_can_fd_rtl 17 can_registers_pkg 0 22 N1K5hfjHU0gA`9FVa=d@=3
+Z15 DPx14 ctu_can_fd_rtl 19 can_fd_register_map 0 22 Bgb?PGNjOojWSUQOSfUkC1
+Z16 DPx14 ctu_can_fd_rtl 13 unary_ops_pkg 0 22 DCk4oddngUD]6jB40L;3[1
+Z17 DPx14 ctu_can_fd_rtl 12 drv_stat_pkg 0 22 1E8GW0lKTW<9GLmWCGojI0
+Z18 DPx14 ctu_can_fd_rtl 14 can_config_pkg 0 22 T0BXOW?8Mh@l8zij6_naN0
+Z19 DPx14 ctu_can_fd_rtl 13 can_types_pkg 0 22 IJ<L:>VHQLz>oUXF^dSnS1
+Z20 DPx14 ctu_can_fd_rtl 17 can_constants_pkg 0 22 ]dDL25PkIb3?E:gT9KDdT3
+Z21 DPx14 ctu_can_fd_rtl 19 can_fd_frame_format 0 22 bcnHm@ODH1OSYaURT0k0k2
+Z22 DPx14 ctu_can_fd_rtl 15 id_transfer_pkg 0 22 5PY]j=>=jeCFjjKb276UP1
+Z23 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+DEx5 canif 9 wb_ctucan 0 22 ZIP=kje_m>@`SLaS1;B7L2
+R1
+R2
+R3
+DEx4 work 9 canif_top 0 22 fWgGamT[jIDT;mMJG?B^?0
+!i122 153
+l36
+L21 184
+V5Mn:;oB2bN5RA@G[Vmm0_1
+!s100 4k4;]X`Rzj^^5GI5f9;fR1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_canif
+Z24 w1643900679
+R2
+R3
+!i122 156
+R4
+Z25 8/home/tristan/dev/fpga/canif/sim/tb/tb_canif.vhd
+Z26 F/home/tristan/dev/fpga/canif/sim/tb/tb_canif.vhd
+l0
+L6 1
+V[XAHKS;jloJUz8OgJ0DU33
+!s100 AHQj]dfEcm>J@E]fPZc:Y1
+R7
+32
+Z27 !s110 1643912614
+!i10b 1
+Z28 !s108 1643912614.000000
+Z29 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/sim/tb/tb_canif.vhd|
+Z30 !s107 /home/tristan/dev/fpga/canif/sim/tb/tb_canif.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+Z31 DEx5 canif 9 canif_top 0 22 fWgGamT[jIDT;mMJG?B^?0
+R2
+R3
+Z32 DEx4 work 8 tb_canif 0 22 [XAHKS;jloJUz8OgJ0DU33
+!i122 156
+l22
+Z33 L10 43
+Z34 VRSN=:nKleSO<UEog67Yd[3
+Z35 !s100 A71k2[Mzo2ob]_>D0G^d20
+R7
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R12
+R13
+Ets_gen
+Z36 w1643896052
+R1
+R2
+R3
+!i122 154
+R4
+Z37 8/home/tristan/dev/fpga/canif/rtl/ts_gen.vhd
+Z38 F/home/tristan/dev/fpga/canif/rtl/ts_gen.vhd
+l0
+L5 1
+V]0CSzO8oWg>OQCaRVm<QQ2
+!s100 7AnG1CDnbk0:5T<CbMSUK1
+R7
+32
+R8
+!i10b 1
+R9
+Z39 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ts_gen.vhd|
+Z40 !s107 /home/tristan/dev/fpga/canif/rtl/ts_gen.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 6 ts_gen 0 22 ]0CSzO8oWg>OQCaRVm<QQ2
+!i122 154
+l30
+L24 36
+VAj_e7^17VZ90DS[_@;WDK0
+!s100 2R^WZ=NAWcWfZG2A?I6Z<2
+R7
+32
+R8
+!i10b 1
+R9
+R39
+R40
+!i113 1
+R12
+R13
+Ewb_ctucan
+Z41 w1643912575
+R14
+R15
+R16
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R1
+R2
+R3
+!i122 155
+R4
+Z42 8/home/tristan/dev/fpga/canif/rtl/wb_ctucan.vhd
+Z43 F/home/tristan/dev/fpga/canif/rtl/wb_ctucan.vhd
+l0
+L19 1
+VZIP=kje_m>@`SLaS1;B7L2
+!s100 9M^dakgSliiE;becCf7N60
+R7
+32
+R8
+!i10b 1
+R9
+Z44 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/wb_ctucan.vhd|
+Z45 !s107 /home/tristan/dev/fpga/canif/rtl/wb_ctucan.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 13 can_top_level 0 22 XH=bJAecL:g=ncRR?fS;c0
+DEx5 canif 6 ts_gen 0 22 ]0CSzO8oWg>OQCaRVm<QQ2
+R14
+R15
+R16
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R1
+R2
+R3
+DEx4 work 9 wb_ctucan 0 22 ZIP=kje_m>@`SLaS1;B7L2
+!i122 155
+l57
+L48 77
+Vj69EH^hND>WUhj6O716lR1
+!s100 e]a42in[0<JM6J>S:;d=G2
+R7
+32
+R8
+!i10b 1
+R9
+R44
+R45
+!i113 1
+R12
+R13

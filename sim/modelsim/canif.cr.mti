@@ -1,0 +1,2016 @@
+/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/access_signaler.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/access_signaler.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity access_signaller
+-- Compiling architecture rtl of access_signaller
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_manager.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_manager.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity int_manager
+-- Compiling architecture rtl of int_manager
+-- Loading entity int_module
+-- Loading entity dff_arst
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bus_traffic_counters.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bus_traffic_counters.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity bus_traffic_counters
+-- Compiling architecture rtl of bus_traffic_counters
+-- Loading entity dff_arst
+-- Loading entity mux2
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_spi.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_spi.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_spi
+-- Compiling architecture neorv32_spi_rtl of neorv32_spi
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_rules.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_rules.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity fault_confinement_rules
+-- Compiling architecture rtl of fault_confinement_rules
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/retransmitt_counter.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/retransmitt_counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity retransmitt_counter
+-- Compiling architecture rtl of retransmitt_counter
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/cmn_reg_map_pkg.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/cmn_reg_map_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package cmn_reg_map_pkg
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_preload.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_preload.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_preload
+-- Compiling architecture rtl of shift_reg_preload
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_wdt.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_wdt.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_wdt
+-- Compiling architecture neorv32_wdt_rtl of neorv32_wdt
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_counters.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_counters.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity bit_time_counters
+-- Compiling architecture rtl of bit_time_counters
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_bus.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_bus.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory_bus_template
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/memory_registers.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/memory_registers.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Loading package can_registers_pkg
+-- Compiling entity memory_registers
+-- Compiling architecture rtl of memory_registers
+-- Loading entity clk_gate
+-- Loading package cmn_reg_map_pkg
+-- Loading entity control_registers_reg_map
+-- Loading entity test_registers_reg_map
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/clk_gate.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/clk_gate.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_constants_pkg
+-- Compiling entity clk_gate
+-- Compiling architecture rtl of clk_gate
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd {2 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_cpu_control
+-- Compiling architecture neorv32_cpu_control_rtl of neorv32_cpu_control
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd(2106): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd(2106): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd(2108): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd(2110): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd(2110): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd(2110): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd(2110): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd(2112): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd(165): Nonresolved signal 'ci_instr32' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd(604):Conditional signal assignment line__604
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd(599):Instantiation neorv32_cpu_decompressor_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd(166): Nonresolved signal 'ci_illegal' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd(605):Conditional signal assignment line__605
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd(599):Instantiation neorv32_cpu_decompressor_inst
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/address_decoder.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/address_decoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity address_decoder
+-- Compiling architecture rtl of address_decoder
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_slink.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_slink.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_slink
+-- Compiling architecture neorv32_slink_rtl of neorv32_slink
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/mux2.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/mux2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2
+-- Compiling architecture rtl of mux2
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/control_counter.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/control_counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity control_counter
+-- Compiling architecture rtl of control_counter
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_fsm.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_fsm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity rx_buffer_fsm
+-- Compiling architecture rtl of rx_buffer_fsm
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_fsm.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_fsm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity bit_time_fsm
+-- Compiling architecture rtl of bit_time_fsm
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/can_crc.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/can_crc.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity can_crc
+-- Compiling architecture rtl of can_crc
+-- Loading entity crc_calc
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_cpu_cp_fpu
+-- Compiling architecture neorv32_cpu_cp_fpu_rtl of neorv32_cpu_cp_fpu
+-- Compiling entity neorv32_cpu_cp_fpu_normalizer
+-- Compiling architecture neorv32_cpu_cp_fpu_normalizer_rtl of neorv32_cpu_cp_fpu_normalizer
+-- Compiling entity neorv32_cpu_cp_fpu_f2i
+-- Compiling architecture neorv32_cpu_cp_fpu_f2i_rtl of neorv32_cpu_cp_fpu_f2i
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_xirq.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_xirq.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_xirq
+-- Compiling architecture neorv32_xirq_rtl of neorv32_xirq
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bit_err_detector.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bit_err_detector.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity bit_err_detector
+-- Compiling architecture rtl of bit_err_detector
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/sig_sync.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/sig_sync.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sig_sync
+-- Compiling architecture rtl of sig_sync
+
+} {} {}} /home/tristan/dev/fpga/canif/sw/neorv32_application_image.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/sw/neorv32_application_image.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling package neorv32_application_image
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator_fsm.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator_fsm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity tx_arbitrator_fsm
+-- Compiling architecture rtl of tx_arbitrator_fsm
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_cfg_capture.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_cfg_capture.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity bit_time_cfg_capture
+-- Compiling architecture rtl of bit_time_cfg_capture
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_ram.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_ram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Loading package can_registers_pkg
+-- Compiling entity txt_buffer_ram
+-- Compiling architecture rtl of txt_buffer_ram
+-- Loading entity inf_ram_wrapper
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/mem/neorv32_imem.default.vhd {2 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/mem/neorv32_imem.default.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Loading package neorv32_application_image
+-- Compiling architecture neorv32_imem_rtl of neorv32_imem
+-- Loading entity neorv32_imem
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/mem/neorv32_imem.default.vhd(54): Nonresolved signal 'rdata' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/mem/neorv32_imem.default.vhd(157):Conditional signal assignment line__157
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/mem/neorv32_imem.default.vhd(119):Conditional signal assignment line__119
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_register_map.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_register_map.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package can_fd_register_map
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/rst_sync.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/rst_sync.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity rst_sync
+-- Compiling architecture rtl of rst_sync
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ts_gen.vhd {1 {vcom -work canif -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ts_gen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ts_gen
+-- Compiling architecture rtl of ts_gen
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_busswitch.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_busswitch.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_busswitch
+-- Compiling architecture neorv32_busswitch_rtl of neorv32_busswitch
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_pwm.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_pwm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_pwm
+-- Compiling architecture neorv32_pwm_rtl of neorv32_pwm
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_twi.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_twi.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_twi
+-- Compiling architecture neorv32_twi_rtl of neorv32_twi
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/range_filter.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/range_filter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity range_filter
+-- Compiling architecture rtl of range_filter
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/err_counters.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/err_counters.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity err_counters
+-- Compiling architecture rtl of err_counters
+-- Loading entity dff_arst
+-- Loading entity mux2
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_decompressor.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_decompressor.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_cpu_decompressor
+-- Compiling architecture neorv32_cpu_decompressor_rtl of neorv32_cpu_decompressor
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_constants_pkg.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_constants_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package can_constants_pkg
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst_ce.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst_ce.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dff_arst_ce
+-- Compiling architecture rtl of dff_arst_ce
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bit_stuffing.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bit_stuffing.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity bit_stuffing
+-- Compiling architecture rtl of bit_stuffing
+-- Loading entity dff_arst
+-- Loading entity dff_arst_ce
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_module.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_module.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity int_module
+-- Compiling architecture rtl of int_module
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/wb_ctucan.vhd {1 {vcom -work canif -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/wb_ctucan.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Loading package can_registers_pkg
+-- Compiling entity wb_ctucan
+-- Compiling architecture rtl of wb_ctucan
+-- Loading entity ts_gen
+-- Loading entity can_top_level
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/data_mux.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/data_mux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity data_mux
+-- Compiling architecture rtl of data_mux
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control_fsm.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control_fsm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity protocol_control_fsm
+-- Compiling architecture rtl of protocol_control_fsm
+-- Loading entity dlc_decoder
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_alu.vhd {2 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_alu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_cpu_alu
+-- Compiling architecture neorv32_cpu_cpu_rtl of neorv32_cpu_alu
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_alu.vhd(71): Nonresolved signal 'fpu_flags_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_alu.vhd(344):Conditional signal assignment line__344
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_alu.vhd(338):Instantiation neorv32_cpu_cp_fpu_inst
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/can_core.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/can_core.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity can_core
+-- Compiling architecture rtl of can_core
+-- Loading entity protocol_control
+-- Loading entity operation_control
+-- Loading entity fault_confinement
+-- Loading entity can_crc
+-- Loading entity bit_stuffing
+-- Loading entity bit_destuffing
+-- Loading entity bus_traffic_counters
+-- Loading entity trigger_mux
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/majority_decoder_3.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/majority_decoder_3.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity majority_decoder_3
+-- Compiling architecture rtl of majority_decoder_3
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd {2 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_fifo
+-- Compiling architecture neorv32_fifo_rtl of neorv32_fifo
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd(55): Nonresolved signal 'half_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd(147):Conditional signal assignment line__147
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd(142):Conditional signal assignment line__142
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd(62): Nonresolved signal 'rdata_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd(175):Process fifo_memory_read
+       Driven at:
+          /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd(179)
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd(169):Conditional signal assignment line__169
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_mtime.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_mtime.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_mtime
+-- Compiling architecture neorv32_mtime_rtl of neorv32_mtime
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/endian_swapper.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/endian_swapper.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity endian_swapper
+-- Compiling architecture rtl of endian_swapper
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd {2 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_cpu_cp_shifter
+-- Compiling architecture neorv32_cpu_cp_shifter_rtl of neorv32_cpu_cp_shifter
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd(60): Nonresolved signal 'res_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd(163):Process shifter_unit_sync
+       Driven at:
+          /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd(166)
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd(124):Conditional signal assignment line__124
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd(61): Nonresolved signal 'valid_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd(177):Conditional signal assignment line__177
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd(123):Conditional signal assignment line__123
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/trigger_mux.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/trigger_mux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity trigger_mux
+-- Compiling architecture rtl of trigger_mux
+-- Loading entity dff_arst
+-- Loading entity dff_arst_ce
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bit_destuffing.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bit_destuffing.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity bit_destuffing
+-- Compiling architecture rtl of bit_destuffing
+-- Loading entity dff_arst
+-- Loading entity dff_arst_ce
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_neoled.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_neoled.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_neoled
+-- Compiling architecture neorv32_neoled_rtl of neorv32_neoled
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/control_registers_reg_map.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/control_registers_reg_map.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package can_registers_pkg
+-- Loading package NUMERIC_STD
+-- Loading package cmn_reg_map_pkg
+-- Compiling entity control_registers_reg_map
+-- Compiling architecture rtl of control_registers_reg_map
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd {2 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity tx_shift_reg
+-- Compiling architecture rtl of tx_shift_reg
+-- Loading entity shift_reg_preload
+** Warning: /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd(321): (vcom-1128) Missing reserved word BEGIN in generate statement.
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_pointers.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_pointers.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity rx_buffer_pointers
+-- Compiling architecture rtl of rx_buffer_pointers
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/operation_control.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/operation_control.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity operation_control
+-- Compiling architecture rtl of operation_control
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_imem.entity.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_imem.entity.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity neorv32_imem
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cfs.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cfs.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_cfs
+-- Compiling architecture neorv32_cfs_rtl of neorv32_cfs
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Loading package can_registers_pkg
+-- Compiling entity rx_buffer
+-- Compiling architecture rtl of rx_buffer
+-- Loading entity dff_arst
+-- Loading entity mux2
+-- Loading entity rx_buffer_fsm
+-- Loading entity rx_buffer_pointers
+-- Loading entity clk_gate
+-- Loading entity rx_buffer_ram
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/frame_filters.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/frame_filters.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity frame_filters
+-- Compiling architecture rtl of frame_filters
+-- Loading entity bit_filter
+-- Loading entity range_filter
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_fsm.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_fsm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity txt_buffer_fsm
+-- Compiling architecture rtl of txt_buffer_fsm
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_config_pkg.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_config_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package can_config_pkg
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/test_registers_reg_map.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/test_registers_reg_map.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package can_registers_pkg
+-- Loading package NUMERIC_STD
+-- Loading package cmn_reg_map_pkg
+-- Compiling entity test_registers_reg_map
+-- Compiling architecture rtl of test_registers_reg_map
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_gpio.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_gpio.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_gpio
+-- Compiling architecture neorv32_gpio_rtl of neorv32_gpio
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_wishbone.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_wishbone.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_wishbone
+-- Compiling architecture neorv32_wishbone_rtl of neorv32_wishbone
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/unary_ops_pkg.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/unary_ops_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package unary_ops_pkg
+-- Compiling package body unary_ops_pkg
+-- Loading package unary_ops_pkg
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/id_transfer_pkg.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/id_transfer_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Compiling package id_transfer_pkg
+-- Compiling package body id_transfer_pkg
+-- Loading package id_transfer_pkg
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd {2 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity tx_arbitrator
+-- Compiling architecture rtl of tx_arbitrator
+-- Loading entity priority_decoder
+-- Loading entity tx_arbitrator_fsm
+** Warning: /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd(713): (vcom-1128) Missing reserved word BEGIN in generate statement.
+** Warning: /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd(742): (vcom-1128) Missing reserved word BEGIN in generate statement.
+** Warning: /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd(772): (vcom-1128) Missing reserved word BEGIN in generate statement.
+** Warning: /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd(803): (vcom-1128) Missing reserved word BEGIN in generate statement.
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/trv_delay_meas.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/trv_delay_meas.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity trv_delay_measurement
+-- Compiling architecture rtl of trv_delay_measurement
+-- Loading entity dff_arst
+-- Loading entity mux2
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/data_edge_detector.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/data_edge_detector.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity data_edge_detector
+-- Compiling architecture rtl of data_edge_detector
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_byte.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_byte.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_byte
+-- Compiling architecture rtl of shift_reg_byte
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/err_detector.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/err_detector.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity err_detector
+-- Compiling architecture rtl of err_detector
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/tx_data_cache.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/tx_data_cache.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity tx_data_cache
+-- Compiling architecture rtl of tx_data_cache
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_package.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_package.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package neorv32_package
+-- Compiling package body neorv32_package
+-- Loading package neorv32_package
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_bus_keeper.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_bus_keeper.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_bus_keeper
+-- Compiling architecture neorv32_bus_keeper_rtl of neorv32_bus_keeper
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_regfile.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_regfile.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_cpu_regfile
+-- Compiling architecture neorv32_cpu_regfile_rtl of neorv32_cpu_regfile
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/canif_top.vhd {1 {vcom -work canif -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/canif_top.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity canif_top
+-- Compiling architecture rtl of canif_top
+-- Loading package MATH_REAL
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Loading package can_registers_pkg
+-- Loading entity wb_ctucan
+-- Loading package neorv32_package
+-- Loading entity neorv32_top
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dlc_decoder.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dlc_decoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Compiling entity dlc_decoder
+-- Compiling architecture rtl of dlc_decoder
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/rx_shift_reg.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/rx_shift_reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity rx_shift_reg
+-- Compiling architecture rtl of rx_shift_reg
+-- Loading entity dff_arst
+-- Loading entity mux2
+-- Loading entity shift_reg_byte
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_dmem.entity.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_dmem.entity.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity neorv32_dmem
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/drv_stat_pkg.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/drv_stat_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package drv_stat_pkg
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/can_registers_pkg.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/can_registers_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package can_registers_pkg
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bus_sampling.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bus_sampling.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity bus_sampling
+-- Compiling architecture rtl of bus_sampling
+-- Loading entity sig_sync
+-- Loading entity trv_delay_measurement
+-- Loading entity data_edge_detector
+-- Loading entity dff_arst
+-- Loading entity mux2
+-- Loading entity ssp_generator
+-- Loading entity tx_data_cache
+-- Loading entity bit_err_detector
+-- Loading entity sample_mux
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg
+-- Compiling architecture rtl of shift_reg
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/segment_end_detector.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/segment_end_detector.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity segment_end_detector
+-- Compiling architecture rtl of segment_end_detector
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity fault_confinement
+-- Compiling architecture rtl of fault_confinement
+-- Loading entity fault_confinement_fsm
+-- Loading entity err_counters
+-- Loading entity fault_confinement_rules
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_sysinfo.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_sysinfo.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_sysinfo
+-- Compiling architecture neorv32_sysinfo_rtl of neorv32_sysinfo
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd {2 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_top
+-- Compiling architecture neorv32_top_rtl of neorv32_top
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(148): Nonresolved signal 'jtag_tdo_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1552):Conditional signal assignment line__1552
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1547):Instantiation neorv32_debug_dtm_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(152): Nonresolved signal 'wb_tag_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(856):Conditional signal assignment line__856
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(840):Instantiation neorv32_wishbone_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(153): Nonresolved signal 'wb_adr_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(849):Conditional signal assignment line__849
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(840):Instantiation neorv32_wishbone_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(155): Nonresolved signal 'wb_dat_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(850):Conditional signal assignment line__850
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(840):Instantiation neorv32_wishbone_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(156): Nonresolved signal 'wb_we_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(851):Conditional signal assignment line__851
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(840):Instantiation neorv32_wishbone_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(157): Nonresolved signal 'wb_sel_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(852):Conditional signal assignment line__852
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(840):Instantiation neorv32_wishbone_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(158): Nonresolved signal 'wb_stb_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(853):Conditional signal assignment line__853
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(840):Instantiation neorv32_wishbone_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(159): Nonresolved signal 'wb_cyc_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(854):Conditional signal assignment line__854
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(840):Instantiation neorv32_wishbone_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(160): Nonresolved signal 'wb_lock_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(855):Conditional signal assignment line__855
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(840):Instantiation neorv32_wishbone_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(169): Nonresolved signal 'slink_tx_dat_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1328):Conditional signal assignment line__1328
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1319):Instantiation neorv32_slink_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(170): Nonresolved signal 'slink_tx_val_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1329):Conditional signal assignment line__1329
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1319):Instantiation neorv32_slink_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(176): Nonresolved signal 'slink_rx_rdy_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1330):Conditional signal assignment line__1330
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1319):Instantiation neorv32_slink_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(179): Nonresolved signal 'gpio_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(933):Conditional signal assignment line__933
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(926):Instantiation neorv32_gpio_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(183): Nonresolved signal 'uart0_txd_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1064):Conditional signal assignment line__1064
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1057):Instantiation neorv32_uart0_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(185): Nonresolved signal 'uart0_rts_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1065):Conditional signal assignment line__1065
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1057):Instantiation neorv32_uart0_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(189): Nonresolved signal 'uart1_txd_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1110):Conditional signal assignment line__1110
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1103):Instantiation neorv32_uart1_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(191): Nonresolved signal 'uart1_rts_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1111):Conditional signal assignment line__1111
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1103):Instantiation neorv32_uart1_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(195): Nonresolved signal 'spi_sck_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1149):Conditional signal assignment line__1149
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1142):Instantiation neorv32_spi_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(196): Nonresolved signal 'spi_sdo_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1150):Conditional signal assignment line__1150
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1142):Instantiation neorv32_spi_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(198): Nonresolved signal 'spi_csn_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1151):Conditional signal assignment line__1151
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1142):Instantiation neorv32_spi_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(205): Nonresolved signal 'pwm_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1223):Conditional signal assignment line__1223
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1215):Instantiation neorv32_pwm_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(209): Nonresolved signal 'cfs_out_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(905):Conditional signal assignment line__905
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(897):Instantiation neorv32_cfs_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(212): Nonresolved signal 'neoled_o' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1284):Conditional signal assignment line__1284
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1275):Instantiation neorv32_neoled_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(244): Nonresolved signal 'wdt_rstn' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(971):Conditional signal assignment line__971
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(963):Instantiation neorv32_wdt_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(252): Nonresolved signal 'wdt_cg_en' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(972):Conditional signal assignment line__972
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(963):Instantiation neorv32_wdt_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(253): Nonresolved signal 'uart0_cg_en' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1066):Conditional signal assignment line__1066
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1057):Instantiation neorv32_uart0_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(254): Nonresolved signal 'uart1_cg_en' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1112):Conditional signal assignment line__1112
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1103):Instantiation neorv32_uart1_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(255): Nonresolved signal 'spi_cg_en' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1152):Conditional signal assignment line__1152
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1142):Instantiation neorv32_spi_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(256): Nonresolved signal 'twi_cg_en' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1188):Conditional signal assignment line__1188
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1179):Instantiation neorv32_twi_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(257): Nonresolved signal 'pwm_cg_en' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1222):Conditional signal assignment line__1222
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1215):Instantiation neorv32_pwm_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(258): Nonresolved signal 'cfs_cg_en' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(903):Conditional signal assignment line__903
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(897):Instantiation neorv32_cfs_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(259): Nonresolved signal 'neoled_cg_en' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1282):Conditional signal assignment line__1282
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1275):Instantiation neorv32_neoled_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(260): Nonresolved signal 'gptmr_cg_en' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1394):Conditional signal assignment line__1394
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1387):Instantiation neorv32_gptmr_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(283): Nonresolved signal 'dci_ndmrstn' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1511):Conditional signal assignment line__1511
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1499):Instantiation neorv32_debug_dm_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(284): Nonresolved signal 'dci_halt_req' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1512):Conditional signal assignment line__1512
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1499):Instantiation neorv32_debug_dm_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(324): Nonresolved signal 'mtime_irq' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1002):Conditional signal assignment line__1002
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(994):Instantiation neorv32_mtime_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(325): Nonresolved signal 'wdt_irq' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(970):Conditional signal assignment line__970
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(963):Instantiation neorv32_wdt_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(326): Nonresolved signal 'uart0_rxd_irq' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1067):Conditional signal assignment line__1067
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1057):Instantiation neorv32_uart0_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(327): Nonresolved signal 'uart0_txd_irq' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1068):Conditional signal assignment line__1068
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1057):Instantiation neorv32_uart0_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(328): Nonresolved signal 'uart1_rxd_irq' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1113):Conditional signal assignment line__1113
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1103):Instantiation neorv32_uart1_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(329): Nonresolved signal 'uart1_txd_irq' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1114):Conditional signal assignment line__1114
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1103):Instantiation neorv32_uart1_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(330): Nonresolved signal 'spi_irq' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1153):Conditional signal assignment line__1153
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1142):Instantiation neorv32_spi_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(331): Nonresolved signal 'twi_irq' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1189):Conditional signal assignment line__1189
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1179):Instantiation neorv32_twi_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(332): Nonresolved signal 'cfs_irq' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(904):Conditional signal assignment line__904
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(897):Instantiation neorv32_cfs_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(333): Nonresolved signal 'neoled_irq' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1283):Conditional signal assignment line__1283
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1275):Instantiation neorv32_neoled_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(334): Nonresolved signal 'slink_tx_irq' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1326):Conditional signal assignment line__1326
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1319):Instantiation neorv32_slink_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(335): Nonresolved signal 'slink_rx_irq' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1327):Conditional signal assignment line__1327
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1319):Instantiation neorv32_slink_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(336): Nonresolved signal 'xirq_irq' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1364):Conditional signal assignment line__1364
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1357):Instantiation neorv32_slink_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(337): Nonresolved signal 'gptmr_irq' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1395):Conditional signal assignment line__1395
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1387):Instantiation neorv32_gptmr_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(340): Nonresolved signal 'mtime_time' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(1001):Conditional signal assignment line__1001
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(994):Instantiation neorv32_mtime_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(341): Nonresolved signal 'ext_timeout' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(846):Conditional signal assignment line__846
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(840):Instantiation neorv32_wishbone_inst
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(342): Nonresolved signal 'ext_access' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(847):Conditional signal assignment line__847
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_top.vhd(840):Instantiation neorv32_wishbone_inst
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_trng.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_trng.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_trng
+-- Compiling architecture neorv32_trng_rtl of neorv32_trng
+-- Compiling entity neoTRNG
+-- Compiling architecture neoTRNG_rtl of neoTRNG
+-- Compiling entity neoTRNG_cell
+-- Compiling architecture neoTRNG_cell_rtl of neoTRNG_cell
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/priority_decoder.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/priority_decoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity priority_decoder
+-- Compiling architecture rtl of priority_decoder
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_frame_format.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_frame_format.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package can_fd_frame_format
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity protocol_control
+-- Compiling architecture rtl of protocol_control
+-- Loading package MATH_REAL
+-- Loading entity endian_swapper
+-- Loading entity protocol_control_fsm
+-- Loading entity control_counter
+-- Loading entity reintegration_counter
+-- Loading entity retransmitt_counter
+-- Loading entity err_detector
+-- Loading entity tx_shift_reg
+-- Loading entity rx_shift_reg
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/crc_calc.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/crc_calc.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity crc_calc
+-- Compiling architecture rtl of crc_calc
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/mem/neorv32_dmem.default.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/mem/neorv32_dmem.default.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling architecture neorv32_dmem_rtl of neorv32_dmem
+-- Loading entity neorv32_dmem
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_top_level.vhd {2 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_top_level.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Loading package can_registers_pkg
+-- Compiling entity can_top_level
+-- Compiling architecture rtl of can_top_level
+-- Loading entity rst_sync
+-- Loading entity memory_registers
+-- Loading entity rx_buffer
+-- Loading entity txt_buffer
+-- Loading entity tx_arbitrator
+-- Loading entity frame_filters
+-- Loading entity int_manager
+-- Loading entity can_core
+-- Loading entity prescaler
+-- Loading entity bus_sampling
+** Warning: /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_top_level.vhd(1063): (vcom-1128) Missing reserved word BEGIN in generate statement.
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_ram.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_ram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Loading package can_registers_pkg
+-- Compiling entity rx_buffer_ram
+-- Compiling architecture rtl of rx_buffer_ram
+-- Loading entity inf_ram_wrapper
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_bootloader_image.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_bootloader_image.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling package neorv32_bootloader_image
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_icache.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_icache.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_icache
+-- Compiling architecture neorv32_icache_rtl of neorv32_icache
+-- Compiling entity neorv32_icache_memory
+-- Compiling architecture neorv32_icache_memory_rtl of neorv32_icache_memory
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_types_pkg.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_types_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Compiling package can_types_pkg
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd {2 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_debug_dm
+-- Compiling architecture neorv32_debug_dm_rtl of neorv32_debug_dm
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd(543): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd(566): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd(582): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd(591): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd(605): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd(615): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd(619): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd(621): (vcom-1937) Choice in CASE statement alternative must be locally static.
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd(629): (vcom-1937) Choice in CASE statement alternative must be locally static.
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_fsm.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_fsm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity fault_confinement_fsm
+-- Compiling architecture rtl of fault_confinement_fsm
+-- Loading entity dff_arst
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_bus.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_bus.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_cpu_bus
+-- Compiling architecture neorv32_cpu_bus_rtl of neorv32_cpu_bus
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd {2 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_cpu_cp_muldiv
+-- Compiling architecture neorv32_cpu_cp_muldiv_rtl of neorv32_cpu_cp_muldiv
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(98): Nonresolved signal 'remainder' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(308):Conditional signal assignment line__308
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(272):Process divider_core
+       Driven at:
+          /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(276)
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(99): Nonresolved signal 'quotient' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(309):Conditional signal assignment line__309
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(272):Process divider_core
+       Driven at:
+          /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(275)
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(103): Nonresolved signal 'div_res' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(310):Conditional signal assignment line__310
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(302):Conditional signal assignment line__302
+** Warning: /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(106): Nonresolved signal 'mul_product' may have multiple sources.
+  Drivers:
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(232):Process multiplier_core
+       Driven at:
+          /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(241)
+    /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(213):Process multiplier_core
+       Driven at:
+          /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(223)
+          /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(222)
+          /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(220)
+          /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(219)
+          /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd(216)
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_gptmr.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_gptmr.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_gptmr
+-- Compiling architecture neorv32_gptmr_rtl of neorv32_gptmr
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/trigger_generator.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/trigger_generator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity trigger_generator
+-- Compiling architecture rtl of trigger_generator
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_debug_dtm.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_debug_dtm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity neorv32_debug_dtm
+-- Compiling architecture neorv32_debug_dtm_rtl of neorv32_debug_dtm
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_reg.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory_reg
+-- Compiling architecture rtl of memory_reg
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/reintegration_counter.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/reintegration_counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity reintegration_counter
+-- Compiling architecture rtl of reintegration_counter
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_uart.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_uart.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_uart
+-- Compiling architecture neorv32_uart_rtl of neorv32_uart
+
+} {} {}} /home/tristan/dev/fpga/canif/sim/tb/tb_canif.vhd {1 {vcom -work canif -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/sim/tb/tb_canif.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_canif
+-- Compiling architecture rtl of tb_canif
+-- Loading package NUMERIC_STD
+-- Loading entity canif_top
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_cpu_cp_bitmanip
+-- Compiling architecture neorv32_cpu_cp_bitmanip_rtl of neorv32_cpu_cp_bitmanip
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_segment_meter.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_segment_meter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity bit_segment_meter
+-- Compiling architecture rtl of bit_segment_meter
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/bit_filter.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/bit_filter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity bit_filter
+-- Compiling architecture rtl of bit_filter
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dff_arst
+-- Compiling architecture rtl of dff_arst
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/sample_mux.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/sample_mux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity sample_mux
+-- Compiling architecture rtl of sample_mux
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/synchronisation_checker.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/synchronisation_checker.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity synchronisation_checker
+-- Compiling architecture rtl of synchronisation_checker
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/ssp_generator.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/ssp_generator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity ssp_generator
+-- Compiling architecture rtl of ssp_generator
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_cpu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Compiling entity neorv32_cpu
+-- Compiling architecture neorv32_cpu_rtl of neorv32_cpu
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_boot_rom.vhd {1 {vcom -work neorv32 -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/neorv32/rtl/core/neorv32_boot_rom.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package neorv32_package
+-- Loading package neorv32_bootloader_image
+-- Compiling entity neorv32_boot_rom
+-- Compiling architecture neorv32_boot_rom_rtl of neorv32_boot_rom
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Loading package can_registers_pkg
+-- Compiling entity txt_buffer
+-- Compiling architecture rtl of txt_buffer
+-- Loading entity clk_gate
+-- Loading entity txt_buffer_ram
+-- Loading entity txt_buffer_fsm
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/prescaler.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/prescaler.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package can_fd_frame_format
+-- Loading package id_transfer_pkg
+-- Loading package can_constants_pkg
+-- Loading package can_config_pkg
+-- Loading package can_types_pkg
+-- Loading package drv_stat_pkg
+-- Loading package unary_ops_pkg
+-- Loading package can_fd_register_map
+-- Compiling entity prescaler
+-- Compiling architecture rtl of prescaler
+-- Loading entity bit_time_cfg_capture
+-- Loading entity synchronisation_checker
+-- Loading entity bit_segment_meter
+-- Loading entity bit_time_counters
+-- Loading entity segment_end_detector
+-- Loading entity bit_time_fsm
+-- Loading entity trigger_generator
+
+} {} {}} /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/inf_ram_wrapper.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -stats=none /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/inf_ram_wrapper.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity inf_ram_wrapper
+-- Compiling architecture rtl of inf_RAM_wrapper
+
+} {} {}}

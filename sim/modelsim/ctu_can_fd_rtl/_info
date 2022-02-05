@@ -1,0 +1,4322 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/tristan/dev/fpga/canif/sim/modelsim
+Eaccess_signaller
+Z1 w1643890733
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2388
+R0
+Z5 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/access_signaler.vhd
+Z6 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/access_signaler.vhd
+l0
+L40 1
+VPTTX<>kEOO<J`nKETI^Vh1
+!s100 DLozDG75SbYkM:aUzKFe;3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1643912610
+!i10b 1
+Z9 !s108 1643912610.000000
+Z10 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/access_signaler.vhd|
+Z11 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/access_signaler.vhd|
+!i113 1
+Z12 o-work ctu_can_fd_rtl -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 16 access_signaller 0 22 PTTX<>kEOO<J`nKETI^Vh1
+!i122 2388
+l108
+L90 95
+V?[nbAmz=i:FWRz48C[lg>2
+!s100 B2kKm2C8@lVG?8XbKa@@_1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eaddress_decoder
+R1
+R2
+R3
+R4
+!i122 2389
+R0
+Z14 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/address_decoder.vhd
+Z15 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/address_decoder.vhd
+l0
+Z16 L41 1
+VA84zc@:>;P133NeEacaR03
+!s100 GVX5:6;4BVl9JZ6NPL[>@1
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/address_decoder.vhd|
+Z18 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/address_decoder.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 15 address_decoder 0 22 A84zc@:>;P133NeEacaR03
+!i122 2389
+l96
+L86 64
+V3IkLGBmkjh9UioI@ZUdek1
+!s100 Z1?na@U8L<NhXbj^2Q_IH1
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Ebit_destuffing
+R1
+Z19 DPx14 ctu_can_fd_rtl 19 can_fd_register_map 0 22 Bgb?PGNjOojWSUQOSfUkC1
+Z20 DPx14 ctu_can_fd_rtl 13 unary_ops_pkg 0 22 DCk4oddngUD]6jB40L;3[1
+Z21 DPx14 ctu_can_fd_rtl 12 drv_stat_pkg 0 22 1E8GW0lKTW<9GLmWCGojI0
+Z22 DPx14 ctu_can_fd_rtl 14 can_config_pkg 0 22 T0BXOW?8Mh@l8zij6_naN0
+Z23 DPx14 ctu_can_fd_rtl 13 can_types_pkg 0 22 IJ<L:>VHQLz>oUXF^dSnS1
+Z24 DPx14 ctu_can_fd_rtl 17 can_constants_pkg 0 22 ]dDL25PkIb3?E:gT9KDdT3
+Z25 DPx14 ctu_can_fd_rtl 19 can_fd_frame_format 0 22 bcnHm@ODH1OSYaURT0k0k2
+Z26 DPx14 ctu_can_fd_rtl 15 id_transfer_pkg 0 22 5PY]j=>=jeCFjjKb276UP1
+R2
+R3
+R4
+!i122 2349
+R0
+Z27 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bit_destuffing.vhd
+Z28 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bit_destuffing.vhd
+l0
+L102 1
+Vm`Z`L8c[F1Yja9VIKzln40
+!s100 S@E=<g`TNR7A_a=2lZJDF2
+R7
+32
+Z29 !s110 1643912607
+!i10b 1
+Z30 !s108 1643912606.000000
+Z31 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bit_destuffing.vhd|
+Z32 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bit_destuffing.vhd|
+!i113 1
+R12
+R13
+Artl
+Z33 DEx14 ctu_can_fd_rtl 11 dff_arst_ce 0 22 4SPJclG9Ta_n;]gdWaEXY3
+Z34 DEx14 ctu_can_fd_rtl 8 dff_arst 0 22 CYK`85>hI`V;Oa>XC993m3
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 14 bit_destuffing 0 22 m`Z`L8c[F1Yja9VIKzln40
+!i122 2349
+l210
+L152 371
+VRG[cKTb5zZNI=:7hTQK223
+!s100 4XeB59^CgLJLmK]zhe1OB3
+R7
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R12
+R13
+Ebit_err_detector
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2342
+R0
+Z35 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bit_err_detector.vhd
+Z36 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bit_err_detector.vhd
+l0
+Z37 L95 1
+VT[SDzB>>63Z_JFMbV94GE3
+!s100 m=44e;?^f<3U1NE?LGYEl2
+R7
+32
+Z38 !s110 1643912606
+!i10b 1
+R30
+Z39 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bit_err_detector.vhd|
+Z40 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bit_err_detector.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 16 bit_err_detector 0 22 T[SDzB>>63Z_JFMbV94GE3
+!i122 2342
+l158
+L141 117
+V0<WohT0z>OG@?P;;PSI`X3
+!s100 =MYf?CAOZfCYG_k[lB7zP3
+R7
+32
+R38
+!i10b 1
+R30
+R39
+R40
+!i113 1
+R12
+R13
+Ebit_filter
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2382
+R0
+Z41 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/bit_filter.vhd
+Z42 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/bit_filter.vhd
+l0
+Z43 L92 1
+VCl9A6oAVM15Qlj=3HIo1G3
+!s100 Q`eaHjNB8Wg:8SADdSCzF2
+R7
+32
+R8
+!i10b 1
+Z44 !s108 1643912609.000000
+Z45 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/bit_filter.vhd|
+Z46 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/bit_filter.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 10 bit_filter 0 22 Cl9A6oAVM15Qlj=3HIo1G3
+!i122 2382
+l123
+L118 24
+VR02n0;aJI[N=KTmX7e2nV2
+!s100 ^:GWaUiGeS[deoz@]3S[J1
+R7
+32
+R8
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R12
+R13
+Ebit_segment_meter
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2405
+R0
+Z47 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_segment_meter.vhd
+Z48 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_segment_meter.vhd
+l0
+L196 1
+VTUb;NWN0F23>h3X_ZKTam2
+!s100 1T`[Bj]ce_l>EP38`a3;O3
+R7
+32
+Z49 !s110 1643912612
+!i10b 1
+Z50 !s108 1643912612.000000
+Z51 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_segment_meter.vhd|
+Z52 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_segment_meter.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 17 bit_segment_meter 0 22 TUb;NWN0F23>h3X_ZKTam2
+!i122 2405
+l353
+L273 314
+VL5J:[S>10gSN;23mmQ5SW1
+!s100 KZobV8H:B21O87;Y3V;b82
+R7
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R12
+R13
+Ebit_stuffing
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2350
+R0
+Z53 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bit_stuffing.vhd
+Z54 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bit_stuffing.vhd
+l0
+Z55 L100 1
+V2_S8;>ob29gheU9^94g@>1
+!s100 gb5=:^4WRWDL9Df[jKG0I1
+R7
+32
+R29
+!i10b 1
+Z56 !s108 1643912607.000000
+Z57 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bit_stuffing.vhd|
+Z58 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bit_stuffing.vhd|
+!i113 1
+R12
+R13
+Artl
+R33
+R34
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 12 bit_stuffing 0 22 2_S8;>ob29gheU9^94g@>1
+!i122 2350
+l235
+L150 355
+Vklakb1GlmeWYONCJlU?Ne2
+!s100 e`d@:LmMUVjZ;EZ4W:o^k1
+R7
+32
+R29
+!i10b 1
+R56
+R57
+R58
+!i113 1
+R12
+R13
+Ebit_time_cfg_capture
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2406
+R0
+Z59 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_cfg_capture.vhd
+Z60 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_cfg_capture.vhd
+l0
+Z61 L96 1
+V`[eQmJ4KgH02XBY[FzbOa2
+!s100 hedB@8_17NMoZKFB2GbJJ0
+R7
+32
+R49
+!i10b 1
+R50
+Z62 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_cfg_capture.vhd|
+Z63 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_cfg_capture.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 20 bit_time_cfg_capture 0 22 `[eQmJ4KgH02XBY[FzbOa2
+!i122 2406
+l207
+L170 129
+Vo?KlCfkA8@d5=EMc^32<N2
+!s100 >Fb1MRoGVT8A;XLeXeZg30
+R7
+32
+R49
+!i10b 1
+R50
+R62
+R63
+!i113 1
+R12
+R13
+Ebit_time_counters
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2407
+R0
+Z64 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_counters.vhd
+Z65 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_counters.vhd
+l0
+Z66 L98 1
+VhL415nO6zo1FB[=j_Qhf=1
+!s100 Fa^XUknGOOXlUjco]BM?`0
+R7
+32
+R49
+!i10b 1
+R50
+Z67 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_counters.vhd|
+Z68 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_counters.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 17 bit_time_counters 0 22 hL415nO6zo1FB[=j_Qhf=1
+!i122 2407
+l164
+L142 97
+V0ZNIhJR2d^Af4_1z[fB7H3
+!s100 ic1kJ1jY@A@ITaVB?SA9D3
+R7
+32
+R49
+!i10b 1
+R50
+R67
+R68
+!i113 1
+R12
+R13
+Ebit_time_fsm
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2408
+R0
+Z69 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_fsm.vhd
+Z70 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_fsm.vhd
+l0
+R37
+VYG^>T=@I;YVif`R@1Cj_C0
+!s100 ;lBG8loBO;K[B_EV3Je@?0
+R7
+32
+R49
+!i10b 1
+R50
+Z71 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_fsm.vhd|
+Z72 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_fsm.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 12 bit_time_fsm 0 22 YG^>T=@I;YVif`R@1Cj_C0
+!i122 2408
+l144
+L135 88
+V^@^GJ_VZY20`m<h?Mo5NB1
+!s100 K8SMUW;Q58Ca7zzDLG6ie3
+R7
+32
+R49
+!i10b 1
+R50
+R71
+R72
+!i113 1
+R12
+R13
+Ebus_sampling
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2343
+R0
+Z73 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bus_sampling.vhd
+Z74 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bus_sampling.vhd
+l0
+Z75 L97 1
+V`G:1RJm1SMzKJ>>LSVU;U1
+!s100 RJPEe[m9L;F[2fAVV;2NZ2
+R7
+32
+R38
+!i10b 1
+R30
+Z76 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bus_sampling.vhd|
+Z77 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bus_sampling.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 10 sample_mux 0 22 a=`C?cTTJDOVL9=dN]BQa3
+DEx14 ctu_can_fd_rtl 16 bit_err_detector 0 22 T[SDzB>>63Z_JFMbV94GE3
+DEx14 ctu_can_fd_rtl 13 tx_data_cache 0 22 hL=:`I4k^_gUOEX`]B=WW0
+DEx14 ctu_can_fd_rtl 13 ssp_generator 0 22 cIGjhe71179UZ=1WR=1__1
+Z78 DEx14 ctu_can_fd_rtl 4 mux2 0 22 4nDY6d2QX24<`;=J7mQ4>2
+R34
+DEx14 ctu_can_fd_rtl 18 data_edge_detector 0 22 WT?X0oZ=kmMg[j?EQDn0P2
+DEx14 ctu_can_fd_rtl 21 trv_delay_measurement 0 22 JE34f4X]K?S_NPE]30:UL1
+DEx14 ctu_can_fd_rtl 8 sig_sync 0 22 cHgkkgZGS`_^O5I^CT5fS0
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 12 bus_sampling 0 22 `G:1RJm1SMzKJ>>LSVU;U1
+!i122 2343
+l263
+L200 306
+VR^0]9gCDd^5JF35>FM[X`1
+!s100 JT2M=7>BiToeJmAY9UXJ21
+R7
+32
+R38
+!i10b 1
+R30
+R76
+R77
+!i113 1
+R12
+R13
+Ebus_traffic_counters
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2351
+R0
+Z79 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bus_traffic_counters.vhd
+Z80 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bus_traffic_counters.vhd
+l0
+R43
+VA=3Ol?eFVOPg7<Hc>9_LR2
+!s100 jm;o[eO`X<<abc]cJ29UN1
+R7
+32
+R29
+!i10b 1
+R56
+Z81 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bus_traffic_counters.vhd|
+Z82 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/bus_traffic_counters.vhd|
+!i113 1
+R12
+R13
+Artl
+R78
+R34
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 20 bus_traffic_counters 0 22 A=3Ol?eFVOPg7<Hc>9_LR2
+!i122 2351
+l154
+L134 149
+V9PBGke;eA?laK7OYDR`G11
+!s100 njSQ8`iMhUKDeQ]>8j;=i0
+R7
+32
+R29
+!i10b 1
+R56
+R81
+R82
+!i113 1
+R12
+R13
+Pcan_config_pkg
+R3
+R4
+!i122 2397
+R1
+R0
+8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_config_pkg.vhd
+F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_config_pkg.vhd
+l0
+Z83 L81 1
+VT0BXOW?8Mh@l8zij6_naN0
+!s100 N:lojRQZof70:`_@fzOic2
+R7
+32
+Z84 !s110 1643912611
+!i10b 1
+Z85 !s108 1643912611.000000
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_config_pkg.vhd|
+!s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_config_pkg.vhd|
+!i113 1
+R12
+R13
+Pcan_constants_pkg
+R2
+R3
+R4
+!i122 2398
+R1
+R0
+8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_constants_pkg.vhd
+F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_constants_pkg.vhd
+l0
+R83
+V]dDL25PkIb3?E:gT9KDdT3
+!s100 Fln5^U]o>3F]z8Hf0O^jg0
+R7
+32
+R84
+!i10b 1
+R85
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_constants_pkg.vhd|
+!s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_constants_pkg.vhd|
+!i113 1
+R12
+R13
+Ecan_core
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2352
+R0
+Z86 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/can_core.vhd
+Z87 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/can_core.vhd
+l0
+R55
+V94UOe6KM<VnoXBLYTTcnj3
+!s100 TZ[em2>UESCnk@bWYcmIC1
+R7
+32
+R29
+!i10b 1
+R56
+Z88 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/can_core.vhd|
+Z89 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/can_core.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 11 trigger_mux 0 22 <:@EML=hm0:K7aEXdg2gE1
+DEx14 ctu_can_fd_rtl 20 bus_traffic_counters 0 22 A=3Ol?eFVOPg7<Hc>9_LR2
+DEx14 ctu_can_fd_rtl 14 bit_destuffing 0 22 m`Z`L8c[F1Yja9VIKzln40
+DEx14 ctu_can_fd_rtl 12 bit_stuffing 0 22 2_S8;>ob29gheU9^94g@>1
+DEx14 ctu_can_fd_rtl 7 can_crc 0 22 eBOU9U0TAb`^Daaac=L5M1
+DEx14 ctu_can_fd_rtl 17 fault_confinement 0 22 YY<6n?SjVQASNZUUKOW1M1
+DEx14 ctu_can_fd_rtl 17 operation_control 0 22 igbUB`MQ1RiTS^5e5G?4^0
+DEx14 ctu_can_fd_rtl 16 protocol_control 0 22 7?KXlUYY98:<=LETDR7R_3
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 8 can_core 0 22 94UOe6KM<VnoXBLYTTcnj3
+!i122 2352
+l491
+L323 985
+Vi_[f6=1SVG?AThF;P;5<a0
+!s100 WLCWee_Yan25>[nnYJXeo1
+R7
+32
+R29
+!i10b 1
+R56
+R88
+R89
+!i113 1
+R12
+R13
+Ecan_crc
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2353
+R0
+Z90 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/can_crc.vhd
+Z91 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/can_crc.vhd
+l0
+Z92 L104 1
+VeBOU9U0TAb`^Daaac=L5M1
+!s100 bc36Sz`fYYMA3;KUaG6Q33
+R7
+32
+R29
+!i10b 1
+R56
+Z93 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/can_crc.vhd|
+Z94 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/can_crc.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 8 crc_calc 0 22 UUUTZBR38o06>^cm;A?;H0
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 7 can_crc 0 22 eBOU9U0TAb`^Daaac=L5M1
+!i122 2353
+l220
+L190 158
+Vj5GI6lm31WzWLKfB;6n<c3
+!s100 Ojg4MA1B78AP2J?V^49]I1
+R7
+32
+R29
+!i10b 1
+R56
+R93
+R94
+!i113 1
+R12
+R13
+Pcan_fd_frame_format
+R3
+R4
+!i122 2399
+R1
+R0
+8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_frame_format.vhd
+F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_frame_format.vhd
+l0
+Z95 L77 1
+VbcnHm@ODH1OSYaURT0k0k2
+!s100 :NDiYmMgGeefTd7:FSnJi3
+R7
+32
+R84
+!i10b 1
+R85
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_frame_format.vhd|
+!s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_frame_format.vhd|
+!i113 1
+R12
+R13
+Pcan_fd_register_map
+R3
+R4
+!i122 2400
+R1
+R0
+8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_register_map.vhd
+F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_register_map.vhd
+l0
+R95
+VBgb?PGNjOojWSUQOSfUkC1
+!s100 VNb5m@PR;CEDFBJ2C8zP?1
+R7
+32
+R84
+!i10b 1
+R85
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_register_map.vhd|
+!s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_register_map.vhd|
+!i113 1
+R12
+R13
+Pcan_registers_pkg
+R3
+R4
+!i122 2390
+R1
+R0
+8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/can_registers_pkg.vhd
+F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/can_registers_pkg.vhd
+l0
+R95
+VN1K5hfjHU0gA`9FVa=d@=3
+!s100 njMzdPKIK;ka77GSF;f`g1
+R7
+32
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/can_registers_pkg.vhd|
+!s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/can_registers_pkg.vhd|
+!i113 1
+R12
+R13
+Ecan_top_level
+R1
+Z96 DPx14 ctu_can_fd_rtl 17 can_registers_pkg 0 22 N1K5hfjHU0gA`9FVa=d@=3
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+Z97 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R2
+R3
+R4
+!i122 2341
+R0
+Z98 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_top_level.vhd
+Z99 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_top_level.vhd
+l0
+Z100 L103 1
+VXH=bJAecL:g=ncRR?fS;c0
+!s100 99nDlPN__UcgAfhRVgQMh1
+R7
+32
+R38
+!i10b 1
+R30
+Z101 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_top_level.vhd|
+Z102 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_top_level.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 12 bus_sampling 0 22 `G:1RJm1SMzKJ>>LSVU;U1
+DEx14 ctu_can_fd_rtl 9 prescaler 0 22 ]JhEhVQ;de156`5LAH<1b0
+DEx14 ctu_can_fd_rtl 8 can_core 0 22 94UOe6KM<VnoXBLYTTcnj3
+DEx14 ctu_can_fd_rtl 11 int_manager 0 22 >8U5g=I1bfHFBcWN>oOLg2
+DEx14 ctu_can_fd_rtl 13 frame_filters 0 22 fFLT9nmncMUTDb>nnb0KU2
+DEx14 ctu_can_fd_rtl 13 tx_arbitrator 0 22 SZ;BA11kb_d2zG34S7z=c1
+DEx14 ctu_can_fd_rtl 10 txt_buffer 0 22 de5?8Dl[VnejegR@2I3:b2
+DEx14 ctu_can_fd_rtl 9 rx_buffer 0 22 kPWHF;?QVdD:<b<VGnEn53
+DEx14 ctu_can_fd_rtl 16 memory_registers 0 22 BXY;^_BhCkENLX<W:DbbM1
+DEx14 ctu_can_fd_rtl 8 rst_sync 0 22 e4:eTE1OR?fScD[7bK9O80
+R96
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+DEx4 work 13 can_top_level 0 22 XH=bJAecL:g=ncRR?fS;c0
+!i122 2341
+l542
+L201 874
+V_BjFf7V6z8cRjhRD]Pji?1
+!s100 N4BedLBnTonbD0U2TWG^81
+R7
+32
+R38
+!i10b 1
+R30
+R101
+R102
+!i113 1
+R12
+R13
+Pcan_types_pkg
+R22
+R2
+R24
+R3
+R4
+!i122 2401
+R1
+R0
+8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_types_pkg.vhd
+F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_types_pkg.vhd
+l0
+Z103 L84 1
+VIJ<L:>VHQLz>oUXF^dSnS1
+!s100 XFVFa5LSj2^NdCUcY]UKk2
+R7
+32
+R84
+!i10b 1
+R85
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_types_pkg.vhd|
+!s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/can_types_pkg.vhd|
+!i113 1
+R12
+R13
+Eclk_gate
+R1
+R2
+R24
+R3
+R4
+!i122 2369
+R0
+Z104 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/clk_gate.vhd
+Z105 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/clk_gate.vhd
+l0
+L83 1
+VnDghCDJP0`1?zK7M[iA_H0
+!s100 c]cN>^0fA@zV_`_Agoc@_2
+R7
+32
+Z106 !s110 1643912608
+!i10b 1
+Z107 !s108 1643912608.000000
+Z108 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/clk_gate.vhd|
+Z109 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/clk_gate.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R24
+R3
+R4
+DEx4 work 8 clk_gate 0 22 nDghCDJP0`1?zK7M[iA_H0
+!i122 2369
+l103
+L99 35
+V]Tb=K6UG6c98D44QnDMhc3
+!s100 XjFDnoSQS5[5KiT7I98a43
+R7
+32
+R106
+!i10b 1
+R107
+R108
+R109
+!i113 1
+R12
+R13
+Pcmn_reg_map_pkg
+R2
+R3
+R4
+!i122 2391
+R1
+R0
+8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/cmn_reg_map_pkg.vhd
+F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/cmn_reg_map_pkg.vhd
+l0
+L44 1
+Vl1[F;Am?CjnCNa_PCFV:H0
+!s100 GU:kTREj4>Y6bNP;K6A0I1
+R7
+32
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/cmn_reg_map_pkg.vhd|
+!s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/cmn_reg_map_pkg.vhd|
+!i113 1
+R12
+R13
+Econtrol_counter
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2354
+R0
+Z110 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/control_counter.vhd
+Z111 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/control_counter.vhd
+l0
+R75
+V?]09<W0^I>E`]8N]BQB`T0
+!s100 9CLEh1h4NWP2zC^XhZ0]S0
+R7
+32
+R29
+!i10b 1
+R56
+Z112 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/control_counter.vhd|
+Z113 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/control_counter.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 15 control_counter 0 22 ?]09<W0^I>E`]8N]BQB`T0
+!i122 2354
+l179
+L159 137
+V2X0jYC_]B`hB6H5^?XDeX2
+!s100 nBEojU92m8hk?6QfzGG1d1
+R7
+32
+R29
+!i10b 1
+R56
+R112
+R113
+!i113 1
+R12
+R13
+Econtrol_registers_reg_map
+R1
+R2
+Z114 DPx14 ctu_can_fd_rtl 15 cmn_reg_map_pkg 0 22 l1[F;Am?CjnCNa_PCFV:H0
+R96
+R3
+R4
+!i122 2392
+R0
+Z115 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/control_registers_reg_map.vhd
+Z116 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/control_registers_reg_map.vhd
+l0
+R83
+VWb9KoY=BPk>>k5D]<:8z63
+!s100 QHPz03^<_F8H[2R1;]D=B2
+R7
+32
+R84
+!i10b 1
+R9
+Z117 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/control_registers_reg_map.vhd|
+Z118 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/control_registers_reg_map.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R114
+R96
+R3
+R4
+DEx4 work 25 control_registers_reg_map 0 22 Wb9KoY=BPk>>k5D]<:8z63
+!i122 2392
+l120
+L112 1123
+V]G^W2oTFa`SHH>NC6XiCC1
+!s100 1K;cBRd9oRB`G]5HgQ2j`0
+R7
+32
+R84
+!i10b 1
+R9
+R117
+R118
+!i113 1
+R12
+R13
+Ecrc_calc
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2355
+R0
+Z119 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/crc_calc.vhd
+Z120 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/crc_calc.vhd
+l0
+R37
+VUUUTZBR38o06>^cm;A?;H0
+!s100 GN;@z1olTUDZAJkE6bS7o0
+R7
+32
+R29
+!i10b 1
+R56
+Z121 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/crc_calc.vhd|
+Z122 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/crc_calc.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 8 crc_calc 0 22 UUUTZBR38o06>^cm;A?;H0
+!i122 2355
+l161
+L138 75
+VK9hRl_`A>QAQB@hU<bmRi0
+!s100 iO;ZmcGGfCeK44D3:FYZ`1
+R7
+32
+R29
+!i10b 1
+R56
+R121
+R122
+!i113 1
+R12
+R13
+Edata_edge_detector
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2344
+R0
+Z123 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/data_edge_detector.vhd
+Z124 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/data_edge_detector.vhd
+l0
+L109 1
+VWT?X0oZ=kmMg[j?EQDn0P2
+!s100 h:LPT<hZZcc`f4E8bRB2H3
+R7
+32
+R38
+!i10b 1
+R30
+Z125 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/data_edge_detector.vhd|
+Z126 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/data_edge_detector.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 18 data_edge_detector 0 22 WT?X0oZ=kmMg[j?EQDn0P2
+!i122 2344
+l161
+L150 91
+VZHW04Ejni=1hX<_f>fW9`3
+!s100 X^<9IBeP05cMN]gB7Ehkd3
+R7
+32
+R38
+!i10b 1
+R30
+R125
+R126
+!i113 1
+R12
+R13
+Edata_mux
+R1
+R2
+R3
+R4
+!i122 2393
+R0
+Z127 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/data_mux.vhd
+Z128 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/data_mux.vhd
+l0
+L74 1
+V0<z^5FNUdUeW;VC8_mfaf1
+!s100 X>T9SPZ=]97AE_Hh87F5L1
+R7
+32
+R84
+!i10b 1
+R85
+Z129 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/data_mux.vhd|
+Z130 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/data_mux.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 8 data_mux 0 22 0<z^5FNUdUeW;VC8_mfaf1
+!i122 2393
+l154
+L132 90
+V:h>YFK7SJcmd[_`:?`f@h1
+!s100 UW60e3TaV_Tg7keKCajjT3
+R7
+32
+R84
+!i10b 1
+R85
+R129
+R130
+!i113 1
+R12
+R13
+Edff_arst
+R1
+R3
+R4
+!i122 2370
+R0
+Z131 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst.vhd
+Z132 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst.vhd
+l0
+R95
+VCYK`85>hI`V;Oa>XC993m3
+!s100 dI5WbGC]H[CjX>Ua5;A790
+R7
+32
+Z133 !s110 1643912609
+!i10b 1
+R44
+Z134 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst.vhd|
+Z135 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+DEx4 work 8 dff_arst 0 22 CYK`85>hI`V;Oa>XC993m3
+!i122 2370
+l101
+L100 14
+VNG`DDn47X9InRB6JLaY4J1
+!s100 aZLF4KJR@I0icUCIQQc_d2
+R7
+32
+R133
+!i10b 1
+R44
+R134
+R135
+!i113 1
+R12
+R13
+Edff_arst_ce
+R1
+R3
+R4
+!i122 2371
+R0
+Z136 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst_ce.vhd
+Z137 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst_ce.vhd
+l0
+R95
+V4SPJclG9Ta_n;]gdWaEXY3
+!s100 T?A539Z]1ImVZZG1kk5F42
+R7
+32
+R133
+!i10b 1
+R44
+Z138 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst_ce.vhd|
+Z139 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst_ce.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+DEx4 work 11 dff_arst_ce 0 22 4SPJclG9Ta_n;]gdWaEXY3
+!i122 2371
+l104
+L103 17
+VeVRSZZ]1Mk:Yac=SR6]ii3
+!s100 e5LQZb`4OoBb>G3FV8@9:0
+R7
+32
+R133
+!i10b 1
+R44
+R138
+R139
+!i113 1
+R12
+R13
+Edlc_decoder
+R1
+R25
+R2
+R3
+R4
+!i122 2372
+R0
+Z140 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dlc_decoder.vhd
+Z141 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dlc_decoder.vhd
+l0
+L88 1
+Vg5K^UP[FeHbhbRVZX4cfd3
+!s100 07Lj;]E>[WPJW74Kkj<iD3
+R7
+32
+R133
+!i10b 1
+R44
+Z142 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dlc_decoder.vhd|
+Z143 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/dlc_decoder.vhd|
+!i113 1
+R12
+R13
+Artl
+R25
+R2
+R3
+R4
+DEx4 work 11 dlc_decoder 0 22 g5K^UP[FeHbhbRVZX4cfd3
+!i122 2372
+l117
+L104 58
+V<92TQGDD_eU3JgKkh_Vc60
+!s100 NGn6Em=:fJ?:=@A49lZoS0
+R7
+32
+R133
+!i10b 1
+R44
+R142
+R143
+!i113 1
+R12
+R13
+Pdrv_stat_pkg
+R3
+R4
+!i122 2402
+R1
+R0
+8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/drv_stat_pkg.vhd
+F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/drv_stat_pkg.vhd
+l0
+L80 1
+V1E8GW0lKTW<9GLmWCGojI0
+!s100 6JaFEAHHObT_ekGN4D=7h1
+R7
+32
+R84
+!i10b 1
+R85
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/drv_stat_pkg.vhd|
+!s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/drv_stat_pkg.vhd|
+!i113 1
+R12
+R13
+Eendian_swapper
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+!i122 2373
+R0
+Z144 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/endian_swapper.vhd
+Z145 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/endian_swapper.vhd
+l0
+R37
+Vokj32FlEh=c_Nnf^94nmK2
+!s100 >QKhLj5L1;?:_3O^KUdGz0
+R7
+32
+R133
+!i10b 1
+R44
+Z146 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/endian_swapper.vhd|
+Z147 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/endian_swapper.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+DEx4 work 14 endian_swapper 0 22 okj32FlEh=c_Nnf^94nmK2
+!i122 2373
+l122
+L117 43
+VO2RK1jo<U5fkH_YmXO_NX3
+!s100 TVI8[:zaBOanaWPmVLf_f3
+R7
+32
+R133
+!i10b 1
+R44
+R146
+R147
+!i113 1
+R12
+R13
+Eerr_counters
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2356
+R0
+Z148 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/err_counters.vhd
+Z149 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/err_counters.vhd
+l0
+R55
+VcnLi0z;Ma^cOn1eHkf1ah1
+!s100 B<MkXDTajYi[L4L835`QP1
+R7
+32
+R29
+!i10b 1
+R56
+Z150 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/err_counters.vhd|
+Z151 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/err_counters.vhd|
+!i113 1
+R12
+R13
+Artl
+R78
+R34
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 12 err_counters 0 22 cnLi0z;Ma^cOn1eHkf1ah1
+!i122 2356
+l213
+L167 270
+V1z@bRhW`ZOA41G8@gP_mA3
+!s100 >1J`S0:7o1ejoe1J:KM9;3
+R7
+32
+R29
+!i10b 1
+R56
+R150
+R151
+!i113 1
+R12
+R13
+Eerr_detector
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2357
+R0
+Z152 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/err_detector.vhd
+Z153 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/err_detector.vhd
+l0
+R75
+Vg98ccjADE>@Ab8`EeXN@B0
+!s100 ?h9SVelIjNPimN@19SBgZ3
+R7
+32
+R29
+!i10b 1
+R56
+Z154 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/err_detector.vhd|
+Z155 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/err_detector.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 12 err_detector 0 22 g98ccjADE>@Ab8`EeXN@B0
+!i122 2357
+l252
+L216 222
+V;ZH?SW]@_=;gAYe_KMR2l1
+!s100 :29>V78lfD_8T74HL6YPh1
+R7
+32
+R29
+!i10b 1
+R56
+R154
+R155
+!i113 1
+R12
+R13
+Efault_confinement
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2358
+R0
+Z156 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement.vhd
+Z157 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement.vhd
+l0
+Z158 L94 1
+VYY<6n?SjVQASNZUUKOW1M1
+!s100 [GKE`G=UO:o7@z>eiD7BB0
+R7
+32
+R29
+!i10b 1
+R56
+Z159 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement.vhd|
+Z160 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 23 fault_confinement_rules 0 22 =5nNI=]FK:SC=4]KzjV_d2
+DEx14 ctu_can_fd_rtl 12 err_counters 0 22 cnLi0z;Ma^cOn1eHkf1ah1
+DEx14 ctu_can_fd_rtl 21 fault_confinement_fsm 0 22 K_<gl[?:nVRXzTD6U>LJS0
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 17 fault_confinement 0 22 YY<6n?SjVQASNZUUKOW1M1
+!i122 2358
+l223
+L200 115
+Va?PJ5KP[:aE=GYHh<TLbl1
+!s100 jR]3=[R4g;EYlU@7^O`BZ1
+R7
+32
+R29
+!i10b 1
+R56
+R159
+R160
+!i113 1
+R12
+R13
+Efault_confinement_fsm
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2359
+R0
+Z161 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_fsm.vhd
+Z162 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_fsm.vhd
+l0
+R61
+VK_<gl[?:nVRXzTD6U>LJS0
+!s100 OhJN7R>WhK7baQzG0aJGF2
+R7
+32
+R29
+!i10b 1
+R56
+Z163 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_fsm.vhd|
+Z164 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_fsm.vhd|
+!i113 1
+R12
+R13
+Artl
+R34
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 21 fault_confinement_fsm 0 22 K_<gl[?:nVRXzTD6U>LJS0
+!i122 2359
+l178
+L154 154
+V76ciIS<3EaZmiX29FN4BK1
+!s100 dYWDFcKa83^QVd0Ol;Ack3
+R7
+32
+R29
+!i10b 1
+R56
+R163
+R164
+!i113 1
+R12
+R13
+Efault_confinement_rules
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2360
+R0
+Z165 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_rules.vhd
+Z166 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_rules.vhd
+l0
+R158
+V=5nNI=]FK:SC=4]KzjV_d2
+!s100 4Ni>namBSmQnVO<zRWUZ_2
+R7
+32
+R106
+!i10b 1
+R56
+Z167 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_rules.vhd|
+Z168 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_rules.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 23 fault_confinement_rules 0 22 =5nNI=]FK:SC=4]KzjV_d2
+!i122 2360
+l157
+L152 54
+ViJ?foSenT^YKIHLYMZK750
+!s100 efPL9MS>X9AIHAVcEGNn:3
+R7
+32
+R106
+!i10b 1
+R56
+R167
+R168
+!i113 1
+R12
+R13
+Eframe_filters
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2383
+R0
+Z169 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/frame_filters.vhd
+Z170 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/frame_filters.vhd
+l0
+Z171 L101 1
+VfFLT9nmncMUTDb>nnb0KU2
+!s100 GjZ=92@;`DZz@?GmL^2Uf0
+R7
+32
+R8
+!i10b 1
+R9
+Z172 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/frame_filters.vhd|
+Z173 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/frame_filters.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 12 range_filter 0 22 ;N9hB;LK?eb@?=I=O2RU=0
+DEx14 ctu_can_fd_rtl 10 bit_filter 0 22 Cl9A6oAVM15Qlj=3HIo1G3
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 13 frame_filters 0 22 fFLT9nmncMUTDb>nnb0KU2
+!i122 2383
+l259
+L178 274
+V`3C7Enagf7?;TWCCo[RYH2
+!s100 @F2F2PRd@<KboE7fhdjKP2
+R7
+32
+R8
+!i10b 1
+R9
+R172
+R173
+!i113 1
+R12
+R13
+Pid_transfer_pkg
+R25
+R2
+R3
+R4
+!i122 2403
+R1
+R0
+Z174 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/id_transfer_pkg.vhd
+Z175 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/id_transfer_pkg.vhd
+l0
+R103
+V5PY]j=>=jeCFjjKb276UP1
+!s100 Aa3=_5aL]HTVTA2j__f7d3
+R7
+32
+b1
+R84
+!i10b 1
+R85
+Z176 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/id_transfer_pkg.vhd|
+Z177 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/id_transfer_pkg.vhd|
+!i113 1
+R12
+R13
+Bbody
+DPx4 work 15 id_transfer_pkg 0 22 5PY]j=>=jeCFjjKb276UP1
+R25
+R2
+R3
+R4
+!i122 2403
+l0
+R158
+VEcBF;dOFb0F]d12HCdWJh2
+!s100 TIMoF<X=gUzWaz[nZ:mbj3
+R7
+32
+R84
+!i10b 1
+R85
+R176
+R177
+!i113 1
+R12
+R13
+Einf_ram_wrapper
+R1
+R2
+R3
+R4
+!i122 2374
+R0
+Z178 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/inf_ram_wrapper.vhd
+Z179 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/inf_ram_wrapper.vhd
+l0
+Z180 L85 1
+VQX[o4RRQMHaYakId3>MYz2
+!s100 flF:1ZhBY[Xcf1eiTPM@d3
+R7
+32
+R133
+!i10b 1
+R44
+Z181 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/inf_ram_wrapper.vhd|
+Z182 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/inf_ram_wrapper.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 15 inf_ram_wrapper 0 22 QX[o4RRQMHaYakId3>MYz2
+!i122 2374
+l147
+L134 71
+Vdm^5C`[^Lch_[oB8cd6@[3
+!s100 DH5N`7H=YQOKIR`gc@>6I1
+R7
+32
+R133
+!i10b 1
+R44
+R181
+R182
+!i113 1
+R12
+R13
+Eint_manager
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2385
+R0
+Z183 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_manager.vhd
+Z184 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_manager.vhd
+l0
+R75
+V>8U5g=I1bfHFBcWN>oOLg2
+!s100 m;iV`6Jlm?hZEV<Y5<HK20
+R7
+32
+R8
+!i10b 1
+R9
+Z185 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_manager.vhd|
+Z186 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_manager.vhd|
+!i113 1
+R12
+R13
+Artl
+R34
+DEx14 ctu_can_fd_rtl 10 int_module 0 22 J<PDgWZi[Uo=;F:B>>TNn3
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 11 int_manager 0 22 >8U5g=I1bfHFBcWN>oOLg2
+!i122 2385
+l211
+L173 215
+V@R2iYCEJkQYal5?lW_b3=3
+!s100 ?<?dDkGgkkT6[7QaB?e^42
+R7
+32
+R8
+!i10b 1
+R9
+R185
+R186
+!i113 1
+R12
+R13
+Eint_module
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2386
+R0
+Z187 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_module.vhd
+Z188 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_module.vhd
+l0
+R100
+VJ<PDgWZi[Uo=;F:B>>TNn3
+!s100 HaTQbYiMBB=4T0D[k_8^j1
+R7
+32
+R8
+!i10b 1
+R9
+Z189 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_module.vhd|
+Z190 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_module.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 10 int_module 0 22 J<PDgWZi[Uo=;F:B>>TNn3
+!i122 2386
+l159
+L149 86
+Vg<j4Y5B_QH0==7WY1lU<41
+!s100 6;h=EUCMVP`H?S`j;9?=`1
+R7
+32
+R8
+!i10b 1
+R9
+R189
+R190
+!i113 1
+R12
+R13
+Emajority_decoder_3
+R1
+R3
+R4
+!i122 2375
+R0
+Z191 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/majority_decoder_3.vhd
+Z192 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/majority_decoder_3.vhd
+l0
+R95
+Vk?:D`=?To^>@k1h6S9PK`2
+!s100 >S7^odoA:nc8^U81k6^JT1
+R7
+32
+R133
+!i10b 1
+R44
+Z193 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/majority_decoder_3.vhd|
+Z194 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/majority_decoder_3.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+DEx4 work 18 majority_decoder_3 0 22 k?:D`=?To^>@k1h6S9PK`2
+!i122 2375
+l88
+L87 15
+Vb=X0d8SJzV8gOHVMS[`ni2
+!s100 8Mic2N7`;=c0K6^?<igOF1
+R7
+32
+R133
+!i10b 1
+R44
+R193
+R194
+!i113 1
+R12
+R13
+Ememory_bus_template
+R1
+R2
+R3
+R4
+!i122 2394
+R0
+8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_bus.vhd
+F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_bus.vhd
+l0
+L43 1
+VElP_G8PneZzV=H0?D`2[Z0
+!s100 7>;IUV6_5Y2R1aYbY_D1T0
+R7
+32
+R84
+!i10b 1
+R85
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_bus.vhd|
+!s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_bus.vhd|
+!i113 1
+R12
+R13
+Ememory_reg
+R1
+R2
+R3
+R4
+!i122 2395
+R0
+Z195 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_reg.vhd
+Z196 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_reg.vhd
+l0
+R16
+VkOBFoT576GJa_H7;7];mH3
+!s100 MXz02ezUQd3FCm:23XbWO2
+R7
+32
+R84
+!i10b 1
+R85
+Z197 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_reg.vhd|
+Z198 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_reg.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 10 memory_reg 0 22 kOBFoT576GJa_H7;7];mH3
+!i122 2395
+l122
+L95 126
+VIQ;SoHbY[0;F84NFX^^F73
+!s100 A=Tm44DhV<U0K8en;2iOO0
+R7
+32
+R84
+!i10b 1
+R85
+R197
+R198
+!i113 1
+R12
+R13
+Ememory_registers
+R1
+R96
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2387
+R0
+Z199 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/memory_registers.vhd
+Z200 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/memory_registers.vhd
+l0
+R75
+VBXY;^_BhCkENLX<W:DbbM1
+!s100 O4VWNFZKbLLgDNQgUS1GB1
+R7
+32
+R8
+!i10b 1
+R9
+Z201 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/memory_registers.vhd|
+Z202 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/memory_registers.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 22 test_registers_reg_map 0 22 R1SmI@?GOBOid8hTcZTXI1
+R114
+DEx14 ctu_can_fd_rtl 25 control_registers_reg_map 0 22 Wb9KoY=BPk>>k5D]<:8z63
+Z203 DEx14 ctu_can_fd_rtl 8 clk_gate 0 22 nDghCDJP0`1?zK7M[iA_H0
+R96
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 16 memory_registers 0 22 BXY;^_BhCkENLX<W:DbbM1
+!i122 2387
+l396
+L290 1462
+Vc48kO4cAP3P?c26JK[az63
+!s100 H5[2eME8c0ITf[eC><Z9K0
+R7
+32
+R8
+!i10b 1
+R9
+R201
+R202
+!i113 1
+R12
+R13
+Emux2
+R1
+R3
+R4
+!i122 2376
+R0
+Z204 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/mux2.vhd
+Z205 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/mux2.vhd
+l0
+L89 1
+V4nDY6d2QX24<`;=J7mQ4>2
+!s100 meoC7;[A8fLTZi1Nf18:I3
+R7
+32
+R133
+!i10b 1
+R44
+Z206 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/mux2.vhd|
+Z207 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/mux2.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+DEx4 work 4 mux2 0 22 4nDY6d2QX24<`;=J7mQ4>2
+!i122 2376
+l104
+L103 8
+V2iAPgPO313g^mIlkN65>;2
+!s100 MQFNGEo0:]JVL9c>UD1XJ2
+R7
+32
+R133
+!i10b 1
+R44
+R206
+R207
+!i113 1
+R12
+R13
+Eoperation_control
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2361
+R0
+Z208 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/operation_control.vhd
+Z209 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/operation_control.vhd
+l0
+Z210 L93 1
+VigbUB`MQ1RiTS^5e5G?4^0
+!s100 XO]H<gU7njHnkfAo2NaEj3
+R7
+32
+R106
+!i10b 1
+R107
+Z211 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/operation_control.vhd|
+Z212 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/operation_control.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 17 operation_control 0 22 igbUB`MQ1RiTS^5e5G?4^0
+!i122 2361
+l154
+L142 129
+Vab:lV6LCPi?0>dB;K^oi_2
+!s100 TN8CW45SzENmPdL1R;T`V0
+R7
+32
+R106
+!i10b 1
+R107
+R211
+R212
+!i113 1
+R12
+R13
+Eprescaler
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2409
+R0
+Z213 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/prescaler.vhd
+Z214 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/prescaler.vhd
+l0
+R55
+V]JhEhVQ;de156`5LAH<1b0
+!s100 EIfMEXIK64Bf=GKOleQA_3
+R7
+32
+R49
+!i10b 1
+R50
+Z215 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/prescaler.vhd|
+Z216 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/prescaler.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 17 trigger_generator 0 22 7385JG5ac`94UInZn;X_52
+DEx14 ctu_can_fd_rtl 12 bit_time_fsm 0 22 YG^>T=@I;YVif`R@1Cj_C0
+DEx14 ctu_can_fd_rtl 20 segment_end_detector 0 22 :HGEELfjCI]0LcLLb2Ak_3
+DEx14 ctu_can_fd_rtl 17 bit_time_counters 0 22 hL415nO6zo1FB[=j_Qhf=1
+DEx14 ctu_can_fd_rtl 17 bit_segment_meter 0 22 TUb;NWN0F23>h3X_ZKTam2
+DEx14 ctu_can_fd_rtl 23 synchronisation_checker 0 22 V6_6NN>A?_6BJCDD]lld41
+DEx14 ctu_can_fd_rtl 20 bit_time_cfg_capture 0 22 `[eQmJ4KgH02XBY[FzbOa2
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 9 prescaler 0 22 ]JhEhVQ;de156`5LAH<1b0
+!i122 2409
+l274
+L188 384
+V]hg1ZoV>JDd4d5nJUQAOm1
+!s100 6lFfE7T;@:kT`Ga8O40]U2
+R7
+32
+R49
+!i10b 1
+R50
+R215
+R216
+!i113 1
+R12
+R13
+Epriority_decoder
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+!i122 2417
+R0
+Z217 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/priority_decoder.vhd
+Z218 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/priority_decoder.vhd
+l0
+R61
+VgnTcY2cVEFGBM6UB02HQW2
+!s100 mWWi]hc5okmmP12gjMW]S0
+R7
+32
+Z219 !s110 1643912613
+!i10b 1
+Z220 !s108 1643912613.000000
+Z221 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/priority_decoder.vhd|
+Z222 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/priority_decoder.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+DEx4 work 16 priority_decoder 0 22 gnTcY2cVEFGBM6UB02HQW2
+!i122 2417
+l168
+L124 232
+VKJh;;mVOk9hHM1<FZaa[:2
+!s100 nSk1hG?N`zVfHWD0D3j0M3
+R7
+32
+R219
+!i10b 1
+R220
+R221
+R222
+!i113 1
+R12
+R13
+Eprotocol_control
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2362
+R0
+Z223 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control.vhd
+Z224 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control.vhd
+l0
+R66
+V7?KXlUYY98:<=LETDR7R_3
+!s100 D`O3QADTCQla2kfJ:7o4I3
+R7
+32
+R106
+!i10b 1
+R107
+Z225 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control.vhd|
+Z226 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 12 rx_shift_reg 0 22 Tf81l1oF;NAlkgHg?IgX:2
+DEx14 ctu_can_fd_rtl 12 tx_shift_reg 0 22 a78HW^NbJhhzmLjL_nMfJ2
+DEx14 ctu_can_fd_rtl 12 err_detector 0 22 g98ccjADE>@Ab8`EeXN@B0
+DEx14 ctu_can_fd_rtl 19 retransmitt_counter 0 22 h6mmhEY<;kQoiY9S1cfMb3
+DEx14 ctu_can_fd_rtl 21 reintegration_counter 0 22 PDFDQ`3nAiG<Z4:C<cDcc2
+DEx14 ctu_can_fd_rtl 15 control_counter 0 22 ?]09<W0^I>E`]8N]BQB`T0
+DEx14 ctu_can_fd_rtl 20 protocol_control_fsm 0 22 @?Gn@]@Bk:l?`03?>R=>23
+R97
+DEx14 ctu_can_fd_rtl 14 endian_swapper 0 22 okj32FlEh=c_Nnf^94nmK2
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 16 protocol_control 0 22 7?KXlUYY98:<=LETDR7R_3
+!i122 2362
+l655
+L457 660
+V:MS@ZU>kID;0=z@nUUlUF3
+!s100 N;_VSDYaBC14U:?CK_cd@3
+R7
+32
+R106
+!i10b 1
+R107
+R225
+R226
+!i113 1
+R12
+R13
+Eprotocol_control_fsm
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2363
+R0
+Z227 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control_fsm.vhd
+Z228 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control_fsm.vhd
+l0
+L110 1
+V@?Gn@]@Bk:l?`03?>R=>23
+!s100 6e<[zFk>[]XO_NPdCRPhB1
+R7
+32
+R106
+!i10b 1
+R107
+Z229 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control_fsm.vhd|
+Z230 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control_fsm.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 11 dlc_decoder 0 22 g5K^UP[FeHbhbRVZX4cfd3
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 20 protocol_control_fsm 0 22 @?Gn@]@Bk:l?`03?>R=>23
+!i122 2363
+l803
+L569 2906
+VW?Rk5`AUklT:JG;:2CCOj1
+!s100 `O7iKg;omY1ZGM[G:KGMP0
+R7
+32
+R106
+!i10b 1
+R107
+R229
+R230
+!i113 1
+R12
+R13
+Erange_filter
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2384
+R0
+Z231 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/range_filter.vhd
+Z232 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/range_filter.vhd
+l0
+R158
+V;N9hB;LK?eb@?=I=O2RU=0
+!s100 iAn1TQWVHCfdjLf`ALiVA1
+R7
+32
+R8
+!i10b 1
+R9
+Z233 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/range_filter.vhd|
+Z234 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/frame_filters/range_filter.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 12 range_filter 0 22 ;N9hB;LK?eb@?=I=O2RU=0
+!i122 2384
+l129
+L120 31
+VG>l_JL6XQffhiJ^bGN>lZ1
+!s100 =9FfW9o?MBTak0MVobVXd1
+R7
+32
+R8
+!i10b 1
+R9
+R233
+R234
+!i113 1
+R12
+R13
+Ereintegration_counter
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2364
+R0
+Z235 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/reintegration_counter.vhd
+Z236 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/reintegration_counter.vhd
+l0
+R210
+VPDFDQ`3nAiG<Z4:C<cDcc2
+!s100 6i50;;n;FL4cghNDzb8UK3
+R7
+32
+R106
+!i10b 1
+R107
+Z237 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/reintegration_counter.vhd|
+Z238 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/reintegration_counter.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 21 reintegration_counter 0 22 PDFDQ`3nAiG<Z4:C<cDcc2
+!i122 2364
+l133
+L124 47
+VL_bShDN:eQW>;]VkR8fnV3
+!s100 cf]Sh>HG2La3D68^1o[]61
+R7
+32
+R106
+!i10b 1
+R107
+R237
+R238
+!i113 1
+R12
+R13
+Eretransmitt_counter
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2365
+R0
+Z239 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/retransmitt_counter.vhd
+Z240 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/retransmitt_counter.vhd
+l0
+R37
+Vh6mmhEY<;kQoiY9S1cfMb3
+!s100 NCCj4O7SA>5CM3bA^;:CZ1
+R7
+32
+R106
+!i10b 1
+R107
+Z241 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/retransmitt_counter.vhd|
+Z242 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/retransmitt_counter.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 19 retransmitt_counter 0 22 h6mmhEY<;kQoiY9S1cfMb3
+!i122 2365
+l145
+L136 62
+VW<C8XOUE]NW]HPg@A5bDH3
+!s100 8niUX462So8c>eHTGaloR3
+R7
+32
+R106
+!i10b 1
+R107
+R241
+R242
+!i113 1
+R12
+R13
+Erst_sync
+R1
+R3
+R4
+!i122 2377
+R0
+Z243 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/rst_sync.vhd
+Z244 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/rst_sync.vhd
+l0
+R95
+Ve4:eTE1OR?fScD[7bK9O80
+!s100 GB4@mbCA2MNgaZd75Qmaa3
+R7
+32
+R133
+!i10b 1
+R44
+Z245 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/rst_sync.vhd|
+Z246 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/rst_sync.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+DEx4 work 8 rst_sync 0 22 e4:eTE1OR?fScD[7bK9O80
+!i122 2377
+l99
+L94 20
+VbnTScK^Q<jhNZV7fN<ci<1
+!s100 aA^g?2CYFEEhD<Z^eeBn>2
+R7
+32
+R133
+!i10b 1
+R44
+R245
+R246
+!i113 1
+R12
+R13
+Erx_buffer
+R1
+R96
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+!i122 2413
+R0
+Z247 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer.vhd
+Z248 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer.vhd
+l0
+L99 1
+VkPWHF;?QVdD:<b<VGnEn53
+!s100 8X7Za]gQlVfNoC5629fZk3
+R7
+32
+R219
+!i10b 1
+R50
+Z249 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer.vhd|
+Z250 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 13 rx_buffer_ram 0 22 99^TNo_l:QP=Sli2n8Q;c2
+R203
+DEx14 ctu_can_fd_rtl 18 rx_buffer_pointers 0 22 f>O`OTEL^L?[ZiPcK?0RH0
+DEx14 ctu_can_fd_rtl 13 rx_buffer_fsm 0 22 4LU^fgHYOhXWZM;;:M`g<1
+R78
+R34
+R96
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+DEx4 work 9 rx_buffer 0 22 kPWHF;?QVdD:<b<VGnEn53
+!i122 2413
+l416
+L224 871
+VEmLzSnj?[aFLFiDYN]]kJ3
+!s100 UbSOVBH20>:m^^RoC:zE73
+R7
+32
+R219
+!i10b 1
+R50
+R249
+R250
+!i113 1
+R12
+R13
+Erx_buffer_fsm
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+!i122 2414
+R0
+Z251 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_fsm.vhd
+Z252 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_fsm.vhd
+l0
+R158
+V4LU^fgHYOhXWZM;;:M`g<1
+!s100 KAkN6`=o]2NR7eUYn=:aW0
+R7
+32
+R219
+!i10b 1
+R220
+Z253 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_fsm.vhd|
+Z254 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_fsm.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+DEx4 work 13 rx_buffer_fsm 0 22 4LU^fgHYOhXWZM;;:M`g<1
+!i122 2414
+l161
+L147 208
+V3i>HJVFzh]D84;zH7hEg30
+!s100 Wa?IF`COBhmZd3;BmUBEP2
+R7
+32
+R219
+!i10b 1
+R220
+R253
+R254
+!i113 1
+R12
+R13
+Erx_buffer_pointers
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+!i122 2415
+R0
+Z255 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_pointers.vhd
+Z256 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_pointers.vhd
+l0
+R171
+Vf>O`OTEL^L?[ZiPcK?0RH0
+!s100 272GKbIHd1@2U;3Z?AQDf1
+R7
+32
+R219
+!i10b 1
+R220
+Z257 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_pointers.vhd|
+Z258 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_pointers.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+DEx4 work 18 rx_buffer_pointers 0 22 f>O`OTEL^L?[ZiPcK?0RH0
+!i122 2415
+l227
+L169 263
+V7ShTU88Bh__8kogQfK>?V2
+!s100 DQNLIVlej^`2`4=Q:_>j>0
+R7
+32
+R219
+!i10b 1
+R220
+R257
+R258
+!i113 1
+R12
+R13
+Erx_buffer_ram
+R1
+R96
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+!i122 2416
+R0
+Z259 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_ram.vhd
+Z260 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_ram.vhd
+l0
+L105 1
+V99^TNo_l:QP=Sli2n8Q;c2
+!s100 iT`Z:JdYbmigiheKjfSHg2
+R7
+32
+R219
+!i10b 1
+R220
+Z261 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_ram.vhd|
+Z262 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_ram.vhd|
+!i113 1
+R12
+R13
+Artl
+Z263 DEx14 ctu_can_fd_rtl 15 inf_ram_wrapper 0 22 QX[o4RRQMHaYakId3>MYz2
+R96
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+DEx4 work 13 rx_buffer_ram 0 22 99^TNo_l:QP=Sli2n8Q;c2
+!i122 2416
+l159
+L149 90
+VR7[A7aP600]FI`I4N[RE82
+!s100 z<nV4SONfBX:m@70TCSGe0
+R7
+32
+R219
+!i10b 1
+R220
+R261
+R262
+!i113 1
+R12
+R13
+Erx_shift_reg
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2366
+R0
+Z264 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/rx_shift_reg.vhd
+Z265 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/rx_shift_reg.vhd
+l0
+R66
+VTf81l1oF;NAlkgHg?IgX:2
+!s100 `FCoEzTkmOUQ?L1lWDeo:0
+R7
+32
+R106
+!i10b 1
+R107
+Z266 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/rx_shift_reg.vhd|
+Z267 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/rx_shift_reg.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 14 shift_reg_byte 0 22 V^D_VHcm8]Cm?LHi;7X^K0
+R78
+R34
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 12 rx_shift_reg 0 22 Tf81l1oF;NAlkgHg?IgX:2
+!i122 2366
+l227
+L208 310
+VHA[YzF5]aBSF>VI@2meH82
+!s100 ?1URo9EH7m@QllIDjCJ`=2
+R7
+32
+R106
+!i10b 1
+R107
+R266
+R267
+!i113 1
+R12
+R13
+Esample_mux
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2345
+R0
+Z268 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/sample_mux.vhd
+Z269 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/sample_mux.vhd
+l0
+R210
+Va=`C?cTTJDOVL9=dN]BQa3
+!s100 gmhNYQGQKVLmYQFfanfO>2
+R7
+32
+R38
+!i10b 1
+R30
+Z270 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/sample_mux.vhd|
+Z271 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/sample_mux.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 10 sample_mux 0 22 a=`C?cTTJDOVL9=dN]BQa3
+!i122 2345
+l139
+L130 42
+V:T7_=`D5k:S8ZLfBFLgnn0
+!s100 R]b99JhIZBj3:G=7=ccKF0
+R7
+32
+R38
+!i10b 1
+R30
+R270
+R271
+!i113 1
+R12
+R13
+Esegment_end_detector
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2410
+R0
+Z272 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/segment_end_detector.vhd
+Z273 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/segment_end_detector.vhd
+l0
+R61
+V:HGEELfjCI]0LcLLb2Ak_3
+!s100 UnbmYJ6fk6UFdiCCA]^UX0
+R7
+32
+R49
+!i10b 1
+R50
+Z274 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/segment_end_detector.vhd|
+Z275 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/segment_end_detector.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 20 segment_end_detector 0 22 :HGEELfjCI]0LcLLb2Ak_3
+!i122 2410
+l183
+L148 203
+V<g[eF;Qcd6PBzMA?8[lbJ3
+!s100 eFg3<6V7V<F>fO3C6UAh>0
+R7
+32
+R49
+!i10b 1
+R50
+R274
+R275
+!i113 1
+R12
+R13
+Eshift_reg
+R1
+R3
+R4
+!i122 2378
+R0
+Z276 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg.vhd
+Z277 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg.vhd
+l0
+R95
+Vo:QenmHebzFdI7jCS?boM1
+!s100 l^0Y?>5Y1Ug94ee<e4<^`1
+R7
+32
+R133
+!i10b 1
+R44
+Z278 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg.vhd|
+Z279 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+DEx4 work 9 shift_reg 0 22 o:QenmHebzFdI7jCS?boM1
+!i122 2378
+l126
+L119 51
+VAgYLcPLlkPQl<XEEGlhJ01
+!s100 =@M9Yg6zbedMhk:lbT`CL3
+R7
+32
+R133
+!i10b 1
+R44
+R278
+R279
+!i113 1
+R12
+R13
+Eshift_reg_byte
+R1
+R3
+R4
+!i122 2379
+R0
+Z280 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_byte.vhd
+Z281 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_byte.vhd
+l0
+R180
+VV^D_VHcm8]Cm?LHi;7X^K0
+!s100 9ohPnMQc8=7DgVcT^><4T3
+R7
+32
+R133
+!i10b 1
+R44
+Z282 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_byte.vhd|
+Z283 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_byte.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+DEx4 work 14 shift_reg_byte 0 22 V^D_VHcm8]Cm?LHi;7X^K0
+!i122 2379
+l135
+L127 45
+VIC:2fQm`CgK]mZ?4YRUWg3
+!s100 J4bjbAkP__^l^mTfni2SU0
+R7
+32
+R133
+!i10b 1
+R44
+R282
+R283
+!i113 1
+R12
+R13
+Eshift_reg_preload
+R1
+R3
+R4
+!i122 2380
+R0
+Z284 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_preload.vhd
+Z285 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_preload.vhd
+l0
+R95
+V2fKfXnIdmTK@hMSm[5;bC2
+!s100 <ZVE7I_XN=m;Gm15^kSol2
+R7
+32
+R133
+!i10b 1
+R44
+Z286 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_preload.vhd|
+Z287 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_preload.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+DEx4 work 17 shift_reg_preload 0 22 2fKfXnIdmTK@hMSm[5;bC2
+!i122 2380
+l129
+L122 45
+VlbV]cge]InjKB8amR?];P2
+!s100 J]:k9SC@8R^zFEUiE3[S10
+R7
+32
+R133
+!i10b 1
+R44
+R286
+R287
+!i113 1
+R12
+R13
+Esig_sync
+R1
+R3
+R4
+!i122 2381
+R0
+Z288 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/sig_sync.vhd
+Z289 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/sig_sync.vhd
+l0
+R95
+VcHgkkgZGS`_^O5I^CT5fS0
+!s100 8jNCf:@GCY<a]:`gU]URL1
+R7
+32
+R133
+!i10b 1
+R44
+Z290 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/sig_sync.vhd|
+Z291 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/common_blocks/sig_sync.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+DEx4 work 8 sig_sync 0 22 cHgkkgZGS`_^O5I^CT5fS0
+!i122 2381
+l105
+L100 20
+VgP]i?l;`Jf77:a>]O2cfD3
+!s100 djm6?odQ>UUDX^>:[zMS:1
+R7
+32
+R133
+!i10b 1
+R44
+R290
+R291
+!i113 1
+R12
+R13
+Essp_generator
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2346
+R0
+Z292 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/ssp_generator.vhd
+Z293 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/ssp_generator.vhd
+l0
+R158
+VcIGjhe71179UZ=1WR=1__1
+!s100 ]GFGYVWI3=26WRIe4l[;91
+R7
+32
+R38
+!i10b 1
+R30
+Z294 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/ssp_generator.vhd|
+Z295 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/ssp_generator.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 13 ssp_generator 0 22 cIGjhe71179UZ=1WR=1__1
+!i122 2346
+l172
+L138 197
+V?Z2jNjfn>>=SnoNf0WdNb0
+!s100 3h9[Re9m[`m;neiK0a6z`0
+R7
+32
+R38
+!i10b 1
+R30
+R294
+R295
+!i113 1
+R12
+R13
+Esynchronisation_checker
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2411
+R0
+Z296 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/synchronisation_checker.vhd
+Z297 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/synchronisation_checker.vhd
+l0
+R158
+VV6_6NN>A?_6BJCDD]lld41
+!s100 FF2NFBgC:FRbb9>7D1k_50
+R7
+32
+R49
+!i10b 1
+R50
+Z298 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/synchronisation_checker.vhd|
+Z299 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/synchronisation_checker.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 23 synchronisation_checker 0 22 V6_6NN>A?_6BJCDD]lld41
+!i122 2411
+l151
+L139 111
+VeEPFETl8K@9VYAoW[0gnC2
+!s100 MMoPdi>RG;cT8a8zC4RAJ3
+R7
+32
+R49
+!i10b 1
+R50
+R298
+R299
+!i113 1
+R12
+R13
+Etest_registers_reg_map
+R1
+R2
+R114
+R96
+R3
+R4
+!i122 2396
+R0
+Z300 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/test_registers_reg_map.vhd
+Z301 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/test_registers_reg_map.vhd
+l0
+R83
+VR1SmI@?GOBOid8hTcZTXI1
+!s100 h3d@nLiz:PJVXRjSen:071
+R7
+32
+R84
+!i10b 1
+R85
+Z302 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/test_registers_reg_map.vhd|
+Z303 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/test_registers_reg_map.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R114
+R96
+R3
+R4
+DEx4 work 22 test_registers_reg_map 0 22 R1SmI@?GOBOid8hTcZTXI1
+!i122 2396
+l115
+L107 191
+V;4AOWzDaKMjTJdXmkLbc=1
+!s100 j8>4<FFjU7PD?WMUZTSg^0
+R7
+32
+R84
+!i10b 1
+R85
+R302
+R303
+!i113 1
+R12
+R13
+Etrigger_generator
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2412
+R0
+Z304 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/trigger_generator.vhd
+Z305 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/trigger_generator.vhd
+l0
+L122 1
+V7385JG5ac`94UInZn;X_52
+!s100 igggVGLRH6@1[^Mm<<LcC0
+R7
+32
+R49
+!i10b 1
+R50
+Z306 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/trigger_generator.vhd|
+Z307 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/prescaler/trigger_generator.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 17 trigger_generator 0 22 7385JG5ac`94UInZn;X_52
+!i122 2412
+l170
+L157 87
+VCW]nG;QX[YYdio;T1knSg2
+!s100 CRoE?5T8__Af;[n:o4mJ02
+R7
+32
+R49
+!i10b 1
+R50
+R306
+R307
+!i113 1
+R12
+R13
+Etrigger_mux
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2367
+R0
+Z308 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/trigger_mux.vhd
+Z309 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/trigger_mux.vhd
+l0
+L108 1
+V<:@EML=hm0:K7aEXdg2gE1
+!s100 E18n26g0NIa<e8=idN8dT0
+R7
+32
+R106
+!i10b 1
+R107
+Z310 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/trigger_mux.vhd|
+Z311 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/trigger_mux.vhd|
+!i113 1
+R12
+R13
+Artl
+R33
+R34
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 11 trigger_mux 0 22 <:@EML=hm0:K7aEXdg2gE1
+!i122 2367
+l187
+L183 102
+VaWA>zjAl7Wf@g>4YblTX_2
+!s100 STCkk06U<9Z70F7WFIa3`0
+R7
+32
+R106
+!i10b 1
+R107
+R310
+R311
+!i113 1
+R12
+R13
+Etrv_delay_measurement
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2347
+R0
+Z312 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/trv_delay_meas.vhd
+Z313 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/trv_delay_meas.vhd
+l0
+L142 1
+VJE34f4X]K?S_NPE]30:UL1
+!s100 L=7=2DLUQ<O8Oj9ejO5LY0
+R7
+32
+R38
+!i10b 1
+R30
+Z314 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/trv_delay_meas.vhd|
+Z315 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/trv_delay_meas.vhd|
+!i113 1
+R12
+R13
+Artl
+R78
+R34
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 21 trv_delay_measurement 0 22 JE34f4X]K?S_NPE]30:UL1
+!i122 2347
+l252
+L207 256
+VaEG>:5W2^h<l;F99Y@m2k0
+!s100 Oz5_T@GnK5lR8ii;dNcTN0
+R7
+32
+R38
+!i10b 1
+R30
+R314
+R315
+!i113 1
+R12
+R13
+Etx_arbitrator
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+!i122 2418
+R0
+Z316 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd
+Z317 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd
+l0
+R55
+VSZ;BA11kb_d2zG34S7z=c1
+!s100 5zE=A<ikW<I[4DTFNVe:A1
+R7
+32
+R219
+!i10b 1
+R220
+Z318 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd|
+Z319 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 17 tx_arbitrator_fsm 0 22 =Vi3KL>b?Yb]l=FThXnQF2
+DEx14 ctu_can_fd_rtl 16 priority_decoder 0 22 gnTcY2cVEFGBM6UB02HQW2
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+DEx4 work 13 tx_arbitrator 0 22 SZ;BA11kb_d2zG34S7z=c1
+!i122 2418
+l318
+L186 636
+V0NX1_6F_:QAS1^?f;Z<Fb2
+!s100 R98]:<S@hNlRJ5G39]Q^13
+R7
+32
+R219
+!i10b 1
+R220
+R318
+R319
+!i113 1
+R12
+R13
+Etx_arbitrator_fsm
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+!i122 2419
+R0
+Z320 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator_fsm.vhd
+Z321 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator_fsm.vhd
+l0
+R66
+V=Vi3KL>b?Yb]l=FThXnQF2
+!s100 YU[cZ?f[e5Jd_Rj]DzWWJ0
+R7
+32
+R219
+!i10b 1
+R220
+Z322 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator_fsm.vhd|
+Z323 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator_fsm.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+DEx4 work 17 tx_arbitrator_fsm 0 22 =Vi3KL>b?Yb]l=FThXnQF2
+!i122 2419
+l186
+L175 388
+V42gKz3SeaNmnik75cPV[Y1
+!s100 035Q<U7JUnJaRA<D2EW?h1
+R7
+32
+R219
+!i10b 1
+R220
+R322
+R323
+!i113 1
+R12
+R13
+Etx_data_cache
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2348
+R0
+Z324 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/tx_data_cache.vhd
+Z325 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/tx_data_cache.vhd
+l0
+R158
+VhL=:`I4k^_gUOEX`]B=WW0
+!s100 enO:;ka^]NX:U2Yh^KU@H1
+R7
+32
+R38
+!i10b 1
+R30
+Z326 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/tx_data_cache.vhd|
+Z327 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/bus_sampling/tx_data_cache.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 13 tx_data_cache 0 22 hL=:`I4k^_gUOEX`]B=WW0
+!i122 2348
+l148
+L132 108
+V1YV`c<jnk9EFO?ZYZQ2b23
+!s100 H>W`1>i`A^MMolb2W2;6>1
+R7
+32
+R38
+!i10b 1
+R30
+R326
+R327
+!i113 1
+R12
+R13
+Etx_shift_reg
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+!i122 2368
+R0
+Z328 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd
+Z329 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd
+l0
+R37
+Va78HW^NbJhhzmLjL_nMfJ2
+!s100 4O1zBV_@Ai;l[YKB=iFOL0
+R7
+32
+R106
+!i10b 1
+R107
+Z330 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd|
+Z331 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 17 shift_reg_preload 0 22 2fKfXnIdmTK@hMSm[5;bC2
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R3
+R4
+DEx4 work 12 tx_shift_reg 0 22 a78HW^NbJhhzmLjL_nMfJ2
+!i122 2368
+l219
+L192 188
+V:Chd4DUQCdU;STE>VUd>Q3
+!s100 ^eU2N`4OMJXdgQaW[Do160
+R7
+32
+R106
+!i10b 1
+R107
+R330
+R331
+!i113 1
+R12
+R13
+Etxt_buffer
+R1
+R96
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+!i122 2420
+R0
+Z332 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer.vhd
+Z333 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer.vhd
+l0
+R61
+Vde5?8Dl[VnejegR@2I3:b2
+!s100 [e0TXDaQ6]>?FQK;]Z4^R0
+R7
+32
+R219
+!i10b 1
+R220
+Z334 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer.vhd|
+Z335 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer.vhd|
+!i113 1
+R12
+R13
+Artl
+DEx14 ctu_can_fd_rtl 14 txt_buffer_fsm 0 22 ;63YUaJWzZ2R`:Al19kOo2
+DEx14 ctu_can_fd_rtl 14 txt_buffer_ram 0 22 kE=JBX;8`2_GacJ<O1Rb^0
+R203
+R96
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+DEx4 work 10 txt_buffer 0 22 de5?8Dl[VnejegR@2I3:b2
+!i122 2420
+l239
+L196 184
+V=L25W;LM^HKL5345;RJPQ0
+!s100 VIV95=^aPid0aVPDjTIzR0
+R7
+32
+R219
+!i10b 1
+R220
+R334
+R335
+!i113 1
+R12
+R13
+Etxt_buffer_fsm
+R1
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+!i122 2421
+R0
+Z336 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_fsm.vhd
+Z337 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_fsm.vhd
+l0
+R158
+V;63YUaJWzZ2R`:Al19kOo2
+!s100 G1FnQoBKR4oGC?FH]Fl:D2
+R7
+32
+R219
+!i10b 1
+R220
+Z338 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_fsm.vhd|
+Z339 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_fsm.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+DEx4 work 14 txt_buffer_fsm 0 22 ;63YUaJWzZ2R`:Al19kOo2
+!i122 2421
+l175
+L159 307
+VZ4TZ9lcSXEDTgFI[?aHi_1
+!s100 <gZbOi5mi;9UO5WHbU@iT3
+R7
+32
+R219
+!i10b 1
+R220
+R338
+R339
+!i113 1
+R12
+R13
+Etxt_buffer_ram
+R1
+R96
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+!i122 2422
+R0
+Z340 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_ram.vhd
+Z341 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_ram.vhd
+l0
+R92
+VkE=JBX;8`2_GacJ<O1Rb^0
+!s100 mBU0h`<Yz86LS@OC5iFAC2
+R7
+32
+R219
+!i10b 1
+R220
+Z342 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_ram.vhd|
+Z343 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_ram.vhd|
+!i113 1
+R12
+R13
+Artl
+R263
+R96
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R97
+R2
+R3
+R4
+Z344 DEx4 work 14 txt_buffer_ram 0 22 kE=JBX;8`2_GacJ<O1Rb^0
+!i122 2422
+l162
+Z345 L151 93
+Z346 VNM1IKz:[mYaD3[2T8Ra1`1
+Z347 !s100 kRFed=eOYGDNgLLU0D^JV2
+R7
+32
+R219
+!i10b 1
+R220
+R342
+R343
+!i113 1
+R12
+R13
+Punary_ops_pkg
+R2
+R3
+R4
+!i122 2404
+R1
+R0
+Z348 8/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/unary_ops_pkg.vhd
+Z349 F/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/unary_ops_pkg.vhd
+l0
+R83
+VDCk4oddngUD]6jB40L;3[1
+!s100 8<45Q6iJWzoiMK9WHWIne2
+R7
+32
+b1
+R49
+!i10b 1
+R85
+Z350 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-stats=none|/home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/unary_ops_pkg.vhd|
+Z351 !s107 /home/tristan/dev/fpga/canif/rtl/ctucanfd_ip_core/src/packages/unary_ops_pkg.vhd|
+!i113 1
+R12
+R13
+Bbody
+DPx4 work 13 unary_ops_pkg 0 22 DCk4oddngUD]6jB40L;3[1
+R2
+R3
+R4
+!i122 2404
+l0
+L118 1
+V0c?8]V`dh=S:k5eFW19_j1
+!s100 W=?U^lX0C9o]V75_EQT^J0
+R7
+32
+R49
+!i10b 1
+R85
+R350
+R351
+!i113 1
+R12
+R13
