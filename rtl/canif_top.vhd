@@ -11,8 +11,8 @@ entity canif_top is
     i_clk   : in  std_logic;
     i_rst_n : in  std_logic;
 
-    i_can_rx    : in std_logic;
-    o_can_tx    : out std_logic;
+    i_can_rx    : in std_logic_vector(0 to 3);
+    o_can_tx    : out std_logic_vector(0 to 3);
 
     o_led       : out std_logic
   );

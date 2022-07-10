@@ -26,7 +26,7 @@ begin
         i_clk   => s_clk,
         i_rst_n => s_rst_n,
         
-        i_can_rx    => '0',
+        i_can_rx    => "0000",
         o_can_tx    => open,
 
         o_led   => s_led

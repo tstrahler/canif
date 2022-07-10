@@ -49,14 +49,14 @@ ASM_INC ?= -I .
 EFFORT ?= -Os
 
 # Compiler toolchain
-RISCV_PREFIX ?= riscv32-unknown-elf-
+RISCV_PREFIX ?= riscv64-unknown-elf-
 
 # CPU architecture and ABI
 MARCH ?= rv32i
 MABI  ?= ilp32
 
 # User flags for additional configuration (will be added to compiler flags)
-USER_FLAGS ?=
+USER_FLAGS ?= -specs=picolibc.specs
 
 # Relative or absolute path to the NEORV32 home folder
 NEORV32_HOME ?= ../rtl/neorv32/

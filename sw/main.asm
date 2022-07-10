@@ -78,7 +78,7 @@ Disassembly of section .text:
 
 000000e0 <__crt0_clear_bss_loop_end>:
   e0:	00000597          	auipc	a1,0x0
-  e4:	10858593          	addi	a1,a1,264 # 1e8 <__crt0_copy_data_src_begin>
+  e4:	11458593          	addi	a1,a1,276 # 1f4 <__crt0_copy_data_src_begin>
   e8:	80000617          	auipc	a2,0x80000
   ec:	f1860613          	addi	a2,a2,-232 # 80000000 <__ctr0_io_space_begin+0x80000200>
   f0:	80000697          	auipc	a3,0x80000
@@ -138,30 +138,33 @@ Disassembly of section .text:
  180:	30200073          	mret
 
 00000184 <main>:
- 184:	ff010113          	addi	sp,sp,-16
- 188:	a00007b7          	lui	a5,0xa0000
- 18c:	00812423          	sw	s0,8(sp)
- 190:	0907a403          	lw	s0,144(a5) # a0000090 <__ctr0_io_space_begin+0xa0000290>
- 194:	00000513          	li	a0,0
- 198:	00000593          	li	a1,0
- 19c:	00112623          	sw	ra,12(sp)
- 1a0:	038000ef          	jal	ra,1d8 <neorv32_gpio_port_set>
- 1a4:	02040063          	beqz	s0,1c4 <main+0x40>
- 1a8:	00100513          	li	a0,1
- 1ac:	00000593          	li	a1,0
- 1b0:	028000ef          	jal	ra,1d8 <neorv32_gpio_port_set>
- 1b4:	00000513          	li	a0,0
- 1b8:	00000593          	li	a1,0
- 1bc:	01c000ef          	jal	ra,1d8 <neorv32_gpio_port_set>
- 1c0:	fe9ff06f          	j	1a8 <main+0x24>
- 1c4:	00c12083          	lw	ra,12(sp)
- 1c8:	00812403          	lw	s0,8(sp)
- 1cc:	00000513          	li	a0,0
- 1d0:	01010113          	addi	sp,sp,16
- 1d4:	00008067          	ret
+ 184:	a00007b7          	lui	a5,0xa0000
+ 188:	0907a783          	lw	a5,144(a5) # a0000090 <__ctr0_io_space_begin+0xa0000290>
+ 18c:	fe010113          	addi	sp,sp,-32
+ 190:	00000513          	li	a0,0
+ 194:	00f12023          	sw	a5,0(sp)
+ 198:	a00017b7          	lui	a5,0xa0001
+ 19c:	0907a783          	lw	a5,144(a5) # a0001090 <__ctr0_io_space_begin+0xa0001290>
+ 1a0:	00000593          	li	a1,0
+ 1a4:	00112e23          	sw	ra,28(sp)
+ 1a8:	00f12223          	sw	a5,4(sp)
+ 1ac:	a00027b7          	lui	a5,0xa0002
+ 1b0:	0907a783          	lw	a5,144(a5) # a0002090 <__ctr0_io_space_begin+0xa0002290>
+ 1b4:	00f12423          	sw	a5,8(sp)
+ 1b8:	a00037b7          	lui	a5,0xa0003
+ 1bc:	0907a783          	lw	a5,144(a5) # a0003090 <__ctr0_io_space_begin+0xa0003290>
+ 1c0:	00f12623          	sw	a5,12(sp)
+ 1c4:	020000ef          	jal	ra,1e4 <neorv32_gpio_port_set>
+ 1c8:	00100513          	li	a0,1
+ 1cc:	00000593          	li	a1,0
+ 1d0:	014000ef          	jal	ra,1e4 <neorv32_gpio_port_set>
+ 1d4:	01c12083          	lw	ra,28(sp)
+ 1d8:	00000513          	li	a0,0
+ 1dc:	02010113          	addi	sp,sp,32
+ 1e0:	00008067          	ret
 
-000001d8 <neorv32_gpio_port_set>:
- 1d8:	fc000793          	li	a5,-64
- 1dc:	00a7a423          	sw	a0,8(a5)
- 1e0:	00b7a623          	sw	a1,12(a5)
- 1e4:	00008067          	ret
+000001e4 <neorv32_gpio_port_set>:
+ 1e4:	fc000793          	li	a5,-64
+ 1e8:	00a7a423          	sw	a0,8(a5)
+ 1ec:	00b7a623          	sw	a1,12(a5)
+ 1f0:	00008067          	ret
