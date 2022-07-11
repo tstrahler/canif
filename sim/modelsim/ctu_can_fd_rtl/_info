@@ -14,7 +14,7 @@ Z0 w1657472086
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 4438
+!i122 5012
 Z4 d/home/user/dev/canif/sim/modelsim
 Z5 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/access_signaler.vhd
 Z6 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/access_signaler.vhd
@@ -24,9 +24,9 @@ VPTTX<>kEOO<J`nKETI^Vh1
 !s100 DLozDG75SbYkM:aUzKFe;3
 Z7 OL;C;2021.2;73
 32
-Z8 !s110 1657492705
+Z8 !s110 1657518592
 !i10b 1
-Z9 !s108 1657492705.000000
+Z9 !s108 1657518592.000000
 Z10 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/access_signaler.vhd|
 Z11 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/access_signaler.vhd|
 !i113 0
@@ -39,7 +39,7 @@ R3
 DEx4 work 16 access_signaller 0 22 PTTX<>kEOO<J`nKETI^Vh1
 32
 R8
-!i122 4438
+!i122 5012
 l108
 L90 95
 V?[nbAmz=i:FWRz48C[lg>2
@@ -57,7 +57,7 @@ R0
 R1
 R2
 R3
-!i122 4439
+!i122 5013
 R4
 Z14 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/address_decoder.vhd
 Z15 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/address_decoder.vhd
@@ -82,7 +82,7 @@ R3
 DEx4 work 15 address_decoder 0 22 A84zc@:>;P133NeEacaR03
 32
 R8
-!i122 4439
+!i122 5013
 l96
 L86 64
 V3IkLGBmkjh9UioI@ZUdek1
@@ -108,7 +108,7 @@ Z26 DPx14 ctu_can_fd_rtl 15 id_transfer_pkg 0 22 5PY]j=>=jeCFjjKb276UP1
 R1
 R2
 R3
-!i122 4399
+!i122 4973
 R4
 Z27 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bit_destuffing.vhd
 Z28 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bit_destuffing.vhd
@@ -118,9 +118,9 @@ Vm`Z`L8c[F1Yja9VIKzln40
 !s100 S@E=<g`TNR7A_a=2lZJDF2
 R7
 32
-Z29 !s110 1657492702
+Z29 !s110 1657518589
 !i10b 1
-Z30 !s108 1657492702.000000
+Z30 !s108 1657518589.000000
 Z31 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bit_destuffing.vhd|
 Z32 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bit_destuffing.vhd|
 !i113 0
@@ -143,7 +143,7 @@ R3
 DEx4 work 14 bit_destuffing 0 22 m`Z`L8c[F1Yja9VIKzln40
 32
 R29
-!i122 4399
+!i122 4973
 l210
 L152 371
 VRG[cKTb5zZNI=:7hTQK223
@@ -169,7 +169,7 @@ R26
 R1
 R2
 R3
-!i122 4392
+!i122 4966
 R4
 Z35 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bit_err_detector.vhd
 Z36 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bit_err_detector.vhd
@@ -179,9 +179,9 @@ VT[SDzB>>63Z_JFMbV94GE3
 !s100 m=44e;?^f<3U1NE?LGYEl2
 R7
 32
-Z38 !s110 1657492701
+Z38 !s110 1657518588
 !i10b 1
-Z39 !s108 1657492701.000000
+Z39 !s108 1657518588.000000
 Z40 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bit_err_detector.vhd|
 Z41 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bit_err_detector.vhd|
 !i113 0
@@ -202,7 +202,7 @@ R3
 DEx4 work 16 bit_err_detector 0 22 T[SDzB>>63Z_JFMbV94GE3
 32
 R38
-!i122 4392
+!i122 4966
 l158
 L141 117
 V0<WohT0z>OG@?P;;PSI`X3
@@ -228,7 +228,7 @@ R26
 R1
 R2
 R3
-!i122 4432
+!i122 5006
 R4
 Z42 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/bit_filter.vhd
 Z43 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/bit_filter.vhd
@@ -238,11 +238,11 @@ VCl9A6oAVM15Qlj=3HIo1G3
 !s100 Q`eaHjNB8Wg:8SADdSCzF2
 R7
 32
-Z45 !s110 1657492704
+R8
 !i10b 1
-Z46 !s108 1657492704.000000
-Z47 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/bit_filter.vhd|
-Z48 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/bit_filter.vhd|
+R9
+Z45 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/bit_filter.vhd|
+Z46 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/bit_filter.vhd|
 !i113 0
 R12
 R13
@@ -260,17 +260,17 @@ R2
 R3
 DEx4 work 10 bit_filter 0 22 Cl9A6oAVM15Qlj=3HIo1G3
 32
-R45
-!i122 4432
+R8
+!i122 5006
 l123
 L118 24
 VR02n0;aJI[N=KTmX7e2nV2
 !s100 ^:GWaUiGeS[deoz@]3S[J1
 R7
 !i10b 1
+R9
+R45
 R46
-R47
-R48
 !i113 0
 R12
 R13
@@ -287,21 +287,21 @@ R26
 R1
 R2
 R3
-!i122 4455
+!i122 5029
 R4
-Z49 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_segment_meter.vhd
-Z50 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_segment_meter.vhd
+Z47 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_segment_meter.vhd
+Z48 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_segment_meter.vhd
 l0
 L196 1
 VTUb;NWN0F23>h3X_ZKTam2
 !s100 1T`[Bj]ce_l>EP38`a3;O3
 R7
 32
-Z51 !s110 1657492706
+Z49 !s110 1657518594
 !i10b 1
-Z52 !s108 1657492706.000000
-Z53 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_segment_meter.vhd|
-Z54 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_segment_meter.vhd|
+Z50 !s108 1657518593.000000
+Z51 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_segment_meter.vhd|
+Z52 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_segment_meter.vhd|
 !i113 0
 R12
 R13
@@ -319,17 +319,17 @@ R2
 R3
 DEx4 work 17 bit_segment_meter 0 22 TUb;NWN0F23>h3X_ZKTam2
 32
-R51
-!i122 4455
+R49
+!i122 5029
 l353
 L273 314
 VL5J:[S>10gSN;23mmQ5SW1
 !s100 KZobV8H:B21O87;Y3V;b82
 R7
 !i10b 1
+R50
+R51
 R52
-R53
-R54
 !i113 0
 R12
 R13
@@ -346,12 +346,12 @@ R26
 R1
 R2
 R3
-!i122 4400
+!i122 4974
 R4
-Z55 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bit_stuffing.vhd
-Z56 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bit_stuffing.vhd
+Z53 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bit_stuffing.vhd
+Z54 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bit_stuffing.vhd
 l0
-Z57 L100 1
+Z55 L100 1
 V2_S8;>ob29gheU9^94g@>1
 !s100 gb5=:^4WRWDL9Df[jKG0I1
 R7
@@ -359,8 +359,8 @@ R7
 R29
 !i10b 1
 R30
-Z58 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bit_stuffing.vhd|
-Z59 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bit_stuffing.vhd|
+Z56 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bit_stuffing.vhd|
+Z57 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bit_stuffing.vhd|
 !i113 0
 R12
 R13
@@ -381,7 +381,7 @@ R3
 DEx4 work 12 bit_stuffing 0 22 2_S8;>ob29gheU9^94g@>1
 32
 R29
-!i122 4400
+!i122 4974
 l235
 L150 355
 Vklakb1GlmeWYONCJlU?Ne2
@@ -389,8 +389,8 @@ Vklakb1GlmeWYONCJlU?Ne2
 R7
 !i10b 1
 R30
-R58
-R59
+R56
+R57
 !i113 0
 R12
 R13
@@ -407,21 +407,21 @@ R26
 R1
 R2
 R3
-!i122 4456
+!i122 5030
 R4
-Z60 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_cfg_capture.vhd
-Z61 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_cfg_capture.vhd
+Z58 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_cfg_capture.vhd
+Z59 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_cfg_capture.vhd
 l0
-Z62 L96 1
+Z60 L96 1
 V`[eQmJ4KgH02XBY[FzbOa2
 !s100 hedB@8_17NMoZKFB2GbJJ0
 R7
 32
-R51
+R49
 !i10b 1
-R52
-Z63 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_cfg_capture.vhd|
-Z64 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_cfg_capture.vhd|
+Z61 !s108 1657518594.000000
+Z62 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_cfg_capture.vhd|
+Z63 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_cfg_capture.vhd|
 !i113 0
 R12
 R13
@@ -439,17 +439,17 @@ R2
 R3
 DEx4 work 20 bit_time_cfg_capture 0 22 `[eQmJ4KgH02XBY[FzbOa2
 32
-R51
-!i122 4456
+R49
+!i122 5030
 l207
 L170 129
 Vo?KlCfkA8@d5=EMc^32<N2
 !s100 >Fb1MRoGVT8A;XLeXeZg30
 R7
 !i10b 1
-R52
+R61
+R62
 R63
-R64
 !i113 0
 R12
 R13
@@ -466,21 +466,21 @@ R26
 R1
 R2
 R3
-!i122 4457
+!i122 5031
 R4
-Z65 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_counters.vhd
-Z66 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_counters.vhd
+Z64 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_counters.vhd
+Z65 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_counters.vhd
 l0
-Z67 L98 1
+Z66 L98 1
 VhL415nO6zo1FB[=j_Qhf=1
 !s100 Fa^XUknGOOXlUjco]BM?`0
 R7
 32
-R51
+R49
 !i10b 1
-R52
-Z68 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_counters.vhd|
-Z69 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_counters.vhd|
+R61
+Z67 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_counters.vhd|
+Z68 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_counters.vhd|
 !i113 0
 R12
 R13
@@ -498,17 +498,17 @@ R2
 R3
 DEx4 work 17 bit_time_counters 0 22 hL415nO6zo1FB[=j_Qhf=1
 32
-R51
-!i122 4457
+R49
+!i122 5031
 l164
 L142 97
 V0ZNIhJR2d^Af4_1z[fB7H3
 !s100 ic1kJ1jY@A@ITaVB?SA9D3
 R7
 !i10b 1
-R52
+R61
+R67
 R68
-R69
 !i113 0
 R12
 R13
@@ -525,21 +525,21 @@ R26
 R1
 R2
 R3
-!i122 4458
+!i122 5032
 R4
-Z70 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_fsm.vhd
-Z71 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_fsm.vhd
+Z69 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_fsm.vhd
+Z70 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_fsm.vhd
 l0
 R37
 VYG^>T=@I;YVif`R@1Cj_C0
 !s100 ;lBG8loBO;K[B_EV3Je@?0
 R7
 32
-R51
+R49
 !i10b 1
-R52
-Z72 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_fsm.vhd|
-Z73 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_fsm.vhd|
+R61
+Z71 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_fsm.vhd|
+Z72 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/bit_time_fsm.vhd|
 !i113 0
 R12
 R13
@@ -557,17 +557,17 @@ R2
 R3
 DEx4 work 12 bit_time_fsm 0 22 YG^>T=@I;YVif`R@1Cj_C0
 32
-R51
-!i122 4458
+R49
+!i122 5032
 l144
 L135 88
 V^@^GJ_VZY20`m<h?Mo5NB1
 !s100 K8SMUW;Q58Ca7zzDLG6ie3
 R7
 !i10b 1
-R52
+R61
+R71
 R72
-R73
 !i113 0
 R12
 R13
@@ -584,12 +584,12 @@ R26
 R1
 R2
 R3
-!i122 4393
+!i122 4967
 R4
-Z74 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bus_sampling.vhd
-Z75 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bus_sampling.vhd
+Z73 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bus_sampling.vhd
+Z74 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bus_sampling.vhd
 l0
-Z76 L97 1
+Z75 L97 1
 V`G:1RJm1SMzKJ>>LSVU;U1
 !s100 RJPEe[m9L;F[2fAVV;2NZ2
 R7
@@ -597,8 +597,8 @@ R7
 R38
 !i10b 1
 R39
-Z77 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bus_sampling.vhd|
-Z78 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bus_sampling.vhd|
+Z76 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bus_sampling.vhd|
+Z77 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/bus_sampling.vhd|
 !i113 0
 R12
 R13
@@ -607,7 +607,7 @@ DEx14 ctu_can_fd_rtl 10 sample_mux 0 22 a=`C?cTTJDOVL9=dN]BQa3
 DEx14 ctu_can_fd_rtl 16 bit_err_detector 0 22 T[SDzB>>63Z_JFMbV94GE3
 DEx14 ctu_can_fd_rtl 13 tx_data_cache 0 22 hL=:`I4k^_gUOEX`]B=WW0
 DEx14 ctu_can_fd_rtl 13 ssp_generator 0 22 cIGjhe71179UZ=1WR=1__1
-Z79 DEx14 ctu_can_fd_rtl 4 mux2 0 22 4nDY6d2QX24<`;=J7mQ4>2
+Z78 DEx14 ctu_can_fd_rtl 4 mux2 0 22 4nDY6d2QX24<`;=J7mQ4>2
 R34
 DEx14 ctu_can_fd_rtl 18 data_edge_detector 0 22 WT?X0oZ=kmMg[j?EQDn0P2
 DEx14 ctu_can_fd_rtl 21 trv_delay_measurement 0 22 JE34f4X]K?S_NPE]30:UL1
@@ -626,7 +626,7 @@ R3
 DEx4 work 12 bus_sampling 0 22 `G:1RJm1SMzKJ>>LSVU;U1
 32
 R38
-!i122 4393
+!i122 4967
 l263
 L200 306
 VR^0]9gCDd^5JF35>FM[X`1
@@ -634,8 +634,8 @@ VR^0]9gCDd^5JF35>FM[X`1
 R7
 !i10b 1
 R39
+R76
 R77
-R78
 !i113 0
 R12
 R13
@@ -652,10 +652,10 @@ R26
 R1
 R2
 R3
-!i122 4401
+!i122 4975
 R4
-Z80 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bus_traffic_counters.vhd
-Z81 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bus_traffic_counters.vhd
+Z79 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bus_traffic_counters.vhd
+Z80 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bus_traffic_counters.vhd
 l0
 R44
 VA=3Ol?eFVOPg7<Hc>9_LR2
@@ -665,13 +665,13 @@ R7
 R29
 !i10b 1
 R30
-Z82 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bus_traffic_counters.vhd|
-Z83 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bus_traffic_counters.vhd|
+Z81 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bus_traffic_counters.vhd|
+Z82 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/bus_traffic_counters.vhd|
 !i113 0
 R12
 R13
 Artl
-R79
+R78
 R34
 R19
 R20
@@ -687,7 +687,7 @@ R3
 DEx4 work 20 bus_traffic_counters 0 22 A=3Ol?eFVOPg7<Hc>9_LR2
 32
 R29
-!i122 4401
+!i122 4975
 l154
 L134 149
 V9PBGke;eA?laK7OYDR`G11
@@ -695,8 +695,8 @@ V9PBGke;eA?laK7OYDR`G11
 R7
 !i10b 1
 R30
+R81
 R82
-R83
 !i113 0
 R12
 R13
@@ -704,8 +704,8 @@ Pcan_config_pkg
 R2
 R3
 32
-R51
-!i122 4447
+Z83 !s110 1657518593
+!i122 5021
 R0
 R4
 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_config_pkg.vhd
@@ -716,7 +716,7 @@ VT0BXOW?8Mh@l8zij6_naN0
 !s100 N:lojRQZof70:`_@fzOic2
 R7
 !i10b 1
-R52
+R50
 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_config_pkg.vhd|
 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_config_pkg.vhd|
 !i113 0
@@ -727,8 +727,8 @@ R1
 R2
 R3
 32
-R51
-!i122 4448
+R83
+!i122 5022
 R0
 R4
 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_constants_pkg.vhd
@@ -739,7 +739,7 @@ V]dDL25PkIb3?E:gT9KDdT3
 !s100 Fln5^U]o>3F]z8Hf0O^jg0
 R7
 !i10b 1
-R52
+R50
 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_constants_pkg.vhd|
 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_constants_pkg.vhd|
 !i113 0
@@ -758,12 +758,12 @@ R26
 R1
 R2
 R3
-!i122 4402
+!i122 4976
 R4
 Z85 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/can_core.vhd
 Z86 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/can_core.vhd
 l0
-R57
+R55
 V94UOe6KM<VnoXBLYTTcnj3
 !s100 TZ[em2>UESCnk@bWYcmIC1
 R7
@@ -799,7 +799,7 @@ R3
 DEx4 work 8 can_core 0 22 94UOe6KM<VnoXBLYTTcnj3
 32
 R29
-!i122 4402
+!i122 4976
 l491
 L323 985
 Vi_[f6=1SVG?AThF;P;5<a0
@@ -825,7 +825,7 @@ R26
 R1
 R2
 R3
-!i122 4403
+!i122 4977
 R4
 Z89 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/can_crc.vhd
 Z90 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/can_crc.vhd
@@ -859,7 +859,7 @@ R3
 DEx4 work 7 can_crc 0 22 eBOU9U0TAb`^Daaac=L5M1
 32
 R29
-!i122 4403
+!i122 4977
 l220
 L190 158
 Vj5GI6lm31WzWLKfB;6n<c3
@@ -876,8 +876,8 @@ Pcan_fd_frame_format
 R2
 R3
 32
-R51
-!i122 4449
+R83
+!i122 5023
 R0
 R4
 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_frame_format.vhd
@@ -888,7 +888,7 @@ VbcnHm@ODH1OSYaURT0k0k2
 !s100 :NDiYmMgGeefTd7:FSnJi3
 R7
 !i10b 1
-R52
+R50
 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_frame_format.vhd|
 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_frame_format.vhd|
 !i113 0
@@ -898,8 +898,8 @@ Pcan_fd_register_map
 R2
 R3
 32
-R51
-!i122 4450
+R83
+!i122 5024
 R0
 R4
 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_register_map.vhd
@@ -910,7 +910,7 @@ VBgb?PGNjOojWSUQOSfUkC1
 !s100 VNb5m@PR;CEDFBJ2C8zP?1
 R7
 !i10b 1
-R52
+R50
 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_register_map.vhd|
 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_fd_register_map.vhd|
 !i113 0
@@ -921,7 +921,7 @@ R2
 R3
 32
 R8
-!i122 4440
+!i122 5014
 R0
 R4
 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/can_registers_pkg.vhd
@@ -953,7 +953,7 @@ Z96 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
 R1
 R2
 R3
-!i122 4391
+!i122 4965
 R4
 Z97 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_top_level.vhd
 Z98 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_top_level.vhd
@@ -998,7 +998,7 @@ R3
 DEx4 work 13 can_top_level 0 22 XH=bJAecL:g=ncRR?fS;c0
 32
 R38
-!i122 4391
+!i122 4965
 l542
 L201 874
 V_BjFf7V6z8cRjhRD]Pji?1
@@ -1018,8 +1018,8 @@ R24
 R2
 R3
 32
-R51
-!i122 4451
+R83
+!i122 5025
 R0
 R4
 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_types_pkg.vhd
@@ -1030,7 +1030,7 @@ VIJ<L:>VHQLz>oUXF^dSnS1
 !s100 XFVFa5LSj2^NdCUcY]UKk2
 R7
 !i10b 1
-R52
+R50
 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_types_pkg.vhd|
 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/can_types_pkg.vhd|
 !i113 0
@@ -1042,7 +1042,7 @@ R1
 R24
 R2
 R3
-!i122 4419
+!i122 4993
 R4
 Z103 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/clk_gate.vhd
 Z104 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/clk_gate.vhd
@@ -1052,9 +1052,9 @@ VnDghCDJP0`1?zK7M[iA_H0
 !s100 c]cN>^0fA@zV_`_Agoc@_2
 R7
 32
-Z105 !s110 1657492703
+Z105 !s110 1657518591
 !i10b 1
-Z106 !s108 1657492703.000000
+Z106 !s108 1657518591.000000
 Z107 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/clk_gate.vhd|
 Z108 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/clk_gate.vhd|
 !i113 0
@@ -1068,7 +1068,7 @@ R3
 DEx4 work 8 clk_gate 0 22 nDghCDJP0`1?zK7M[iA_H0
 32
 R105
-!i122 4419
+!i122 4993
 l103
 L99 35
 V]Tb=K6UG6c98D44QnDMhc3
@@ -1087,7 +1087,7 @@ R2
 R3
 32
 R8
-!i122 4441
+!i122 5015
 R0
 R4
 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/cmn_reg_map_pkg.vhd
@@ -1117,12 +1117,12 @@ R26
 R1
 R2
 R3
-!i122 4404
+!i122 4978
 R4
 Z109 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/control_counter.vhd
 Z110 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/control_counter.vhd
 l0
-R76
+R75
 V?]09<W0^I>E`]8N]BQB`T0
 !s100 9CLEh1h4NWP2zC^XhZ0]S0
 R7
@@ -1150,7 +1150,7 @@ R3
 DEx4 work 15 control_counter 0 22 ?]09<W0^I>E`]8N]BQB`T0
 32
 R29
-!i122 4404
+!i122 4978
 l179
 L159 137
 V2X0jYC_]B`hB6H5^?XDeX2
@@ -1170,7 +1170,7 @@ Z113 DPx14 ctu_can_fd_rtl 15 cmn_reg_map_pkg 0 22 l1[F;Am?CjnCNa_PCFV:H0
 R95
 R2
 R3
-!i122 4442
+!i122 5016
 R4
 Z114 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/control_registers_reg_map.vhd
 Z115 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/control_registers_reg_map.vhd
@@ -1197,7 +1197,7 @@ R3
 DEx4 work 25 control_registers_reg_map 0 22 Wb9KoY=BPk>>k5D]<:8z63
 32
 R8
-!i122 4442
+!i122 5016
 l120
 L112 1123
 V]G^W2oTFa`SHH>NC6XiCC1
@@ -1223,7 +1223,7 @@ R26
 R1
 R2
 R3
-!i122 4405
+!i122 4979
 R4
 Z118 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/crc_calc.vhd
 Z119 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/crc_calc.vhd
@@ -1256,7 +1256,7 @@ R3
 DEx4 work 8 crc_calc 0 22 UUUTZBR38o06>^cm;A?;H0
 32
 R29
-!i122 4405
+!i122 4979
 l161
 L138 75
 VK9hRl_`A>QAQB@hU<bmRi0
@@ -1282,7 +1282,7 @@ R26
 R1
 R2
 R3
-!i122 4394
+!i122 4968
 R4
 Z122 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/data_edge_detector.vhd
 Z123 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/data_edge_detector.vhd
@@ -1315,7 +1315,7 @@ R3
 DEx4 work 18 data_edge_detector 0 22 WT?X0oZ=kmMg[j?EQDn0P2
 32
 R38
-!i122 4394
+!i122 4968
 l161
 L150 91
 VZHW04Ejni=1hX<_f>fW9`3
@@ -1333,7 +1333,7 @@ R0
 R1
 R2
 R3
-!i122 4443
+!i122 5017
 R4
 Z126 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/data_mux.vhd
 Z127 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/data_mux.vhd
@@ -1343,9 +1343,9 @@ V0<z^5FNUdUeW;VC8_mfaf1
 !s100 X>T9SPZ=]97AE_Hh87F5L1
 R7
 32
-R8
+R83
 !i10b 1
-R9
+R50
 Z128 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/data_mux.vhd|
 Z129 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/data_mux.vhd|
 !i113 0
@@ -1357,15 +1357,15 @@ R2
 R3
 DEx4 work 8 data_mux 0 22 0<z^5FNUdUeW;VC8_mfaf1
 32
-R8
-!i122 4443
+R83
+!i122 5017
 l154
 L132 90
 V:h>YFK7SJcmd[_`:?`f@h1
 !s100 UW60e3TaV_Tg7keKCajjT3
 R7
 !i10b 1
-R9
+R50
 R128
 R129
 !i113 0
@@ -1375,7 +1375,7 @@ Edff_arst
 R0
 R2
 R3
-!i122 4420
+!i122 4994
 R4
 Z130 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst.vhd
 Z131 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst.vhd
@@ -1385,9 +1385,9 @@ VCYK`85>hI`V;Oa>XC993m3
 !s100 dI5WbGC]H[CjX>Ua5;A790
 R7
 32
-R45
+R105
 !i10b 1
-R46
+R106
 Z132 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst.vhd|
 Z133 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst.vhd|
 !i113 0
@@ -1398,15 +1398,15 @@ R2
 R3
 DEx4 work 8 dff_arst 0 22 CYK`85>hI`V;Oa>XC993m3
 32
-R45
-!i122 4420
+R105
+!i122 4994
 l101
 L100 14
 VNG`DDn47X9InRB6JLaY4J1
 !s100 aZLF4KJR@I0icUCIQQc_d2
 R7
 !i10b 1
-R46
+R106
 R132
 R133
 !i113 0
@@ -1416,7 +1416,7 @@ Edff_arst_ce
 R0
 R2
 R3
-!i122 4421
+!i122 4995
 R4
 Z134 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst_ce.vhd
 Z135 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst_ce.vhd
@@ -1426,9 +1426,9 @@ V4SPJclG9Ta_n;]gdWaEXY3
 !s100 T?A539Z]1ImVZZG1kk5F42
 R7
 32
-R45
+R105
 !i10b 1
-R46
+R106
 Z136 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst_ce.vhd|
 Z137 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/dff_arst_ce.vhd|
 !i113 0
@@ -1439,15 +1439,15 @@ R2
 R3
 DEx4 work 11 dff_arst_ce 0 22 4SPJclG9Ta_n;]gdWaEXY3
 32
-R45
-!i122 4421
+R105
+!i122 4995
 l104
 L103 17
 VeVRSZZ]1Mk:Yac=SR6]ii3
 !s100 e5LQZb`4OoBb>G3FV8@9:0
 R7
 !i10b 1
-R46
+R106
 R136
 R137
 !i113 0
@@ -1459,7 +1459,7 @@ R25
 R1
 R2
 R3
-!i122 4422
+!i122 4996
 R4
 Z138 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/dlc_decoder.vhd
 Z139 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/dlc_decoder.vhd
@@ -1469,9 +1469,9 @@ Vg5K^UP[FeHbhbRVZX4cfd3
 !s100 07Lj;]E>[WPJW74Kkj<iD3
 R7
 32
-R45
+R105
 !i10b 1
-R46
+R106
 Z140 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/dlc_decoder.vhd|
 Z141 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/dlc_decoder.vhd|
 !i113 0
@@ -1484,15 +1484,15 @@ R2
 R3
 DEx4 work 11 dlc_decoder 0 22 g5K^UP[FeHbhbRVZX4cfd3
 32
-R45
-!i122 4422
+R105
+!i122 4996
 l117
 L104 58
 V<92TQGDD_eU3JgKkh_Vc60
 !s100 NGn6Em=:fJ?:=@A49lZoS0
 R7
 !i10b 1
-R46
+R106
 R140
 R141
 !i113 0
@@ -1502,8 +1502,8 @@ Pdrv_stat_pkg
 R2
 R3
 32
-R51
-!i122 4452
+R83
+!i122 5026
 R0
 R4
 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/drv_stat_pkg.vhd
@@ -1514,7 +1514,7 @@ V1E8GW0lKTW<9GLmWCGojI0
 !s100 6JaFEAHHObT_ekGN4D=7h1
 R7
 !i10b 1
-R52
+R50
 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/drv_stat_pkg.vhd|
 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/drv_stat_pkg.vhd|
 !i113 0
@@ -1534,7 +1534,7 @@ R96
 R1
 R2
 R3
-!i122 4423
+!i122 4997
 R4
 Z142 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/endian_swapper.vhd
 Z143 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/endian_swapper.vhd
@@ -1544,9 +1544,9 @@ Vokj32FlEh=c_Nnf^94nmK2
 !s100 >QKhLj5L1;?:_3O^KUdGz0
 R7
 32
-R45
+R105
 !i10b 1
-R46
+R106
 Z144 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/endian_swapper.vhd|
 Z145 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/endian_swapper.vhd|
 !i113 0
@@ -1567,15 +1567,15 @@ R2
 R3
 DEx4 work 14 endian_swapper 0 22 okj32FlEh=c_Nnf^94nmK2
 32
-R45
-!i122 4423
+R105
+!i122 4997
 l122
 L117 43
 VO2RK1jo<U5fkH_YmXO_NX3
 !s100 TVI8[:zaBOanaWPmVLf_f3
 R7
 !i10b 1
-R46
+R106
 R144
 R145
 !i113 0
@@ -1594,12 +1594,12 @@ R26
 R1
 R2
 R3
-!i122 4406
+!i122 4980
 R4
 Z146 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/err_counters.vhd
 Z147 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/err_counters.vhd
 l0
-R57
+R55
 VcnLi0z;Ma^cOn1eHkf1ah1
 !s100 B<MkXDTajYi[L4L835`QP1
 R7
@@ -1613,7 +1613,7 @@ Z149 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/err_counters.v
 R12
 R13
 Artl
-R79
+R78
 R34
 R19
 R20
@@ -1629,7 +1629,7 @@ R3
 DEx4 work 12 err_counters 0 22 cnLi0z;Ma^cOn1eHkf1ah1
 32
 R29
-!i122 4406
+!i122 4980
 l213
 L167 270
 V1z@bRhW`ZOA41G8@gP_mA3
@@ -1655,21 +1655,21 @@ R26
 R1
 R2
 R3
-!i122 4407
+!i122 4981
 R4
 Z150 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/err_detector.vhd
 Z151 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/err_detector.vhd
 l0
-R76
+R75
 Vg98ccjADE>@Ab8`EeXN@B0
 !s100 ?h9SVelIjNPimN@19SBgZ3
 R7
 32
-R29
+Z152 !s110 1657518590
 !i10b 1
 R30
-Z152 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/err_detector.vhd|
-Z153 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/err_detector.vhd|
+Z153 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/err_detector.vhd|
+Z154 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/err_detector.vhd|
 !i113 0
 R12
 R13
@@ -1687,8 +1687,8 @@ R2
 R3
 DEx4 work 12 err_detector 0 22 g98ccjADE>@Ab8`EeXN@B0
 32
-R29
-!i122 4407
+R152
+!i122 4981
 l252
 L216 222
 V;ZH?SW]@_=;gAYe_KMR2l1
@@ -1696,8 +1696,8 @@ V;ZH?SW]@_=;gAYe_KMR2l1
 R7
 !i10b 1
 R30
-R152
 R153
+R154
 !i113 0
 R12
 R13
@@ -1714,21 +1714,21 @@ R26
 R1
 R2
 R3
-!i122 4408
+!i122 4982
 R4
-Z154 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement.vhd
-Z155 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement.vhd
+Z155 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement.vhd
+Z156 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement.vhd
 l0
-Z156 L94 1
+Z157 L94 1
 VYY<6n?SjVQASNZUUKOW1M1
 !s100 [GKE`G=UO:o7@z>eiD7BB0
 R7
 32
-R105
+R152
 !i10b 1
-R30
-Z157 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement.vhd|
-Z158 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement.vhd|
+Z158 !s108 1657518590.000000
+Z159 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement.vhd|
+Z160 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement.vhd|
 !i113 0
 R12
 R13
@@ -1749,17 +1749,17 @@ R2
 R3
 DEx4 work 17 fault_confinement 0 22 YY<6n?SjVQASNZUUKOW1M1
 32
-R105
-!i122 4408
+R152
+!i122 4982
 l223
 L200 115
 Va?PJ5KP[:aE=GYHh<TLbl1
 !s100 jR]3=[R4g;EYlU@7^O`BZ1
 R7
 !i10b 1
-R30
-R157
 R158
+R159
+R160
 !i113 0
 R12
 R13
@@ -1776,21 +1776,21 @@ R26
 R1
 R2
 R3
-!i122 4409
+!i122 4983
 R4
-Z159 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_fsm.vhd
-Z160 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_fsm.vhd
+Z161 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_fsm.vhd
+Z162 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_fsm.vhd
 l0
-R62
+R60
 VK_<gl[?:nVRXzTD6U>LJS0
 !s100 OhJN7R>WhK7baQzG0aJGF2
 R7
 32
-R105
+R152
 !i10b 1
-R106
-Z161 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_fsm.vhd|
-Z162 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_fsm.vhd|
+R158
+Z163 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_fsm.vhd|
+Z164 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_fsm.vhd|
 !i113 0
 R12
 R13
@@ -1809,17 +1809,17 @@ R2
 R3
 DEx4 work 21 fault_confinement_fsm 0 22 K_<gl[?:nVRXzTD6U>LJS0
 32
-R105
-!i122 4409
+R152
+!i122 4983
 l178
 L154 154
 V76ciIS<3EaZmiX29FN4BK1
 !s100 dYWDFcKa83^QVd0Ol;Ack3
 R7
 !i10b 1
-R106
-R161
-R162
+R158
+R163
+R164
 !i113 0
 R12
 R13
@@ -1836,21 +1836,21 @@ R26
 R1
 R2
 R3
-!i122 4410
+!i122 4984
 R4
-Z163 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_rules.vhd
-Z164 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_rules.vhd
+Z165 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_rules.vhd
+Z166 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_rules.vhd
 l0
-R156
+R157
 V=5nNI=]FK:SC=4]KzjV_d2
 !s100 4Ni>namBSmQnVO<zRWUZ_2
 R7
 32
-R105
+R152
 !i10b 1
-R106
-Z165 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_rules.vhd|
-Z166 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_rules.vhd|
+R158
+Z167 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_rules.vhd|
+Z168 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/fault_confinement_rules.vhd|
 !i113 0
 R12
 R13
@@ -1868,17 +1868,17 @@ R2
 R3
 DEx4 work 23 fault_confinement_rules 0 22 =5nNI=]FK:SC=4]KzjV_d2
 32
-R105
-!i122 4410
+R152
+!i122 4984
 l157
 L152 54
 ViJ?foSenT^YKIHLYMZK750
 !s100 efPL9MS>X9AIHAVcEGNn:3
 R7
 !i10b 1
-R106
-R165
-R166
+R158
+R167
+R168
 !i113 0
 R12
 R13
@@ -1895,21 +1895,21 @@ R26
 R1
 R2
 R3
-!i122 4433
+!i122 5007
 R4
-Z167 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/frame_filters.vhd
-Z168 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/frame_filters.vhd
+Z169 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/frame_filters.vhd
+Z170 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/frame_filters.vhd
 l0
-Z169 L101 1
+Z171 L101 1
 VfFLT9nmncMUTDb>nnb0KU2
 !s100 GjZ=92@;`DZz@?GmL^2Uf0
 R7
 32
 R8
 !i10b 1
-R46
-Z170 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/frame_filters.vhd|
-Z171 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/frame_filters.vhd|
+R9
+Z172 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/frame_filters.vhd|
+Z173 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/frame_filters.vhd|
 !i113 0
 R12
 R13
@@ -1930,16 +1930,16 @@ R3
 DEx4 work 13 frame_filters 0 22 fFLT9nmncMUTDb>nnb0KU2
 32
 R8
-!i122 4433
+!i122 5007
 l259
 L178 274
 V`3C7Enagf7?;TWCCo[RYH2
 !s100 @F2F2PRd@<KboE7fhdjKP2
 R7
 !i10b 1
-R46
-R170
-R171
+R9
+R172
+R173
 !i113 0
 R12
 R13
@@ -1948,11 +1948,11 @@ R25
 R1
 R2
 R3
-!i122 4453
+!i122 5027
 R0
 R4
-Z172 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/id_transfer_pkg.vhd
-Z173 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/id_transfer_pkg.vhd
+Z174 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/id_transfer_pkg.vhd
+Z175 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/id_transfer_pkg.vhd
 l0
 R102
 V5PY]j=>=jeCFjjKb276UP1
@@ -1960,11 +1960,11 @@ V5PY]j=>=jeCFjjKb276UP1
 R7
 32
 b1
-R51
+R83
 !i10b 1
-R52
-Z174 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/id_transfer_pkg.vhd|
-Z175 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/id_transfer_pkg.vhd|
+R50
+Z176 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/id_transfer_pkg.vhd|
+Z177 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/id_transfer_pkg.vhd|
 !i113 0
 R12
 R13
@@ -1975,17 +1975,17 @@ R1
 R2
 R3
 32
-R51
-!i122 4453
+R83
+!i122 5027
 l0
-R156
+R157
 VEcBF;dOFb0F]d12HCdWJh2
 !s100 TIMoF<X=gUzWaz[nZ:mbj3
 R7
 !i10b 1
-R52
-R174
-R175
+R50
+R176
+R177
 !i113 0
 R12
 R13
@@ -1994,21 +1994,21 @@ R0
 R1
 R2
 R3
-!i122 4424
+!i122 4998
 R4
-Z176 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/inf_ram_wrapper.vhd
-Z177 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/inf_ram_wrapper.vhd
+Z178 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/inf_ram_wrapper.vhd
+Z179 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/inf_ram_wrapper.vhd
 l0
-Z178 L85 1
+Z180 L85 1
 VQX[o4RRQMHaYakId3>MYz2
 !s100 flF:1ZhBY[Xcf1eiTPM@d3
 R7
 32
-R45
+R105
 !i10b 1
-R46
-Z179 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/inf_ram_wrapper.vhd|
-Z180 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/inf_ram_wrapper.vhd|
+R106
+Z181 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/inf_ram_wrapper.vhd|
+Z182 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/inf_ram_wrapper.vhd|
 !i113 0
 R12
 R13
@@ -2018,17 +2018,17 @@ R2
 R3
 DEx4 work 15 inf_ram_wrapper 0 22 QX[o4RRQMHaYakId3>MYz2
 32
-R45
-!i122 4424
+R105
+!i122 4998
 l147
 L134 71
 Vdm^5C`[^Lch_[oB8cd6@[3
 !s100 DH5N`7H=YQOKIR`gc@>6I1
 R7
 !i10b 1
-R46
-R179
-R180
+R106
+R181
+R182
 !i113 0
 R12
 R13
@@ -2045,12 +2045,12 @@ R26
 R1
 R2
 R3
-!i122 4435
+!i122 5009
 R4
-Z181 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_manager.vhd
-Z182 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_manager.vhd
+Z183 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_manager.vhd
+Z184 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_manager.vhd
 l0
-R76
+R75
 V>8U5g=I1bfHFBcWN>oOLg2
 !s100 m;iV`6Jlm?hZEV<Y5<HK20
 R7
@@ -2058,8 +2058,8 @@ R7
 R8
 !i10b 1
 R9
-Z183 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_manager.vhd|
-Z184 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_manager.vhd|
+Z185 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_manager.vhd|
+Z186 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_manager.vhd|
 !i113 0
 R12
 R13
@@ -2080,7 +2080,7 @@ R3
 DEx4 work 11 int_manager 0 22 >8U5g=I1bfHFBcWN>oOLg2
 32
 R8
-!i122 4435
+!i122 5009
 l211
 L173 215
 V@R2iYCEJkQYal5?lW_b3=3
@@ -2088,8 +2088,8 @@ V@R2iYCEJkQYal5?lW_b3=3
 R7
 !i10b 1
 R9
-R183
-R184
+R185
+R186
 !i113 0
 R12
 R13
@@ -2106,10 +2106,10 @@ R26
 R1
 R2
 R3
-!i122 4436
+!i122 5010
 R4
-Z185 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_module.vhd
-Z186 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_module.vhd
+Z187 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_module.vhd
+Z188 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_module.vhd
 l0
 R99
 VJ<PDgWZi[Uo=;F:B>>TNn3
@@ -2119,8 +2119,8 @@ R7
 R8
 !i10b 1
 R9
-Z187 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_module.vhd|
-Z188 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_module.vhd|
+Z189 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_module.vhd|
+Z190 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/interrupt_manager/int_module.vhd|
 !i113 0
 R12
 R13
@@ -2139,7 +2139,7 @@ R3
 DEx4 work 10 int_module 0 22 J<PDgWZi[Uo=;F:B>>TNn3
 32
 R8
-!i122 4436
+!i122 5010
 l159
 L149 86
 Vg<j4Y5B_QH0==7WY1lU<41
@@ -2147,8 +2147,8 @@ Vg<j4Y5B_QH0==7WY1lU<41
 R7
 !i10b 1
 R9
-R187
-R188
+R189
+R190
 !i113 0
 R12
 R13
@@ -2156,21 +2156,21 @@ Emajority_decoder_3
 R0
 R2
 R3
-!i122 4425
+!i122 4999
 R4
-Z189 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/majority_decoder_3.vhd
-Z190 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/majority_decoder_3.vhd
+Z191 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/majority_decoder_3.vhd
+Z192 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/majority_decoder_3.vhd
 l0
 R94
 Vk?:D`=?To^>@k1h6S9PK`2
 !s100 >S7^odoA:nc8^U81k6^JT1
 R7
 32
-R45
+R105
 !i10b 1
-R46
-Z191 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/majority_decoder_3.vhd|
-Z192 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/majority_decoder_3.vhd|
+R106
+Z193 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/majority_decoder_3.vhd|
+Z194 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/majority_decoder_3.vhd|
 !i113 0
 R12
 R13
@@ -2178,18 +2178,18 @@ Artl
 R2
 R3
 DEx4 work 18 majority_decoder_3 0 22 k?:D`=?To^>@k1h6S9PK`2
-!i122 4425
+!i122 4999
 l88
 L87 15
 Vb=X0d8SJzV8gOHVMS[`ni2
 !s100 8Mic2N7`;=c0K6^?<igOF1
 R7
 32
-R45
+R105
 !i10b 1
-R46
-R191
-R192
+R106
+R193
+R194
 !i113 0
 R12
 R13
@@ -2198,7 +2198,7 @@ R0
 R1
 R2
 R3
-!i122 4444
+!i122 5018
 R4
 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_bus.vhd
 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_bus.vhd
@@ -2208,9 +2208,9 @@ VElP_G8PneZzV=H0?D`2[Z0
 !s100 7>;IUV6_5Y2R1aYbY_D1T0
 R7
 32
-R8
+R83
 !i10b 1
-R9
+R50
 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_bus.vhd|
 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_bus.vhd|
 !i113 0
@@ -2221,21 +2221,21 @@ R0
 R1
 R2
 R3
-!i122 4445
+!i122 5019
 R4
-Z193 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_reg.vhd
-Z194 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_reg.vhd
+Z195 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_reg.vhd
+Z196 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_reg.vhd
 l0
 R16
 VkOBFoT576GJa_H7;7];mH3
 !s100 MXz02ezUQd3FCm:23XbWO2
 R7
 32
-R8
+R83
 !i10b 1
-R9
-Z195 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_reg.vhd|
-Z196 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_reg.vhd|
+R50
+Z197 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_reg.vhd|
+Z198 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/memory_reg.vhd|
 !i113 0
 R12
 R13
@@ -2245,17 +2245,17 @@ R2
 R3
 DEx4 work 10 memory_reg 0 22 kOBFoT576GJa_H7;7];mH3
 32
-R8
-!i122 4445
+R83
+!i122 5019
 l122
 L95 126
 VIQ;SoHbY[0;F84NFX^^F73
 !s100 A=Tm44DhV<U0K8en;2iOO0
 R7
 !i10b 1
-R9
-R195
-R196
+R50
+R197
+R198
 !i113 0
 R12
 R13
@@ -2273,12 +2273,12 @@ R26
 R1
 R2
 R3
-!i122 4437
+!i122 5011
 R4
-Z197 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/memory_registers.vhd
-Z198 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/memory_registers.vhd
+Z199 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/memory_registers.vhd
+Z200 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/memory_registers.vhd
 l0
-R76
+R75
 VBXY;^_BhCkENLX<W:DbbM1
 !s100 O4VWNFZKbLLgDNQgUS1GB1
 R7
@@ -2286,8 +2286,8 @@ R7
 R8
 !i10b 1
 R9
-Z199 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/memory_registers.vhd|
-Z200 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/memory_registers.vhd|
+Z201 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/memory_registers.vhd|
+Z202 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/memory_registers.vhd|
 !i113 0
 R12
 R13
@@ -2295,7 +2295,7 @@ Artl
 DEx14 ctu_can_fd_rtl 22 test_registers_reg_map 0 22 R1SmI@?GOBOid8hTcZTXI1
 R113
 DEx14 ctu_can_fd_rtl 25 control_registers_reg_map 0 22 Wb9KoY=BPk>>k5D]<:8z63
-Z201 DEx14 ctu_can_fd_rtl 8 clk_gate 0 22 nDghCDJP0`1?zK7M[iA_H0
+Z203 DEx14 ctu_can_fd_rtl 8 clk_gate 0 22 nDghCDJP0`1?zK7M[iA_H0
 R95
 R19
 R20
@@ -2311,7 +2311,7 @@ R3
 DEx4 work 16 memory_registers 0 22 BXY;^_BhCkENLX<W:DbbM1
 32
 R8
-!i122 4437
+!i122 5011
 l396
 L290 1462
 Vc48kO4cAP3P?c26JK[az63
@@ -2319,8 +2319,8 @@ Vc48kO4cAP3P?c26JK[az63
 R7
 !i10b 1
 R9
-R199
-R200
+R201
+R202
 !i113 0
 R12
 R13
@@ -2328,21 +2328,21 @@ Emux2
 R0
 R2
 R3
-!i122 4426
+!i122 5000
 R4
-Z202 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/mux2.vhd
-Z203 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/mux2.vhd
+Z204 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/mux2.vhd
+Z205 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/mux2.vhd
 l0
 L89 1
 V4nDY6d2QX24<`;=J7mQ4>2
 !s100 meoC7;[A8fLTZi1Nf18:I3
 R7
 32
-R45
+R105
 !i10b 1
-R46
-Z204 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/mux2.vhd|
-Z205 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/mux2.vhd|
+R106
+Z206 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/mux2.vhd|
+Z207 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/mux2.vhd|
 !i113 0
 R12
 R13
@@ -2351,17 +2351,17 @@ R2
 R3
 DEx4 work 4 mux2 0 22 4nDY6d2QX24<`;=J7mQ4>2
 32
-R45
-!i122 4426
+R105
+!i122 5000
 l104
 L103 8
 V2iAPgPO313g^mIlkN65>;2
 !s100 MQFNGEo0:]JVL9c>UD1XJ2
 R7
 !i10b 1
-R46
-R204
-R205
+R106
+R206
+R207
 !i113 0
 R12
 R13
@@ -2378,21 +2378,21 @@ R26
 R1
 R2
 R3
-!i122 4411
+!i122 4985
 R4
-Z206 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/operation_control.vhd
-Z207 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/operation_control.vhd
+Z208 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/operation_control.vhd
+Z209 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/operation_control.vhd
 l0
-Z208 L93 1
+Z210 L93 1
 VigbUB`MQ1RiTS^5e5G?4^0
 !s100 XO]H<gU7njHnkfAo2NaEj3
 R7
 32
-R105
+R152
 !i10b 1
-R106
-Z209 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/operation_control.vhd|
-Z210 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/operation_control.vhd|
+R158
+Z211 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/operation_control.vhd|
+Z212 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/operation_control.vhd|
 !i113 0
 R12
 R13
@@ -2410,17 +2410,17 @@ R2
 R3
 DEx4 work 17 operation_control 0 22 igbUB`MQ1RiTS^5e5G?4^0
 32
-R105
-!i122 4411
+R152
+!i122 4985
 l154
 L142 129
 Vab:lV6LCPi?0>dB;K^oi_2
 !s100 TN8CW45SzENmPdL1R;T`V0
 R7
 !i10b 1
-R106
-R209
-R210
+R158
+R211
+R212
 !i113 0
 R12
 R13
@@ -2437,21 +2437,21 @@ R26
 R1
 R2
 R3
-!i122 4459
+!i122 5033
 R4
-Z211 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/prescaler.vhd
-Z212 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/prescaler.vhd
+Z213 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/prescaler.vhd
+Z214 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/prescaler.vhd
 l0
-R57
+R55
 V]JhEhVQ;de156`5LAH<1b0
 !s100 EIfMEXIK64Bf=GKOleQA_3
 R7
 32
-R51
+R49
 !i10b 1
-R52
-Z213 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/prescaler.vhd|
-Z214 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/prescaler.vhd|
+R61
+Z215 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/prescaler.vhd|
+Z216 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/prescaler.vhd|
 !i113 0
 R12
 R13
@@ -2476,17 +2476,17 @@ R2
 R3
 DEx4 work 9 prescaler 0 22 ]JhEhVQ;de156`5LAH<1b0
 32
-R51
-!i122 4459
+R49
+!i122 5033
 l274
 L188 384
 V]hg1ZoV>JDd4d5nJUQAOm1
 !s100 6lFfE7T;@:kT`Ga8O40]U2
 R7
 !i10b 1
-R52
-R213
-R214
+R61
+R215
+R216
 !i113 0
 R12
 R13
@@ -2504,21 +2504,21 @@ R96
 R1
 R2
 R3
-!i122 4467
+!i122 5041
 R4
-Z215 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/priority_decoder.vhd
-Z216 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/priority_decoder.vhd
+Z217 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/priority_decoder.vhd
+Z218 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/priority_decoder.vhd
 l0
-R62
+R60
 VgnTcY2cVEFGBM6UB02HQW2
 !s100 mWWi]hc5okmmP12gjMW]S0
 R7
 32
-Z217 !s110 1657492707
+Z219 !s110 1657518595
 !i10b 1
-Z218 !s108 1657492707.000000
-Z219 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/priority_decoder.vhd|
-Z220 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/priority_decoder.vhd|
+R61
+Z220 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/priority_decoder.vhd|
+Z221 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/priority_decoder.vhd|
 !i113 0
 R12
 R13
@@ -2537,17 +2537,17 @@ R2
 R3
 DEx4 work 16 priority_decoder 0 22 gnTcY2cVEFGBM6UB02HQW2
 32
-R217
-!i122 4467
+R219
+!i122 5041
 l168
 L124 232
 Vi:J^XLz7Adib8Jla8g?Ko2
 !s100 J2l?:c=UCz8UY<M002<7Z2
 R7
 !i10b 1
-R218
-R219
+R61
 R220
+R221
 !i113 0
 R12
 R13
@@ -2564,21 +2564,21 @@ R26
 R1
 R2
 R3
-!i122 4412
+!i122 4986
 R4
-Z221 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control.vhd
-Z222 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control.vhd
+Z222 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control.vhd
+Z223 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control.vhd
 l0
-R67
+R66
 V7?KXlUYY98:<=LETDR7R_3
 !s100 D`O3QADTCQla2kfJ:7o4I3
 R7
 32
-R105
+R152
 !i10b 1
-R106
-Z223 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control.vhd|
-Z224 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control.vhd|
+R158
+Z224 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control.vhd|
+Z225 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control.vhd|
 !i113 0
 R12
 R13
@@ -2605,17 +2605,17 @@ R2
 R3
 DEx4 work 16 protocol_control 0 22 7?KXlUYY98:<=LETDR7R_3
 32
-R105
-!i122 4412
+R152
+!i122 4986
 l655
 L457 660
 V:MS@ZU>kID;0=z@nUUlUF3
 !s100 N;_VSDYaBC14U:?CK_cd@3
 R7
 !i10b 1
-R106
-R223
+R158
 R224
+R225
 !i113 0
 R12
 R13
@@ -2632,21 +2632,21 @@ R26
 R1
 R2
 R3
-!i122 4413
+!i122 4987
 R4
-Z225 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control_fsm.vhd
-Z226 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control_fsm.vhd
+Z226 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control_fsm.vhd
+Z227 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control_fsm.vhd
 l0
 L110 1
 V@?Gn@]@Bk:l?`03?>R=>23
 !s100 6e<[zFk>[]XO_NPdCRPhB1
 R7
 32
-R105
+R152
 !i10b 1
-R106
-Z227 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control_fsm.vhd|
-Z228 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control_fsm.vhd|
+R158
+Z228 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control_fsm.vhd|
+Z229 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/protocol_control_fsm.vhd|
 !i113 0
 R12
 R13
@@ -2665,17 +2665,17 @@ R2
 R3
 DEx4 work 20 protocol_control_fsm 0 22 @?Gn@]@Bk:l?`03?>R=>23
 32
-R105
-!i122 4413
+R152
+!i122 4987
 l803
 L569 2906
 VW?Rk5`AUklT:JG;:2CCOj1
 !s100 `O7iKg;omY1ZGM[G:KGMP0
 R7
 !i10b 1
-R106
-R227
+R158
 R228
+R229
 !i113 0
 R12
 R13
@@ -2692,12 +2692,12 @@ R26
 R1
 R2
 R3
-!i122 4434
+!i122 5008
 R4
-Z229 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/range_filter.vhd
-Z230 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/range_filter.vhd
+Z230 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/range_filter.vhd
+Z231 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/range_filter.vhd
 l0
-R156
+R157
 V;N9hB;LK?eb@?=I=O2RU=0
 !s100 iAn1TQWVHCfdjLf`ALiVA1
 R7
@@ -2705,8 +2705,8 @@ R7
 R8
 !i10b 1
 R9
-Z231 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/range_filter.vhd|
-Z232 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/range_filter.vhd|
+Z232 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/range_filter.vhd|
+Z233 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/frame_filters/range_filter.vhd|
 !i113 0
 R12
 R13
@@ -2725,7 +2725,7 @@ R3
 DEx4 work 12 range_filter 0 22 ;N9hB;LK?eb@?=I=O2RU=0
 32
 R8
-!i122 4434
+!i122 5008
 l129
 L120 31
 VG>l_JL6XQffhiJ^bGN>lZ1
@@ -2733,8 +2733,8 @@ VG>l_JL6XQffhiJ^bGN>lZ1
 R7
 !i10b 1
 R9
-R231
 R232
+R233
 !i113 0
 R12
 R13
@@ -2751,21 +2751,21 @@ R26
 R1
 R2
 R3
-!i122 4414
+!i122 4988
 R4
-Z233 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/reintegration_counter.vhd
-Z234 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/reintegration_counter.vhd
+Z234 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/reintegration_counter.vhd
+Z235 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/reintegration_counter.vhd
 l0
-R208
+R210
 VPDFDQ`3nAiG<Z4:C<cDcc2
 !s100 6i50;;n;FL4cghNDzb8UK3
 R7
 32
-R105
+R152
 !i10b 1
-R106
-Z235 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/reintegration_counter.vhd|
-Z236 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/reintegration_counter.vhd|
+R158
+Z236 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/reintegration_counter.vhd|
+Z237 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/reintegration_counter.vhd|
 !i113 0
 R12
 R13
@@ -2783,17 +2783,17 @@ R2
 R3
 DEx4 work 21 reintegration_counter 0 22 PDFDQ`3nAiG<Z4:C<cDcc2
 32
-R105
-!i122 4414
+R152
+!i122 4988
 l133
 L124 47
 VL_bShDN:eQW>;]VkR8fnV3
 !s100 cf]Sh>HG2La3D68^1o[]61
 R7
 !i10b 1
-R106
-R235
+R158
 R236
+R237
 !i113 0
 R12
 R13
@@ -2810,21 +2810,21 @@ R26
 R1
 R2
 R3
-!i122 4415
+!i122 4989
 R4
-Z237 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/retransmitt_counter.vhd
-Z238 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/retransmitt_counter.vhd
+Z238 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/retransmitt_counter.vhd
+Z239 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/retransmitt_counter.vhd
 l0
 R37
 Vh6mmhEY<;kQoiY9S1cfMb3
 !s100 NCCj4O7SA>5CM3bA^;:CZ1
 R7
 32
-R105
+R152
 !i10b 1
-R106
-Z239 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/retransmitt_counter.vhd|
-Z240 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/retransmitt_counter.vhd|
+R158
+Z240 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/retransmitt_counter.vhd|
+Z241 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/retransmitt_counter.vhd|
 !i113 0
 R12
 R13
@@ -2842,17 +2842,17 @@ R2
 R3
 DEx4 work 19 retransmitt_counter 0 22 h6mmhEY<;kQoiY9S1cfMb3
 32
-R105
-!i122 4415
+R152
+!i122 4989
 l145
 L136 62
 VW<C8XOUE]NW]HPg@A5bDH3
 !s100 8niUX462So8c>eHTGaloR3
 R7
 !i10b 1
-R106
-R239
+R158
 R240
+R241
 !i113 0
 R12
 R13
@@ -2860,21 +2860,21 @@ Erst_sync
 R0
 R2
 R3
-!i122 4427
+!i122 5001
 R4
-Z241 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/rst_sync.vhd
-Z242 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/rst_sync.vhd
+Z242 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/rst_sync.vhd
+Z243 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/rst_sync.vhd
 l0
 R94
 Ve4:eTE1OR?fScD[7bK9O80
 !s100 GB4@mbCA2MNgaZd75Qmaa3
 R7
 32
-R45
+R105
 !i10b 1
-R46
-Z243 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/rst_sync.vhd|
-Z244 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/rst_sync.vhd|
+R106
+Z244 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/rst_sync.vhd|
+Z245 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/rst_sync.vhd|
 !i113 0
 R12
 R13
@@ -2883,17 +2883,17 @@ R2
 R3
 DEx4 work 8 rst_sync 0 22 e4:eTE1OR?fScD[7bK9O80
 32
-R45
-!i122 4427
+R105
+!i122 5001
 l99
 L94 20
 VbnTScK^Q<jhNZV7fN<ci<1
 !s100 aA^g?2CYFEEhD<Z^eeBn>2
 R7
 !i10b 1
-R46
-R243
+R106
 R244
+R245
 !i113 0
 R12
 R13
@@ -2912,30 +2912,30 @@ R96
 R1
 R2
 R3
-!i122 4463
+!i122 5037
 R4
-Z245 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer.vhd
-Z246 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer.vhd
+Z246 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer.vhd
+Z247 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer.vhd
 l0
 L99 1
 VkPWHF;?QVdD:<b<VGnEn53
 !s100 8X7Za]gQlVfNoC5629fZk3
 R7
 32
-R217
+R49
 !i10b 1
-R218
-Z247 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer.vhd|
-Z248 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer.vhd|
+R61
+Z248 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer.vhd|
+Z249 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer.vhd|
 !i113 0
 R12
 R13
 Artl
 DEx14 ctu_can_fd_rtl 13 rx_buffer_ram 0 22 99^TNo_l:QP=Sli2n8Q;c2
-R201
+R203
 DEx14 ctu_can_fd_rtl 18 rx_buffer_pointers 0 22 f>O`OTEL^L?[ZiPcK?0RH0
 DEx14 ctu_can_fd_rtl 13 rx_buffer_fsm 0 22 4LU^fgHYOhXWZM;;:M`g<1
-R79
+R78
 R34
 R95
 R19
@@ -2952,17 +2952,17 @@ R2
 R3
 DEx4 work 9 rx_buffer 0 22 kPWHF;?QVdD:<b<VGnEn53
 32
-R217
-!i122 4463
+R49
+!i122 5037
 l416
 L224 871
 ViC;VZNR>^YF<KlcLMIEOO2
 !s100 RFDQ3]PdU4ckgXf[nheS80
 R7
 !i10b 1
-R218
-R247
+R61
 R248
+R249
 !i113 0
 R12
 R13
@@ -2980,21 +2980,21 @@ R96
 R1
 R2
 R3
-!i122 4464
+!i122 5038
 R4
-Z249 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_fsm.vhd
-Z250 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_fsm.vhd
+Z250 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_fsm.vhd
+Z251 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_fsm.vhd
 l0
-R156
+R157
 V4LU^fgHYOhXWZM;;:M`g<1
 !s100 KAkN6`=o]2NR7eUYn=:aW0
 R7
 32
-R217
+R49
 !i10b 1
-R218
-Z251 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_fsm.vhd|
-Z252 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_fsm.vhd|
+R61
+Z252 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_fsm.vhd|
+Z253 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_fsm.vhd|
 !i113 0
 R12
 R13
@@ -3013,17 +3013,17 @@ R2
 R3
 DEx4 work 13 rx_buffer_fsm 0 22 4LU^fgHYOhXWZM;;:M`g<1
 32
-R217
-!i122 4464
+R49
+!i122 5038
 l161
 L147 208
 V3i>HJVFzh]D84;zH7hEg30
 !s100 Wa?IF`COBhmZd3;BmUBEP2
 R7
 !i10b 1
-R218
-R251
+R61
 R252
+R253
 !i113 0
 R12
 R13
@@ -3041,21 +3041,21 @@ R96
 R1
 R2
 R3
-!i122 4465
+!i122 5039
 R4
-Z253 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_pointers.vhd
-Z254 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_pointers.vhd
+Z254 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_pointers.vhd
+Z255 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_pointers.vhd
 l0
-R169
+R171
 Vf>O`OTEL^L?[ZiPcK?0RH0
 !s100 272GKbIHd1@2U;3Z?AQDf1
 R7
 32
-R217
+R49
 !i10b 1
-R218
-Z255 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_pointers.vhd|
-Z256 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_pointers.vhd|
+R61
+Z256 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_pointers.vhd|
+Z257 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_pointers.vhd|
 !i113 0
 R12
 R13
@@ -3074,17 +3074,17 @@ R2
 R3
 DEx4 work 18 rx_buffer_pointers 0 22 f>O`OTEL^L?[ZiPcK?0RH0
 32
-R217
-!i122 4465
+R49
+!i122 5039
 l227
 L169 263
 V7ShTU88Bh__8kogQfK>?V2
 !s100 DQNLIVlej^`2`4=Q:_>j>0
 R7
 !i10b 1
-R218
-R255
+R61
 R256
+R257
 !i113 0
 R12
 R13
@@ -3103,26 +3103,26 @@ R96
 R1
 R2
 R3
-!i122 4466
+!i122 5040
 R4
-Z257 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_ram.vhd
-Z258 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_ram.vhd
+Z258 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_ram.vhd
+Z259 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_ram.vhd
 l0
 L105 1
 V99^TNo_l:QP=Sli2n8Q;c2
 !s100 iT`Z:JdYbmigiheKjfSHg2
 R7
 32
-R217
+R49
 !i10b 1
-R218
-Z259 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_ram.vhd|
-Z260 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_ram.vhd|
+R61
+Z260 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_ram.vhd|
+Z261 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/rx_buffer/rx_buffer_ram.vhd|
 !i113 0
 R12
 R13
 Artl
-Z261 DEx14 ctu_can_fd_rtl 15 inf_ram_wrapper 0 22 QX[o4RRQMHaYakId3>MYz2
+Z262 DEx14 ctu_can_fd_rtl 15 inf_ram_wrapper 0 22 QX[o4RRQMHaYakId3>MYz2
 R95
 R19
 R20
@@ -3138,17 +3138,17 @@ R2
 R3
 DEx4 work 13 rx_buffer_ram 0 22 99^TNo_l:QP=Sli2n8Q;c2
 32
-R217
-!i122 4466
+R49
+!i122 5040
 l159
 L149 90
 VR7[A7aP600]FI`I4N[RE82
 !s100 z<nV4SONfBX:m@70TCSGe0
 R7
 !i10b 1
-R218
-R259
+R61
 R260
+R261
 !i113 0
 R12
 R13
@@ -3165,27 +3165,27 @@ R26
 R1
 R2
 R3
-!i122 4416
+!i122 4990
 R4
-Z262 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/rx_shift_reg.vhd
-Z263 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/rx_shift_reg.vhd
+Z263 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/rx_shift_reg.vhd
+Z264 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/rx_shift_reg.vhd
 l0
-R67
+R66
 VTf81l1oF;NAlkgHg?IgX:2
 !s100 `FCoEzTkmOUQ?L1lWDeo:0
 R7
 32
-R105
+R152
 !i10b 1
-R106
-Z264 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/rx_shift_reg.vhd|
-Z265 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/rx_shift_reg.vhd|
+R158
+Z265 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/rx_shift_reg.vhd|
+Z266 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/rx_shift_reg.vhd|
 !i113 0
 R12
 R13
 Artl
 DEx14 ctu_can_fd_rtl 14 shift_reg_byte 0 22 V^D_VHcm8]Cm?LHi;7X^K0
-R79
+R78
 R34
 R19
 R20
@@ -3200,17 +3200,17 @@ R2
 R3
 DEx4 work 12 rx_shift_reg 0 22 Tf81l1oF;NAlkgHg?IgX:2
 32
-R105
-!i122 4416
+R152
+!i122 4990
 l227
 L208 310
 VHA[YzF5]aBSF>VI@2meH82
 !s100 ?1URo9EH7m@QllIDjCJ`=2
 R7
 !i10b 1
-R106
-R264
+R158
 R265
+R266
 !i113 0
 R12
 R13
@@ -3227,12 +3227,12 @@ R26
 R1
 R2
 R3
-!i122 4395
+!i122 4969
 R4
-Z266 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/sample_mux.vhd
-Z267 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/sample_mux.vhd
+Z267 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/sample_mux.vhd
+Z268 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/sample_mux.vhd
 l0
-R208
+R210
 Va=`C?cTTJDOVL9=dN]BQa3
 !s100 gmhNYQGQKVLmYQFfanfO>2
 R7
@@ -3240,8 +3240,8 @@ R7
 R38
 !i10b 1
 R39
-Z268 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/sample_mux.vhd|
-Z269 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/sample_mux.vhd|
+Z269 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/sample_mux.vhd|
+Z270 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/sample_mux.vhd|
 !i113 0
 R12
 R13
@@ -3260,7 +3260,7 @@ R3
 DEx4 work 10 sample_mux 0 22 a=`C?cTTJDOVL9=dN]BQa3
 32
 R38
-!i122 4395
+!i122 4969
 l139
 L130 42
 V:T7_=`D5k:S8ZLfBFLgnn0
@@ -3268,8 +3268,8 @@ V:T7_=`D5k:S8ZLfBFLgnn0
 R7
 !i10b 1
 R39
-R268
 R269
+R270
 !i113 0
 R12
 R13
@@ -3286,21 +3286,21 @@ R26
 R1
 R2
 R3
-!i122 4460
+!i122 5034
 R4
-Z270 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/segment_end_detector.vhd
-Z271 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/segment_end_detector.vhd
+Z271 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/segment_end_detector.vhd
+Z272 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/segment_end_detector.vhd
 l0
-R62
+R60
 V:HGEELfjCI]0LcLLb2Ak_3
 !s100 UnbmYJ6fk6UFdiCCA]^UX0
 R7
 32
-R217
+R49
 !i10b 1
-R52
-Z272 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/segment_end_detector.vhd|
-Z273 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/segment_end_detector.vhd|
+R61
+Z273 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/segment_end_detector.vhd|
+Z274 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/segment_end_detector.vhd|
 !i113 0
 R12
 R13
@@ -3318,17 +3318,17 @@ R2
 R3
 DEx4 work 20 segment_end_detector 0 22 :HGEELfjCI]0LcLLb2Ak_3
 32
-R217
-!i122 4460
+R49
+!i122 5034
 l183
 L148 203
 V<g[eF;Qcd6PBzMA?8[lbJ3
 !s100 eFg3<6V7V<F>fO3C6UAh>0
 R7
 !i10b 1
-R52
-R272
+R61
 R273
+R274
 !i113 0
 R12
 R13
@@ -3336,21 +3336,21 @@ Eshift_reg
 R0
 R2
 R3
-!i122 4428
+!i122 5002
 R4
-Z274 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg.vhd
-Z275 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg.vhd
+Z275 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg.vhd
+Z276 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg.vhd
 l0
 R94
 Vo:QenmHebzFdI7jCS?boM1
 !s100 l^0Y?>5Y1Ug94ee<e4<^`1
 R7
 32
-R45
+R105
 !i10b 1
-R46
-Z276 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg.vhd|
-Z277 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg.vhd|
+R106
+Z277 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg.vhd|
+Z278 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg.vhd|
 !i113 0
 R12
 R13
@@ -3358,18 +3358,18 @@ Artl
 R2
 R3
 DEx4 work 9 shift_reg 0 22 o:QenmHebzFdI7jCS?boM1
-!i122 4428
+!i122 5002
 l126
 L119 51
 VAgYLcPLlkPQl<XEEGlhJ01
 !s100 =@M9Yg6zbedMhk:lbT`CL3
 R7
 32
-R45
+R105
 !i10b 1
-R46
-R276
+R106
 R277
+R278
 !i113 0
 R12
 R13
@@ -3377,21 +3377,21 @@ Eshift_reg_byte
 R0
 R2
 R3
-!i122 4429
+!i122 5003
 R4
-Z278 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_byte.vhd
-Z279 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_byte.vhd
+Z279 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_byte.vhd
+Z280 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_byte.vhd
 l0
-R178
+R180
 VV^D_VHcm8]Cm?LHi;7X^K0
 !s100 9ohPnMQc8=7DgVcT^><4T3
 R7
 32
-R45
+R105
 !i10b 1
-R46
-Z280 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_byte.vhd|
-Z281 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_byte.vhd|
+R106
+Z281 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_byte.vhd|
+Z282 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_byte.vhd|
 !i113 0
 R12
 R13
@@ -3400,17 +3400,17 @@ R2
 R3
 DEx4 work 14 shift_reg_byte 0 22 V^D_VHcm8]Cm?LHi;7X^K0
 32
-R45
-!i122 4429
+R105
+!i122 5003
 l135
 L127 45
 VIC:2fQm`CgK]mZ?4YRUWg3
 !s100 J4bjbAkP__^l^mTfni2SU0
 R7
 !i10b 1
-R46
-R280
+R106
 R281
+R282
 !i113 0
 R12
 R13
@@ -3418,21 +3418,21 @@ Eshift_reg_preload
 R0
 R2
 R3
-!i122 4430
+!i122 5004
 R4
-Z282 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_preload.vhd
-Z283 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_preload.vhd
+Z283 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_preload.vhd
+Z284 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_preload.vhd
 l0
 R94
 V2fKfXnIdmTK@hMSm[5;bC2
 !s100 <ZVE7I_XN=m;Gm15^kSol2
 R7
 32
-R45
+R105
 !i10b 1
-R46
-Z284 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_preload.vhd|
-Z285 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_preload.vhd|
+R106
+Z285 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_preload.vhd|
+Z286 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/shift_reg_preload.vhd|
 !i113 0
 R12
 R13
@@ -3441,17 +3441,17 @@ R2
 R3
 DEx4 work 17 shift_reg_preload 0 22 2fKfXnIdmTK@hMSm[5;bC2
 32
-R45
-!i122 4430
+R105
+!i122 5004
 l129
 L122 45
 VlbV]cge]InjKB8amR?];P2
 !s100 J]:k9SC@8R^zFEUiE3[S10
 R7
 !i10b 1
-R46
-R284
+R106
 R285
+R286
 !i113 0
 R12
 R13
@@ -3459,21 +3459,21 @@ Esig_sync
 R0
 R2
 R3
-!i122 4431
+!i122 5005
 R4
-Z286 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/sig_sync.vhd
-Z287 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/sig_sync.vhd
+Z287 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/sig_sync.vhd
+Z288 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/sig_sync.vhd
 l0
 R94
 VcHgkkgZGS`_^O5I^CT5fS0
 !s100 8jNCf:@GCY<a]:`gU]URL1
 R7
 32
-R45
+R8
 !i10b 1
-R46
-Z288 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/sig_sync.vhd|
-Z289 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/sig_sync.vhd|
+R106
+Z289 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/sig_sync.vhd|
+Z290 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/common_blocks/sig_sync.vhd|
 !i113 0
 R12
 R13
@@ -3482,17 +3482,17 @@ R2
 R3
 DEx4 work 8 sig_sync 0 22 cHgkkgZGS`_^O5I^CT5fS0
 32
-R45
-!i122 4431
+R8
+!i122 5005
 l105
 L100 20
 VgP]i?l;`Jf77:a>]O2cfD3
 !s100 djm6?odQ>UUDX^>:[zMS:1
 R7
 !i10b 1
-R46
-R288
+R106
 R289
+R290
 !i113 0
 R12
 R13
@@ -3509,12 +3509,12 @@ R26
 R1
 R2
 R3
-!i122 4396
+!i122 4970
 R4
-Z290 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/ssp_generator.vhd
-Z291 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/ssp_generator.vhd
+Z291 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/ssp_generator.vhd
+Z292 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/ssp_generator.vhd
 l0
-R156
+R157
 VcIGjhe71179UZ=1WR=1__1
 !s100 ]GFGYVWI3=26WRIe4l[;91
 R7
@@ -3522,8 +3522,8 @@ R7
 R29
 !i10b 1
 R39
-Z292 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/ssp_generator.vhd|
-Z293 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/ssp_generator.vhd|
+Z293 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/ssp_generator.vhd|
+Z294 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/ssp_generator.vhd|
 !i113 0
 R12
 R13
@@ -3542,7 +3542,7 @@ R3
 DEx4 work 13 ssp_generator 0 22 cIGjhe71179UZ=1WR=1__1
 32
 R29
-!i122 4396
+!i122 4970
 l172
 L138 197
 V?Z2jNjfn>>=SnoNf0WdNb0
@@ -3550,8 +3550,8 @@ V?Z2jNjfn>>=SnoNf0WdNb0
 R7
 !i10b 1
 R39
-R292
 R293
+R294
 !i113 0
 R12
 R13
@@ -3568,21 +3568,21 @@ R26
 R1
 R2
 R3
-!i122 4461
+!i122 5035
 R4
-Z294 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/synchronisation_checker.vhd
-Z295 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/synchronisation_checker.vhd
+Z295 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/synchronisation_checker.vhd
+Z296 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/synchronisation_checker.vhd
 l0
-R156
+R157
 VV6_6NN>A?_6BJCDD]lld41
 !s100 FF2NFBgC:FRbb9>7D1k_50
 R7
 32
-R217
+R49
 !i10b 1
-R218
-Z296 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/synchronisation_checker.vhd|
-Z297 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/synchronisation_checker.vhd|
+R61
+Z297 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/synchronisation_checker.vhd|
+Z298 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/synchronisation_checker.vhd|
 !i113 0
 R12
 R13
@@ -3600,17 +3600,17 @@ R2
 R3
 DEx4 work 23 synchronisation_checker 0 22 V6_6NN>A?_6BJCDD]lld41
 32
-R217
-!i122 4461
+R49
+!i122 5035
 l151
 L139 111
 VeEPFETl8K@9VYAoW[0gnC2
 !s100 MMoPdi>RG;cT8a8zC4RAJ3
 R7
 !i10b 1
-R218
-R296
+R61
 R297
+R298
 !i113 0
 R12
 R13
@@ -3621,21 +3621,21 @@ R113
 R95
 R2
 R3
-!i122 4446
+!i122 5020
 R4
-Z298 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/test_registers_reg_map.vhd
-Z299 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/test_registers_reg_map.vhd
+Z299 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/test_registers_reg_map.vhd
+Z300 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/test_registers_reg_map.vhd
 l0
 R84
 VR1SmI@?GOBOid8hTcZTXI1
 !s100 h3d@nLiz:PJVXRjSen:071
 R7
 32
-R8
+R83
 !i10b 1
-R9
-Z300 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/test_registers_reg_map.vhd|
-Z301 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/test_registers_reg_map.vhd|
+R50
+Z301 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/test_registers_reg_map.vhd|
+Z302 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/memory_registers/generated/test_registers_reg_map.vhd|
 !i113 0
 R12
 R13
@@ -3646,18 +3646,18 @@ R95
 R2
 R3
 DEx4 work 22 test_registers_reg_map 0 22 R1SmI@?GOBOid8hTcZTXI1
-!i122 4446
+!i122 5020
 l115
 L107 191
 V;4AOWzDaKMjTJdXmkLbc=1
 !s100 j8>4<FFjU7PD?WMUZTSg^0
 R7
 32
-R8
+R83
 !i10b 1
-R9
-R300
+R50
 R301
+R302
 !i113 0
 R12
 R13
@@ -3674,21 +3674,21 @@ R26
 R1
 R2
 R3
-!i122 4462
+!i122 5036
 R4
-Z302 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/trigger_generator.vhd
-Z303 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/trigger_generator.vhd
+Z303 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/trigger_generator.vhd
+Z304 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/trigger_generator.vhd
 l0
 L122 1
 V7385JG5ac`94UInZn;X_52
 !s100 igggVGLRH6@1[^Mm<<LcC0
 R7
 32
-R217
+R49
 !i10b 1
-R218
-Z304 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/trigger_generator.vhd|
-Z305 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/trigger_generator.vhd|
+R61
+Z305 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/trigger_generator.vhd|
+Z306 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/prescaler/trigger_generator.vhd|
 !i113 0
 R12
 R13
@@ -3706,17 +3706,17 @@ R2
 R3
 DEx4 work 17 trigger_generator 0 22 7385JG5ac`94UInZn;X_52
 32
-R217
-!i122 4462
+R49
+!i122 5036
 l170
 L157 87
 VCW]nG;QX[YYdio;T1knSg2
 !s100 CRoE?5T8__Af;[n:o4mJ02
 R7
 !i10b 1
-R218
-R304
+R61
 R305
+R306
 !i113 0
 R12
 R13
@@ -3733,21 +3733,21 @@ R26
 R1
 R2
 R3
-!i122 4417
+!i122 4991
 R4
-Z306 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/trigger_mux.vhd
-Z307 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/trigger_mux.vhd
+Z307 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/trigger_mux.vhd
+Z308 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/trigger_mux.vhd
 l0
 L108 1
 V<:@EML=hm0:K7aEXdg2gE1
 !s100 E18n26g0NIa<e8=idN8dT0
 R7
 32
-R105
+R152
 !i10b 1
-R106
-Z308 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/trigger_mux.vhd|
-Z309 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/trigger_mux.vhd|
+R158
+Z309 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/trigger_mux.vhd|
+Z310 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/trigger_mux.vhd|
 !i113 0
 R12
 R13
@@ -3767,17 +3767,17 @@ R2
 R3
 DEx4 work 11 trigger_mux 0 22 <:@EML=hm0:K7aEXdg2gE1
 32
-R105
-!i122 4417
+R152
+!i122 4991
 l187
 L183 102
 VaWA>zjAl7Wf@g>4YblTX_2
 !s100 STCkk06U<9Z70F7WFIa3`0
 R7
 !i10b 1
-R106
-R308
+R158
 R309
+R310
 !i113 0
 R12
 R13
@@ -3794,10 +3794,10 @@ R26
 R1
 R2
 R3
-!i122 4397
+!i122 4971
 R4
-Z310 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/trv_delay_meas.vhd
-Z311 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/trv_delay_meas.vhd
+Z311 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/trv_delay_meas.vhd
+Z312 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/trv_delay_meas.vhd
 l0
 L142 1
 VJE34f4X]K?S_NPE]30:UL1
@@ -3807,13 +3807,13 @@ R7
 R29
 !i10b 1
 R30
-Z312 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/trv_delay_meas.vhd|
-Z313 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/trv_delay_meas.vhd|
+Z313 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/trv_delay_meas.vhd|
+Z314 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/trv_delay_meas.vhd|
 !i113 0
 R12
 R13
 Artl
-R79
+R78
 R34
 R19
 R20
@@ -3829,7 +3829,7 @@ R3
 DEx4 work 21 trv_delay_measurement 0 22 JE34f4X]K?S_NPE]30:UL1
 32
 R29
-!i122 4397
+!i122 4971
 l252
 L207 256
 VaEG>:5W2^h<l;F99Y@m2k0
@@ -3837,8 +3837,8 @@ VaEG>:5W2^h<l;F99Y@m2k0
 R7
 !i10b 1
 R30
-R312
 R313
+R314
 !i113 0
 R12
 R13
@@ -3856,21 +3856,21 @@ R96
 R1
 R2
 R3
-!i122 4468
+!i122 5042
 R4
-Z314 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd
-Z315 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd
+Z315 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd
+Z316 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd
 l0
-R57
+R55
 VSZ;BA11kb_d2zG34S7z=c1
 !s100 5zE=A<ikW<I[4DTFNVe:A1
 R7
 32
-R217
+R219
 !i10b 1
-R218
-Z316 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd|
-Z317 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd|
+Z317 !s108 1657518595.000000
+Z318 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd|
+Z319 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator.vhd|
 !i113 0
 R12
 R13
@@ -3891,17 +3891,17 @@ R2
 R3
 DEx4 work 13 tx_arbitrator 0 22 SZ;BA11kb_d2zG34S7z=c1
 32
-R217
-!i122 4468
+R219
+!i122 5042
 l318
 L186 636
 V0NX1_6F_:QAS1^?f;Z<Fb2
 !s100 R98]:<S@hNlRJ5G39]Q^13
 R7
 !i10b 1
-R218
-R316
 R317
+R318
+R319
 !i113 0
 R12
 R13
@@ -3919,21 +3919,21 @@ R96
 R1
 R2
 R3
-!i122 4469
+!i122 5043
 R4
-Z318 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator_fsm.vhd
-Z319 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator_fsm.vhd
+Z320 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator_fsm.vhd
+Z321 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator_fsm.vhd
 l0
-R67
+R66
 V=Vi3KL>b?Yb]l=FThXnQF2
 !s100 YU[cZ?f[e5Jd_Rj]DzWWJ0
 R7
 32
-R217
+R219
 !i10b 1
-R218
-Z320 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator_fsm.vhd|
-Z321 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator_fsm.vhd|
+R317
+Z322 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator_fsm.vhd|
+Z323 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/tx_arbitrator/tx_arbitrator_fsm.vhd|
 !i113 0
 R12
 R13
@@ -3952,17 +3952,17 @@ R2
 R3
 DEx4 work 17 tx_arbitrator_fsm 0 22 =Vi3KL>b?Yb]l=FThXnQF2
 32
-R217
-!i122 4469
+R219
+!i122 5043
 l186
 L175 388
 V42gKz3SeaNmnik75cPV[Y1
 !s100 035Q<U7JUnJaRA<D2EW?h1
 R7
 !i10b 1
-R218
-R320
-R321
+R317
+R322
+R323
 !i113 0
 R12
 R13
@@ -3979,12 +3979,12 @@ R26
 R1
 R2
 R3
-!i122 4398
+!i122 4972
 R4
-Z322 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/tx_data_cache.vhd
-Z323 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/tx_data_cache.vhd
+Z324 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/tx_data_cache.vhd
+Z325 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/tx_data_cache.vhd
 l0
-R156
+R157
 VhL=:`I4k^_gUOEX`]B=WW0
 !s100 enO:;ka^]NX:U2Yh^KU@H1
 R7
@@ -3992,8 +3992,8 @@ R7
 R29
 !i10b 1
 R30
-Z324 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/tx_data_cache.vhd|
-Z325 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/tx_data_cache.vhd|
+Z326 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/tx_data_cache.vhd|
+Z327 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/bus_sampling/tx_data_cache.vhd|
 !i113 0
 R12
 R13
@@ -4012,7 +4012,7 @@ R3
 DEx4 work 13 tx_data_cache 0 22 hL=:`I4k^_gUOEX`]B=WW0
 32
 R29
-!i122 4398
+!i122 4972
 l148
 L132 108
 V1YV`c<jnk9EFO?ZYZQ2b23
@@ -4020,8 +4020,8 @@ V1YV`c<jnk9EFO?ZYZQ2b23
 R7
 !i10b 1
 R30
-R324
-R325
+R326
+R327
 !i113 0
 R12
 R13
@@ -4038,10 +4038,10 @@ R26
 R1
 R2
 R3
-!i122 4418
+!i122 4992
 R4
-Z326 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd
-Z327 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd
+Z328 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd
+Z329 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd
 l0
 R37
 Va78HW^NbJhhzmLjL_nMfJ2
@@ -4050,9 +4050,9 @@ R7
 32
 R105
 !i10b 1
-R106
-Z328 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd|
-Z329 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd|
+R158
+Z330 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd|
+Z331 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/can_core/tx_shift_reg.vhd|
 !i113 0
 R12
 R13
@@ -4072,16 +4072,16 @@ R3
 DEx4 work 12 tx_shift_reg 0 22 a78HW^NbJhhzmLjL_nMfJ2
 32
 R105
-!i122 4418
+!i122 4992
 l219
 L192 188
 V:Chd4DUQCdU;STE>VUd>Q3
 !s100 ^eU2N`4OMJXdgQaW[Do160
 R7
 !i10b 1
-R106
-R328
-R329
+R158
+R330
+R331
 !i113 0
 R12
 R13
@@ -4100,28 +4100,28 @@ R96
 R1
 R2
 R3
-!i122 4470
+!i122 5044
 R4
-Z330 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer.vhd
-Z331 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer.vhd
+Z332 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer.vhd
+Z333 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer.vhd
 l0
-R62
+R60
 Vde5?8Dl[VnejegR@2I3:b2
 !s100 [e0TXDaQ6]>?FQK;]Z4^R0
 R7
 32
-R217
+R219
 !i10b 1
-R218
-Z332 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer.vhd|
-Z333 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer.vhd|
+R317
+Z334 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer.vhd|
+Z335 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer.vhd|
 !i113 0
 R12
 R13
 Artl
 DEx14 ctu_can_fd_rtl 14 txt_buffer_fsm 0 22 ;63YUaJWzZ2R`:Al19kOo2
 DEx14 ctu_can_fd_rtl 14 txt_buffer_ram 0 22 kE=JBX;8`2_GacJ<O1Rb^0
-R201
+R203
 R95
 R19
 R20
@@ -4137,17 +4137,17 @@ R2
 R3
 DEx4 work 10 txt_buffer 0 22 de5?8Dl[VnejegR@2I3:b2
 32
-R217
-!i122 4470
+R219
+!i122 5044
 l239
 L196 184
 V=L25W;LM^HKL5345;RJPQ0
 !s100 VIV95=^aPid0aVPDjTIzR0
 R7
 !i10b 1
-R218
-R332
-R333
+R317
+R334
+R335
 !i113 0
 R12
 R13
@@ -4165,21 +4165,21 @@ R96
 R1
 R2
 R3
-!i122 4471
+!i122 5045
 R4
-Z334 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_fsm.vhd
-Z335 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_fsm.vhd
+Z336 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_fsm.vhd
+Z337 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_fsm.vhd
 l0
-R156
+R157
 V;63YUaJWzZ2R`:Al19kOo2
 !s100 G1FnQoBKR4oGC?FH]Fl:D2
 R7
 32
-R217
+R219
 !i10b 1
-R218
-Z336 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_fsm.vhd|
-Z337 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_fsm.vhd|
+R317
+Z338 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_fsm.vhd|
+Z339 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_fsm.vhd|
 !i113 0
 R12
 R13
@@ -4198,17 +4198,17 @@ R2
 R3
 DEx4 work 14 txt_buffer_fsm 0 22 ;63YUaJWzZ2R`:Al19kOo2
 32
-R217
-!i122 4471
+R219
+!i122 5045
 l175
 L159 307
 VZ4TZ9lcSXEDTgFI[?aHi_1
 !s100 <gZbOi5mi;9UO5WHbU@iT3
 R7
 !i10b 1
-R218
-R336
-R337
+R317
+R338
+R339
 !i113 0
 R12
 R13
@@ -4227,26 +4227,26 @@ R96
 R1
 R2
 R3
-!i122 4472
+!i122 5046
 R4
-Z338 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_ram.vhd
-Z339 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_ram.vhd
+Z340 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_ram.vhd
+Z341 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_ram.vhd
 l0
 R91
 VkE=JBX;8`2_GacJ<O1Rb^0
 !s100 mBU0h`<Yz86LS@OC5iFAC2
 R7
 32
-Z340 !s110 1657492708
+R219
 !i10b 1
-R218
-Z341 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_ram.vhd|
-Z342 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_ram.vhd|
+R317
+Z342 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_ram.vhd|
+Z343 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/txt_buffer/txt_buffer_ram.vhd|
 !i113 0
 R12
 R13
 Artl
-R261
+R262
 R95
 R19
 R20
@@ -4262,17 +4262,17 @@ R2
 R3
 DEx4 work 14 txt_buffer_ram 0 22 kE=JBX;8`2_GacJ<O1Rb^0
 32
-R340
-!i122 4472
+R219
+!i122 5046
 l162
 L151 93
 VNM1IKz:[mYaD3[2T8Ra1`1
 !s100 kRFed=eOYGDNgLLU0D^JV2
 R7
 !i10b 1
-R218
-R341
+R317
 R342
+R343
 !i113 0
 R12
 R13
@@ -4280,11 +4280,11 @@ Punary_ops_pkg
 R1
 R2
 R3
-!i122 4454
+!i122 5028
 R0
 R4
-Z343 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/unary_ops_pkg.vhd
-Z344 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/unary_ops_pkg.vhd
+Z344 8/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/unary_ops_pkg.vhd
+Z345 F/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/unary_ops_pkg.vhd
 l0
 R84
 VDCk4oddngUD]6jB40L;3[1
@@ -4292,11 +4292,11 @@ VDCk4oddngUD]6jB40L;3[1
 R7
 32
 b1
-R51
+R83
 !i10b 1
-R52
-Z345 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/unary_ops_pkg.vhd|
-Z346 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/unary_ops_pkg.vhd|
+R50
+Z346 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/unary_ops_pkg.vhd|
+Z347 !s107 /home/user/dev/canif/rtl/ctucanfd_ip_core/src/packages/unary_ops_pkg.vhd|
 !i113 0
 R12
 R13
@@ -4306,17 +4306,17 @@ R1
 R2
 R3
 32
-R51
-!i122 4454
+R83
+!i122 5028
 l0
 L118 1
 V0c?8]V`dh=S:k5eFW19_j1
 !s100 W=?U^lX0C9o]V75_EQT^J0
 R7
 !i10b 1
-R52
-R345
+R50
 R346
+R347
 !i113 0
 R12
 R13

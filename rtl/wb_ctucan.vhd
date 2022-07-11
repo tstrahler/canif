@@ -60,7 +60,6 @@ architecture rtl of wb_ctucan is
     signal s_we     : std_logic_vector(0 to g_can_if_count - 1);
     signal s_ack    : std_logic_vector(0 to g_can_if_count - 1);
 
-    signal s_wb_wdata   : std_logic_vector(31 downto 0);
     signal s_wb_rdata   : std_logic_vector((g_can_if_count*32 - 1) downto 0);
 begin
 
@@ -148,7 +147,7 @@ begin
 
             scan_enable => '0',
 
-            data_in     => s_wb_wdata,
+            data_in     => i_wb_wdata,
             data_out    => s_wb_rdata((32*(i+1) - 1) downto (32*i)),
             adress      => s_addr,
             scs         => s_cs(i), 

@@ -14,7 +14,7 @@ Z0 w1657488603
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 266
+!i122 295
 Z4 d/home/user/dev/canif/sim/modelsim
 Z5 8/home/user/dev/canif/rtl/canif_top.vhd
 Z6 F/home/user/dev/canif/rtl/canif_top.vhd
@@ -24,9 +24,9 @@ V]>0M`C?zUGEie7P]?F][@0
 !s100 V7O9d3:5G;o71AG2HZS`:0
 Z7 OL;C;2021.2;73
 33
-Z8 !s110 1657492698
+Z8 !s110 1657518584
 !i10b 1
-Z9 !s108 1657492698.000000
+Z9 !s108 1657518584.000000
 Z10 !s90 -reportprogress|300|-work|canif|-2008|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/canif_top.vhd|
 Z11 !s107 /home/user/dev/canif/rtl/canif_top.vhd|
 !i113 0
@@ -52,7 +52,7 @@ R3
 DEx4 work 9 canif_top 0 22 ]>0M`C?zUGEie7P]?F][@0
 33
 R8
-!i122 266
+!i122 295
 l36
 L21 184
 VSBOLF<PN;5nVYj@][Qo`_1
@@ -69,7 +69,7 @@ Etb_canif
 Z24 w1657489551
 R2
 R3
-!i122 269
+!i122 298
 R4
 Z25 8/home/user/dev/canif/sim/tb/tb_canif.vhd
 Z26 F/home/user/dev/canif/sim/tb/tb_canif.vhd
@@ -79,9 +79,9 @@ V6mAh[U2G?bQh:dUkz`zK>1
 !s100 AHQj]dfEcm>J@E]fPZc:Y1
 R7
 33
-Z27 !s110 1657492708
+Z27 !s110 1657518595
 !i10b 1
-Z28 !s108 1657492708.000000
+Z28 !s108 1657518595.000000
 Z29 !s90 -reportprogress|300|-work|canif|-2008|-explicit|-vopt|-stats=none|/home/user/dev/canif/sim/tb/tb_canif.vhd|
 Z30 !s107 /home/user/dev/canif/sim/tb/tb_canif.vhd|
 !i113 0
@@ -95,7 +95,7 @@ R3
 DEx4 work 8 tb_canif 0 22 6mAh[U2G?bQh:dUkz`zK>1
 33
 R27
-!i122 269
+!i122 298
 l22
 L10 43
 VXkaF0?OCNDC5l:013mPS82
@@ -113,7 +113,7 @@ Z31 w1657471859
 R1
 R2
 R3
-!i122 267
+!i122 296
 R4
 Z32 8/home/user/dev/canif/rtl/ts_gen.vhd
 Z33 F/home/user/dev/canif/rtl/ts_gen.vhd
@@ -138,7 +138,7 @@ R3
 DEx4 work 6 ts_gen 0 22 ]0CSzO8oWg>OQCaRVm<QQ2
 32
 R8
-!i122 267
+!i122 296
 l30
 L24 36
 VAj_e7^17VZ90DS[_@;WDK0
@@ -152,7 +152,7 @@ R35
 R36
 R13
 Ewb_ctucan
-Z37 w1657493550
+Z37 w1657517521
 R14
 R15
 R16
@@ -166,7 +166,7 @@ R23
 R1
 R2
 R3
-!i122 270
+!i122 297
 R4
 Z38 8/home/user/dev/canif/rtl/wb_ctucan.vhd
 Z39 F/home/user/dev/canif/rtl/wb_ctucan.vhd
@@ -176,11 +176,11 @@ VOK=VH^WXV<Qb]KkQ2;d:R0
 !s100 _JRkHIFY?9`d5I6L[INU:2
 R7
 32
-Z40 !s110 1657493561
+R8
 !i10b 1
-Z41 !s108 1657493561.000000
-Z42 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/wb_ctucan.vhd|
-Z43 !s107 /home/user/dev/canif/rtl/wb_ctucan.vhd|
+R9
+Z40 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/wb_ctucan.vhd|
+Z41 !s107 /home/user/dev/canif/rtl/wb_ctucan.vhd|
 !i113 0
 R36
 R13
@@ -202,17 +202,17 @@ R2
 R3
 DEx4 work 9 wb_ctucan 0 22 OK=VH^WXV<Qb]KkQ2;d:R0
 32
-R40
-!i122 270
-l65
-L53 117
-V?`VW5a1V^4hXEInmYnaYa1
-!s100 >LPT5kEnjj__@e9`T[@>W0
+R8
+!i122 297
+l64
+L53 116
+VRBV@WZ?0k@3zU;f5;Uj`J1
+!s100 R<>5n[6UNL`RY2BUH?7lR0
 R7
 !i10b 1
+R9
+R40
 R41
-R42
-R43
 !i113 0
 R36
 R13

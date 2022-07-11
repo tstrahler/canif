@@ -138,29 +138,29 @@ Disassembly of section .text:
  180:	30200073          	mret
 
 00000184 <main>:
- 184:	a00007b7          	lui	a5,0xa0000
- 188:	0907a783          	lw	a5,144(a5) # a0000090 <__ctr0_io_space_begin+0xa0000290>
- 18c:	fe010113          	addi	sp,sp,-32
- 190:	00000513          	li	a0,0
- 194:	00f12023          	sw	a5,0(sp)
+ 184:	ff010113          	addi	sp,sp,-16
+ 188:	00112623          	sw	ra,12(sp)
+ 18c:	a00007b7          	lui	a5,0xa0000
+ 190:	00200713          	li	a4,2
+ 194:	00e7a223          	sw	a4,4(a5) # a0000004 <__ctr0_io_space_begin+0xa0000204>
  198:	a00017b7          	lui	a5,0xa0001
- 19c:	0907a783          	lw	a5,144(a5) # a0001090 <__ctr0_io_space_begin+0xa0001290>
- 1a0:	00000593          	li	a1,0
- 1a4:	00112e23          	sw	ra,28(sp)
- 1a8:	00f12223          	sw	a5,4(sp)
- 1ac:	a00027b7          	lui	a5,0xa0002
- 1b0:	0907a783          	lw	a5,144(a5) # a0002090 <__ctr0_io_space_begin+0xa0002290>
- 1b4:	00f12423          	sw	a5,8(sp)
- 1b8:	a00037b7          	lui	a5,0xa0003
- 1bc:	0907a783          	lw	a5,144(a5) # a0003090 <__ctr0_io_space_begin+0xa0003290>
- 1c0:	00f12623          	sw	a5,12(sp)
+ 19c:	00400713          	li	a4,4
+ 1a0:	00e7a223          	sw	a4,4(a5) # a0001004 <__ctr0_io_space_begin+0xa0001204>
+ 1a4:	a00027b7          	lui	a5,0xa0002
+ 1a8:	00600713          	li	a4,6
+ 1ac:	00e7a223          	sw	a4,4(a5) # a0002004 <__ctr0_io_space_begin+0xa0002204>
+ 1b0:	a00037b7          	lui	a5,0xa0003
+ 1b4:	00800713          	li	a4,8
+ 1b8:	00e7a223          	sw	a4,4(a5) # a0003004 <__ctr0_io_space_begin+0xa0003204>
+ 1bc:	00000513          	li	a0,0
+ 1c0:	00000593          	li	a1,0
  1c4:	020000ef          	jal	ra,1e4 <neorv32_gpio_port_set>
  1c8:	00100513          	li	a0,1
  1cc:	00000593          	li	a1,0
  1d0:	014000ef          	jal	ra,1e4 <neorv32_gpio_port_set>
- 1d4:	01c12083          	lw	ra,28(sp)
+ 1d4:	00c12083          	lw	ra,12(sp)
  1d8:	00000513          	li	a0,0
- 1dc:	02010113          	addi	sp,sp,32
+ 1dc:	01010113          	addi	sp,sp,16
  1e0:	00008067          	ret
 
 000001e4 <neorv32_gpio_port_set>:

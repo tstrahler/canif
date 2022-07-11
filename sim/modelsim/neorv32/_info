@@ -15,19 +15,19 @@ Z1 DPx7 neorv32 15 neorv32_package 0 22 LFalAo6PM6m]>Xgk4^i>90
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 32
-!s110 1657492708
-!i122 2257
-w1657492610
+!s110 1657518595
+!i122 2523
+w1657518488
 Z4 d/home/user/dev/canif/sim/modelsim
 8/home/user/dev/canif/sw/neorv32_application_image.vhd
 F/home/user/dev/canif/sw/neorv32_application_image.vhd
 l0
 Z5 L11 1
-V99_TfQ4o_J8b3BZC0ViQM2
-!s100 IVg3HEREQDZ:J;8B3aie^0
+V04kEm5P4VWUf0j`YZHM7j2
+!s100 ?Kl@LBc@CE9@NFF:M1L5<1
 Z6 OL;C;2021.2;73
 !i10b 1
-!s108 1657492708.000000
+!s108 1657518595.000000
 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/sw/neorv32_application_image.vhd|
 !s107 /home/user/dev/canif/sw/neorv32_application_image.vhd|
 !i113 0
@@ -40,7 +40,7 @@ R1
 R0
 R2
 R3
-!i122 2220
+!i122 2486
 R4
 Z11 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_boot_rom.vhd
 Z12 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_boot_rom.vhd
@@ -50,9 +50,9 @@ Vdnm`FejY6;11JYIbkLL^63
 !s100 GEbVHOE8<SLoK12LNCD^V1
 R6
 32
-Z13 !s110 1657492698
+Z13 !s110 1657518585
 !i10b 1
-Z14 !s108 1657492698.000000
+Z14 !s108 1657518584.000000
 Z15 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_boot_rom.vhd|
 Z16 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_boot_rom.vhd|
 !i113 0
@@ -65,7 +65,7 @@ R0
 R2
 R3
 DEx4 work 16 neorv32_boot_rom 0 22 dnm`FejY6;11JYIbkLL^63
-!i122 2220
+!i122 2486
 l75
 L56 51
 V2X74fV72:5hhEDCoS6V?10
@@ -85,7 +85,7 @@ R0
 R1
 R2
 R3
-!i122 2221
+!i122 2487
 R9
 R4
 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_bootloader_image.vhd
@@ -98,7 +98,7 @@ R6
 32
 R13
 !i10b 1
-R14
+Z17 !s108 1657518585.000000
 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_bootloader_image.vhd|
 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_bootloader_image.vhd|
 !i113 0
@@ -110,21 +110,21 @@ R1
 R0
 R2
 R3
-!i122 2222
+!i122 2488
 R4
-Z17 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_bus_keeper.vhd
-Z18 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_bus_keeper.vhd
+Z18 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_bus_keeper.vhd
+Z19 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_bus_keeper.vhd
 l0
-Z19 L46 1
+Z20 L46 1
 VmSNgdEJ29@0NLIR3<`K0A0
 !s100 <i5>NIaJbZZUKQ@h6R3WY0
 R6
 32
 R13
 !i10b 1
-R14
-Z20 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_bus_keeper.vhd|
-Z21 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_bus_keeper.vhd|
+R17
+Z21 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_bus_keeper.vhd|
+Z22 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_bus_keeper.vhd|
 !i113 0
 R7
 R8
@@ -136,16 +136,16 @@ R3
 DEx4 work 18 neorv32_bus_keeper 0 22 mSNgdEJ29@0NLIR3<`K0A0
 32
 R13
-!i122 2222
+!i122 2488
 l96
 L68 113
 Vl51bk;49<a4KYbf1i1S1O2
 !s100 HTBQO^eQWhH3Td`m7:D4R2
 R6
 !i10b 1
-R14
-R20
+R17
 R21
+R22
 !i113 0
 R7
 R8
@@ -155,21 +155,21 @@ R1
 R0
 R2
 R3
-!i122 2223
+!i122 2489
 R4
-Z22 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_busswitch.vhd
-Z23 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_busswitch.vhd
+Z23 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_busswitch.vhd
+Z24 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_busswitch.vhd
 l0
-Z24 L45 1
+Z25 L45 1
 VRA<kz@S9D_KdA4lY;:P<?0
 !s100 mjZh[ZK0d290>4agkfVNb3
 R6
 32
 R13
 !i10b 1
-R14
-Z25 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_busswitch.vhd|
-Z26 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_busswitch.vhd|
+R17
+Z26 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_busswitch.vhd|
+Z27 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_busswitch.vhd|
 !i113 0
 R7
 R8
@@ -181,16 +181,16 @@ R3
 DEx4 work 17 neorv32_busswitch 0 22 RA<kz@S9D_KdA4lY;:P<?0
 32
 R13
-!i122 2223
+!i122 2489
 l112
 L88 186
 V;zS1:ZF6a8M87l`bZ>mj70
 !s100 7[G]k8JgW7=5oz<KMBC?Z3
 R6
 !i10b 1
-R14
-R25
+R17
 R26
+R27
 !i113 0
 R7
 R8
@@ -200,21 +200,21 @@ R1
 R0
 R2
 R3
-!i122 2224
+!i122 2490
 R4
-Z27 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cfs.vhd
-Z28 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cfs.vhd
+Z28 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cfs.vhd
+Z29 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cfs.vhd
 l0
-R19
+R20
 VC9G]Wbe=gJh:^4G1zY;Q?0
 !s100 gVf@Hi@IMJU4J@lX8^]fa3
 R6
 32
 R13
 !i10b 1
-R14
-Z29 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cfs.vhd|
-Z30 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cfs.vhd|
+R17
+Z30 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cfs.vhd|
+Z31 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cfs.vhd|
 !i113 0
 R7
 R8
@@ -224,7 +224,7 @@ R0
 R2
 R3
 DEx4 work 11 neorv32_cfs 0 22 C9G]Wbe=gJh:^4G1zY;Q?0
-!i122 2224
+!i122 2490
 l91
 L74 184
 VaSNPjXaC;M8FeTGAH=SOo0
@@ -233,9 +233,9 @@ R6
 32
 R13
 !i10b 1
-R14
-R29
+R17
 R30
+R31
 !i113 0
 R7
 R8
@@ -245,10 +245,10 @@ R1
 R0
 R2
 R3
-!i122 2225
+!i122 2491
 R4
-Z31 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu.vhd
-Z32 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu.vhd
+Z32 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu.vhd
+Z33 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu.vhd
 l0
 L60 1
 VX0fj@fDLT;@o4MmYE27Fk0
@@ -257,9 +257,9 @@ R6
 32
 R13
 !i10b 1
-R14
-Z33 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu.vhd|
-Z34 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu.vhd|
+R17
+Z34 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu.vhd|
+Z35 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu.vhd|
 !i113 0
 R7
 R8
@@ -271,16 +271,16 @@ R3
 DEx4 work 11 neorv32_cpu 0 22 X0fj@fDLT;@o4MmYE27Fk0
 32
 R13
-!i122 2225
+!i122 2491
 l167
 L135 310
 V^=]PJo@_DPd3TWP4CmDK:0
 !s100 [dc1?C7Ke6m@mZYOnkb4b0
 R6
 !i10b 1
-R14
-R33
+R17
 R34
+R35
 !i113 0
 R7
 R8
@@ -290,21 +290,21 @@ R1
 R0
 R2
 R3
-!i122 2226
+!i122 2492
 R4
-Z35 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_alu.vhd
-Z36 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_alu.vhd
+Z36 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_alu.vhd
+Z37 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_alu.vhd
 l0
-Z37 L44 1
+Z38 L44 1
 VZn;=Y7e^KUg2`K5ZH=n8C3
 !s100 EAl2;=lbQ@j:^_^jF>YZi0
 R6
 32
 R13
 !i10b 1
-R14
-Z38 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_alu.vhd|
-Z39 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_alu.vhd|
+R17
+Z39 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_alu.vhd|
+Z40 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_alu.vhd|
 !i113 0
 R7
 R8
@@ -316,16 +316,16 @@ R3
 DEx4 work 15 neorv32_cpu_alu 0 22 Zn;=Y7e^KUg2`K5ZH=n8C3
 32
 R13
-!i122 2226
+!i122 2492
 l107
 L77 273
 V4Jk4?]W0o[M2RkCbfXk:n2
 !s100 W=2CSPD@;F6BdCcW75RQ73
 R6
 !i10b 1
-R14
-R38
+R17
 R39
+R40
 !i113 0
 R7
 R8
@@ -335,19 +335,19 @@ R1
 R0
 R2
 R3
-!i122 2227
+!i122 2493
 R4
-Z40 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_bus.vhd
-Z41 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_bus.vhd
+Z41 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_bus.vhd
+Z42 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_bus.vhd
 l0
-R37
+R38
 V4D[kMPG^XOEa4Pe^MmQHU3
 !s100 nRGfR6od;g[ggEHzbbYSS1
 R6
 32
-Z42 !s110 1657492699
+R13
 !i10b 1
-R14
+R17
 Z43 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_bus.vhd|
 Z44 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_bus.vhd|
 !i113 0
@@ -360,15 +360,15 @@ R2
 R3
 DEx4 work 15 neorv32_cpu_bus 0 22 4D[kMPG^XOEa4Pe^MmQHU3
 32
-R42
-!i122 2227
+R13
+!i122 2493
 l174
 L104 406
 VgIB<L58XI[G[X]G5<c_]g3
 !s100 iAUR3PMN?L]QXGLTe:B9J1
 R6
 !i10b 1
-R14
+R17
 R43
 R44
 !i113 0
@@ -380,7 +380,7 @@ R1
 R0
 R2
 R3
-!i122 2228
+!i122 2494
 R4
 Z45 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd
 Z46 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd
@@ -390,11 +390,11 @@ VQcEg@do0WmD0dFV0`DiYT1
 !s100 F;cKX4JXSbjmoje]9:cY^3
 R6
 32
-R42
+R13
 !i10b 1
-Z47 !s108 1657492699.000000
-Z48 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd|
-Z49 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd|
+R17
+Z47 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd|
+Z48 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_control.vhd|
 !i113 0
 R7
 R8
@@ -405,17 +405,17 @@ R2
 R3
 DEx4 work 19 neorv32_cpu_control 0 22 QcEg@do0WmD0dFV0`DiYT1
 32
-R42
-!i122 2228
+R13
+!i122 2494
 l379
 L125 2705
 V1PU4Paej3H7PJm>Nl14M;3
 !s100 Kl646TW8I0oD;RLT`C>jg2
 R6
 !i10b 1
+R17
 R47
 R48
-R49
 !i113 0
 R7
 R8
@@ -425,21 +425,21 @@ R1
 R0
 R2
 R3
-!i122 2229
+!i122 2495
 R4
-Z50 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd
-Z51 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd
+Z49 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd
+Z50 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd
 l0
 L51 1
 VW2TC36FBGU?df]mm?@eGG0
 !s100 Xh4DW2=^Tb=9KQZIB6]<W1
 R6
 32
-R42
+R13
 !i10b 1
-R47
-Z52 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd|
-Z53 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd|
+R17
+Z51 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd|
+Z52 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd|
 !i113 0
 R7
 R8
@@ -449,18 +449,18 @@ R0
 R2
 R3
 DEx4 work 23 neorv32_cpu_cp_bitmanip 0 22 W2TC36FBGU?df]mm?@eGG0
-!i122 2229
+!i122 2495
 l143
 L72 398
 VL^Di_U@_AbHRRVgWoL;WK3
 !s100 YB@QN]REi<QN0UaPIPQFo0
 R6
 32
-R42
+R13
 !i10b 1
-R47
+R17
+R51
 R52
-R53
 !i113 0
 R7
 R8
@@ -470,21 +470,21 @@ R1
 R0
 R2
 R3
-!i122 2230
+!i122 2496
 R4
-Z54 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd
-Z55 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd
+Z53 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd
+Z54 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd
 l0
-Z56 L58 1
+Z55 L58 1
 V??I[eeiiRcTYMIOaXEE@H3
 !s100 Z6^]5nKK@5`Q@nHWYlIVU0
 R6
 32
-R42
+R13
 !i10b 1
-R47
-Z57 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd|
-Z58 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd|
+R17
+Z56 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd|
+Z57 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd|
 !i113 0
 R7
 R8
@@ -494,18 +494,18 @@ R0
 R2
 R3
 DEx4 work 18 neorv32_cpu_cp_fpu 0 22 ??I[eeiiRcTYMIOaXEE@H3
-!i122 2230
+!i122 2496
 l265
 L76 1088
 V?SjP:_8BMDNB@Cn2jIg6<1
 !s100 7zk=Xhd<N9W4ONg=SP^]N0
 R6
 32
-R42
+R13
 !i10b 1
-R47
+R17
+R56
 R57
-R58
 !i113 0
 R7
 R8
@@ -515,21 +515,21 @@ R1
 R0
 R2
 R3
-!i122 2230
+!i122 2496
 R4
+R53
 R54
-R55
 l0
 L1594 1
 V01oWCn3=z7Qj0cd60oPKY3
 !s100 dTH<AaR9TJ]<<E9nLE8^73
 R6
 32
-R42
+R13
 !i10b 1
-R47
+R17
+R56
 R57
-R58
 !i113 0
 R7
 R8
@@ -539,18 +539,18 @@ R0
 R2
 R3
 DEx4 work 22 neorv32_cpu_cp_fpu_f2i 0 22 01oWCn3=z7Qj0cd60oPKY3
-!i122 2230
+!i122 2496
 l1650
 L1614 234
 VccTnm:gSdiJ;X@4F5]DV^1
 !s100 _Z;F=7lbeEYE]`C7clOT10
 R6
 32
-R42
+R13
 !i10b 1
-R47
+R17
+R56
 R57
-R58
 !i113 0
 R7
 R8
@@ -560,21 +560,21 @@ R1
 R0
 R2
 R3
-!i122 2230
+!i122 2496
 R4
+R53
 R54
-R55
 l0
 L1211 1
 V3PbjDI1gCnVggzG6L2O:80
 !s100 c8j8R^Td91j^P_oJh9PkB2
 R6
 32
-R42
+R13
 !i10b 1
-R47
+R17
+R56
 R57
-R58
 !i113 0
 R7
 R8
@@ -584,18 +584,18 @@ R0
 R2
 R3
 DEx4 work 29 neorv32_cpu_cp_fpu_normalizer 0 22 3PbjDI1gCnVggzG6L2O:80
-!i122 2230
+!i122 2496
 l1274
 L1233 316
 VblK364QzbdMPVJSEG=@K:2
 !s100 5[hFeU5_M8_OD_a9`1`;@3
 R6
 32
-R42
+R13
 !i10b 1
-R47
+R17
+R56
 R57
-R58
 !i113 0
 R7
 R8
@@ -605,19 +605,19 @@ R1
 R0
 R2
 R3
-!i122 2231
+!i122 2497
 R4
-Z59 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd
-Z60 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd
+Z58 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd
+Z59 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd
 l0
-Z61 L49 1
+Z60 L49 1
 VB<WLoa^X?ImI_SfHUQYeb0
 !s100 n]LCjOfITD>NRCCm__5zR3
 R6
 32
-R42
+Z61 !s110 1657518586
 !i10b 1
-R47
+R17
 Z62 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd|
 Z63 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd|
 !i113 0
@@ -629,16 +629,16 @@ R0
 R2
 R3
 DEx4 work 21 neorv32_cpu_cp_muldiv 0 22 B<WLoa^X?ImI_SfHUQYeb0
-!i122 2231
+!i122 2497
 l113
 L69 275
 VM3k5DCIeCN[dKRnU8V<g40
 !s100 [0Fj^UNeZGiM2mkFHe7g]0
 R6
 32
-R42
+R61
 !i10b 1
-R47
+R17
 R62
 R63
 !i113 0
@@ -650,21 +650,21 @@ R1
 R0
 R2
 R3
-!i122 2232
+!i122 2498
 R4
 Z64 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd
 Z65 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd
 l0
-R19
+R20
 V_V7D<]F=?29NQO[O?L4zE0
 !s100 UhIMQafz<4M5NYT7<Z@9P1
 R6
 32
-R42
+R61
 !i10b 1
-R47
-Z66 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd|
-Z67 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd|
+Z66 !s108 1657518586.000000
+Z67 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd|
+Z68 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd|
 !i113 0
 R7
 R8
@@ -675,17 +675,17 @@ R2
 R3
 DEx4 work 22 neorv32_cpu_cp_shifter 0 22 _V7D<]F=?29NQO[O?L4zE0
 32
-R42
-!i122 2232
+R61
+!i122 2498
 l83
 L65 117
 VVQI9DoZl0Yb733`ST=D]o3
 !s100 =1[QX3^5VDf0?@M>><R`G0
 R6
 !i10b 1
-R47
 R66
 R67
+R68
 !i113 0
 R7
 R8
@@ -695,21 +695,21 @@ R1
 R0
 R2
 R3
-!i122 2233
+!i122 2499
 R4
-Z68 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_decompressor.vhd
-Z69 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_decompressor.vhd
+Z69 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_decompressor.vhd
+Z70 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_decompressor.vhd
 l0
-Z70 L42 1
+Z71 L42 1
 V:Aa6gZD`lMUPe_[6OI1WY0
 !s100 j75f0W@zH9G]UTIZcbS`S2
 R6
 32
-R42
+R61
 !i10b 1
-R47
-Z71 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_decompressor.vhd|
-Z72 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_decompressor.vhd|
+R66
+Z72 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_decompressor.vhd|
+Z73 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_decompressor.vhd|
 !i113 0
 R7
 R8
@@ -719,18 +719,18 @@ R0
 R2
 R3
 DEx4 work 24 neorv32_cpu_decompressor 0 22 :Aa6gZD`lMUPe_[6OI1WY0
-!i122 2233
+!i122 2499
 l72
 L52 402
 V?VVn91INi2b1^m=S^K4eE1
 !s100 cXINM7>`J2`b5UUCX6VdR1
 R6
 32
-R42
+R61
 !i10b 1
-R47
-R71
+R66
 R72
+R73
 !i113 0
 R7
 R8
@@ -740,21 +740,21 @@ R1
 R0
 R2
 R3
-!i122 2234
+!i122 2500
 R4
-Z73 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_regfile.vhd
-Z74 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_regfile.vhd
+Z74 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_regfile.vhd
+Z75 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_regfile.vhd
 l0
 L52 1
 Vk8AgT;X[lhN0Pz3RK@G`@0
 !s100 M8;;GgJ<6?lB8S_Azb6n]3
 R6
 32
-R42
+R61
 !i10b 1
-R47
-Z75 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_regfile.vhd|
-Z76 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_regfile.vhd|
+R66
+Z76 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_regfile.vhd|
+Z77 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_cpu_regfile.vhd|
 !i113 0
 R7
 R8
@@ -765,17 +765,17 @@ R2
 R3
 DEx4 work 19 neorv32_cpu_regfile 0 22 k8AgT;X[lhN0Pz3RK@G`@0
 32
-R42
-!i122 2234
+R61
+!i122 2500
 l83
 L69 67
 Ve3YXmO9H:aDYBzNA@h6EL2
 !s100 ddZORb=Bc[4>Gh]QTlTb=2
 R6
 !i10b 1
-R47
-R75
+R66
 R76
+R77
 !i113 0
 R7
 R8
@@ -785,21 +785,21 @@ R1
 R0
 R2
 R3
-!i122 2235
+!i122 2501
 R4
-Z77 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd
-Z78 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd
+Z78 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd
+Z79 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd
 l0
-R56
+R55
 V:iWIeeN1fbd5J:<Xl8[CT1
 !s100 ;:`M;2X2c3U<5@M>K<kOR0
 R6
 32
-R42
+R61
 !i10b 1
-R47
-Z79 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd|
-Z80 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd|
+R66
+Z80 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd|
+Z81 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dm.vhd|
 !i113 0
 R7
 R8
@@ -809,18 +809,18 @@ R0
 R2
 R3
 DEx4 work 16 neorv32_debug_dm 0 22 :iWIeeN1fbd5J:<Xl8[CT1
-!i122 2235
+!i122 2501
 l235
 L87 642
 V?9NFWMzX@C9Eclz?K<8@33
 !s100 oK56h]OXTFl>G1IIRB1l82
 R6
 32
-R42
+R61
 !i10b 1
-R47
-R79
+R66
 R80
+R81
 !i113 0
 R7
 R8
@@ -828,21 +828,21 @@ Eneorv32_debug_dtm
 R9
 R2
 R3
-!i122 2236
+!i122 2502
 R4
-Z81 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dtm.vhd
-Z82 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dtm.vhd
+Z82 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dtm.vhd
+Z83 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dtm.vhd
 l0
 L41 1
 VnMcZ?[]`Uo5]BeW5Nemh31
 !s100 V1g]^iOk<U0O35<nz<FXF3
 R6
 32
-R42
+R61
 !i10b 1
-R47
-Z83 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dtm.vhd|
-Z84 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dtm.vhd|
+R66
+Z84 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dtm.vhd|
+Z85 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_debug_dtm.vhd|
 !i113 0
 R7
 R8
@@ -850,18 +850,18 @@ Aneorv32_debug_dtm_rtl
 R2
 R3
 DEx4 work 17 neorv32_debug_dtm 0 22 nMcZ?[]`Uo5]BeW5Nemh31
-!i122 2236
+!i122 2502
 l130
 L71 283
 VaPbzXf<BUDWfPBMjMfX;;3
 !s100 hUfbk>:?Q;d<Gm<IFelS]1
 R6
 32
-R42
+R61
 !i10b 1
-R47
-R83
+R66
 R84
+R85
 !i113 0
 R7
 R8
@@ -870,19 +870,19 @@ R9
 R0
 R2
 R3
-!i122 2237
+!i122 2503
 R4
 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_dmem.entity.vhd
 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_dmem.entity.vhd
 l0
-Z85 L39 1
+Z86 L39 1
 V[Y1Hnkech7JzQ2nfB68B[0
 !s100 FQgHeW=_R]Y39XT;_<fAO1
 R6
 32
-R42
+R61
 !i10b 1
-R47
+R66
 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_dmem.entity.vhd|
 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_dmem.entity.vhd|
 !i113 0
@@ -895,8 +895,8 @@ R0
 R2
 R3
 32
-Z86 !s110 1657492701
-!i122 2257
+Z87 !s110 1657518588
+!i122 2523
 8/home/user/dev/canif/rtl/neorv32/rtl/core/mem/neorv32_dmem.default.vhd
 F/home/user/dev/canif/rtl/neorv32/rtl/core/mem/neorv32_dmem.default.vhd
 l68
@@ -905,7 +905,7 @@ V]OGkHlGdSo[QUn1N_Q`@D2
 !s100 Cz<XnDY?GZ`BcEZi2<0ad3
 R6
 !i10b 1
-Z87 !s108 1657492701.000000
+Z88 !s108 1657518588.000000
 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/mem/neorv32_dmem.default.vhd|
 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/mem/neorv32_dmem.default.vhd|
 !i113 0
@@ -917,21 +917,21 @@ R1
 R0
 R2
 R3
-!i122 2238
+!i122 2504
 R4
-Z88 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd
-Z89 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd
+Z89 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd
+Z90 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd
 l0
-R70
+R71
 VmkOO_bWTGh8Gkz;WUR5m]3
 !s100 _h]1f>4AFWOkZVN8CM`A01
 R6
 32
-R42
+R61
 !i10b 1
-R47
-Z90 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd|
-Z91 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd|
+R66
+Z91 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd|
+Z92 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_fifo.vhd|
 !i113 0
 R7
 R8
@@ -942,17 +942,17 @@ R2
 R3
 DEx4 work 12 neorv32_fifo 0 22 mkOO_bWTGh8Gkz;WUR5m]3
 32
-R42
-!i122 2238
+R61
+!i122 2504
 l89
 L67 122
 VJO@j0oe=YV<coS452Z=hj0
 !s100 G9LI3JkOXjVT76M6klAlD3
 R6
 !i10b 1
-R47
-R90
+R66
 R91
+R92
 !i113 0
 R7
 R8
@@ -962,19 +962,19 @@ R1
 R0
 R2
 R3
-!i122 2239
+!i122 2505
 R4
-Z92 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_gpio.vhd
-Z93 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_gpio.vhd
+Z93 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_gpio.vhd
+Z94 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_gpio.vhd
 l0
-R37
+R38
 V`89>E9Yn[zMikN]n734]91
 !s100 An6eT^?j:E3fJ?oELM4SD3
 R6
 32
-Z94 !s110 1657492700
+R61
 !i10b 1
-R47
+R66
 Z95 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_gpio.vhd|
 Z96 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_gpio.vhd|
 !i113 0
@@ -987,15 +987,15 @@ R2
 R3
 DEx4 work 12 neorv32_gpio 0 22 `89>E9Yn[zMikN]n734]91
 32
-R94
-!i122 2239
+R61
+!i122 2505
 l76
 L60 67
 VOIPK;_8d?9bbDgPN>P3fK0
 !s100 68XRjz`Qg9fZXI53UbMAU3
 R6
 !i10b 1
-R47
+R66
 R95
 R96
 !i113 0
@@ -1007,7 +1007,7 @@ R1
 R0
 R2
 R3
-!i122 2240
+!i122 2506
 R4
 Z97 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_gptmr.vhd
 Z98 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_gptmr.vhd
@@ -1017,11 +1017,11 @@ V8Tj4>QX<cnb^i^^G]1JV00
 !s100 dm8AaN;JPoFVFT8P3:>gh2
 R6
 32
-R94
+R61
 !i10b 1
-Z100 !s108 1657492700.000000
-Z101 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_gptmr.vhd|
-Z102 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_gptmr.vhd|
+R66
+Z100 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_gptmr.vhd|
+Z101 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_gptmr.vhd|
 !i113 0
 R7
 R8
@@ -1031,18 +1031,18 @@ R0
 R2
 R3
 DEx4 work 13 neorv32_gptmr 0 22 8Tj4>QX<cnb^i^^G]1JV00
-!i122 2240
+!i122 2506
 l101
 L65 139
 VYKl9YN@Ka7cUMbEHgI3h;0
 !s100 2?gH56hXj4@aCM9egb05C2
 R6
 32
-R94
+R61
 !i10b 1
+R66
 R100
 R101
-R102
 !i113 0
 R7
 R8
@@ -1052,21 +1052,21 @@ R1
 R0
 R2
 R3
-!i122 2241
+!i122 2507
 R4
-Z103 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_icache.vhd
-Z104 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_icache.vhd
+Z102 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_icache.vhd
+Z103 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_icache.vhd
 l0
-R24
+R25
 VUV:@@_6P9k^ezP^]:C]8l1
 !s100 e>`z8`SILO4JZDhDNZch;1
 R6
 32
-R94
+R61
 !i10b 1
-R100
-Z105 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_icache.vhd|
-Z106 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_icache.vhd|
+R66
+Z104 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_icache.vhd|
+Z105 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_icache.vhd|
 !i113 0
 R7
 R8
@@ -1076,18 +1076,18 @@ R0
 R2
 R3
 DEx4 work 14 neorv32_icache 0 22 UV:@@_6P9k^ezP^]:C]8l1
-!i122 2241
+!i122 2507
 l148
 L77 253
 VT5md1^`PQQhYZ9U6oamk61
 !s100 @N<hALj:IQR4ZWYM[NOnb1
 R6
 32
-R94
+R61
 !i10b 1
-R100
+R66
+R104
 R105
-R106
 !i113 0
 R7
 R8
@@ -1097,21 +1097,21 @@ R1
 R0
 R2
 R3
-!i122 2241
+!i122 2507
 R4
+R102
 R103
-R104
 l0
 L384 1
 V8^[^IH0R3hSgXGjd7IFX`0
 !s100 4=adAK;eT_S2TA98B4fT41
 R6
 32
-R94
+R61
 !i10b 1
-R100
+R66
+R104
 R105
-R106
 !i113 0
 R7
 R8
@@ -1121,18 +1121,18 @@ R0
 R2
 R3
 DEx4 work 21 neorv32_icache_memory 0 22 8^[^IH0R3hSgXGjd7IFX`0
-!i122 2241
+!i122 2507
 l464
 L411 179
 Vbo=K;H:GK^;7:CFWUC2fk2
 !s100 QNZULJzW?Y38bRf5af2;=0
 R6
 32
-R94
+R61
 !i10b 1
-R100
+R66
+R104
 R105
-R106
 !i113 0
 R7
 R8
@@ -1141,19 +1141,19 @@ R9
 R0
 R2
 R3
-!i122 2242
+!i122 2508
 R4
 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_imem.entity.vhd
 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_imem.entity.vhd
 l0
-R70
+R71
 VKi`9Nf[]<z1D7CYRL[8zD0
 !s100 J<9z[>o]?XYzz5_<Wo?Xl1
 R6
 32
-R94
+R61
 !i10b 1
-R100
+R66
 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_imem.entity.vhd|
 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_imem.entity.vhd|
 !i113 0
@@ -1161,14 +1161,14 @@ R7
 R8
 Aneorv32_imem_rtl
 DEx4 work 12 neorv32_imem 0 22 Ki`9Nf[]<z1D7CYRL[8zD0
-DPx7 neorv32 25 neorv32_application_image 0 22 99_TfQ4o_J8b3BZC0ViQM2
+DPx7 neorv32 25 neorv32_application_image 0 22 04kEm5P4VWUf0j`YZHM7j2
 R1
 R0
 R2
 R3
 32
-R86
-!i122 2257
+R87
+!i122 2523
 8/home/user/dev/canif/rtl/neorv32/rtl/core/mem/neorv32_imem.default.vhd
 F/home/user/dev/canif/rtl/neorv32/rtl/core/mem/neorv32_imem.default.vhd
 l85
@@ -1177,7 +1177,7 @@ VHZi[TdA]Vi>B>mBT6@IlR2
 !s100 DbmHal?UDBbUha=7aGQ5a2
 R6
 !i10b 1
-R87
+R88
 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/mem/neorv32_imem.default.vhd|
 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/mem/neorv32_imem.default.vhd|
 !i113 0
@@ -1189,19 +1189,19 @@ R1
 R0
 R2
 R3
-!i122 2243
+!i122 2509
 R4
-Z107 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_mtime.vhd
-Z108 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_mtime.vhd
+Z106 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_mtime.vhd
+Z107 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_mtime.vhd
 l0
-R24
+R25
 VNhNNb@<IBP^5[Ze0Vz1^b3
 !s100 Hfo3GNb1Fk4o[Ih7gIio:1
 R6
 32
-R94
+Z108 !s110 1657518587
 !i10b 1
-R100
+R66
 Z109 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_mtime.vhd|
 Z110 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_mtime.vhd|
 !i113 0
@@ -1213,16 +1213,16 @@ R0
 R2
 R3
 DEx4 work 13 neorv32_mtime 0 22 NhNNb@<IBP^5[Ze0Vz1^b3
-!i122 2243
+!i122 2509
 l92
 L62 120
 V5S62?OaTSBK^V4O0j7L]32
 !s100 Dz;mlcH22XIM;NefSGXeN3
 R6
 32
-R94
+R108
 !i10b 1
-R100
+R66
 R109
 R110
 !i113 0
@@ -1234,7 +1234,7 @@ R1
 R0
 R2
 R3
-!i122 2244
+!i122 2510
 R4
 Z111 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_neoled.vhd
 Z112 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_neoled.vhd
@@ -1244,11 +1244,11 @@ Vo4;>7b5Co8N;9WhKFm7QM3
 !s100 0bULH?_c<nLQnV=dSEjO<2
 R6
 32
-R94
+R108
 !i10b 1
-R100
-Z113 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_neoled.vhd|
-Z114 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_neoled.vhd|
+Z113 !s108 1657518587.000000
+Z114 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_neoled.vhd|
+Z115 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_neoled.vhd|
 !i113 0
 R7
 R8
@@ -1258,18 +1258,18 @@ R0
 R2
 R3
 DEx4 work 14 neorv32_neoled 0 22 o4;>7b5Co8N;9WhKFm7QM3
-!i122 2244
+!i122 2510
 l184
 L79 342
 V9jdf9Hf[SGfT3M2>4IObh3
 !s100 `8SWO^;kCNRIgl7L;=c[Z3
 R6
 32
-R94
+R108
 !i10b 1
-R100
 R113
 R114
+R115
 !i113 0
 R7
 R8
@@ -1277,23 +1277,23 @@ Pneorv32_package
 R0
 R2
 R3
-!i122 2245
+!i122 2511
 R9
 R4
-Z115 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_package.vhd
-Z116 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_package.vhd
+Z116 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_package.vhd
+Z117 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_package.vhd
 l0
-R85
+R86
 VLFalAo6PM6m]>Xgk4^i>90
 !s100 4W=lV;0_nfW8@Xez26oQ@0
 R6
 32
 b1
-R94
+R108
 !i10b 1
-R100
-Z117 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_package.vhd|
-Z118 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_package.vhd|
+R113
+Z118 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_package.vhd|
+Z119 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_package.vhd|
 !i113 0
 R7
 R8
@@ -1303,17 +1303,17 @@ R0
 R2
 R3
 32
-R94
-!i122 2245
+R108
+!i122 2511
 l0
 L2113 1
 VOdW=HnoAmk[ZkeD7]gb[G3
 !s100 5b8IkZl@=iiSJfbzOfEO[1
 R6
 !i10b 1
-R100
-R117
+R113
 R118
+R119
 !i113 0
 R7
 R8
@@ -1323,21 +1323,21 @@ R1
 R0
 R2
 R3
-!i122 2246
+!i122 2512
 R4
-Z119 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_pwm.vhd
-Z120 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_pwm.vhd
+Z120 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_pwm.vhd
+Z121 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_pwm.vhd
 l0
-R24
+R25
 Vhd7>Gh7f2SKU9gzE?V7e32
 !s100 HnZ8^]@5Dz?Pa<H38Q=cm2
 R6
 32
-R94
+R108
 !i10b 1
-R100
-Z121 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_pwm.vhd|
-Z122 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_pwm.vhd|
+R113
+Z122 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_pwm.vhd|
+Z123 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_pwm.vhd|
 !i113 0
 R7
 R8
@@ -1347,18 +1347,18 @@ R0
 R2
 R3
 DEx4 work 11 neorv32_pwm 0 22 hd7>Gh7f2SKU9gzE?V7e32
-!i122 2246
+!i122 2512
 l99
 L66 136
 VORH1F3kn6YzkY?f`Ng;=C1
 !s100 R?R75Cck<oCcWc5laz6?K3
 R6
 32
-R94
+R108
 !i10b 1
-R100
-R121
+R113
 R122
+R123
 !i113 0
 R7
 R8
@@ -1368,21 +1368,21 @@ R1
 R0
 R2
 R3
-!i122 2247
+!i122 2513
 R4
-Z123 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_slink.vhd
-Z124 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_slink.vhd
+Z124 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_slink.vhd
+Z125 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_slink.vhd
 l0
 R99
 VoSQ:Zb63d23@fHI2]RM803
 !s100 nk2VZTI=o;X7<VdeOH3H80
 R6
 32
-R94
+R108
 !i10b 1
-R100
-Z125 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_slink.vhd|
-Z126 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_slink.vhd|
+R113
+Z126 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_slink.vhd|
+Z127 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_slink.vhd|
 !i113 0
 R7
 R8
@@ -1392,18 +1392,18 @@ R0
 R2
 R3
 DEx4 work 13 neorv32_slink 0 22 oSQ:Zb63d23@fHI2]RM803
-!i122 2247
+!i122 2513
 l162
 L77 363
 VJgECn3ZD1N0V2:KjSM33f1
 !s100 7bGE]G>;=mjoQ5OCN>BA[2
 R6
 32
-R94
+R108
 !i10b 1
-R100
-R125
+R113
 R126
+R127
 !i113 0
 R7
 R8
@@ -1413,21 +1413,21 @@ R1
 R0
 R2
 R3
-!i122 2248
+!i122 2514
 R4
-Z127 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_spi.vhd
-Z128 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_spi.vhd
+Z128 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_spi.vhd
+Z129 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_spi.vhd
 l0
-R19
+R20
 VZ;fgOX1>f_Ql:3c?hOz?_0
 !s100 aDcL2<Lb<BPWeQ1dV[0ST3
 R6
 32
-R94
+R108
 !i10b 1
-R100
-Z129 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_spi.vhd|
-Z130 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_spi.vhd|
+R113
+Z130 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_spi.vhd|
+Z131 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_spi.vhd|
 !i113 0
 R7
 R8
@@ -1437,18 +1437,18 @@ R0
 R2
 R3
 DEx4 work 11 neorv32_spi 0 22 Z;fgOX1>f_Ql:3c?hOz?_0
-!i122 2248
+!i122 2514
 l119
 L69 219
 V4jRil:ZBl:QUiVZ9dbjI=2
 !s100 =USfjG;YLLVYj9N4B6oPC1
 R6
 32
-R94
+R108
 !i10b 1
-R100
-R129
+R113
 R130
+R131
 !i113 0
 R7
 R8
@@ -1458,21 +1458,21 @@ R1
 R0
 R2
 R3
-!i122 2249
+!i122 2515
 R4
-Z131 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_sysinfo.vhd
-Z132 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_sysinfo.vhd
+Z132 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_sysinfo.vhd
+Z133 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_sysinfo.vhd
 l0
-R24
+R25
 VCBVj5<2=2;DIBPOoLT9O^2
 !s100 lM6VMZUMnLjdCD7JgKG;>2
 R6
 32
-R94
+R108
 !i10b 1
-R100
-Z133 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_sysinfo.vhd|
-Z134 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_sysinfo.vhd|
+R113
+Z134 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_sysinfo.vhd|
+Z135 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_sysinfo.vhd|
 !i113 0
 R7
 R8
@@ -1483,17 +1483,17 @@ R2
 R3
 DEx4 work 15 neorv32_sysinfo 0 22 CBVj5<2=2;DIBPOoLT9O^2
 32
-R94
-!i122 2249
+R108
+!i122 2515
 l122
 L106 122
 ViKISoYi48e@^mhO:nLkjY0
 !s100 ZT6IGh?jeBNlS=MXo?MQQ1
 R6
 !i10b 1
-R100
-R133
+R113
 R134
+R135
 !i113 0
 R7
 R8
@@ -1503,21 +1503,21 @@ R1
 R0
 R2
 R3
-!i122 2250
+!i122 2516
 R4
-Z135 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_top.vhd
-Z136 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_top.vhd
+Z136 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_top.vhd
+Z137 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_top.vhd
 l0
 R99
 VJQVmN]n0cf5OW5:3D[FJm3
 !s100 m=5OIQ^YdR4SRUGzHN0MN0
 R6
 32
-R94
+R108
 !i10b 1
-R100
-Z137 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_top.vhd|
-Z138 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_top.vhd|
+R113
+Z138 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_top.vhd|
+Z139 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_top.vhd|
 !i113 0
 R7
 R8
@@ -1528,17 +1528,17 @@ R2
 R3
 DEx4 work 11 neorv32_top 0 22 JQVmN]n0cf5OW5:3D[FJm3
 32
-R94
-!i122 2250
+R108
+!i122 2516
 l345
 L228 1336
 VGb_TETH9T0mz[_0E0^BAN0
 !s100 [S:W]BaSbYK?K=4:GK8e72
 R6
 !i10b 1
-R100
-R137
+R113
 R138
+R139
 !i113 0
 R7
 R8
@@ -1548,21 +1548,21 @@ R1
 R0
 R2
 R3
-!i122 2251
+!i122 2517
 R4
-Z139 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_trng.vhd
-Z140 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_trng.vhd
+Z140 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_trng.vhd
+Z141 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_trng.vhd
 l0
-R24
+R25
 VgV2e_e@5e7[0hTdfD78[C1
 !s100 c`h3VoBl1^6:hFWBj5fRM0
 R6
 32
-R86
+R108
 !i10b 1
-R100
-Z141 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_trng.vhd|
-Z142 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_trng.vhd|
+R113
+Z142 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_trng.vhd|
+Z143 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_trng.vhd|
 !i113 0
 R7
 R8
@@ -1572,18 +1572,18 @@ R0
 R2
 R3
 DEx4 work 12 neorv32_trng 0 22 gV2e_e@5e7[0hTdfD78[C1
-!i122 2251
+!i122 2517
 l107
 L58 116
 VO7D?l7H=h73<HYAc@=dQQ2
 !s100 2l7z?iF>EKDO85ICJUadW1
 R6
 32
-R86
+R108
 !i10b 1
-R100
-R141
+R113
 R142
+R143
 !i113 0
 R7
 R8
@@ -1593,21 +1593,21 @@ R1
 R0
 R2
 R3
-!i122 2252
+!i122 2518
 R4
-Z143 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_twi.vhd
-Z144 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_twi.vhd
+Z144 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_twi.vhd
+Z145 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_twi.vhd
 l0
-R19
+R20
 VKo`6U_b=:`lQhONP_zd[z2
 !s100 a?^AGTnEa:1f`XQV^oBBS1
 R6
 32
-R86
+R108
 !i10b 1
-R87
-Z145 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_twi.vhd|
-Z146 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_twi.vhd|
+R113
+Z146 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_twi.vhd|
+Z147 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_twi.vhd|
 !i113 0
 R7
 R8
@@ -1617,18 +1617,18 @@ R0
 R2
 R3
 DEx4 work 11 neorv32_twi 0 22 Ko`6U_b=:`lQhONP_zd[z2
-!i122 2252
+!i122 2518
 l114
 L67 224
 VU:ZHU[cR^B_?^=bZhES3Q0
 !s100 ^a7zeQf;NkEjjO7DlkBgL1
 R6
 32
-R86
+R108
 !i10b 1
-R87
-R145
+R113
 R146
+R147
 !i113 0
 R7
 R8
@@ -1638,21 +1638,21 @@ R1
 R0
 R2
 R3
-!i122 2253
+!i122 2519
 R4
-Z147 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_uart.vhd
-Z148 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_uart.vhd
+Z148 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_uart.vhd
+Z149 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_uart.vhd
 l0
 L68 1
 VFIke?SYFZnGkOE[ICM5h11
 !s100 cI>8zhU_MmccMQjBClQ_I3
 R6
 32
-R86
+R108
 !i10b 1
-R87
-Z149 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_uart.vhd|
-Z150 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_uart.vhd|
+R113
+Z150 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_uart.vhd|
+Z151 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_uart.vhd|
 !i113 0
 R7
 R8
@@ -1662,18 +1662,18 @@ R0
 R2
 R3
 DEx4 work 12 neorv32_uart 0 22 FIke?SYFZnGkOE[ICM5h11
-!i122 2253
+!i122 2519
 l239
 L98 551
 V8Lm3GclD;mWDg10l=Lf;20
 !s100 4M7KNf_^PM?fOPEJ_IOc<0
 R6
 32
-R86
+R108
 !i10b 1
-R87
-R149
+R113
 R150
+R151
 !i113 0
 R7
 R8
@@ -1683,21 +1683,21 @@ R1
 R0
 R2
 R3
-!i122 2254
+!i122 2520
 R4
-Z151 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wdt.vhd
-Z152 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wdt.vhd
+Z152 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wdt.vhd
+Z153 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wdt.vhd
 l0
-Z153 L50 1
+Z154 L50 1
 V>NjzFNkl0RRFPklnhzXAE2
 !s100 Q6dA=^KhTf4d3<2[9LM730
 R6
 32
-R86
-!i10b 1
 R87
-Z154 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wdt.vhd|
-Z155 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wdt.vhd|
+!i10b 1
+R113
+Z155 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wdt.vhd|
+Z156 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wdt.vhd|
 !i113 0
 R7
 R8
@@ -1707,18 +1707,18 @@ R0
 R2
 R3
 DEx4 work 11 neorv32_wdt 0 22 >NjzFNkl0RRFPklnhzXAE2
-!i122 2254
+!i122 2520
 l124
 L75 170
 VGC:2JJe?ki;_``hjDg>zV3
 !s100 kS>2bYP8jIdS;iPf17FJj1
 R6
 32
-R86
-!i10b 1
 R87
-R154
+!i10b 1
+R113
 R155
+R156
 !i113 0
 R7
 R8
@@ -1728,21 +1728,21 @@ R1
 R0
 R2
 R3
-!i122 2255
+!i122 2521
 R4
-Z156 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wishbone.vhd
-Z157 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wishbone.vhd
+Z157 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wishbone.vhd
+Z158 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wishbone.vhd
 l0
-R153
+R154
 V4jdYM6ilDUi^2PDTQi?062
 !s100 49_PA17Ja]>UlX?_ggNZ12
 R6
 32
-R86
-!i10b 1
 R87
-Z158 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wishbone.vhd|
-Z159 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wishbone.vhd|
+!i10b 1
+R88
+Z159 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wishbone.vhd|
+Z160 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_wishbone.vhd|
 !i113 0
 R7
 R8
@@ -1753,17 +1753,17 @@ R2
 R3
 DEx4 work 16 neorv32_wishbone 0 22 4jdYM6ilDUi^2PDTQi?062
 32
-R86
-!i122 2255
+R87
+!i122 2521
 l135
 L97 178
 V2fAzZZ1Tod@=oA[Wb2[[S3
 !s100 7@9Bh3ThG`C60lV_X1a0^1
 R6
 !i10b 1
-R87
-R158
+R88
 R159
+R160
 !i113 0
 R7
 R8
@@ -1773,21 +1773,21 @@ R1
 R0
 R2
 R3
-!i122 2256
+!i122 2522
 R4
-Z160 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_xirq.vhd
-Z161 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_xirq.vhd
+Z161 8/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_xirq.vhd
+Z162 F/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_xirq.vhd
 l0
-R61
+R60
 V<3PeX;Z5E[dn25IO8[cZV0
 !s100 SB4z]H1fI@K[VYSMgg0jO1
 R6
 32
-R86
-!i10b 1
 R87
-Z162 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_xirq.vhd|
-Z163 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_xirq.vhd|
+!i10b 1
+R88
+Z163 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_xirq.vhd|
+Z164 !s107 /home/user/dev/canif/rtl/neorv32/rtl/core/neorv32_xirq.vhd|
 !i113 0
 R7
 R8
@@ -1797,18 +1797,18 @@ R0
 R2
 R3
 DEx4 work 12 neorv32_xirq 0 22 <3PeX;Z5E[dn25IO8[cZV0
-!i122 2256
+!i122 2522
 l103
 L71 159
 V7515bz]Z@X7PoHoMY^<eh3
 !s100 >:FhP]aSd?U:YhV44OVbf2
 R6
 32
-R86
-!i10b 1
 R87
-R162
+!i10b 1
+R88
 R163
+R164
 !i113 0
 R7
 R8
@@ -1817,21 +1817,21 @@ R9
 R0
 R2
 R3
-!i122 2251
+!i122 2517
 R4
-R139
 R140
+R141
 l0
 L234 1
 VZzXEDKR@Q0F?7[6HeDN]f2
 !s100 _@RS:]@FCklgmz1kHhg1j2
 R6
 32
-R86
+R108
 !i10b 1
-R100
-R141
+R113
 R142
+R143
 !i113 0
 R7
 R8
@@ -1840,18 +1840,18 @@ R0
 R2
 R3
 DEx4 work 7 neotrng 0 22 ZzXEDKR@Q0F?7[6HeDN]f2
-!i122 2251
+!i122 2517
 l296
 L249 154
 Vl_zc=WJaj1aPGGozN4Tm;1
 !s100 ]=Kb?7zY[F41Q6UblXTXW2
 R6
 32
-R86
+R108
 !i10b 1
-R100
-R141
+R113
 R142
+R143
 !i113 0
 R7
 R8
@@ -1859,21 +1859,21 @@ Eneotrng_cell
 R9
 R2
 R3
-!i122 2251
+!i122 2517
 R4
-R139
 R140
+R141
 l0
 L459 1
 VEP0P2R0VMXDlVmhhG^5mW3
 !s100 o_NUCF[5]<OEeZD_P^N<_2
 R6
 32
-R86
+R108
 !i10b 1
-R100
-R141
+R113
 R142
+R143
 !i113 0
 R7
 R8
@@ -1881,18 +1881,18 @@ Aneotrng_cell_rtl
 R2
 R3
 DEx4 work 12 neotrng_cell 0 22 EP0P2R0VMXDlVmhhG^5mW3
-!i122 2251
+!i122 2517
 l482
 L473 78
 VWLkU4_C@P4?EzgJ;MTcKL2
 !s100 h>eicUoLBe;^mAOcAH2C;2
 R6
 32
-R86
+R108
 !i10b 1
-R100
-R141
+R113
 R142
+R143
 !i113 0
 R7
 R8
