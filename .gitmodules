@@ -1,0 +1,6 @@
+[submodule "ip/ctucanfd"]
+	path = ip/ctucanfd
+	url = https://gitlab.fel.cvut.cz/canbus/ctucanfd_ip_core.git
+[submodule "ip/neorv32"]
+	path = ip/neorv32
+	url = https://github.com/stnolting/neorv32.git
