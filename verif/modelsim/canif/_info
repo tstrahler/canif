@@ -1,0 +1,81 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/tristan/dev/canif/verif/modelsim
+T_opt
+!s110 1659873444
+VjMRn8AT^?MPk^1I3[=E`?1
+Z2 04 7 11 work top_cpu top_cpu_rtl 1
+=1-000ae431a4f1-62efa8a3-a743f-aaa2
+Z3 !s124 OEM10U27 
+o-quiet -auto_acc_if_foreign -work canif +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1659874034
+V0`A^In`VeaXN>Vj<1J<T]3
+R2
+=1-000ae431a4f1-62efaaf1-e0979-adc7
+R3
+o-quiet -auto_acc_if_foreign -work canif
+R4
+n@_opt1
+R5
+Etop_cpu
+Z6 w1659873290
+Z7 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+R1
+Z10 8/home/tristan/dev/canif/rtl/top_cpu.vhd
+Z11 F/home/tristan/dev/canif/rtl/top_cpu.vhd
+l0
+L41 1
+VL`E9kV:N5f:]FZHg_S<bb2
+!s100 S9kaoW;JX2nT^[PooHTh:2
+Z12 OL;C;2021.2;73
+32
+Z13 !s110 1659873412
+!i10b 1
+Z14 !s108 1659873412.000000
+Z15 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/rtl/top_cpu.vhd|
+Z16 !s107 /home/tristan/dev/canif/rtl/top_cpu.vhd|
+!i113 0
+Z17 o-work canif -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Atop_cpu_rtl
+DPx7 neorv32 15 neorv32_package 0 22 0Yle2XfjNf^ncGP`c7;?l1
+DEx7 neorv32 11 neorv32_top 0 22 kQ=AL6Xn[nf1C564To1M]0
+R7
+R8
+R9
+DEx4 work 7 top_cpu 0 22 L`E9kV:N5f:]FZHg_S<bb2
+!i122 3
+l60
+L55 127
+VX^To0^mAAKFo;`gGIKJDB1
+!s100 BmBE?QlM;bn7Kh^Ug`Wbi3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
