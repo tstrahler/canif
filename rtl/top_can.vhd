@@ -16,16 +16,14 @@ use ctu_can_fd_rtl.can_registers_pkg.all;
 
 library canif;
 
-entity wb_ctucan is
+entity top_can is
     generic(
-        -- Default address is 0xA0000000 - from 0b 1010 0000 0000 0000 0000 0000 0000 0000
-        --                                   to 0b 1010 0000 0000 0000 0000 1111 1111 1111
-        g_wb_base   : std_logic_vector(31 downto 0) := x"A0000000";
-        g_wb_width      : integer   := 12;
-        g_wb_inst_width : integer   := 2;
-
         -- Set ammount of CAN interfaces - use 4 as default
-        g_can_if_count  : integer   := 4
+        g_can_if_count  : integer   := 4;
+
+        g_wb_base       : std_logic_vector(31 downto 0) := x"A0000000";
+        g_wb_width      : integer   := 12;
+        g_wb_inst_width : integer   := 2
     );
     port(
         -- System control signals
@@ -45,18 +43,19 @@ entity wb_ctucan is
         o_wb_rdata  : out std_logic_vector(31 downto 0);    -- Data output
        
         -- CAN signals
-        i_can_rx    : in std_logic_vector(0 to g_can_if_count - 1);
-        o_can_tx    : out std_logic_vector(0 to g_can_if_count - 1) 
+        i_can_rx    : in std_logic_vector(g_can_if_count - 1 downto 0);
+        o_can_tx    : out std_logic_vector(g_can_if_count - 1 downto 0); 
 
         -- Interrupt generator
-        o_irq   : out std_logic;
+        o_irq   : out std_logic_vector(g_can_if_count - 1 downto 0);
 
         -- Timestamp signal
-        i_timestamp : in std_logic_vector(63 downto 0);
+        i_timestamp : in std_logic_vector(63 downto 0)
     );
 end entity;
 
 architecture rtl of wb_ctucan is
+    -- Ready signal
     signal s_rdy    : std_logic_vector(g_can_if_count - 1 downto 0);
 
     -- Wishbone signals
@@ -69,8 +68,6 @@ architecture rtl of wb_ctucan is
     type vector_array is array(integer range <>) of std_logic_vector(31 downto 0);
     signal s_wb_rdata   : vector_array(g_can_if_count - 1 downto 0);
 
-    -- Reduced interrupt signal 
-    signal s_irq    : std_logic_vector(g_can_if_count - 1 downto 0);
 begin
 
     -- Generate for each CAN interface
@@ -79,7 +76,7 @@ begin
         -- Generate CS signals
         p_cs_gen : process(i_wb_addr) begin
             -- Compare if base address matches
-            if ( g_wb_base(31 downto g_wb_width + g_wb_inst_width) = i_wb_addr(31 downto g_wb_width + g_wb_inst_width) ) then
+            if ( i_wb_addr(31 downto g_wb_width + g_wb_inst_width) = g_wb_base(30 downto g_wb_width + g_wb_inst_width) ) then
                 -- Compare if device address matches
                 if ( i_wb_addr(g_wb_width + g_wb_inst_width - 1 downto g_wb_width) = std_logic_vector(to_unsigned(i, g_wb_inst_width))) then
                     s_cs(i) <= '1';
@@ -120,18 +117,7 @@ begin
         end loop;
         o_wb_ack <= v_ack;
     end process;
-
-    -- Aggregate IRQ sinals
-    g_irq_gen : process(s_ack)
-        variable v_irq : std_logic;
-    begin
-        v_irq := '0';
-        for i in 0 to g_can_if_count - 1 loop
-            v_irq := v_irq or s_irq(i);
-        end loop;
-        o_irq   <= v_irq;
-    end process;
-
+    
     -- Switch rdata via MUX
     g_rdata_mux : process(s_wb_rdata) begin
         for i in 0 to g_can_if_count - 1 loop
@@ -157,7 +143,7 @@ begin
         )
         port map(
             clk_sys     => i_clk,
-            res_n       => i_rst_n,
+            res_n       => i_rstn,
             res_n_out   => s_rdy(i),
 
             scan_enable => '0',
@@ -170,7 +156,7 @@ begin
             swr         => s_we(i),
             sbe         => "1111",
 
-            int         => s_irq(i),
+            int         => o_irq(i),
             
             can_tx      => o_can_tx(i),
             can_rx      => i_can_rx(i),

@@ -50,7 +50,7 @@ Disassembly of section .text:
   90:	00000f93          	li	t6,0
 
 00000094 <__crt0_copy_data>:
-  94:	1d400593          	li	a1,468
+  94:	20000593          	li	a1,512
   98:	80000617          	auipc	a2,0x80000
   9c:	f6860613          	addi	a2,a2,-152 # 80000000 <__crt0_stack_begin+0xffffe004>
   a0:	80000697          	auipc	a3,0x80000
@@ -78,8 +78,8 @@ Disassembly of section .text:
   e0:	ff5ff06f          	j	d4 <__crt0_clear_bss_loop>
 
 000000e4 <__crt0_call_constructors>:
-  e4:	1d400413          	li	s0,468
-  e8:	1d400493          	li	s1,468
+  e4:	20000413          	li	s0,512
+  e8:	20000493          	li	s1,512
 
 000000ec <__crt0_call_constructors_loop>:
   ec:	00945a63          	bge	s0,s1,100 <__crt0_call_constructors_loop_end>
@@ -98,8 +98,8 @@ Disassembly of section .text:
  110:	34051073          	csrw	mscratch,a0
 
 00000114 <__crt0_call_destructors>:
- 114:	1d400413          	li	s0,468
- 118:	1d400493          	li	s1,468
+ 114:	20000413          	li	s0,512
+ 118:	20000493          	li	s1,512
 
 0000011c <__crt0_call_destructors_loop>:
  11c:	00945a63          	bge	s0,s1,130 <__crt0_call_destructors_loop_end>
@@ -143,20 +143,31 @@ Disassembly of section .text:
 00000190 <main>:
  190:	ff010113          	addi	sp,sp,-16
  194:	00112623          	sw	ra,12(sp)
- 198:	00000513          	li	a0,0
- 19c:	008000ef          	jal	ra,1a4 <neorv32_gpio_pin_toggle>
- 1a0:	ff9ff06f          	j	198 <main+0x8>
+ 198:	a00007b7          	lui	a5,0xa0000
+ 19c:	00200713          	li	a4,2
+ 1a0:	00e7a223          	sw	a4,4(a5) # a0000004 <__crt0_stack_begin+0x1fffe008>
+ 1a4:	a00017b7          	lui	a5,0xa0001
+ 1a8:	00400713          	li	a4,4
+ 1ac:	00e7a223          	sw	a4,4(a5) # a0001004 <__crt0_stack_begin+0x1ffff008>
+ 1b0:	a00027b7          	lui	a5,0xa0002
+ 1b4:	00600713          	li	a4,6
+ 1b8:	00e7a223          	sw	a4,4(a5) # a0002004 <__crt0_stack_begin+0x20000008>
+ 1bc:	a00037b7          	lui	a5,0xa0003
+ 1c0:	00800713          	li	a4,8
+ 1c4:	00e7a223          	sw	a4,4(a5) # a0003004 <__crt0_stack_begin+0x20001008>
+ 1c8:	00000513          	li	a0,0
+ 1cc:	00000593          	li	a1,0
+ 1d0:	020000ef          	jal	ra,1f0 <neorv32_gpio_port_set>
+ 1d4:	00100513          	li	a0,1
+ 1d8:	00000593          	li	a1,0
+ 1dc:	014000ef          	jal	ra,1f0 <neorv32_gpio_port_set>
+ 1e0:	00c12083          	lw	ra,12(sp)
+ 1e4:	00000513          	li	a0,0
+ 1e8:	01010113          	addi	sp,sp,16
+ 1ec:	00008067          	ret
 
-000001a4 <neorv32_gpio_pin_toggle>:
- 1a4:	00100793          	li	a5,1
- 1a8:	01f00713          	li	a4,31
- 1ac:	00a797b3          	sll	a5,a5,a0
- 1b0:	00a74a63          	blt	a4,a0,1c4 <neorv32_gpio_pin_toggle+0x20>
- 1b4:	fc802703          	lw	a4,-56(zero) # ffffffc8 <__crt0_stack_begin+0x7fffdfcc>
- 1b8:	00f747b3          	xor	a5,a4,a5
- 1bc:	fcf02423          	sw	a5,-56(zero) # ffffffc8 <__crt0_stack_begin+0x7fffdfcc>
- 1c0:	00008067          	ret
- 1c4:	fcc02703          	lw	a4,-52(zero) # ffffffcc <__crt0_stack_begin+0x7fffdfd0>
- 1c8:	00f747b3          	xor	a5,a4,a5
- 1cc:	fcf02623          	sw	a5,-52(zero) # ffffffcc <__crt0_stack_begin+0x7fffdfd0>
- 1d0:	00008067          	ret
+000001f0 <neorv32_gpio_port_set>:
+ 1f0:	fc000793          	li	a5,-64
+ 1f4:	00a7a423          	sw	a0,8(a5)
+ 1f8:	00b7a623          	sw	a1,12(a5)
+ 1fc:	00008067          	ret

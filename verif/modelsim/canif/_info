@@ -34,24 +34,25 @@ o-quiet -auto_acc_if_foreign -work canif
 R4
 n@_opt1
 R5
+R1
 Etop_cpu
-Z6 w1659873290
+Z6 w1659881908
 Z7 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 3
+!i122 4
 R1
 Z10 8/home/tristan/dev/canif/rtl/top_cpu.vhd
 Z11 F/home/tristan/dev/canif/rtl/top_cpu.vhd
 l0
 L41 1
-VL`E9kV:N5f:]FZHg_S<bb2
-!s100 S9kaoW;JX2nT^[PooHTh:2
+Vd23aV^735M9eZA>i]:=j50
+!s100 Z=37Jg]M[i1?a=D80ZP=52
 Z12 OL;C;2021.2;73
 32
-Z13 !s110 1659873412
+Z13 !s110 1659883722
 !i10b 1
-Z14 !s108 1659873412.000000
+Z14 !s108 1659883722.000000
 Z15 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/rtl/top_cpu.vhd|
 Z16 !s107 /home/tristan/dev/canif/rtl/top_cpu.vhd|
 !i113 0
@@ -63,12 +64,12 @@ DEx7 neorv32 11 neorv32_top 0 22 kQ=AL6Xn[nf1C564To1M]0
 R7
 R8
 R9
-DEx4 work 7 top_cpu 0 22 L`E9kV:N5f:]FZHg_S<bb2
-!i122 3
-l60
-L55 127
-VX^To0^mAAKFo;`gGIKJDB1
-!s100 BmBE?QlM;bn7Kh^Ug`Wbi3
+DEx4 work 7 top_cpu 0 22 d23aV^735M9eZA>i]:=j50
+!i122 4
+l62
+L57 127
+Vg^>ACHzCYOi8?G;8VHiYC1
+!s100 VXjNF82nXL1TQg^?BH=c20
 R12
 32
 R13
@@ -76,6 +77,70 @@ R13
 R14
 R15
 R16
+!i113 0
+R17
+R18
+Ewb_ctucan
+Z19 w1659884140
+Z20 DPx14 ctu_can_fd_rtl 17 can_registers_pkg 0 22 afdbZz6zALG?TF0j8egAh1
+Z21 DPx14 ctu_can_fd_rtl 19 can_fd_register_map 0 22 bN_^M8k?=XoOk;P`oGn6N2
+Z22 DPx14 ctu_can_fd_rtl 13 unary_ops_pkg 0 22 DCk4oddngUD]6jB40L;3[1
+Z23 DPx14 ctu_can_fd_rtl 12 drv_stat_pkg 0 22 7cFjm<j33W=DW4o;;W97V2
+Z24 DPx14 ctu_can_fd_rtl 14 can_config_pkg 0 22 T0BXOW?8Mh@l8zij6_naN0
+Z25 DPx14 ctu_can_fd_rtl 13 can_types_pkg 0 22 olXWIOmAanabRIZnz6>Ub0
+Z26 DPx14 ctu_can_fd_rtl 17 can_constants_pkg 0 22 kdHOEP]S6:f>@P;IBTCZ52
+Z27 DPx14 ctu_can_fd_rtl 19 can_fd_frame_format 0 22 ocThlR<M5iTUDodh1P98=0
+Z28 DPx14 ctu_can_fd_rtl 15 id_transfer_pkg 0 22 5PY]j=>=jeCFjjKb276UP1
+Z29 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R7
+R8
+R9
+!i122 9
+R1
+Z30 8/home/tristan/dev/canif/rtl/top_can.vhd
+Z31 F/home/tristan/dev/canif/rtl/top_can.vhd
+l0
+L19 1
+VXa8:5o84TmAF@7aI7>l=M2
+!s100 diNgGYcRf2J=RCc4nUMZE3
+R12
+32
+Z32 !s110 1659884145
+!i10b 1
+Z33 !s108 1659884144.000000
+Z34 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/rtl/top_can.vhd|
+!s107 /home/tristan/dev/canif/rtl/top_can.vhd|
+!i113 0
+R17
+R18
+Artl
+DEx14 ctu_can_fd_rtl 13 can_top_level 0 22 3^9fOkm4_nk0;NegnC;CL3
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R7
+R8
+R9
+DEx4 work 9 wb_ctucan 0 22 Xa8:5o84TmAF@7aI7>l=M2
+!i122 9
+l71
+L57 113
+Vo][Z3hQnfcZ];83PhM`D73
+!s100 SDiPWf6f1leQCV1lzbjnk2
+R12
+32
+R32
+!i10b 1
+R33
+R34
+Z35 !s107 /home/tristan/dev/canif/rtl/top_can.vhd|
 !i113 0
 R17
 R18

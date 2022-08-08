@@ -40,19 +40,29 @@ library neorv32;
 
 entity top_cpu is
     port (
+        -- System control signal
         i_clk       : in  std_logic;
         i_rstn      : in  std_logic;
 
-        o_gpio      : out std_ulogic_vector(3 downto 0);
+        -- GPIO pins
+        o_gpio      : out std_logic_vector(3 downto 0);
 
-        o_timestamp : out std_ulogic_vector(63 downto 0);
+        -- MTIME Timestamp
+        o_timestamp : out std_logic_vector(63 downto 0);
 
-        o_uart_txd  : out std_ulogic;
-        i_uart_rxd  : in  std_ulogic := '0'
+        o_uart_txd  : out std_logic;
+        i_uart_rxd  : in  std_logic
     );
 end entity;
 
 architecture top_cpu_rtl of top_cpu is
+    
+    signal s_clk    : std_ulogic;
+    signal s_rstn   : std_ulogic;
+
+    signal s_gpio   : std_logic;
+
+    signal s_timestamp  : std_logic_vector(63 downto 0);
 
     -- internal IO connection --
     signal s_con_gpio   : std_ulogic_vector(63 downto 0);
