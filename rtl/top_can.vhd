@@ -14,8 +14,6 @@ use ctu_can_fd_rtl.CAN_FD_register_map.all;
 use ctu_can_fd_rtl.CAN_FD_frame_format.all;
 use ctu_can_fd_rtl.can_registers_pkg.all;
 
-library canif;
-
 entity top_can is
     generic(
         -- Set ammount of CAN interfaces - use 4 as default
@@ -54,7 +52,7 @@ entity top_can is
     );
 end entity;
 
-architecture rtl of wb_ctucan is
+architecture top_can_rtl of top_can is
     -- Ready signal
     signal s_rdy    : std_logic_vector(g_can_if_count - 1 downto 0);
 
@@ -76,7 +74,7 @@ begin
         -- Generate CS signals
         p_cs_gen : process(i_wb_addr) begin
             -- Compare if base address matches
-            if ( i_wb_addr(31 downto g_wb_width + g_wb_inst_width) = g_wb_base(30 downto g_wb_width + g_wb_inst_width) ) then
+            if ( i_wb_addr(31 downto g_wb_width + g_wb_inst_width) = g_wb_base(31 downto g_wb_width + g_wb_inst_width) ) then
                 -- Compare if device address matches
                 if ( i_wb_addr(g_wb_width + g_wb_inst_width - 1 downto g_wb_width) = std_logic_vector(to_unsigned(i, g_wb_inst_width))) then
                     s_cs(i) <= '1';

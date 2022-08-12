@@ -14,7 +14,7 @@ Z1 w1659503504
 Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 177
+!i122 429
 R0
 Z5 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/access_signaler.vhd
 Z6 F/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/access_signaler.vhd
@@ -24,10 +24,10 @@ VPTTX<>kEOO<J`nKETI^Vh1
 !s100 DLozDG75SbYkM:aUzKFe;3
 Z7 OL;C;2021.2;73
 32
-Z8 !s110 1659872948
+Z8 !s110 1660252329
 !i10b 1
-Z9 !s108 1659872948.000000
-Z10 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/access_signaler.vhd|
+Z9 !s108 1660252329.000000
+Z10 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/access_signaler.vhd|
 Z11 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/access_signaler.vhd|
 !i113 0
 Z12 o-work ctu_can_fd_rtl -2002 -explicit
@@ -37,7 +37,7 @@ R2
 R3
 R4
 DEx4 work 16 access_signaller 0 22 PTTX<>kEOO<J`nKETI^Vh1
-!i122 177
+!i122 429
 l108
 L90 95
 V?[nbAmz=i:FWRz48C[lg>2
@@ -57,7 +57,7 @@ R1
 R2
 R3
 R4
-!i122 178
+!i122 430
 R0
 Z14 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/address_decoder.vhd
 Z15 F/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/address_decoder.vhd
@@ -70,7 +70,7 @@ R7
 R8
 !i10b 1
 R9
-Z17 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/address_decoder.vhd|
+Z17 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/address_decoder.vhd|
 Z18 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/address_decoder.vhd|
 !i113 0
 R12
@@ -80,7 +80,7 @@ R2
 R3
 R4
 DEx4 work 15 address_decoder 0 22 A84zc@:>;P133NeEacaR03
-!i122 178
+!i122 430
 l96
 L86 64
 V3IkLGBmkjh9UioI@ZUdek1
@@ -108,7 +108,7 @@ Z26 DPx14 ctu_can_fd_rtl 15 id_transfer_pkg 0 22 5PY]j=>=jeCFjjKb276UP1
 R2
 R3
 R4
-!i122 217
+!i122 469
 R0
 Z27 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_destuffing.vhd
 Z28 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_destuffing.vhd
@@ -118,10 +118,10 @@ Vm`Z`L8c[F1Yja9VIKzln40
 !s100 S@E=<g`TNR7A_a=2lZJDF2
 R7
 32
-Z29 !s110 1659872952
+Z29 !s110 1660252332
 !i10b 1
-Z30 !s108 1659872952.000000
-Z31 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_destuffing.vhd|
+Z30 !s108 1660252332.000000
+Z31 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_destuffing.vhd|
 Z32 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_destuffing.vhd|
 !i113 0
 R12
@@ -141,7 +141,7 @@ R2
 R3
 R4
 DEx4 work 14 bit_destuffing 0 22 m`Z`L8c[F1Yja9VIKzln40
-!i122 217
+!i122 469
 l210
 L152 371
 V[E_fklc9i:W;CNFVS5P4j2
@@ -169,7 +169,7 @@ R26
 R2
 R3
 R4
-!i122 211
+!i122 463
 R0
 Z35 8/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/bit_err_detector.vhd
 Z36 F/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/bit_err_detector.vhd
@@ -179,11 +179,11 @@ VT[SDzB>>63Z_JFMbV94GE3
 !s100 m=44e;?^f<3U1NE?LGYEl2
 R7
 32
-Z38 !s110 1659872951
+R29
 !i10b 1
-Z39 !s108 1659872951.000000
-Z40 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/bit_err_detector.vhd|
-Z41 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/bit_err_detector.vhd|
+R30
+Z38 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/bit_err_detector.vhd|
+Z39 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/bit_err_detector.vhd|
 !i113 0
 R12
 R13
@@ -200,18 +200,18 @@ R2
 R3
 R4
 DEx4 work 16 bit_err_detector 0 22 T[SDzB>>63Z_JFMbV94GE3
-!i122 211
+!i122 463
 l158
 L141 117
 V0<WohT0z>OG@?P;;PSI`X3
 !s100 =MYf?CAOZfCYG_k[lB7zP3
 R7
 32
-R38
+R29
 !i10b 1
+R30
+R38
 R39
-R40
-R41
 !i113 0
 R12
 R13
@@ -228,21 +228,21 @@ R26
 R2
 R3
 R4
-!i122 234
+!i122 486
 R0
-Z42 8/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/bit_filter.vhd
-Z43 F/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/bit_filter.vhd
+Z40 8/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/bit_filter.vhd
+Z41 F/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/bit_filter.vhd
 l0
-Z44 L92 1
+Z42 L92 1
 VCl9A6oAVM15Qlj=3HIo1G3
 !s100 Q`eaHjNB8Wg:8SADdSCzF2
 R7
 32
-Z45 !s110 1659872953
+Z43 !s110 1660252334
 !i10b 1
-Z46 !s108 1659872953.000000
-Z47 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/bit_filter.vhd|
-Z48 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/bit_filter.vhd|
+Z44 !s108 1660252334.000000
+Z45 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/bit_filter.vhd|
+Z46 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/bit_filter.vhd|
 !i113 0
 R12
 R13
@@ -259,18 +259,18 @@ R2
 R3
 R4
 DEx4 work 10 bit_filter 0 22 Cl9A6oAVM15Qlj=3HIo1G3
-!i122 234
+!i122 486
 l123
 L118 24
 VR02n0;aJI[N=KTmX7e2nV2
 !s100 ^:GWaUiGeS[deoz@]3S[J1
 R7
 32
-R45
+R43
 !i10b 1
+R44
+R45
 R46
-R47
-R48
 !i113 0
 R12
 R13
@@ -287,21 +287,21 @@ R26
 R2
 R3
 R4
-!i122 197
+!i122 449
 R0
-Z49 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_segment_meter.vhd
-Z50 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_segment_meter.vhd
+Z47 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_segment_meter.vhd
+Z48 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_segment_meter.vhd
 l0
 L196 1
 VTUb;NWN0F23>h3X_ZKTam2
 !s100 1T`[Bj]ce_l>EP38`a3;O3
 R7
 32
-Z51 !s110 1659872950
+Z49 !s110 1660252331
 !i10b 1
-Z52 !s108 1659872950.000000
-Z53 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_segment_meter.vhd|
-Z54 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_segment_meter.vhd|
+Z50 !s108 1660252331.000000
+Z51 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_segment_meter.vhd|
+Z52 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_segment_meter.vhd|
 !i113 0
 R12
 R13
@@ -318,18 +318,18 @@ R2
 R3
 R4
 DEx4 work 17 bit_segment_meter 0 22 TUb;NWN0F23>h3X_ZKTam2
-!i122 197
+!i122 449
 l353
 L273 314
 VL5J:[S>10gSN;23mmQ5SW1
 !s100 KZobV8H:B21O87;Y3V;b82
 R7
 32
-R51
+R49
 !i10b 1
+R50
+R51
 R52
-R53
-R54
 !i113 0
 R12
 R13
@@ -346,12 +346,12 @@ R26
 R2
 R3
 R4
-!i122 218
+!i122 470
 R0
-Z55 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_stuffing.vhd
-Z56 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_stuffing.vhd
+Z53 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_stuffing.vhd
+Z54 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_stuffing.vhd
 l0
-Z57 L100 1
+Z55 L100 1
 V2_S8;>ob29gheU9^94g@>1
 !s100 gb5=:^4WRWDL9Df[jKG0I1
 R7
@@ -359,8 +359,8 @@ R7
 R29
 !i10b 1
 R30
-Z58 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_stuffing.vhd|
-Z59 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_stuffing.vhd|
+Z56 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_stuffing.vhd|
+Z57 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_stuffing.vhd|
 !i113 0
 R12
 R13
@@ -379,7 +379,7 @@ R2
 R3
 R4
 DEx4 work 12 bit_stuffing 0 22 2_S8;>ob29gheU9^94g@>1
-!i122 218
+!i122 470
 l235
 L150 355
 VgKZk39h7JCCa3L^eeX5OW3
@@ -389,8 +389,8 @@ R7
 R29
 !i10b 1
 R30
-R58
-R59
+R56
+R57
 !i113 0
 R12
 R13
@@ -407,21 +407,21 @@ R26
 R2
 R3
 R4
-!i122 198
+!i122 450
 R0
-Z60 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_cfg_capture.vhd
-Z61 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_cfg_capture.vhd
+Z58 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_cfg_capture.vhd
+Z59 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_cfg_capture.vhd
 l0
-Z62 L96 1
+Z60 L96 1
 V`[eQmJ4KgH02XBY[FzbOa2
 !s100 hedB@8_17NMoZKFB2GbJJ0
 R7
 32
-R51
+R49
 !i10b 1
-R52
-Z63 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_cfg_capture.vhd|
-Z64 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_cfg_capture.vhd|
+R50
+Z61 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_cfg_capture.vhd|
+Z62 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_cfg_capture.vhd|
 !i113 0
 R12
 R13
@@ -438,18 +438,18 @@ R2
 R3
 R4
 DEx4 work 20 bit_time_cfg_capture 0 22 `[eQmJ4KgH02XBY[FzbOa2
-!i122 198
+!i122 450
 l207
 L170 129
 Vo?KlCfkA8@d5=EMc^32<N2
 !s100 >Fb1MRoGVT8A;XLeXeZg30
 R7
 32
-R51
+R49
 !i10b 1
-R52
-R63
-R64
+R50
+R61
+R62
 !i113 0
 R12
 R13
@@ -466,21 +466,21 @@ R26
 R2
 R3
 R4
-!i122 199
+!i122 451
 R0
-Z65 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_counters.vhd
-Z66 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_counters.vhd
+Z63 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_counters.vhd
+Z64 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_counters.vhd
 l0
-Z67 L98 1
+Z65 L98 1
 VhL415nO6zo1FB[=j_Qhf=1
 !s100 Fa^XUknGOOXlUjco]BM?`0
 R7
 32
-R51
+R49
 !i10b 1
-R52
-Z68 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_counters.vhd|
-Z69 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_counters.vhd|
+R50
+Z66 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_counters.vhd|
+Z67 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_counters.vhd|
 !i113 0
 R12
 R13
@@ -497,18 +497,18 @@ R2
 R3
 R4
 DEx4 work 17 bit_time_counters 0 22 hL415nO6zo1FB[=j_Qhf=1
-!i122 199
+!i122 451
 l164
 L142 97
 V0ZNIhJR2d^Af4_1z[fB7H3
 !s100 ic1kJ1jY@A@ITaVB?SA9D3
 R7
 32
-R51
+R49
 !i10b 1
-R52
-R68
-R69
+R50
+R66
+R67
 !i113 0
 R12
 R13
@@ -525,21 +525,21 @@ R26
 R2
 R3
 R4
-!i122 200
+!i122 452
 R0
-Z70 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_fsm.vhd
-Z71 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_fsm.vhd
+Z68 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_fsm.vhd
+Z69 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_fsm.vhd
 l0
 R37
 VYG^>T=@I;YVif`R@1Cj_C0
 !s100 ;lBG8loBO;K[B_EV3Je@?0
 R7
 32
-R51
+R49
 !i10b 1
-R52
-Z72 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_fsm.vhd|
-Z73 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_fsm.vhd|
+R50
+Z70 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_fsm.vhd|
+Z71 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/bit_time_fsm.vhd|
 !i113 0
 R12
 R13
@@ -556,18 +556,18 @@ R2
 R3
 R4
 DEx4 work 12 bit_time_fsm 0 22 YG^>T=@I;YVif`R@1Cj_C0
-!i122 200
+!i122 452
 l144
 L135 88
 V^@^GJ_VZY20`m<h?Mo5NB1
 !s100 K8SMUW;Q58Ca7zzDLG6ie3
 R7
 32
-R51
+R49
 !i10b 1
-R52
-R72
-R73
+R50
+R70
+R71
 !i113 0
 R12
 R13
@@ -584,21 +584,21 @@ R26
 R2
 R3
 R4
-!i122 242
+!i122 494
 R0
-Z74 8/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/bus_sampling.vhd
-Z75 F/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/bus_sampling.vhd
+Z72 8/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/bus_sampling.vhd
+Z73 F/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/bus_sampling.vhd
 l0
-Z76 L97 1
+Z74 L97 1
 V`G:1RJm1SMzKJ>>LSVU;U1
 !s100 RJPEe[m9L;F[2fAVV;2NZ2
 R7
 32
-Z77 !s110 1659872954
+R43
 !i10b 1
-Z78 !s108 1659872954.000000
-Z79 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/bus_sampling.vhd|
-Z80 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/bus_sampling.vhd|
+R44
+Z75 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/bus_sampling.vhd|
+Z76 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/bus_sampling.vhd|
 !i113 0
 R12
 R13
@@ -608,7 +608,7 @@ DEx14 ctu_can_fd_rtl 16 bit_err_detector 0 22 T[SDzB>>63Z_JFMbV94GE3
 DEx14 ctu_can_fd_rtl 13 tx_data_cache 0 22 hL=:`I4k^_gUOEX`]B=WW0
 DEx14 ctu_can_fd_rtl 13 ssp_generator 0 22 cIGjhe71179UZ=1WR=1__1
 R34
-Z81 DEx14 ctu_can_fd_rtl 7 rst_reg 0 22 BXjmfji_^?Z2RoD5f69c[2
+Z77 DEx14 ctu_can_fd_rtl 7 rst_reg 0 22 BXjmfji_^?Z2RoD5f69c[2
 DEx14 ctu_can_fd_rtl 18 data_edge_detector 0 22 WT?X0oZ=kmMg[j?EQDn0P2
 DEx14 ctu_can_fd_rtl 21 trv_delay_measurement 0 22 JE34f4X]K?S_NPE]30:UL1
 DEx14 ctu_can_fd_rtl 8 sig_sync 0 22 cHgkkgZGS`_^O5I^CT5fS0
@@ -624,18 +624,18 @@ R2
 R3
 R4
 DEx4 work 12 bus_sampling 0 22 `G:1RJm1SMzKJ>>LSVU;U1
-!i122 242
+!i122 494
 l262
 L200 293
 V8]fHn_Sl;_8JaBYTfbAdQ1
 !s100 Obl0ad5EHSomI3b?8ezBg3
 R7
 32
-R77
+R43
 !i10b 1
-R78
-R79
-R80
+R44
+R75
+R76
 !i113 0
 R12
 R13
@@ -652,12 +652,12 @@ R26
 R2
 R3
 R4
-!i122 219
+!i122 471
 R0
-Z82 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bus_traffic_counters.vhd
-Z83 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bus_traffic_counters.vhd
+Z78 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bus_traffic_counters.vhd
+Z79 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bus_traffic_counters.vhd
 l0
-R44
+R42
 VA=3Ol?eFVOPg7<Hc>9_LR2
 !s100 jm;o[eO`X<<abc]cJ29UN1
 R7
@@ -665,13 +665,13 @@ R7
 R29
 !i10b 1
 R30
-Z84 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bus_traffic_counters.vhd|
-Z85 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/bus_traffic_counters.vhd|
+Z80 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/bus_traffic_counters.vhd|
+Z81 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/bus_traffic_counters.vhd|
 !i113 0
 R12
 R13
 Artl
-R81
+R77
 R19
 R20
 R21
@@ -684,7 +684,7 @@ R2
 R3
 R4
 DEx4 work 20 bus_traffic_counters 0 22 A=3Ol?eFVOPg7<Hc>9_LR2
-!i122 219
+!i122 471
 l155
 L134 143
 Veb^^AIjEWzYSlLgkk4P5W2
@@ -694,29 +694,29 @@ R7
 R29
 !i10b 1
 R30
-R84
-R85
+R80
+R81
 !i113 0
 R12
 R13
 Pcan_config_pkg
 R3
 R4
-!i122 184
+!i122 436
 R1
 R0
 8/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_config_pkg.vhd
 F/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_config_pkg.vhd
 l0
-Z86 L81 1
+Z82 L81 1
 VT0BXOW?8Mh@l8zij6_naN0
 !s100 N:lojRQZof70:`_@fzOic2
 R7
 32
-Z87 !s110 1659872949
+Z83 !s110 1660252330
 !i10b 1
-Z88 !s108 1659872949.000000
-!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_config_pkg.vhd|
+Z84 !s108 1660252330.000000
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_config_pkg.vhd|
 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/packages/can_config_pkg.vhd|
 !i113 0
 R12
@@ -725,21 +725,21 @@ Pcan_constants_pkg
 R2
 R3
 R4
-!i122 185
+!i122 437
 R1
 R0
 8/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_constants_pkg.vhd
 F/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_constants_pkg.vhd
 l0
-R86
+R82
 VkdHOEP]S6:f>@P;IBTCZ52
 !s100 FhP68MIhc>c8YU`z]5b>X2
 R7
 32
-R87
+R83
 !i10b 1
-R88
-!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_constants_pkg.vhd|
+R84
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_constants_pkg.vhd|
 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/packages/can_constants_pkg.vhd|
 !i113 0
 R12
@@ -757,21 +757,21 @@ R26
 R2
 R3
 R4
-!i122 243
+!i122 495
 R0
-Z89 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_core.vhd
-Z90 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_core.vhd
+Z85 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_core.vhd
+Z86 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_core.vhd
 l0
-R57
+R55
 VM98]jLE[DCNoP4aBbzMFj3
 !s100 j_AbT?nW=a_Ah0nLemVVm1
 R7
 32
-R77
+R43
 !i10b 1
-R78
-Z91 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_core.vhd|
-Z92 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_core.vhd|
+R44
+Z87 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_core.vhd|
+Z88 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_core.vhd|
 !i113 0
 R12
 R13
@@ -796,18 +796,18 @@ R2
 R3
 R4
 DEx4 work 8 can_core 0 22 M98]jLE[DCNoP4aBbzMFj3
-!i122 243
+!i122 495
 l497
 L329 987
 VU`BZ`5k?ANBJS5nIcaaj93
 !s100 dj7he83IB;jKV`Z@EOQc20
 R7
 32
-R77
+R43
 !i10b 1
-R78
-R91
-R92
+R44
+R87
+R88
 !i113 0
 R12
 R13
@@ -824,21 +824,21 @@ R26
 R2
 R3
 R4
-!i122 244
+!i122 496
 R0
-Z93 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_crc.vhd
-Z94 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_crc.vhd
+Z89 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_crc.vhd
+Z90 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_crc.vhd
 l0
-Z95 L104 1
+Z91 L104 1
 VeBOU9U0TAb`^Daaac=L5M1
 !s100 bc36Sz`fYYMA3;KUaG6Q33
 R7
 32
-R77
+R43
 !i10b 1
-R78
-Z96 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_crc.vhd|
-Z97 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_crc.vhd|
+R44
+Z92 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_crc.vhd|
+Z93 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/can_crc.vhd|
 !i113 0
 R12
 R13
@@ -856,39 +856,39 @@ R2
 R3
 R4
 DEx4 work 7 can_crc 0 22 eBOU9U0TAb`^Daaac=L5M1
-!i122 244
+!i122 496
 l220
 L190 158
 Vj5GI6lm31WzWLKfB;6n<c3
 !s100 Ojg4MA1B78AP2J?V^49]I1
 R7
 32
-R77
+R43
 !i10b 1
-R78
-R96
-R97
+R44
+R92
+R93
 !i113 0
 R12
 R13
 Pcan_fd_frame_format
 R3
 R4
-!i122 186
+!i122 438
 R1
 R0
 8/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_fd_frame_format.vhd
 F/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_fd_frame_format.vhd
 l0
-Z98 L77 1
+Z94 L77 1
 VocThlR<M5iTUDodh1P98=0
 !s100 ?1hfQB_3:41R9d6E>hb8m0
 R7
 32
-R87
+R83
 !i10b 1
-R88
-!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_fd_frame_format.vhd|
+R84
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_fd_frame_format.vhd|
 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/packages/can_fd_frame_format.vhd|
 !i113 0
 R12
@@ -896,21 +896,21 @@ R13
 Pcan_fd_register_map
 R3
 R4
-!i122 187
+!i122 439
 R1
 R0
 8/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_fd_register_map.vhd
 F/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_fd_register_map.vhd
 l0
-R98
+R94
 VbN_^M8k?=XoOk;P`oGn6N2
 !s100 =D9_UWH3h@fW=<DmI8UTc0
 R7
 32
-R87
+R83
 !i10b 1
-R88
-!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_fd_register_map.vhd|
+R84
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_fd_register_map.vhd|
 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/packages/can_fd_register_map.vhd|
 !i113 0
 R12
@@ -918,13 +918,13 @@ R13
 Pcan_registers_pkg
 R3
 R4
-!i122 179
+!i122 431
 R1
 R0
 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/can_registers_pkg.vhd
 F/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/can_registers_pkg.vhd
 l0
-R98
+R94
 VafdbZz6zALG?TF0j8egAh1
 !s100 d`Bm]c7iB7L4g<iJ29MQb2
 R7
@@ -932,14 +932,14 @@ R7
 R8
 !i10b 1
 R9
-!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/can_registers_pkg.vhd|
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/can_registers_pkg.vhd|
 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/can_registers_pkg.vhd|
 !i113 0
 R12
 R13
 Ecan_top_level
 R1
-Z99 DPx14 ctu_can_fd_rtl 17 can_registers_pkg 0 22 afdbZz6zALG?TF0j8egAh1
+Z95 DPx14 ctu_can_fd_rtl 17 can_registers_pkg 0 22 afdbZz6zALG?TF0j8egAh1
 R19
 R20
 R21
@@ -948,41 +948,41 @@ R23
 R24
 R25
 R26
-Z100 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z96 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
 R2
 R3
 R4
-!i122 249
+!i122 501
 R0
-Z101 8/home/tristan/dev/canif/ip/ctucanfd/src/can_top_level.vhd
-Z102 F/home/tristan/dev/canif/ip/ctucanfd/src/can_top_level.vhd
+Z97 8/home/tristan/dev/canif/ip/ctucanfd/src/can_top_level.vhd
+Z98 F/home/tristan/dev/canif/ip/ctucanfd/src/can_top_level.vhd
 l0
-Z103 L103 1
+Z99 L103 1
 V3^9fOkm4_nk0;NegnC;CL3
 !s100 ZZaSl8B_d85Z_XE?Xdkm_1
 R7
 32
-Z104 !s110 1659884123
+Z100 !s110 1660252335
 !i10b 1
-Z105 !s108 1659884123.000000
-Z106 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_top_level.vhd|
-!s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_top_level.vhd|
+Z101 !s108 1660252335.000000
+Z102 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_top_level.vhd|
+Z103 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_top_level.vhd|
 !i113 0
 R12
 R13
 Artl
-DEx14 ctu_can_fd_rtl 12 bus_sampling 0 22 `G:1RJm1SMzKJ>>LSVU;U1
-DEx14 ctu_can_fd_rtl 9 prescaler 0 22 ]JhEhVQ;de156`5LAH<1b0
-DEx14 ctu_can_fd_rtl 8 can_core 0 22 M98]jLE[DCNoP4aBbzMFj3
-DEx14 ctu_can_fd_rtl 11 int_manager 0 22 >8U5g=I1bfHFBcWN>oOLg2
-DEx14 ctu_can_fd_rtl 13 frame_filters 0 22 fFLT9nmncMUTDb>nnb0KU2
-DEx14 ctu_can_fd_rtl 13 tx_arbitrator 0 22 MHUbTZ]BWeX>>P=UJ3BSY0
-DEx14 ctu_can_fd_rtl 10 txt_buffer 0 22 3zZl7<;mbBzWFIljHk?Lo1
-Z107 DEx14 ctu_can_fd_rtl 17 parity_calculator 0 22 N379gm>X;jU^Rn:Q<XWBY3
-DEx14 ctu_can_fd_rtl 9 rx_buffer 0 22 <WH_EddAQSMR22e<z2X1S3
-DEx14 ctu_can_fd_rtl 16 memory_registers 0 22 JcWYNTLS]?:Po>A^5mlT71
-DEx14 ctu_can_fd_rtl 8 rst_sync 0 22 e4:eTE1OR?fScD[7bK9O80
-R99
+Z104 DEx14 ctu_can_fd_rtl 12 bus_sampling 0 22 `G:1RJm1SMzKJ>>LSVU;U1
+Z105 DEx14 ctu_can_fd_rtl 9 prescaler 0 22 ]JhEhVQ;de156`5LAH<1b0
+Z106 DEx14 ctu_can_fd_rtl 8 can_core 0 22 M98]jLE[DCNoP4aBbzMFj3
+Z107 DEx14 ctu_can_fd_rtl 11 int_manager 0 22 >8U5g=I1bfHFBcWN>oOLg2
+Z108 DEx14 ctu_can_fd_rtl 13 frame_filters 0 22 fFLT9nmncMUTDb>nnb0KU2
+Z109 DEx14 ctu_can_fd_rtl 13 tx_arbitrator 0 22 MHUbTZ]BWeX>>P=UJ3BSY0
+Z110 DEx14 ctu_can_fd_rtl 10 txt_buffer 0 22 3zZl7<;mbBzWFIljHk?Lo1
+Z111 DEx14 ctu_can_fd_rtl 17 parity_calculator 0 22 N379gm>X;jU^Rn:Q<XWBY3
+Z112 DEx14 ctu_can_fd_rtl 9 rx_buffer 0 22 <WH_EddAQSMR22e<z2X1S3
+Z113 DEx14 ctu_can_fd_rtl 16 memory_registers 0 22 JcWYNTLS]?:Po>A^5mlT71
+Z114 DEx14 ctu_can_fd_rtl 8 rst_sync 0 22 e4:eTE1OR?fScD[7bK9O80
+R95
 R19
 R20
 R21
@@ -991,23 +991,23 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
-DEx4 work 13 can_top_level 0 22 3^9fOkm4_nk0;NegnC;CL3
-!i122 249
+Z115 DEx4 work 13 can_top_level 0 22 3^9fOkm4_nk0;NegnC;CL3
+!i122 501
 l584
-L210 965
-VZbBSaTK91GCR6:g=UG3]A3
-!s100 Wd21ei6o]^RRAaDYDCcH?0
+Z116 L210 965
+Z117 VZbBSaTK91GCR6:g=UG3]A3
+Z118 !s100 Wd21ei6o]^RRAaDYDCcH?0
 R7
 32
-R104
+R100
 !i10b 1
-R105
-R106
-Z108 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_top_level.vhd|
+R101
+R102
+R103
 !i113 0
 R12
 R13
@@ -1017,21 +1017,21 @@ R2
 R24
 R3
 R4
-!i122 195
+!i122 447
 R1
 R0
 8/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_types_pkg.vhd
 F/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_types_pkg.vhd
 l0
-Z109 L84 1
+Z119 L84 1
 VolXWIOmAanabRIZnz6>Ub0
 !s100 BCn[9aMF55lc=gBK4R4kd3
 R7
 32
-R51
+R83
 !i10b 1
-R52
-!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_types_pkg.vhd|
+R84
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/packages/can_types_pkg.vhd|
 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/packages/can_types_pkg.vhd|
 !i113 0
 R12
@@ -1042,21 +1042,21 @@ R2
 R24
 R3
 R4
-!i122 190
+!i122 442
 R0
-Z110 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/clk_gate.vhd
-Z111 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/clk_gate.vhd
+Z120 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/clk_gate.vhd
+Z121 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/clk_gate.vhd
 l0
 L83 1
 V4e3;eGhz<7dMhUUZII;IJ0
 !s100 8<PkhLno[VkAcDBRIYYLN1
 R7
 32
-R87
+R83
 !i10b 1
-R88
-Z112 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/clk_gate.vhd|
-Z113 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/clk_gate.vhd|
+R84
+Z122 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/clk_gate.vhd|
+Z123 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/clk_gate.vhd|
 !i113 0
 R12
 R13
@@ -1066,18 +1066,18 @@ R24
 R3
 R4
 DEx4 work 8 clk_gate 0 22 4e3;eGhz<7dMhUUZII;IJ0
-!i122 190
+!i122 442
 l106
 L102 35
 VWIWoTQNcKRm9>f^zPPYz]0
 !s100 jLYA[E_5gH>8bK8cEEP0k0
 R7
 32
-R87
+R83
 !i10b 1
-R88
-R112
-R113
+R84
+R122
+R123
 !i113 0
 R12
 R13
@@ -1085,7 +1085,7 @@ Pcmn_reg_map_pkg
 R2
 R3
 R4
-!i122 180
+!i122 432
 R1
 R0
 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/cmn_reg_map_pkg.vhd
@@ -1099,7 +1099,7 @@ R7
 R8
 !i10b 1
 R9
-!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/cmn_reg_map_pkg.vhd|
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/cmn_reg_map_pkg.vhd|
 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/cmn_reg_map_pkg.vhd|
 !i113 0
 R12
@@ -1117,12 +1117,12 @@ R26
 R2
 R3
 R4
-!i122 220
+!i122 472
 R0
-Z114 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/control_counter.vhd
-Z115 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/control_counter.vhd
+Z124 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/control_counter.vhd
+Z125 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/control_counter.vhd
 l0
-R76
+R74
 V?]09<W0^I>E`]8N]BQB`T0
 !s100 9CLEh1h4NWP2zC^XhZ0]S0
 R7
@@ -1130,8 +1130,8 @@ R7
 R29
 !i10b 1
 R30
-Z116 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/control_counter.vhd|
-Z117 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/control_counter.vhd|
+Z126 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/control_counter.vhd|
+Z127 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/control_counter.vhd|
 !i113 0
 R12
 R13
@@ -1148,7 +1148,7 @@ R2
 R3
 R4
 DEx4 work 15 control_counter 0 22 ?]09<W0^I>E`]8N]BQB`T0
-!i122 220
+!i122 472
 l179
 L159 137
 V2X0jYC_]B`hB6H5^?XDeX2
@@ -1158,55 +1158,55 @@ R7
 R29
 !i10b 1
 R30
-R116
-R117
+R126
+R127
 !i113 0
 R12
 R13
 Econtrol_registers_reg_map
 R1
 R2
-Z118 DPx14 ctu_can_fd_rtl 15 cmn_reg_map_pkg 0 22 l1[F;Am?CjnCNa_PCFV:H0
-R99
+Z128 DPx14 ctu_can_fd_rtl 15 cmn_reg_map_pkg 0 22 l1[F;Am?CjnCNa_PCFV:H0
+R95
 R3
 R4
-!i122 193
+!i122 445
 R0
-Z119 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/control_registers_reg_map.vhd
-Z120 F/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/control_registers_reg_map.vhd
+Z129 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/control_registers_reg_map.vhd
+Z130 F/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/control_registers_reg_map.vhd
 l0
-R86
+R82
 VWb9KoY=BPk>>k5D]<:8z63
 !s100 QHPz03^<_F8H[2R1;]D=B2
 R7
 32
-R87
+R83
 !i10b 1
-R88
-Z121 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/control_registers_reg_map.vhd|
-Z122 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/control_registers_reg_map.vhd|
+R84
+Z131 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/control_registers_reg_map.vhd|
+Z132 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/control_registers_reg_map.vhd|
 !i113 0
 R12
 R13
 Artl
 R2
-R118
-R99
+R128
+R95
 R3
 R4
 DEx4 work 25 control_registers_reg_map 0 22 Wb9KoY=BPk>>k5D]<:8z63
-!i122 193
+!i122 445
 l120
 L112 1126
 VJIVBIShAiJ?TU^lG@a91i0
 !s100 86LkFg@jc`z4Mj9?IoTNg3
 R7
 32
-R87
+R83
 !i10b 1
-R88
-R121
-R122
+R84
+R131
+R132
 !i113 0
 R12
 R13
@@ -1223,21 +1223,21 @@ R26
 R2
 R3
 R4
-!i122 221
+!i122 473
 R0
-Z123 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/crc_calc.vhd
-Z124 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/crc_calc.vhd
+Z133 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/crc_calc.vhd
+Z134 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/crc_calc.vhd
 l0
 R37
 VUUUTZBR38o06>^cm;A?;H0
 !s100 GN;@z1olTUDZAJkE6bS7o0
 R7
 32
-R29
+Z135 !s110 1660252333
 !i10b 1
 R30
-Z125 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/crc_calc.vhd|
-Z126 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/crc_calc.vhd|
+Z136 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/crc_calc.vhd|
+Z137 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/crc_calc.vhd|
 !i113 0
 R12
 R13
@@ -1254,18 +1254,18 @@ R2
 R3
 R4
 DEx4 work 8 crc_calc 0 22 UUUTZBR38o06>^cm;A?;H0
-!i122 221
+!i122 473
 l161
 L138 75
 VK9hRl_`A>QAQB@hU<bmRi0
 !s100 iO;ZmcGGfCeK44D3:FYZ`1
 R7
 32
-R29
+R135
 !i10b 1
 R30
-R125
-R126
+R136
+R137
 !i113 0
 R12
 R13
@@ -1282,21 +1282,21 @@ R26
 R2
 R3
 R4
-!i122 212
+!i122 464
 R0
-Z127 8/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/data_edge_detector.vhd
-Z128 F/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/data_edge_detector.vhd
+Z138 8/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/data_edge_detector.vhd
+Z139 F/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/data_edge_detector.vhd
 l0
 L109 1
 VWT?X0oZ=kmMg[j?EQDn0P2
 !s100 h:LPT<hZZcc`f4E8bRB2H3
 R7
 32
-R38
+R29
 !i10b 1
-R39
-Z129 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/data_edge_detector.vhd|
-Z130 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/data_edge_detector.vhd|
+R30
+Z140 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/data_edge_detector.vhd|
+Z141 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/data_edge_detector.vhd|
 !i113 0
 R12
 R13
@@ -1313,18 +1313,18 @@ R2
 R3
 R4
 DEx4 work 18 data_edge_detector 0 22 WT?X0oZ=kmMg[j?EQDn0P2
-!i122 212
+!i122 464
 l161
 L150 91
 VZHW04Ejni=1hX<_f>fW9`3
 !s100 X^<9IBeP05cMN]gB7Ehkd3
 R7
 32
-R38
+R29
 !i10b 1
-R39
-R129
-R130
+R30
+R140
+R141
 !i113 0
 R12
 R13
@@ -1333,10 +1333,10 @@ R1
 R2
 R3
 R4
-!i122 181
+!i122 433
 R0
-Z131 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/data_mux.vhd
-Z132 F/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/data_mux.vhd
+Z142 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/data_mux.vhd
+Z143 F/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/data_mux.vhd
 l0
 L74 1
 V0<z^5FNUdUeW;VC8_mfaf1
@@ -1346,8 +1346,8 @@ R7
 R8
 !i10b 1
 R9
-Z133 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/data_mux.vhd|
-Z134 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/data_mux.vhd|
+Z144 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/data_mux.vhd|
+Z145 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/data_mux.vhd|
 !i113 0
 R12
 R13
@@ -1356,7 +1356,7 @@ R2
 R3
 R4
 DEx4 work 8 data_mux 0 22 0<z^5FNUdUeW;VC8_mfaf1
-!i122 181
+!i122 433
 l154
 L132 90
 V:h>YFK7SJcmd[_`:?`f@h1
@@ -1366,8 +1366,8 @@ R7
 R8
 !i10b 1
 R9
-R133
-R134
+R144
+R145
 !i113 0
 R12
 R13
@@ -1375,21 +1375,21 @@ Edff_arst
 R1
 R3
 R4
-!i122 166
+!i122 418
 R0
-Z135 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst.vhd
-Z136 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst.vhd
+Z146 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst.vhd
+Z147 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst.vhd
 l0
-R98
+R94
 VOkV>1nK]2H?kM_PJZ^V=31
 !s100 85__S<YZPlUMfk@WV1hUd2
 R7
 32
-Z137 !s110 1659872947
+Z148 !s110 1660252328
 !i10b 1
-Z138 !s108 1659872947.000000
-Z139 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst.vhd|
-Z140 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst.vhd|
+Z149 !s108 1660252328.000000
+Z150 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst.vhd|
+Z151 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst.vhd|
 !i113 0
 R12
 R13
@@ -1397,18 +1397,18 @@ Artl
 R3
 R4
 DEx4 work 8 dff_arst 0 22 OkV>1nK]2H?kM_PJZ^V=31
-!i122 166
+!i122 418
 l101
 L100 14
 V9`ZFK>ZC9^jHc05dY5>6W0
 !s100 >D^M?_SVLmcL[8[:zXBc@3
 R7
 32
-R137
+R148
 !i10b 1
-R138
-R139
-R140
+R149
+R150
+R151
 !i113 0
 R12
 R13
@@ -1416,21 +1416,21 @@ Edff_arst_ce
 R1
 R3
 R4
-!i122 167
+!i122 419
 R0
-Z141 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst_ce.vhd
-Z142 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst_ce.vhd
+Z152 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst_ce.vhd
+Z153 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst_ce.vhd
 l0
-R98
+R94
 VB1<WUlz;B`2=o4zj9359Z1
 !s100 9J7@^>GQ[aYQ1I[n=Pmdm1
 R7
 32
-R137
+R148
 !i10b 1
-R138
-Z143 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst_ce.vhd|
-Z144 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst_ce.vhd|
+R149
+Z154 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst_ce.vhd|
+Z155 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dff_arst_ce.vhd|
 !i113 0
 R12
 R13
@@ -1438,18 +1438,18 @@ Artl
 R3
 R4
 DEx4 work 11 dff_arst_ce 0 22 B1<WUlz;B`2=o4zj9359Z1
-!i122 167
+!i122 419
 l104
 L103 17
 VW0F_4G=K[^D7hVADP::<g3
 !s100 a>^:^O4CizB[ElAiY8S4Y0
 R7
 32
-R137
+R148
 !i10b 1
-R138
-R143
-R144
+R149
+R154
+R155
 !i113 0
 R12
 R13
@@ -1459,21 +1459,21 @@ R25
 R2
 R3
 R4
-!i122 191
+!i122 443
 R0
-Z145 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dlc_decoder.vhd
-Z146 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dlc_decoder.vhd
+Z156 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dlc_decoder.vhd
+Z157 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dlc_decoder.vhd
 l0
 L88 1
 Vg5K^UP[FeHbhbRVZX4cfd3
 !s100 07Lj;]E>[WPJW74Kkj<iD3
 R7
 32
-R87
+R83
 !i10b 1
-R88
-Z147 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dlc_decoder.vhd|
-Z148 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dlc_decoder.vhd|
+R84
+Z158 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dlc_decoder.vhd|
+Z159 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/dlc_decoder.vhd|
 !i113 0
 R12
 R13
@@ -1483,25 +1483,25 @@ R2
 R3
 R4
 DEx4 work 11 dlc_decoder 0 22 g5K^UP[FeHbhbRVZX4cfd3
-!i122 191
+!i122 443
 l117
 L104 58
 V<92TQGDD_eU3JgKkh_Vc60
 !s100 NGn6Em=:fJ?:=@A49lZoS0
 R7
 32
-R87
+R83
 !i10b 1
-R88
-R147
-R148
+R84
+R158
+R159
 !i113 0
 R12
 R13
 Pdrv_stat_pkg
 R3
 R4
-!i122 188
+!i122 440
 R1
 R0
 8/home/tristan/dev/canif/ip/ctucanfd/src/packages/drv_stat_pkg.vhd
@@ -1512,10 +1512,10 @@ V7cFjm<j33W=DW4o;;W97V2
 !s100 fGN:;onC5AGB0I6hbzX]W3
 R7
 32
-R87
+R83
 !i10b 1
-R88
-!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/packages/drv_stat_pkg.vhd|
+R84
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/packages/drv_stat_pkg.vhd|
 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/packages/drv_stat_pkg.vhd|
 !i113 0
 R12
@@ -1530,25 +1530,25 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
-!i122 233
+!i122 485
 R0
-Z149 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/endian_swapper.vhd
-Z150 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/endian_swapper.vhd
+Z160 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/endian_swapper.vhd
+Z161 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/endian_swapper.vhd
 l0
 R37
 Vokj32FlEh=c_Nnf^94nmK2
 !s100 >QKhLj5L1;?:_3O^KUdGz0
 R7
 32
-R45
+R43
 !i10b 1
-R46
-Z151 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/endian_swapper.vhd|
-Z152 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/endian_swapper.vhd|
+Z162 !s108 1660252333.000000
+Z163 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/endian_swapper.vhd|
+Z164 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/endian_swapper.vhd|
 !i113 0
 R12
 R13
@@ -1561,23 +1561,23 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
 DEx4 work 14 endian_swapper 0 22 okj32FlEh=c_Nnf^94nmK2
-!i122 233
+!i122 485
 l122
 L117 43
 VO2RK1jo<U5fkH_YmXO_NX3
 !s100 TVI8[:zaBOanaWPmVLf_f3
 R7
 32
-R45
+R43
 !i10b 1
-R46
-R151
-R152
+R162
+R163
+R164
 !i113 0
 R12
 R13
@@ -1594,26 +1594,26 @@ R26
 R2
 R3
 R4
-!i122 222
+!i122 474
 R0
-Z153 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_counters.vhd
-Z154 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_counters.vhd
+Z165 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_counters.vhd
+Z166 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_counters.vhd
 l0
-R57
+R55
 VcnLi0z;Ma^cOn1eHkf1ah1
 !s100 B<MkXDTajYi[L4L835`QP1
 R7
 32
-R29
+R135
 !i10b 1
-R30
-Z155 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_counters.vhd|
-Z156 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_counters.vhd|
+R162
+Z167 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_counters.vhd|
+Z168 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_counters.vhd|
 !i113 0
 R12
 R13
 Artl
-R81
+R77
 R19
 R20
 R21
@@ -1626,18 +1626,18 @@ R2
 R3
 R4
 DEx4 work 12 err_counters 0 22 cnLi0z;Ma^cOn1eHkf1ah1
-!i122 222
+!i122 474
 l212
 L167 257
 V8mP5G30DSa=mi;U58<P2F2
 !s100 [iOSclH_2VQKjAnRK^9GP2
 R7
 32
-R29
+R135
 !i10b 1
-R30
-R155
-R156
+R162
+R167
+R168
 !i113 0
 R12
 R13
@@ -1654,21 +1654,21 @@ R26
 R2
 R3
 R4
-!i122 223
+!i122 475
 R0
-Z157 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_detector.vhd
-Z158 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_detector.vhd
+Z169 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_detector.vhd
+Z170 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_detector.vhd
 l0
-R76
+R74
 V5ehbnLoL3QWQjojObgQBW2
 !s100 7ZI_:HCWF3ko[RK>ZoJ@W1
 R7
 32
-R29
+R135
 !i10b 1
-R30
-Z159 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_detector.vhd|
-Z160 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_detector.vhd|
+R162
+Z171 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_detector.vhd|
+Z172 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/err_detector.vhd|
 !i113 0
 R12
 R13
@@ -1685,18 +1685,18 @@ R2
 R3
 R4
 DEx4 work 12 err_detector 0 22 5ehbnLoL3QWQjojObgQBW2
-!i122 223
+!i122 475
 l255
 L219 245
 VnXL:EQ<3JnYlY]F2T<A;A0
 !s100 oWgWaMUbTc75bcVYYClAm2
 R7
 32
-R29
+R135
 !i10b 1
-R30
-R159
-R160
+R162
+R171
+R172
 !i113 0
 R12
 R13
@@ -1713,21 +1713,21 @@ R26
 R2
 R3
 R4
-!i122 245
+!i122 497
 R0
-Z161 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement.vhd
-Z162 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement.vhd
+Z173 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement.vhd
+Z174 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement.vhd
 l0
-Z163 L94 1
+Z175 L94 1
 VYY<6n?SjVQASNZUUKOW1M1
 !s100 [GKE`G=UO:o7@z>eiD7BB0
 R7
 32
-R77
+R100
 !i10b 1
-R78
-Z164 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement.vhd|
-Z165 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement.vhd|
+R44
+Z176 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement.vhd|
+Z177 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement.vhd|
 !i113 0
 R12
 R13
@@ -1747,18 +1747,18 @@ R2
 R3
 R4
 DEx4 work 17 fault_confinement 0 22 YY<6n?SjVQASNZUUKOW1M1
-!i122 245
+!i122 497
 l223
 L200 117
 V84NJ7ZdWo1_KCO=WgAHoU0
 !s100 _?@9`?7:Y9SkB0n7Ug12_2
 R7
 32
-R77
+R100
 !i10b 1
-R78
-R164
-R165
+R44
+R176
+R177
 !i113 0
 R12
 R13
@@ -1775,21 +1775,21 @@ R26
 R2
 R3
 R4
-!i122 224
+!i122 476
 R0
-Z166 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_fsm.vhd
-Z167 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_fsm.vhd
+Z178 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_fsm.vhd
+Z179 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_fsm.vhd
 l0
-R62
+R60
 VK_<gl[?:nVRXzTD6U>LJS0
 !s100 OhJN7R>WhK7baQzG0aJGF2
 R7
 32
-R29
+R135
 !i10b 1
-R30
-Z168 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_fsm.vhd|
-Z169 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_fsm.vhd|
+R162
+Z180 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_fsm.vhd|
+Z181 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_fsm.vhd|
 !i113 0
 R12
 R13
@@ -1807,18 +1807,18 @@ R2
 R3
 R4
 DEx4 work 21 fault_confinement_fsm 0 22 K_<gl[?:nVRXzTD6U>LJS0
-!i122 224
+!i122 476
 l178
 L154 154
 VXRIcQ]W`Y@h:obKgkfdnn3
 !s100 LC1Tj`dHOCJQ;ehGA;o;?0
 R7
 32
-R29
+R135
 !i10b 1
-R30
-R168
-R169
+R162
+R180
+R181
 !i113 0
 R12
 R13
@@ -1835,21 +1835,21 @@ R26
 R2
 R3
 R4
-!i122 225
+!i122 477
 R0
-Z170 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_rules.vhd
-Z171 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_rules.vhd
+Z182 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_rules.vhd
+Z183 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_rules.vhd
 l0
-R163
+R175
 V4H60TKMTJE@47T6P_gCJK0
 !s100 GC>XN1hUQQ][^=7ilOf7K2
 R7
 32
-R29
+R135
 !i10b 1
-R30
-Z172 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_rules.vhd|
-Z173 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_rules.vhd|
+R162
+Z184 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_rules.vhd|
+Z185 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/fault_confinement_rules.vhd|
 !i113 0
 R12
 R13
@@ -1866,18 +1866,18 @@ R2
 R3
 R4
 DEx4 work 23 fault_confinement_rules 0 22 4H60TKMTJE@47T6P_gCJK0
-!i122 225
+!i122 477
 l163
 L158 89
 V:N@M6=oXI2d7N_O?Co9VC2
 !s100 Bki[RDNDOC^gMMRb9Y?^01
 R7
 32
-R29
+R135
 !i10b 1
-R30
-R172
-R173
+R162
+R184
+R185
 !i113 0
 R12
 R13
@@ -1894,21 +1894,21 @@ R26
 R2
 R3
 R4
-!i122 247
+!i122 499
 R0
-Z174 8/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/frame_filters.vhd
-Z175 F/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/frame_filters.vhd
+Z186 8/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/frame_filters.vhd
+Z187 F/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/frame_filters.vhd
 l0
-Z176 L101 1
+Z188 L101 1
 VfFLT9nmncMUTDb>nnb0KU2
 !s100 GjZ=92@;`DZz@?GmL^2Uf0
 R7
 32
-R77
+R100
 !i10b 1
-R78
-Z177 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/frame_filters.vhd|
-Z178 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/frame_filters.vhd|
+R101
+Z189 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/frame_filters.vhd|
+Z190 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/frame_filters.vhd|
 !i113 0
 R12
 R13
@@ -1927,18 +1927,18 @@ R2
 R3
 R4
 DEx4 work 13 frame_filters 0 22 fFLT9nmncMUTDb>nnb0KU2
-!i122 247
+!i122 499
 l259
 L178 274
 V`3C7Enagf7?;TWCCo[RYH2
 !s100 @F2F2PRd@<KboE7fhdjKP2
 R7
 32
-R77
+R100
 !i10b 1
-R78
-R177
-R178
+R101
+R189
+R190
 !i113 0
 R12
 R13
@@ -1947,23 +1947,23 @@ R25
 R2
 R3
 R4
-!i122 196
+!i122 448
 R1
 R0
-Z179 8/home/tristan/dev/canif/ip/ctucanfd/src/packages/id_transfer_pkg.vhd
-Z180 F/home/tristan/dev/canif/ip/ctucanfd/src/packages/id_transfer_pkg.vhd
+Z191 8/home/tristan/dev/canif/ip/ctucanfd/src/packages/id_transfer_pkg.vhd
+Z192 F/home/tristan/dev/canif/ip/ctucanfd/src/packages/id_transfer_pkg.vhd
 l0
-R109
+R119
 V5PY]j=>=jeCFjjKb276UP1
 !s100 Aa3=_5aL]HTVTA2j__f7d3
 R7
 32
 b1
-R51
+R49
 !i10b 1
-R52
-Z181 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/packages/id_transfer_pkg.vhd|
-Z182 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/packages/id_transfer_pkg.vhd|
+R84
+Z193 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/packages/id_transfer_pkg.vhd|
+Z194 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/packages/id_transfer_pkg.vhd|
 !i113 0
 R12
 R13
@@ -1973,18 +1973,18 @@ R25
 R2
 R3
 R4
-!i122 196
+!i122 448
 l0
-R163
+R175
 VEcBF;dOFb0F]d12HCdWJh2
 !s100 TIMoF<X=gUzWaz[nZ:mbj3
 R7
 32
-R51
+R49
 !i10b 1
-R52
-R181
-R182
+R84
+R193
+R194
 !i113 0
 R12
 R13
@@ -1993,21 +1993,21 @@ R1
 R2
 R3
 R4
-!i122 168
+!i122 420
 R0
-Z183 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/inf_ram_wrapper.vhd
-Z184 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/inf_ram_wrapper.vhd
+Z195 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/inf_ram_wrapper.vhd
+Z196 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/inf_ram_wrapper.vhd
 l0
-Z185 L85 1
+Z197 L85 1
 V<caAVP;8fZVJ5:EYYCo>L1
 !s100 CjKmW`<:WzLM;TXaLBAS;3
 R7
 32
-R137
+R148
 !i10b 1
-R138
-Z186 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/inf_ram_wrapper.vhd|
-Z187 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/inf_ram_wrapper.vhd|
+R149
+Z198 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/inf_ram_wrapper.vhd|
+Z199 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/inf_ram_wrapper.vhd|
 !i113 0
 R12
 R13
@@ -2016,18 +2016,18 @@ R2
 R3
 R4
 DEx4 work 15 inf_ram_wrapper 0 22 <caAVP;8fZVJ5:EYYCo>L1
-!i122 168
+!i122 420
 l149
 L136 98
 VcMAf?9I=BS^:Sa9zW1Yke2
 !s100 GMSI<POZM=GBYeS>dl1fV2
 R7
 32
-R137
+R148
 !i10b 1
-R138
-R186
-R187
+R149
+R198
+R199
 !i113 0
 R12
 R13
@@ -2044,21 +2044,21 @@ R26
 R2
 R3
 R4
-!i122 248
+!i122 500
 R0
-Z188 8/home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_manager.vhd
-Z189 F/home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_manager.vhd
+Z200 8/home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_manager.vhd
+Z201 F/home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_manager.vhd
 l0
-R76
+R74
 V>8U5g=I1bfHFBcWN>oOLg2
 !s100 m;iV`6Jlm?hZEV<Y5<HK20
 R7
 32
-Z190 !s110 1659872955
+R100
 !i10b 1
-R78
-Z191 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_manager.vhd|
-Z192 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_manager.vhd|
+R101
+Z202 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_manager.vhd|
+Z203 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_manager.vhd|
 !i113 0
 R12
 R13
@@ -2077,18 +2077,18 @@ R2
 R3
 R4
 DEx4 work 11 int_manager 0 22 >8U5g=I1bfHFBcWN>oOLg2
-!i122 248
+!i122 500
 l211
 L173 215
 V29IOf4A2X_M=[W^E20zJ`1
 !s100 :9Fk;54Qb5i]34BI:1Yhk1
 R7
 32
-R190
+R100
 !i10b 1
-R78
-R191
-R192
+R101
+R202
+R203
 !i113 0
 R12
 R13
@@ -2105,21 +2105,21 @@ R26
 R2
 R3
 R4
-!i122 236
+!i122 488
 R0
-Z193 8/home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_module.vhd
-Z194 F/home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_module.vhd
+Z204 8/home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_module.vhd
+Z205 F/home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_module.vhd
 l0
-R103
+R99
 VJ<PDgWZi[Uo=;F:B>>TNn3
 !s100 HaTQbYiMBB=4T0D[k_8^j1
 R7
 32
-R45
+R43
 !i10b 1
-R46
-Z195 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_module.vhd|
-Z196 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_module.vhd|
+R44
+Z206 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_module.vhd|
+Z207 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/interrupt_manager/int_module.vhd|
 !i113 0
 R12
 R13
@@ -2136,18 +2136,18 @@ R2
 R3
 R4
 DEx4 work 10 int_module 0 22 J<PDgWZi[Uo=;F:B>>TNn3
-!i122 236
+!i122 488
 l159
 L149 86
 Vg<j4Y5B_QH0==7WY1lU<41
 !s100 6;h=EUCMVP`H?S`j;9?=`1
 R7
 32
-R45
+R43
 !i10b 1
-R46
-R195
-R196
+R44
+R206
+R207
 !i113 0
 R12
 R13
@@ -2155,21 +2155,21 @@ Emajority_decoder_3
 R1
 R3
 R4
-!i122 169
+!i122 421
 R0
-Z197 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/majority_decoder_3.vhd
-Z198 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/majority_decoder_3.vhd
+Z208 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/majority_decoder_3.vhd
+Z209 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/majority_decoder_3.vhd
 l0
-R98
+R94
 Vk?:D`=?To^>@k1h6S9PK`2
 !s100 >S7^odoA:nc8^U81k6^JT1
 R7
 32
-R137
+R148
 !i10b 1
-R138
-Z199 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/majority_decoder_3.vhd|
-Z200 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/majority_decoder_3.vhd|
+R149
+Z210 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/majority_decoder_3.vhd|
+Z211 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/majority_decoder_3.vhd|
 !i113 0
 R12
 R13
@@ -2177,18 +2177,18 @@ Artl
 R3
 R4
 DEx4 work 18 majority_decoder_3 0 22 k?:D`=?To^>@k1h6S9PK`2
-!i122 169
+!i122 421
 l88
 L87 15
 Vb=X0d8SJzV8gOHVMS[`ni2
 !s100 8Mic2N7`;=c0K6^?<igOF1
 R7
 32
-R137
+R148
 !i10b 1
-R138
-R199
-R200
+R149
+R210
+R211
 !i113 0
 R12
 R13
@@ -2197,7 +2197,7 @@ R1
 R2
 R3
 R4
-!i122 182
+!i122 434
 R0
 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/memory_bus.vhd
 F/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/memory_bus.vhd
@@ -2207,10 +2207,10 @@ VElP_G8PneZzV=H0?D`2[Z0
 !s100 7>;IUV6_5Y2R1aYbY_D1T0
 R7
 32
-R87
+R8
 !i10b 1
 R9
-!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/memory_bus.vhd|
+!s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/memory_bus.vhd|
 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/memory_bus.vhd|
 !i113 0
 R12
@@ -2220,21 +2220,21 @@ R1
 R2
 R3
 R4
-!i122 183
+!i122 435
 R0
-Z201 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/memory_reg.vhd
-Z202 F/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/memory_reg.vhd
+Z212 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/memory_reg.vhd
+Z213 F/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/memory_reg.vhd
 l0
 R16
 VkOBFoT576GJa_H7;7];mH3
 !s100 MXz02ezUQd3FCm:23XbWO2
 R7
 32
-R87
+R83
 !i10b 1
-R88
-Z203 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/memory_reg.vhd|
-Z204 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/memory_reg.vhd|
+R9
+Z214 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/memory_reg.vhd|
+Z215 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/memory_reg.vhd|
 !i113 0
 R12
 R13
@@ -2243,24 +2243,24 @@ R2
 R3
 R4
 DEx4 work 10 memory_reg 0 22 kOBFoT576GJa_H7;7];mH3
-!i122 183
+!i122 435
 l122
 L95 126
 VIQ;SoHbY[0;F84NFX^^F73
 !s100 A=Tm44DhV<U0K8en;2iOO0
 R7
 32
-R87
+R83
 !i10b 1
-R88
-R203
-R204
+R9
+R214
+R215
 !i113 0
 R12
 R13
 Ememory_registers
 R1
-R99
+R95
 R19
 R20
 R21
@@ -2272,31 +2272,31 @@ R26
 R2
 R3
 R4
-!i122 237
+!i122 489
 R0
-Z205 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/memory_registers.vhd
-Z206 F/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/memory_registers.vhd
+Z216 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/memory_registers.vhd
+Z217 F/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/memory_registers.vhd
 l0
-R76
+R74
 VJcWYNTLS]?:Po>A^5mlT71
 !s100 @HX72dnjYJaAG62S>^^oR2
 R7
 32
-R45
+R43
 !i10b 1
-R46
-Z207 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/memory_registers.vhd|
-Z208 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/memory_registers.vhd|
+R44
+Z218 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/memory_registers.vhd|
+Z219 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/memory_registers.vhd|
 !i113 0
 R12
 R13
 Artl
-R81
+R77
 DEx14 ctu_can_fd_rtl 22 test_registers_reg_map 0 22 R1SmI@?GOBOid8hTcZTXI1
-R118
+R128
 DEx14 ctu_can_fd_rtl 25 control_registers_reg_map 0 22 Wb9KoY=BPk>>k5D]<:8z63
-Z209 DEx14 ctu_can_fd_rtl 8 clk_gate 0 22 4e3;eGhz<7dMhUUZII;IJ0
-R99
+Z220 DEx14 ctu_can_fd_rtl 8 clk_gate 0 22 4e3;eGhz<7dMhUUZII;IJ0
+R95
 R19
 R20
 R21
@@ -2309,18 +2309,18 @@ R2
 R3
 R4
 DEx4 work 16 memory_registers 0 22 JcWYNTLS]?:Po>A^5mlT71
-!i122 237
+!i122 489
 l417
 L302 1588
 VIM`B879ga0M;`aTFzVE:]2
 !s100 JER9k0j<a_E<GQK[SDXe81
 R7
 32
-R45
+R43
 !i10b 1
-R46
-R207
-R208
+R44
+R218
+R219
 !i113 0
 R12
 R13
@@ -2328,21 +2328,21 @@ Emux2
 R1
 R3
 R4
-!i122 170
+!i122 422
 R0
-Z210 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/mux2.vhd
-Z211 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/mux2.vhd
+Z221 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/mux2.vhd
+Z222 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/mux2.vhd
 l0
 L89 1
 V4nDY6d2QX24<`;=J7mQ4>2
 !s100 meoC7;[A8fLTZi1Nf18:I3
 R7
 32
-R137
+R148
 !i10b 1
-R138
-Z212 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/mux2.vhd|
-Z213 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/mux2.vhd|
+R149
+Z223 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/mux2.vhd|
+Z224 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/mux2.vhd|
 !i113 0
 R12
 R13
@@ -2350,18 +2350,18 @@ Artl
 R3
 R4
 DEx4 work 4 mux2 0 22 4nDY6d2QX24<`;=J7mQ4>2
-!i122 170
+!i122 422
 l104
 L103 8
 V2iAPgPO313g^mIlkN65>;2
 !s100 MQFNGEo0:]JVL9c>UD1XJ2
 R7
 32
-R137
+R148
 !i10b 1
-R138
-R212
-R213
+R149
+R223
+R224
 !i113 0
 R12
 R13
@@ -2378,21 +2378,21 @@ R26
 R2
 R3
 R4
-!i122 226
+!i122 478
 R0
-Z214 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/operation_control.vhd
-Z215 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/operation_control.vhd
+Z225 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/operation_control.vhd
+Z226 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/operation_control.vhd
 l0
-Z216 L93 1
+Z227 L93 1
 VigbUB`MQ1RiTS^5e5G?4^0
 !s100 XO]H<gU7njHnkfAo2NaEj3
 R7
 32
-R29
+R135
 !i10b 1
-R30
-Z217 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/operation_control.vhd|
-Z218 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/operation_control.vhd|
+R162
+Z228 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/operation_control.vhd|
+Z229 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/operation_control.vhd|
 !i113 0
 R12
 R13
@@ -2409,18 +2409,18 @@ R2
 R3
 R4
 DEx4 work 17 operation_control 0 22 igbUB`MQ1RiTS^5e5G?4^0
-!i122 226
+!i122 478
 l151
 L142 126
 V<WiZGZXmE@OBOzKkK9F<^1
 !s100 AX728aU6?a4LI[`Vh[@XI2
 R7
 32
-R29
+R135
 !i10b 1
-R30
-R217
-R218
+R162
+R228
+R229
 !i113 0
 R12
 R13
@@ -2428,10 +2428,10 @@ Eparity_calculator
 R1
 R3
 R4
-!i122 171
+!i122 423
 R0
-Z219 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/parity_calculator.vhd
-Z220 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/parity_calculator.vhd
+Z230 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/parity_calculator.vhd
+Z231 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/parity_calculator.vhd
 l0
 L78 1
 VN379gm>X;jU^Rn:Q<XWBY3
@@ -2440,9 +2440,9 @@ R7
 32
 R8
 !i10b 1
-R138
-Z221 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/parity_calculator.vhd|
-Z222 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/parity_calculator.vhd|
+R149
+Z232 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/parity_calculator.vhd|
+Z233 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/parity_calculator.vhd|
 !i113 0
 R12
 R13
@@ -2450,7 +2450,7 @@ Artl
 R3
 R4
 DEx4 work 17 parity_calculator 0 22 N379gm>X;jU^Rn:Q<XWBY3
-!i122 171
+!i122 423
 l95
 L93 20
 VK==m]38WY8:k57B[aSG@F3
@@ -2459,9 +2459,9 @@ R7
 32
 R8
 !i10b 1
-R138
-R221
-R222
+R149
+R232
+R233
 !i113 0
 R12
 R13
@@ -2478,21 +2478,21 @@ R26
 R2
 R3
 R4
-!i122 238
+!i122 490
 R0
-Z223 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/prescaler.vhd
-Z224 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/prescaler.vhd
+Z234 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/prescaler.vhd
+Z235 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/prescaler.vhd
 l0
-R57
+R55
 V]JhEhVQ;de156`5LAH<1b0
 !s100 EIfMEXIK64Bf=GKOleQA_3
 R7
 32
-R77
+R43
 !i10b 1
-R78
-Z225 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/prescaler.vhd|
-Z226 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/prescaler.vhd|
+R44
+Z236 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/prescaler.vhd|
+Z237 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/prescaler.vhd|
 !i113 0
 R12
 R13
@@ -2516,18 +2516,18 @@ R2
 R3
 R4
 DEx4 work 9 prescaler 0 22 ]JhEhVQ;de156`5LAH<1b0
-!i122 238
+!i122 490
 l274
 L188 384
 V]hg1ZoV>JDd4d5nJUQAOm1
 !s100 6lFfE7T;@:kT`Ga8O40]U2
 R7
 32
-R77
+R43
 !i10b 1
-R78
-R225
-R226
+R44
+R236
+R237
 !i113 0
 R12
 R13
@@ -2541,25 +2541,25 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
-!i122 207
+!i122 459
 R0
-Z227 8/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/priority_decoder.vhd
-Z228 F/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/priority_decoder.vhd
+Z238 8/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/priority_decoder.vhd
+Z239 F/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/priority_decoder.vhd
 l0
-R62
+R60
 VgnTcY2cVEFGBM6UB02HQW2
 !s100 mWWi]hc5okmmP12gjMW]S0
 R7
 32
-R38
+R49
 !i10b 1
-R39
-Z229 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/priority_decoder.vhd|
-Z230 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/priority_decoder.vhd|
+R50
+Z240 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/priority_decoder.vhd|
+Z241 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/priority_decoder.vhd|
 !i113 0
 R12
 R13
@@ -2572,23 +2572,23 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
 DEx4 work 16 priority_decoder 0 22 gnTcY2cVEFGBM6UB02HQW2
-!i122 207
+!i122 459
 l168
 L124 232
 Vi:J^XLz7Adib8Jla8g?Ko2
 !s100 J2l?:c=UCz8UY<M002<7Z2
 R7
 32
-R38
+R49
 !i10b 1
-R39
-R229
-R230
+R50
+R240
+R241
 !i113 0
 R12
 R13
@@ -2605,21 +2605,21 @@ R26
 R2
 R3
 R4
-!i122 246
+!i122 498
 R0
-Z231 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control.vhd
-Z232 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control.vhd
+Z242 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control.vhd
+Z243 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control.vhd
 l0
-R67
+R65
 VgA:<hUo@32XN5X1MENG`[3
 !s100 RkoX`?RODfWziR?R45SXf2
 R7
 32
-R77
+R100
 !i10b 1
-R78
-Z233 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control.vhd|
-Z234 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control.vhd|
+R101
+Z244 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control.vhd|
+Z245 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control.vhd|
 !i113 0
 R12
 R13
@@ -2631,7 +2631,7 @@ DEx14 ctu_can_fd_rtl 19 retransmitt_counter 0 22 h6mmhEY<;kQoiY9S1cfMb3
 DEx14 ctu_can_fd_rtl 21 reintegration_counter 0 22 PDFDQ`3nAiG<Z4:C<cDcc2
 DEx14 ctu_can_fd_rtl 15 control_counter 0 22 ?]09<W0^I>E`]8N]BQB`T0
 DEx14 ctu_can_fd_rtl 20 protocol_control_fsm 0 22 [:U]FmfoOS7m^RTA<cWi00
-R100
+R96
 DEx14 ctu_can_fd_rtl 14 endian_swapper 0 22 okj32FlEh=c_Nnf^94nmK2
 R19
 R20
@@ -2645,18 +2645,18 @@ R2
 R3
 R4
 DEx4 work 16 protocol_control 0 22 gA:<hUo@32XN5X1MENG`[3
-!i122 246
+!i122 498
 l664
 L463 668
 VH=jHZgTARAaJ2Dg3T5JUH0
 !s100 0E3]^F4cJSgQlN<fLQ2SF3
 R7
 32
-R77
+R100
 !i10b 1
-R78
-R233
-R234
+R101
+R244
+R245
 !i113 0
 R12
 R13
@@ -2673,21 +2673,21 @@ R26
 R2
 R3
 R4
-!i122 227
+!i122 479
 R0
-Z235 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control_fsm.vhd
-Z236 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control_fsm.vhd
+Z246 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control_fsm.vhd
+Z247 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control_fsm.vhd
 l0
 L110 1
 V[:U]FmfoOS7m^RTA<cWi00
 !s100 a;EaRQ0k9iX]:@e<gXGYE0
 R7
 32
-R45
+R135
 !i10b 1
-R30
-Z237 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control_fsm.vhd|
-Z238 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control_fsm.vhd|
+R162
+Z248 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control_fsm.vhd|
+Z249 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/protocol_control_fsm.vhd|
 !i113 0
 R12
 R13
@@ -2705,18 +2705,18 @@ R2
 R3
 R4
 DEx4 work 20 protocol_control_fsm 0 22 [:U]FmfoOS7m^RTA<cWi00
-!i122 227
+!i122 479
 l810
 L569 2935
 V0<T2V^=P1e87b;mn`1bAN1
 !s100 O0Z]InRFQRfHBC1hj65h]0
 R7
 32
-R45
+R135
 !i10b 1
-R30
-R237
-R238
+R162
+R248
+R249
 !i113 0
 R12
 R13
@@ -2733,21 +2733,21 @@ R26
 R2
 R3
 R4
-!i122 235
+!i122 487
 R0
-Z239 8/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/range_filter.vhd
-Z240 F/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/range_filter.vhd
+Z250 8/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/range_filter.vhd
+Z251 F/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/range_filter.vhd
 l0
-R163
+R175
 V;N9hB;LK?eb@?=I=O2RU=0
 !s100 iAn1TQWVHCfdjLf`ALiVA1
 R7
 32
-R45
+R43
 !i10b 1
-R46
-Z241 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/range_filter.vhd|
-Z242 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/range_filter.vhd|
+R44
+Z252 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/range_filter.vhd|
+Z253 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/frame_filters/range_filter.vhd|
 !i113 0
 R12
 R13
@@ -2764,18 +2764,18 @@ R2
 R3
 R4
 DEx4 work 12 range_filter 0 22 ;N9hB;LK?eb@?=I=O2RU=0
-!i122 235
+!i122 487
 l129
 L120 31
 VG>l_JL6XQffhiJ^bGN>lZ1
 !s100 =9FfW9o?MBTak0MVobVXd1
 R7
 32
-R45
+R43
 !i10b 1
-R46
-R241
-R242
+R44
+R252
+R253
 !i113 0
 R12
 R13
@@ -2792,21 +2792,21 @@ R26
 R2
 R3
 R4
-!i122 228
+!i122 480
 R0
-Z243 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/reintegration_counter.vhd
-Z244 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/reintegration_counter.vhd
+Z254 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/reintegration_counter.vhd
+Z255 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/reintegration_counter.vhd
 l0
-R216
+R227
 VPDFDQ`3nAiG<Z4:C<cDcc2
 !s100 6i50;;n;FL4cghNDzb8UK3
 R7
 32
-R45
+R135
 !i10b 1
-R46
-Z245 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/reintegration_counter.vhd|
-Z246 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/reintegration_counter.vhd|
+R162
+Z256 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/reintegration_counter.vhd|
+Z257 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/reintegration_counter.vhd|
 !i113 0
 R12
 R13
@@ -2823,18 +2823,18 @@ R2
 R3
 R4
 DEx4 work 21 reintegration_counter 0 22 PDFDQ`3nAiG<Z4:C<cDcc2
-!i122 228
+!i122 480
 l133
 L124 60
 VEhN]C[?lmPMY7`aeS]o>40
 !s100 fNYX4IQJzR7zc=9_>WYOR2
 R7
 32
-R45
+R135
 !i10b 1
-R46
-R245
-R246
+R162
+R256
+R257
 !i113 0
 R12
 R13
@@ -2851,21 +2851,21 @@ R26
 R2
 R3
 R4
-!i122 229
+!i122 481
 R0
-Z247 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/retransmitt_counter.vhd
-Z248 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/retransmitt_counter.vhd
+Z258 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/retransmitt_counter.vhd
+Z259 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/retransmitt_counter.vhd
 l0
 R37
 Vh6mmhEY<;kQoiY9S1cfMb3
 !s100 NCCj4O7SA>5CM3bA^;:CZ1
 R7
 32
-R45
+R135
 !i10b 1
-R46
-Z249 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/retransmitt_counter.vhd|
-Z250 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/retransmitt_counter.vhd|
+R162
+Z260 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/retransmitt_counter.vhd|
+Z261 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/retransmitt_counter.vhd|
 !i113 0
 R12
 R13
@@ -2882,18 +2882,18 @@ R2
 R3
 R4
 DEx4 work 19 retransmitt_counter 0 22 h6mmhEY<;kQoiY9S1cfMb3
-!i122 229
+!i122 481
 l145
 L136 62
 VW<C8XOUE]NW]HPg@A5bDH3
 !s100 8niUX462So8c>eHTGaloR3
 R7
 32
-R45
+R135
 !i10b 1
-R46
-R249
-R250
+R162
+R260
+R261
 !i113 0
 R12
 R13
@@ -2903,21 +2903,21 @@ R2
 R24
 R3
 R4
-!i122 192
+!i122 444
 R0
-Z251 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_reg.vhd
-Z252 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_reg.vhd
+Z262 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_reg.vhd
+Z263 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_reg.vhd
 l0
 L82 1
 VBXjmfji_^?Z2RoD5f69c[2
 !s100 :1jcU=Banckg6iUo@0L@R3
 R7
 32
-R87
+R83
 !i10b 1
-R88
-Z253 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_reg.vhd|
-Z254 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_reg.vhd|
+R84
+Z264 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_reg.vhd|
+Z265 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_reg.vhd|
 !i113 0
 R12
 R13
@@ -2929,18 +2929,18 @@ R24
 R3
 R4
 DEx4 work 7 rst_reg 0 22 BXjmfji_^?Z2RoD5f69c[2
-!i122 192
+!i122 444
 l112
 L106 38
 V:c4fPGkV7ejY2o0?^9P:81
 !s100 ;hGj?oea<Fb@0TO=2VUGA1
 R7
 32
-R87
+R83
 !i10b 1
-R88
-R253
-R254
+R84
+R264
+R265
 !i113 0
 R12
 R13
@@ -2948,12 +2948,12 @@ Erst_sync
 R1
 R3
 R4
-!i122 172
+!i122 424
 R0
-Z255 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_sync.vhd
-Z256 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_sync.vhd
+Z266 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_sync.vhd
+Z267 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_sync.vhd
 l0
-R98
+R94
 Ve4:eTE1OR?fScD[7bK9O80
 !s100 GB4@mbCA2MNgaZd75Qmaa3
 R7
@@ -2961,8 +2961,8 @@ R7
 R8
 !i10b 1
 R9
-Z257 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_sync.vhd|
-Z258 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_sync.vhd|
+Z268 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_sync.vhd|
+Z269 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/rst_sync.vhd|
 !i113 0
 R12
 R13
@@ -2970,7 +2970,7 @@ Artl
 R3
 R4
 DEx4 work 8 rst_sync 0 22 e4:eTE1OR?fScD[7bK9O80
-!i122 172
+!i122 424
 l99
 L94 20
 VbnTScK^Q<jhNZV7fN<ci<1
@@ -2980,14 +2980,14 @@ R7
 R8
 !i10b 1
 R9
-R257
-R258
+R268
+R269
 !i113 0
 R12
 R13
 Erx_buffer
 R1
-R99
+R95
 R19
 R20
 R21
@@ -2996,35 +2996,35 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
-!i122 239
+!i122 491
 R0
-Z259 8/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer.vhd
-Z260 F/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer.vhd
+Z270 8/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer.vhd
+Z271 F/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer.vhd
 l0
 L99 1
 V<WH_EddAQSMR22e<z2X1S3
 !s100 4Kl^VkEBc_cnmMZJm@lBo3
 R7
 32
-R77
+R43
 !i10b 1
-R78
-Z261 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer.vhd|
-Z262 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer.vhd|
+R44
+Z272 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer.vhd|
+Z273 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer.vhd|
 !i113 0
 R12
 R13
 Artl
 DEx14 ctu_can_fd_rtl 13 rx_buffer_ram 0 22 PLI0U^9G14E_cl[@12z4[1
-R209
+R220
 DEx14 ctu_can_fd_rtl 18 rx_buffer_pointers 0 22 f>O`OTEL^L?[ZiPcK?0RH0
 DEx14 ctu_can_fd_rtl 13 rx_buffer_fsm 0 22 4LU^fgHYOhXWZM;;:M`g<1
-R81
-R99
+R77
+R95
 R19
 R20
 R21
@@ -3033,23 +3033,23 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
 DEx4 work 9 rx_buffer 0 22 <WH_EddAQSMR22e<z2X1S3
-!i122 239
+!i122 491
 l435
 L234 902
 V_0Yj1BmmfMRRm:5cCd1@S2
 !s100 kVg>7h44]L`i[J5P;TT1T3
 R7
 32
-R77
+R43
 !i10b 1
-R78
-R261
-R262
+R44
+R272
+R273
 !i113 0
 R12
 R13
@@ -3063,25 +3063,25 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
-!i122 204
+!i122 456
 R0
-Z263 8/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_fsm.vhd
-Z264 F/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_fsm.vhd
+Z274 8/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_fsm.vhd
+Z275 F/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_fsm.vhd
 l0
-R163
+R175
 V4LU^fgHYOhXWZM;;:M`g<1
 !s100 KAkN6`=o]2NR7eUYn=:aW0
 R7
 32
-R51
+R49
 !i10b 1
-R52
-Z265 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_fsm.vhd|
-Z266 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_fsm.vhd|
+R50
+Z276 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_fsm.vhd|
+Z277 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_fsm.vhd|
 !i113 0
 R12
 R13
@@ -3094,23 +3094,23 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
 DEx4 work 13 rx_buffer_fsm 0 22 4LU^fgHYOhXWZM;;:M`g<1
-!i122 204
+!i122 456
 l161
 L147 208
 V3i>HJVFzh]D84;zH7hEg30
 !s100 Wa?IF`COBhmZd3;BmUBEP2
 R7
 32
-R51
+R49
 !i10b 1
-R52
-R265
-R266
+R50
+R276
+R277
 !i113 0
 R12
 R13
@@ -3124,25 +3124,25 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
-!i122 205
+!i122 457
 R0
-Z267 8/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_pointers.vhd
-Z268 F/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_pointers.vhd
+Z278 8/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_pointers.vhd
+Z279 F/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_pointers.vhd
 l0
-R176
+R188
 Vf>O`OTEL^L?[ZiPcK?0RH0
 !s100 272GKbIHd1@2U;3Z?AQDf1
 R7
 32
-R51
+R49
 !i10b 1
-R52
-Z269 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_pointers.vhd|
-Z270 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_pointers.vhd|
+R50
+Z280 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_pointers.vhd|
+Z281 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_pointers.vhd|
 !i113 0
 R12
 R13
@@ -3155,29 +3155,29 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
 DEx4 work 18 rx_buffer_pointers 0 22 f>O`OTEL^L?[ZiPcK?0RH0
-!i122 205
+!i122 457
 l227
 L169 263
 V7ShTU88Bh__8kogQfK>?V2
 !s100 DQNLIVlej^`2`4=Q:_>j>0
 R7
 32
-R51
+R49
 !i10b 1
-R52
-R269
-R270
+R50
+R280
+R281
 !i113 0
 R12
 R13
 Erx_buffer_ram
 R1
-R99
+R95
 R19
 R20
 R21
@@ -3186,32 +3186,32 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
-!i122 206
+!i122 458
 R0
-Z271 8/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_ram.vhd
-Z272 F/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_ram.vhd
+Z282 8/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_ram.vhd
+Z283 F/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_ram.vhd
 l0
 L105 1
 VPLI0U^9G14E_cl[@12z4[1
 !s100 e>X[MYiSI2:WNW73b8WVb2
 R7
 32
-R38
+R49
 !i10b 1
-R39
-Z273 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_ram.vhd|
-Z274 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_ram.vhd|
+R50
+Z284 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_ram.vhd|
+Z285 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/rx_buffer/rx_buffer_ram.vhd|
 !i113 0
 R12
 R13
 Artl
-R107
-Z275 DEx14 ctu_can_fd_rtl 15 inf_ram_wrapper 0 22 <caAVP;8fZVJ5:EYYCo>L1
-R99
+R111
+Z286 DEx14 ctu_can_fd_rtl 15 inf_ram_wrapper 0 22 <caAVP;8fZVJ5:EYYCo>L1
+R95
 R19
 R20
 R21
@@ -3220,23 +3220,23 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
 DEx4 work 13 rx_buffer_ram 0 22 PLI0U^9G14E_cl[@12z4[1
-!i122 206
+!i122 458
 l179
 L163 179
 Vj9]Czd09;X5gcIzlo7iZa2
 !s100 d8nJc0a4X_bmk4j?hjNfZ0
 R7
 32
-R38
+R49
 !i10b 1
-R39
-R273
-R274
+R50
+R284
+R285
 !i113 0
 R12
 R13
@@ -3253,27 +3253,27 @@ R26
 R2
 R3
 R4
-!i122 230
+!i122 482
 R0
-Z276 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/rx_shift_reg.vhd
-Z277 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/rx_shift_reg.vhd
+Z287 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/rx_shift_reg.vhd
+Z288 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/rx_shift_reg.vhd
 l0
-R67
+R65
 VTf81l1oF;NAlkgHg?IgX:2
 !s100 `FCoEzTkmOUQ?L1lWDeo:0
 R7
 32
-R45
+R135
 !i10b 1
-R46
-Z278 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/rx_shift_reg.vhd|
-Z279 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/rx_shift_reg.vhd|
+R162
+Z289 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/rx_shift_reg.vhd|
+Z290 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/rx_shift_reg.vhd|
 !i113 0
 R12
 R13
 Artl
 DEx14 ctu_can_fd_rtl 14 shift_reg_byte 0 22 V^D_VHcm8]Cm?LHi;7X^K0
-R81
+R77
 R19
 R20
 R21
@@ -3286,18 +3286,18 @@ R2
 R3
 R4
 DEx4 work 12 rx_shift_reg 0 22 Tf81l1oF;NAlkgHg?IgX:2
-!i122 230
+!i122 482
 l226
 L208 297
 V?;0f<3nDI8_C^366@W;l=2
 !s100 _N8lCVELoCd^Z5GU8VcER3
 R7
 32
-R45
+R135
 !i10b 1
-R46
-R278
-R279
+R162
+R289
+R290
 !i113 0
 R12
 R13
@@ -3314,21 +3314,21 @@ R26
 R2
 R3
 R4
-!i122 213
+!i122 465
 R0
-Z280 8/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/sample_mux.vhd
-Z281 F/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/sample_mux.vhd
+Z291 8/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/sample_mux.vhd
+Z292 F/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/sample_mux.vhd
 l0
-R216
+R227
 Va=`C?cTTJDOVL9=dN]BQa3
 !s100 gmhNYQGQKVLmYQFfanfO>2
 R7
 32
-R38
+R29
 !i10b 1
-R39
-Z282 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/sample_mux.vhd|
-Z283 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/sample_mux.vhd|
+R30
+Z293 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/sample_mux.vhd|
+Z294 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/sample_mux.vhd|
 !i113 0
 R12
 R13
@@ -3345,18 +3345,18 @@ R2
 R3
 R4
 DEx4 work 10 sample_mux 0 22 a=`C?cTTJDOVL9=dN]BQa3
-!i122 213
+!i122 465
 l139
 L130 42
 V:T7_=`D5k:S8ZLfBFLgnn0
 !s100 R]b99JhIZBj3:G=7=ccKF0
 R7
 32
-R38
+R29
 !i10b 1
-R39
-R282
-R283
+R30
+R293
+R294
 !i113 0
 R12
 R13
@@ -3373,21 +3373,21 @@ R26
 R2
 R3
 R4
-!i122 201
+!i122 453
 R0
-Z284 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/segment_end_detector.vhd
-Z285 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/segment_end_detector.vhd
+Z295 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/segment_end_detector.vhd
+Z296 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/segment_end_detector.vhd
 l0
-R62
+R60
 V:HGEELfjCI]0LcLLb2Ak_3
 !s100 UnbmYJ6fk6UFdiCCA]^UX0
 R7
 32
-R51
+R49
 !i10b 1
-R52
-Z286 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/segment_end_detector.vhd|
-Z287 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/segment_end_detector.vhd|
+R50
+Z297 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/segment_end_detector.vhd|
+Z298 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/segment_end_detector.vhd|
 !i113 0
 R12
 R13
@@ -3404,18 +3404,18 @@ R2
 R3
 R4
 DEx4 work 20 segment_end_detector 0 22 :HGEELfjCI]0LcLLb2Ak_3
-!i122 201
+!i122 453
 l183
 L148 203
 V<g[eF;Qcd6PBzMA?8[lbJ3
 !s100 eFg3<6V7V<F>fO3C6UAh>0
 R7
 32
-R51
+R49
 !i10b 1
-R52
-R286
-R287
+R50
+R297
+R298
 !i113 0
 R12
 R13
@@ -3423,12 +3423,12 @@ Eshift_reg
 R1
 R3
 R4
-!i122 173
+!i122 425
 R0
-Z288 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg.vhd
-Z289 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg.vhd
+Z299 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg.vhd
+Z300 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg.vhd
 l0
-R98
+R94
 VVnYW@ahK<oa<^Q?[EPKf33
 !s100 V[mN8NWMaLSkLefeDBcD03
 R7
@@ -3436,8 +3436,8 @@ R7
 R8
 !i10b 1
 R9
-Z290 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg.vhd|
-Z291 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg.vhd|
+Z301 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg.vhd|
+Z302 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg.vhd|
 !i113 0
 R12
 R13
@@ -3445,7 +3445,7 @@ Artl
 R3
 R4
 DEx4 work 9 shift_reg 0 22 VnYW@ahK<oa<^Q?[EPKf33
-!i122 173
+!i122 425
 l126
 L119 51
 V5RU^2SFYRTE=a3I5MC:V<2
@@ -3455,8 +3455,8 @@ R7
 R8
 !i10b 1
 R9
-R290
-R291
+R301
+R302
 !i113 0
 R12
 R13
@@ -3464,12 +3464,12 @@ Eshift_reg_byte
 R1
 R3
 R4
-!i122 174
+!i122 426
 R0
-Z292 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_byte.vhd
-Z293 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_byte.vhd
+Z303 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_byte.vhd
+Z304 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_byte.vhd
 l0
-R185
+R197
 VV^D_VHcm8]Cm?LHi;7X^K0
 !s100 9ohPnMQc8=7DgVcT^><4T3
 R7
@@ -3477,8 +3477,8 @@ R7
 R8
 !i10b 1
 R9
-Z294 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_byte.vhd|
-Z295 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_byte.vhd|
+Z305 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_byte.vhd|
+Z306 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_byte.vhd|
 !i113 0
 R12
 R13
@@ -3486,7 +3486,7 @@ Artl
 R3
 R4
 DEx4 work 14 shift_reg_byte 0 22 V^D_VHcm8]Cm?LHi;7X^K0
-!i122 174
+!i122 426
 l135
 L127 45
 VIC:2fQm`CgK]mZ?4YRUWg3
@@ -3496,8 +3496,8 @@ R7
 R8
 !i10b 1
 R9
-R294
-R295
+R305
+R306
 !i113 0
 R12
 R13
@@ -3505,12 +3505,12 @@ Eshift_reg_preload
 R1
 R3
 R4
-!i122 175
+!i122 427
 R0
-Z296 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_preload.vhd
-Z297 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_preload.vhd
+Z307 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_preload.vhd
+Z308 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_preload.vhd
 l0
-R98
+R94
 VC8C:jQf]_h@j3V1K3>1<I0
 !s100 Yh2@5X2<YgeBYY]=fbW5n0
 R7
@@ -3518,8 +3518,8 @@ R7
 R8
 !i10b 1
 R9
-Z298 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_preload.vhd|
-Z299 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_preload.vhd|
+Z309 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_preload.vhd|
+Z310 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/shift_reg_preload.vhd|
 !i113 0
 R12
 R13
@@ -3527,7 +3527,7 @@ Artl
 R3
 R4
 DEx4 work 17 shift_reg_preload 0 22 C8C:jQf]_h@j3V1K3>1<I0
-!i122 175
+!i122 427
 l129
 L122 45
 V:=iIP2JRzgohbfzl0<FKN3
@@ -3537,8 +3537,8 @@ R7
 R8
 !i10b 1
 R9
-R298
-R299
+R309
+R310
 !i113 0
 R12
 R13
@@ -3546,12 +3546,12 @@ Esig_sync
 R1
 R3
 R4
-!i122 176
+!i122 428
 R0
-Z300 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/sig_sync.vhd
-Z301 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/sig_sync.vhd
+Z311 8/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/sig_sync.vhd
+Z312 F/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/sig_sync.vhd
 l0
-R98
+R94
 VcHgkkgZGS`_^O5I^CT5fS0
 !s100 8jNCf:@GCY<a]:`gU]URL1
 R7
@@ -3559,8 +3559,8 @@ R7
 R8
 !i10b 1
 R9
-Z302 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/sig_sync.vhd|
-Z303 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/sig_sync.vhd|
+Z313 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/sig_sync.vhd|
+Z314 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/common_blocks/sig_sync.vhd|
 !i113 0
 R12
 R13
@@ -3568,7 +3568,7 @@ Artl
 R3
 R4
 DEx4 work 8 sig_sync 0 22 cHgkkgZGS`_^O5I^CT5fS0
-!i122 176
+!i122 428
 l105
 L100 20
 VgP]i?l;`Jf77:a>]O2cfD3
@@ -3578,8 +3578,8 @@ R7
 R8
 !i10b 1
 R9
-R302
-R303
+R313
+R314
 !i113 0
 R12
 R13
@@ -3596,21 +3596,21 @@ R26
 R2
 R3
 R4
-!i122 214
+!i122 466
 R0
-Z304 8/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/ssp_generator.vhd
-Z305 F/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/ssp_generator.vhd
+Z315 8/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/ssp_generator.vhd
+Z316 F/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/ssp_generator.vhd
 l0
-R163
+R175
 VcIGjhe71179UZ=1WR=1__1
 !s100 ]GFGYVWI3=26WRIe4l[;91
 R7
 32
-R38
+R29
 !i10b 1
-R39
-Z306 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/ssp_generator.vhd|
-Z307 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/ssp_generator.vhd|
+R30
+Z317 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/ssp_generator.vhd|
+Z318 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/ssp_generator.vhd|
 !i113 0
 R12
 R13
@@ -3627,18 +3627,18 @@ R2
 R3
 R4
 DEx4 work 13 ssp_generator 0 22 cIGjhe71179UZ=1WR=1__1
-!i122 214
+!i122 466
 l172
 L138 197
 V?Z2jNjfn>>=SnoNf0WdNb0
 !s100 3h9[Re9m[`m;neiK0a6z`0
 R7
 32
-R38
+R29
 !i10b 1
-R39
-R306
-R307
+R30
+R317
+R318
 !i113 0
 R12
 R13
@@ -3655,21 +3655,21 @@ R26
 R2
 R3
 R4
-!i122 202
+!i122 454
 R0
-Z308 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/synchronisation_checker.vhd
-Z309 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/synchronisation_checker.vhd
+Z319 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/synchronisation_checker.vhd
+Z320 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/synchronisation_checker.vhd
 l0
-R163
+R175
 VV6_6NN>A?_6BJCDD]lld41
 !s100 FF2NFBgC:FRbb9>7D1k_50
 R7
 32
-R51
+R49
 !i10b 1
-R52
-Z310 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/synchronisation_checker.vhd|
-Z311 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/synchronisation_checker.vhd|
+R50
+Z321 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/synchronisation_checker.vhd|
+Z322 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/synchronisation_checker.vhd|
 !i113 0
 R12
 R13
@@ -3686,65 +3686,65 @@ R2
 R3
 R4
 DEx4 work 23 synchronisation_checker 0 22 V6_6NN>A?_6BJCDD]lld41
-!i122 202
+!i122 454
 l151
 L139 111
 VeEPFETl8K@9VYAoW[0gnC2
 !s100 MMoPdi>RG;cT8a8zC4RAJ3
 R7
 32
-R51
+R49
 !i10b 1
-R52
-R310
-R311
+R50
+R321
+R322
 !i113 0
 R12
 R13
 Etest_registers_reg_map
 R1
 R2
-R118
-R99
+R128
+R95
 R3
 R4
-!i122 194
+!i122 446
 R0
-Z312 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/test_registers_reg_map.vhd
-Z313 F/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/test_registers_reg_map.vhd
+Z323 8/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/test_registers_reg_map.vhd
+Z324 F/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/test_registers_reg_map.vhd
 l0
-R86
+R82
 VR1SmI@?GOBOid8hTcZTXI1
 !s100 h3d@nLiz:PJVXRjSen:071
 R7
 32
-R51
+R83
 !i10b 1
-R88
-Z314 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/test_registers_reg_map.vhd|
-Z315 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/test_registers_reg_map.vhd|
+R84
+Z325 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/test_registers_reg_map.vhd|
+Z326 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/test_registers_reg_map.vhd|
 !i113 0
 R12
 R13
 Artl
 R2
-R118
-R99
+R128
+R95
 R3
 R4
 DEx4 work 22 test_registers_reg_map 0 22 R1SmI@?GOBOid8hTcZTXI1
-!i122 194
+!i122 446
 l115
 L107 191
 V;4AOWzDaKMjTJdXmkLbc=1
 !s100 j8>4<FFjU7PD?WMUZTSg^0
 R7
 32
-R51
+R83
 !i10b 1
-R88
-R314
-R315
+R84
+R325
+R326
 !i113 0
 R12
 R13
@@ -3761,21 +3761,21 @@ R26
 R2
 R3
 R4
-!i122 203
+!i122 455
 R0
-Z316 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/trigger_generator.vhd
-Z317 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/trigger_generator.vhd
+Z327 8/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/trigger_generator.vhd
+Z328 F/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/trigger_generator.vhd
 l0
 L122 1
 V7385JG5ac`94UInZn;X_52
 !s100 igggVGLRH6@1[^Mm<<LcC0
 R7
 32
-R51
+R49
 !i10b 1
-R52
-Z318 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/trigger_generator.vhd|
-Z319 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/trigger_generator.vhd|
+R50
+Z329 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/prescaler/trigger_generator.vhd|
+Z330 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/prescaler/trigger_generator.vhd|
 !i113 0
 R12
 R13
@@ -3792,18 +3792,18 @@ R2
 R3
 R4
 DEx4 work 17 trigger_generator 0 22 7385JG5ac`94UInZn;X_52
-!i122 203
+!i122 455
 l170
 L157 87
 VCW]nG;QX[YYdio;T1knSg2
 !s100 CRoE?5T8__Af;[n:o4mJ02
 R7
 32
-R51
+R49
 !i10b 1
-R52
-R318
-R319
+R50
+R329
+R330
 !i113 0
 R12
 R13
@@ -3820,21 +3820,21 @@ R26
 R2
 R3
 R4
-!i122 231
+!i122 483
 R0
-Z320 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/trigger_mux.vhd
-Z321 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/trigger_mux.vhd
+Z331 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/trigger_mux.vhd
+Z332 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/trigger_mux.vhd
 l0
 L108 1
 V<:@EML=hm0:K7aEXdg2gE1
 !s100 E18n26g0NIa<e8=idN8dT0
 R7
 32
-R45
+R135
 !i10b 1
-R46
-Z322 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/trigger_mux.vhd|
-Z323 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/trigger_mux.vhd|
+R162
+Z333 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/trigger_mux.vhd|
+Z334 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/trigger_mux.vhd|
 !i113 0
 R12
 R13
@@ -3853,18 +3853,18 @@ R2
 R3
 R4
 DEx4 work 11 trigger_mux 0 22 <:@EML=hm0:K7aEXdg2gE1
-!i122 231
+!i122 483
 l187
 L183 102
 V?;7;keQALhSLTUY2f5M@b0
 !s100 ^]?eBa]c@VhImGQI=en>P1
 R7
 32
-R45
+R135
 !i10b 1
-R46
-R322
-R323
+R162
+R333
+R334
 !i113 0
 R12
 R13
@@ -3881,26 +3881,26 @@ R26
 R2
 R3
 R4
-!i122 215
+!i122 467
 R0
-Z324 8/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/trv_delay_meas.vhd
-Z325 F/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/trv_delay_meas.vhd
+Z335 8/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/trv_delay_meas.vhd
+Z336 F/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/trv_delay_meas.vhd
 l0
 L142 1
 VJE34f4X]K?S_NPE]30:UL1
 !s100 L=7=2DLUQ<O8Oj9ejO5LY0
 R7
 32
-R38
+R29
 !i10b 1
-R39
-Z326 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/trv_delay_meas.vhd|
-Z327 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/trv_delay_meas.vhd|
+R30
+Z337 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/trv_delay_meas.vhd|
+Z338 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/trv_delay_meas.vhd|
 !i113 0
 R12
 R13
 Artl
-R81
+R77
 R19
 R20
 R21
@@ -3913,18 +3913,18 @@ R2
 R3
 R4
 DEx4 work 21 trv_delay_measurement 0 22 JE34f4X]K?S_NPE]30:UL1
-!i122 215
+!i122 467
 l251
 L207 246
 V2aH^UIhz4lh9TIT7QQ75H0
 !s100 <ZJ6=6^FSYjbB@AY9hMH:3
 R7
 32
-R38
+R29
 !i10b 1
-R39
-R326
-R327
+R30
+R337
+R338
 !i113 0
 R12
 R13
@@ -3938,25 +3938,25 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
-!i122 240
+!i122 492
 R0
-Z328 8/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator.vhd
-Z329 F/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator.vhd
+Z339 8/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator.vhd
+Z340 F/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator.vhd
 l0
-R57
+R55
 VMHUbTZ]BWeX>>P=UJ3BSY0
 !s100 =KVNoJlBYzFaz55R5TO9A1
 R7
 32
-R77
+R43
 !i10b 1
-R78
-Z330 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator.vhd|
-Z331 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator.vhd|
+R44
+Z341 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator.vhd|
+Z342 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator.vhd|
 !i113 0
 R12
 R13
@@ -3971,23 +3971,23 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
 DEx4 work 13 tx_arbitrator 0 22 MHUbTZ]BWeX>>P=UJ3BSY0
-!i122 240
+!i122 492
 l364
 L207 794
 VDfO6BeDA]041CQKF_XNXi1
 !s100 d5l^PPQcY^X]E:OTP76j03
 R7
 32
-R77
+R43
 !i10b 1
-R78
-R330
-R331
+R44
+R341
+R342
 !i113 0
 R12
 R13
@@ -4001,25 +4001,25 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
-!i122 208
+!i122 460
 R0
-Z332 8/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator_fsm.vhd
-Z333 F/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator_fsm.vhd
+Z343 8/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator_fsm.vhd
+Z344 F/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator_fsm.vhd
 l0
-R67
+R65
 V7ZUITcfR_kI9f8M2bJOW:3
 !s100 >IQ;2N0oANfb?SB8ioVLo3
 R7
 32
-R38
+R49
 !i10b 1
-R39
-Z334 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator_fsm.vhd|
-Z335 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator_fsm.vhd|
+R50
+Z345 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator_fsm.vhd|
+Z346 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/tx_arbitrator/tx_arbitrator_fsm.vhd|
 !i113 0
 R12
 R13
@@ -4032,23 +4032,23 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
 DEx4 work 17 tx_arbitrator_fsm 0 22 7ZUITcfR_kI9f8M2bJOW:3
-!i122 208
+!i122 460
 l200
 L186 469
 VYb7SIBK`kNoA1VT?ALYL20
 !s100 1_MBFCbXF>9j_Saoi99Hc1
 R7
 32
-R38
+R49
 !i10b 1
-R39
-R334
-R335
+R50
+R345
+R346
 !i113 0
 R12
 R13
@@ -4065,21 +4065,21 @@ R26
 R2
 R3
 R4
-!i122 216
+!i122 468
 R0
-Z336 8/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/tx_data_cache.vhd
-Z337 F/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/tx_data_cache.vhd
+Z347 8/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/tx_data_cache.vhd
+Z348 F/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/tx_data_cache.vhd
 l0
-R163
+R175
 VhL=:`I4k^_gUOEX`]B=WW0
 !s100 enO:;ka^]NX:U2Yh^KU@H1
 R7
 32
 R29
 !i10b 1
-R39
-Z338 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/tx_data_cache.vhd|
-Z339 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/tx_data_cache.vhd|
+R30
+Z349 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/tx_data_cache.vhd|
+Z350 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/bus_sampling/tx_data_cache.vhd|
 !i113 0
 R12
 R13
@@ -4096,7 +4096,7 @@ R2
 R3
 R4
 DEx4 work 13 tx_data_cache 0 22 hL=:`I4k^_gUOEX`]B=WW0
-!i122 216
+!i122 468
 l148
 L132 108
 V1YV`c<jnk9EFO?ZYZQ2b23
@@ -4105,9 +4105,9 @@ R7
 32
 R29
 !i10b 1
-R39
-R338
-R339
+R30
+R349
+R350
 !i113 0
 R12
 R13
@@ -4124,21 +4124,21 @@ R26
 R2
 R3
 R4
-!i122 232
+!i122 484
 R0
-Z340 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/tx_shift_reg.vhd
-Z341 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/tx_shift_reg.vhd
+Z351 8/home/tristan/dev/canif/ip/ctucanfd/src/can_core/tx_shift_reg.vhd
+Z352 F/home/tristan/dev/canif/ip/ctucanfd/src/can_core/tx_shift_reg.vhd
 l0
 R37
 VXTPZ3`j7dK=AB>bJdJVRQ0
 !s100 25f^G><dfQQ_QLKj`4<Wf3
 R7
 32
-R45
+R135
 !i10b 1
-R46
-Z342 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/tx_shift_reg.vhd|
-Z343 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/tx_shift_reg.vhd|
+R162
+Z353 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/can_core/tx_shift_reg.vhd|
+Z354 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/can_core/tx_shift_reg.vhd|
 !i113 0
 R12
 R13
@@ -4156,24 +4156,24 @@ R2
 R3
 R4
 DEx4 work 12 tx_shift_reg 0 22 XTPZ3`j7dK=AB>bJdJVRQ0
-!i122 232
+!i122 484
 l240
 L201 245
 VYX4hV?g312a9e>fQ[98F`0
 !s100 E[Q4kklR09a3[h;R0SzX:0
 R7
 32
-R45
+R135
 !i10b 1
-R46
-R342
-R343
+R162
+R353
+R354
 !i113 0
 R12
 R13
 Etxt_buffer
 R1
-R99
+R95
 R19
 R20
 R21
@@ -4182,33 +4182,33 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
-!i122 241
+!i122 493
 R0
-Z344 8/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer.vhd
-Z345 F/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer.vhd
+Z355 8/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer.vhd
+Z356 F/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer.vhd
 l0
-R62
+R60
 V3zZl7<;mbBzWFIljHk?Lo1
 !s100 V>c913@NLcZP@EOTcc0N<3
 R7
 32
-R77
+R43
 !i10b 1
-R78
-Z346 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer.vhd|
-Z347 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer.vhd|
+R44
+Z357 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer.vhd|
+Z358 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer.vhd|
 !i113 0
 R12
 R13
 Artl
 DEx14 ctu_can_fd_rtl 14 txt_buffer_fsm 0 22 `RlaJn[8:]3_>A7i7>AGf2
 DEx14 ctu_can_fd_rtl 14 txt_buffer_ram 0 22 D7AlIaS22E1?W5>IS`7A`0
-R209
-R99
+R220
+R95
 R19
 R20
 R21
@@ -4217,23 +4217,23 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
 DEx4 work 10 txt_buffer 0 22 3zZl7<;mbBzWFIljHk?Lo1
-!i122 241
+!i122 493
 l276
 L232 222
 VFc1hSBPS9M8d:RgNHY;><1
 !s100 f8YkNKk1ic;K1H5cJQ2h?3
 R7
 32
-R77
+R43
 !i10b 1
-R78
-R346
-R347
+R44
+R357
+R358
 !i113 0
 R12
 R13
@@ -4247,25 +4247,25 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
-!i122 209
+!i122 461
 R0
-Z348 8/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_fsm.vhd
-Z349 F/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_fsm.vhd
+Z359 8/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_fsm.vhd
+Z360 F/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_fsm.vhd
 l0
-R163
+R175
 V`RlaJn[8:]3_>A7i7>AGf2
 !s100 Za_Wm4RIkLXaj<7JJFzMj0
 R7
 32
-R38
+R29
 !i10b 1
-R39
-Z350 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_fsm.vhd|
-Z351 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_fsm.vhd|
+R50
+Z361 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_fsm.vhd|
+Z362 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_fsm.vhd|
 !i113 0
 R12
 R13
@@ -4278,29 +4278,29 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
 DEx4 work 14 txt_buffer_fsm 0 22 `RlaJn[8:]3_>A7i7>AGf2
-!i122 209
+!i122 461
 l190
 L171 371
 Vl[zlYE^Jz_;m8BB4UCCHR3
 !s100 o2PKT8QJ2jU17Ei;]jR`71
 R7
 32
-R38
+R29
 !i10b 1
-R39
-R350
-R351
+R50
+R361
+R362
 !i113 0
 R12
 R13
 Etxt_buffer_ram
 R1
-R99
+R95
 R19
 R20
 R21
@@ -4309,32 +4309,32 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
-!i122 210
+!i122 462
 R0
-Z352 8/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_ram.vhd
-Z353 F/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_ram.vhd
+Z363 8/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_ram.vhd
+Z364 F/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_ram.vhd
 l0
-R95
+R91
 VD7AlIaS22E1?W5>IS`7A`0
 !s100 PE<IP=c59gi1ZDDcSGZ<Y0
 R7
 32
-R38
+R29
 !i10b 1
-R39
-Z354 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_ram.vhd|
-Z355 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_ram.vhd|
+R30
+Z365 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_ram.vhd|
+Z366 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/txt_buffer/txt_buffer_ram.vhd|
 !i113 0
 R12
 R13
 Artl
-R107
-R275
-R99
+R111
+R286
+R95
 R19
 R20
 R21
@@ -4343,23 +4343,23 @@ R23
 R24
 R25
 R26
-R100
+R96
 R2
 R3
 R4
 DEx4 work 14 txt_buffer_ram 0 22 D7AlIaS22E1?W5>IS`7A`0
-!i122 210
+!i122 462
 l194
 L168 173
 V9D5`fJW3P@gk95U]MOXd52
 !s100 z[U7LBz`V4?SQ2`U6]BTG2
 R7
 32
-R38
+R29
 !i10b 1
-R39
-R354
-R355
+R30
+R365
+R366
 !i113 0
 R12
 R13
@@ -4367,23 +4367,23 @@ Punary_ops_pkg
 R2
 R3
 R4
-!i122 189
+!i122 441
 R1
 R0
-Z356 8/home/tristan/dev/canif/ip/ctucanfd/src/packages/unary_ops_pkg.vhd
-Z357 F/home/tristan/dev/canif/ip/ctucanfd/src/packages/unary_ops_pkg.vhd
+Z367 8/home/tristan/dev/canif/ip/ctucanfd/src/packages/unary_ops_pkg.vhd
+Z368 F/home/tristan/dev/canif/ip/ctucanfd/src/packages/unary_ops_pkg.vhd
 l0
-R86
+R82
 VDCk4oddngUD]6jB40L;3[1
 !s100 8<45Q6iJWzoiMK9WHWIne2
 R7
 32
 b1
-R87
+R83
 !i10b 1
-R88
-Z358 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/ctucanfd/src/packages/unary_ops_pkg.vhd|
-Z359 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/packages/unary_ops_pkg.vhd|
+R84
+Z369 !s90 -reportprogress|300|-work|ctu_can_fd_rtl|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/ctucanfd/src/packages/unary_ops_pkg.vhd|
+Z370 !s107 /home/tristan/dev/canif/ip/ctucanfd/src/packages/unary_ops_pkg.vhd|
 !i113 0
 R12
 R13
@@ -4392,18 +4392,18 @@ DPx4 work 13 unary_ops_pkg 0 22 DCk4oddngUD]6jB40L;3[1
 R2
 R3
 R4
-!i122 189
+!i122 441
 l0
 L118 1
 V0c?8]V`dh=S:k5eFW19_j1
 !s100 W=?U^lX0C9o]V75_EQT^J0
 R7
 32
-R87
+R83
 !i10b 1
-R88
-R358
-R359
+R84
+R369
+R370
 !i113 0
 R12
 R13

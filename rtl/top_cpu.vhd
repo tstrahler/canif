@@ -39,6 +39,9 @@ use ieee.numeric_std.all;
 library neorv32;
 
 entity top_cpu is
+    generic (
+        g_can_if_count  : integer := 4;
+    )
     port (
         -- System control signal
         i_clk       : in  std_logic;
@@ -50,26 +53,70 @@ entity top_cpu is
         -- MTIME Timestamp
         o_timestamp : out std_logic_vector(63 downto 0);
 
+        -- Wishbone interface
+        o_wb_we     : out std_logic;
+        o_wb_stb    : out std_logic;
+        o_wb_cyc    : out std_logic;
+        i_wb_ack    : in std_logic;
+        i_wb_err    : in std_logic;
+        o_wb_addr   : out std_logic_vector(31 downto 0);
+        o_wb_wdata  : out std_logic_vector(31 downto 0);
+        i_wb_rdata  : in std_logic_vector(31 downto 0);
+
+        -- External interrupt signals
+        i_irq       : std_logic_vector(3 downto 0);
+
+        -- UART interface
         o_uart_txd  : out std_logic;
         i_uart_rxd  : in  std_logic
     );
 end entity;
 
 architecture top_cpu_rtl of top_cpu is
-    
+
+    -- System signals   
     signal s_clk    : std_ulogic;
     signal s_rstn   : std_ulogic;
 
-    signal s_gpio   : std_logic;
-
-    signal s_timestamp  : std_logic_vector(63 downto 0);
+    -- MTIME timestamp
+    signal s_timestamp  : std_ulogic_vector(63 downto 0);
 
     -- internal IO connection --
-    signal s_con_gpio   : std_ulogic_vector(63 downto 0);
+    signal s_gpio   : std_ulogic_vector(63 downto 0);
+
+    -- Wishbone interface
+    signal s_wb_we      : std_ulogic;
+    signal s_wb_stb     : std_ulogic;
+    signal s_wb_cyc     : std_ulogic;
+    signal s_wb_ack     : std_ulogic;
+    signal s_wb_err     : std_ulogic;
+    signal s_wb_addr    : std_ulogic_vector(31 downto 0);
+    signal s_wb_rdata   : std_ulogic_vector(31 downto 0);
+    signal s_wb_wdata   : std_ulogic_vector(31 downto 0);
+
+    -- External interrupt
+    signal s_irq        : std_ulogic_vector(3 downto 0);
 
 begin
 
-    o_gpio <= s_con_gpio(3 downto 0);
+    -- GPIO connector
+    o_gpio <= std_logic_vector(s_gpio(3 downto 0));
+
+    -- Wishbone connector
+    o_wb_we     <= std_logic(s_wb_we);
+    o_wb_stb    <= std_logic(s_wb_stb);
+    o_wb_cyc    <= std_logic(s_wb_cyc);
+    s_wb_ack    <= std_ulogic(i_wb_ack);
+    s_wb_err    <= std_ulogic(i_wb_err);
+    o_wb_addr   <= std_logic_vector(s_wb_addr);
+    o_wb_wdata  <= std_logic_vector(s_wb_wdata);
+    s_wb_rdata  <= std_ulogic_vector(i_wb_rdata);
+
+    -- External interrupt
+    s_irq       <= std_ulogic_vector(i_irq);
+
+    -- MTIME timestamp signal
+    o_timestamp <= std_logic_vector(s_timestamp);
 
   
     neorv32_inst: entity neorv32.neorv32_top
@@ -123,6 +170,11 @@ begin
         MEM_EXT_EN                   => true,       -- implement external memory bus interface?
         MEM_EXT_TIMEOUT              => 0,           -- cycles after a pending bus access auto-terminates (0 = disabled)
 
+        -- External Interrupts Controller (XIRQ) --
+        XIRQ_NUM_CH                  : natural := g_can_if_count;      -- number of external IRQ channels (0..32)
+        XIRQ_TRIGGER_TYPE            : std_logic_vector(31 downto 0) := (others => '1') & "1111"; -- trigger type: 0=level, 1=edge
+        XIRQ_TRIGGER_POLARITY        : std_logic_vector(31 downto 0) := (others => '1') & "1111"; -- trigger polarity: 0=low-level/falling-edge, 1=high-level/rising-edge
+
         -- Processor peripherals --
         IO_GPIO_EN                   => true,    -- implement general purpose input/output port unit (GPIO)?
         IO_MTIME_EN                  => true,   -- implement machine system timer (MTIME)?
@@ -153,18 +205,18 @@ begin
 
         -- Wishbone bus interface (available if MEM_EXT_EN = true) --
         wb_tag_o    => open,                         -- request tag
-        wb_adr_o    => open,                         -- address
-        wb_dat_i    => (others => '0'),              -- read data
-        wb_dat_o    => open,                         -- write data
-        wb_we_o     => open,                         -- read/write
+        wb_adr_o    => s_wb_addr,                         -- address
+        wb_dat_i    => s_wb_rdata,              -- read data
+        wb_dat_o    => s_wb_wdata,                         -- write data
+        wb_we_o     => s_wb_we,                         -- read/write
         wb_sel_o    => open,                         -- byte enable
-        wb_stb_o    => open,                         -- strobe
-        wb_cyc_o    => open,                         -- valid cycle
-        wb_ack_i    => '0',                          -- transfer acknowledge
-        wb_err_i    => '0',                          -- transfer error
+        wb_stb_o    => s_wb_stb,                         -- strobe
+        wb_cyc_o    => s_wb_cyc,                         -- valid cycle
+        wb_ack_i    => s_wb_ack,                          -- transfer acknowledge
+        wb_err_i    => s_wb_err,                          -- transfer error
 
         -- GPIO (available if IO_GPIO_EN = true) --
-        gpio_o      => s_con_gpio,                   -- parallel output
+        gpio_o      => s_gpio,                   -- parallel output
         gpio_i      => (others => '0'),              -- parallel input
 
         -- primary UART0 (available if IO_UART0_EN = true) --
@@ -180,7 +232,10 @@ begin
         spi_csn_o   => open,                         -- SPI CS
 
         -- System time --
-        mtime_o     => o_timestamp,                         -- current system time from int. MTIME (if IO_MTIME_EN = true)
+        mtime_o     => s_timestamp,                         -- current system time from int. MTIME (if IO_MTIME_EN = true)
+   
+        -- External interrupts 
+        xirq_i      => s_irq,
 
         -- Interrupts --
         mtime_irq_i => '0',                          -- machine timer interrupt, available if IO_MTIME_EN = false

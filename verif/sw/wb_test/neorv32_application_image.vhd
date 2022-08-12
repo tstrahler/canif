@@ -2,7 +2,7 @@
 -- Auto-generated memory initialization file (for APPLICATION) from source file <wb_test/main.bin>
 -- Size: 512 bytes
 -- MARCH: default
--- Built: 07.08.2022 16:48:29
+-- Built: 11.08.2022 22:50:19
 
 -- prototype defined in 'neorv32_package.vhd'
 package body neorv32_application_image is
