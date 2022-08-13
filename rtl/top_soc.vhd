@@ -77,6 +77,8 @@ begin
         o_wb_wdata  => s_wb_wdata,
         i_wb_rdata  => s_wb_rdata,
 
+        i_irq   => s_irq_can,
+
         o_uart_txd  => open,
         i_uart_rxd  => '0'
     );

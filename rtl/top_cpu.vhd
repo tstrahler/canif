@@ -40,8 +40,8 @@ library neorv32;
 
 entity top_cpu is
     generic (
-        g_can_if_count  : integer := 4;
-    )
+        g_can_if_count  : integer := 4
+    );
     port (
         -- System control signal
         i_clk       : in  std_logic;
@@ -95,7 +95,7 @@ architecture top_cpu_rtl of top_cpu is
     signal s_wb_wdata   : std_ulogic_vector(31 downto 0);
 
     -- External interrupt
-    signal s_irq        : std_ulogic_vector(3 downto 0);
+    signal s_irq        : std_ulogic_vector(31 downto 0);
 
 begin
 
@@ -113,7 +113,7 @@ begin
     s_wb_rdata  <= std_ulogic_vector(i_wb_rdata);
 
     -- External interrupt
-    s_irq       <= std_ulogic_vector(i_irq);
+    s_irq       <= (31 downto g_can_if_count-1 => '0') & std_ulogic_vector(i_irq(g_can_if_count-1 downto 0));
 
     -- MTIME timestamp signal
     o_timestamp <= std_logic_vector(s_timestamp);
@@ -171,9 +171,9 @@ begin
         MEM_EXT_TIMEOUT              => 0,           -- cycles after a pending bus access auto-terminates (0 = disabled)
 
         -- External Interrupts Controller (XIRQ) --
-        XIRQ_NUM_CH                  : natural := g_can_if_count;      -- number of external IRQ channels (0..32)
-        XIRQ_TRIGGER_TYPE            : std_logic_vector(31 downto 0) := (others => '1') & "1111"; -- trigger type: 0=level, 1=edge
-        XIRQ_TRIGGER_POLARITY        : std_logic_vector(31 downto 0) := (others => '1') & "1111"; -- trigger polarity: 0=low-level/falling-edge, 1=high-level/rising-edge
+        XIRQ_NUM_CH                  => g_can_if_count,      -- number of external IRQ channels (0..32)
+        XIRQ_TRIGGER_TYPE            => (others => '1'),    -- trigger type: 0=level, 1=edge
+        XIRQ_TRIGGER_POLARITY        => (others => '1'),    -- trigger polarity: 0=low-level/falling-edge, 1=high-level/rising-edge
 
         -- Processor peripherals --
         IO_GPIO_EN                   => true,    -- implement general purpose input/output port unit (GPIO)?
