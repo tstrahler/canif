@@ -1,0 +1,3 @@
+. ~/.bashrc
+alias ls="ls"
+PS1="(container) $PS1"

@@ -4,3 +4,6 @@
 [submodule "ip/neorv32"]
 	path = ip/neorv32
 	url = https://github.com/stnolting/neorv32.git
+[submodule "impl/gf180mcu-pdk"]
+	path = gf180mcu-pdk
+	url = https://github.com/google/gf180mcu-pdk.git
