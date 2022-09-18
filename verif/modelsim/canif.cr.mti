@@ -35,6 +35,13 @@ vcom -reportprogress 300 -work ctu_can_fd_rtl -2002 -explicit -vopt /home/trista
 -- Loading entity txt_buffer_fsm
 End time: 11:22:43 on Aug 12,2022, Elapsed time: 0:00:00
 
+} {} {}} /home/tristan/dev/canif/verif/tb/top_soc_tb.v {1 {vlog -work canif -vopt -stats=none /home/tristan/dev/canif/verif/tb/top_soc_tb.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module top_soc_tb
+
+Top level modules:
+	top_soc_tb
+
 } {} {}} /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_trng.vhd {1 {vcom -work neorv32 -2002 -explicit -vopt /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_trng.vhd
 Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
 Start time: 11:22:37 on Aug 12,2022
@@ -766,30 +773,6 @@ vcom -reportprogress 300 -work neorv32 -2002 -explicit -vopt /home/tristan/dev/c
 -- Compiling entity neorv32_boot_rom
 -- Compiling architecture neorv32_boot_rom_rtl of neorv32_boot_rom
 End time: 11:22:31 on Aug 12,2022, Elapsed time: 0:00:00
-
-} {} {}} /home/tristan/dev/canif/rtl/top_soc.vhd {1 {vcom -work canif -2002 -explicit -vopt /home/tristan/dev/canif/rtl/top_soc.vhd
-Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
-Start time: 11:22:44 on Aug 12,2022
-vcom -reportprogress 300 -work canif -2002 -explicit -vopt /home/tristan/dev/canif/rtl/top_soc.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity top_soc
--- Compiling architecture top_soc_rtl of top_soc
--- Loading package NUMERIC_STD
--- Loading package MATH_REAL
--- Loading package can_fd_frame_format
--- Loading package id_transfer_pkg
--- Loading package can_constants_pkg
--- Loading package can_config_pkg
--- Loading package can_types_pkg
--- Loading package drv_stat_pkg
--- Loading package unary_ops_pkg
--- Loading package can_fd_register_map
--- Loading package can_registers_pkg
--- Loading entity top_can
--- Loading entity top_cpu
-End time: 11:22:44 on Aug 12,2022, Elapsed time: 0:00:00
 
 } {} {}} /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/access_signaler.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -vopt /home/tristan/dev/canif/ip/ctucanfd/src/memory_registers/generated/access_signaler.vhd
 Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
@@ -1740,29 +1723,6 @@ vcom -reportprogress 300 -work ctu_can_fd_rtl -2002 -explicit -vopt /home/trista
 -- Loading entity sample_mux
 End time: 11:22:43 on Aug 12,2022, Elapsed time: 0:00:00
 
-} {} {}} /home/tristan/dev/canif/rtl/top_can.vhd {1 {vcom -work canif -2002 -explicit -vopt /home/tristan/dev/canif/rtl/top_can.vhd
-Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
-Start time: 11:22:44 on Aug 12,2022
-vcom -reportprogress 300 -work canif -2002 -explicit -vopt /home/tristan/dev/canif/rtl/top_can.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package MATH_REAL
--- Loading package can_fd_frame_format
--- Loading package id_transfer_pkg
--- Loading package can_constants_pkg
--- Loading package can_config_pkg
--- Loading package can_types_pkg
--- Loading package drv_stat_pkg
--- Loading package unary_ops_pkg
--- Loading package can_fd_register_map
--- Loading package can_registers_pkg
--- Compiling entity top_can
--- Compiling architecture top_can_rtl of top_can
--- Loading entity can_top_level
-End time: 11:22:44 on Aug 12,2022, Elapsed time: 0:00:00
-
 } {} {}} /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_top.vhd {1 {vcom -work neorv32 -2002 -explicit -vopt /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_top.vhd
 Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
 Start time: 11:22:37 on Aug 12,2022
@@ -2375,10 +2335,8 @@ vcom -reportprogress 300 -work neorv32 -2002 -explicit -vopt /home/tristan/dev/c
 -- Compiling architecture neorv32_cpu_cp_bitmanip_rtl of neorv32_cpu_cp_bitmanip
 End time: 11:22:35 on Aug 12,2022, Elapsed time: 0:00:00
 
-} {} {}} /home/tristan/dev/canif/rtl/top_cpu.vhd {1 {vcom -work canif -2002 -explicit -vopt /home/tristan/dev/canif/rtl/top_cpu.vhd
+} {} {}} /home/tristan/dev/canif/rtl/top_cpu.vhd {1 {vcom -work canif -2002 -explicit -vopt -stats=none /home/tristan/dev/canif/rtl/top_cpu.vhd
 Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
-Start time: 11:22:44 on Aug 12,2022
-vcom -reportprogress 300 -work canif -2002 -explicit -vopt /home/tristan/dev/canif/rtl/top_cpu.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -2387,7 +2345,6 @@ vcom -reportprogress 300 -work canif -2002 -explicit -vopt /home/tristan/dev/can
 -- Compiling architecture top_cpu_rtl of top_cpu
 -- Loading package neorv32_package
 -- Loading entity neorv32_top
-End time: 11:22:44 on Aug 12,2022, Elapsed time: 0:00:00
 
 } {} {}} /home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_destuffing.vhd {1 {vcom -work ctu_can_fd_rtl -2002 -explicit -vopt /home/tristan/dev/canif/ip/ctucanfd/src/can_core/bit_destuffing.vhd
 Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021

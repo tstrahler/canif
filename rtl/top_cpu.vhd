@@ -113,7 +113,7 @@ begin
     s_wb_rdata  <= std_ulogic_vector(i_wb_rdata);
 
     -- External interrupt
-    s_irq       <= (31 downto g_can_if_count-1 => '0') & std_ulogic_vector(i_irq(g_can_if_count-1 downto 0));
+    s_irq       <= (31 downto g_can_if_count => '0') & std_ulogic_vector(i_irq(g_can_if_count-1 downto 0));
 
     -- MTIME timestamp signal
     o_timestamp <= std_logic_vector(s_timestamp);
