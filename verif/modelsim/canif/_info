@@ -3,6 +3,17 @@ K4
 z2
 Z0 !s99 nomlopt
 R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
 !s11f MIXED_VERSIONS
 R0
 R0
@@ -34,10 +45,10 @@ n@_opt
 Z5 OL;O;2021.2;73
 R1
 T_opt1
-!s110 1663420440
-VM5P38TWD<fRMkS<XTo9k?3
+!s110 1664828450
+VQP:Z>n^X3V=2>ck5M]?>E2
 04 10 4 work top_soc_tb fast 0
-=1-000ae431a4f1-6325c816-dcdda-a8cf
+=7-000ae431a4f1-633b4421-8b0bc-e576
 !s124 OEM10U639 
 Z6 o-quiet -auto_acc_if_foreign -work canif
 R4
@@ -54,8 +65,8 @@ R4
 n@_opt2
 R5
 R1
-Etop_can
-Z7 w1660287169
+Ecan_periph
+Z7 w1664708846
 Z8 DPx14 ctu_can_fd_rtl 17 can_registers_pkg 0 22 afdbZz6zALG?TF0j8egAh1
 Z9 DPx14 ctu_can_fd_rtl 19 can_fd_register_map 0 22 bN_^M8k?=XoOk;P`oGn6N2
 Z10 DPx14 ctu_can_fd_rtl 13 unary_ops_pkg 0 22 DCk4oddngUD]6jB40L;3[1
@@ -69,26 +80,135 @@ Z17 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
 Z18 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z19 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z20 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 64
+R1
+Z21 8/home/tristan/dev/canif/rtl/can_periph.vhd
+Z22 F/home/tristan/dev/canif/rtl/can_periph.vhd
+l0
+Z23 L17 1
+VHcf@[MNB>_h6j:G@i4Aoa3
+!s100 PJCBSnN9EjFFfEcoiJYC;1
+Z24 OL;C;2021.2;73
+32
+Z25 !s110 1664712881
+!i10b 1
+Z26 !s108 1664712880.000000
+Z27 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/rtl/can_periph.vhd|
+Z28 !s107 /home/tristan/dev/canif/rtl/can_periph.vhd|
+!i113 0
+Z29 o-work canif -2002 -explicit
+Z30 tExplicit 1 CvgOpt 0
+Acan_periph_rtl
+Z31 DEx14 ctu_can_fd_rtl 13 can_top_level 0 22 3^9fOkm4_nk0;NegnC;CL3
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R19
+R20
+DEx4 work 10 can_periph 0 22 Hcf@[MNB>_h6j:G@i4Aoa3
+!i122 64
+l69
+Z32 L55 113
+VGGJ:c=5^TWKf7<c:SiKL92
+!s100 m_[d9CllM^;o@f<Cz:SZ71
+R24
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R29
+R30
+Emcu
+Z33 w1664707632
+R18
+R19
+R20
+!i122 61
+R1
+Z34 8/home/tristan/dev/canif/rtl/mcu.vhd
+Z35 F/home/tristan/dev/canif/rtl/mcu.vhd
+l0
+Z36 L41 1
+Vg7_^of0@EzEaY`fQ2<`WX1
+!s100 3V?FVQGiD^OVfUZ9GaaDi2
+R24
+32
+Z37 !s110 1664707736
+!i10b 1
+Z38 !s108 1664707736.000000
+Z39 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/rtl/mcu.vhd|
+Z40 !s107 /home/tristan/dev/canif/rtl/mcu.vhd|
+!i113 0
+R29
+R30
+Amcu_rtl
+Z41 DPx7 neorv32 15 neorv32_package 0 22 0Yle2XfjNf^ncGP`c7;?l1
+Z42 DEx7 neorv32 11 neorv32_top 0 22 kQ=AL6Xn[nf1C564To1M]0
+R18
+R19
+R20
+DEx4 work 3 mcu 0 22 g7_^of0@EzEaY`fQ2<`WX1
+!i122 61
+l100
+Z43 L75 172
+V:bQYf6C=ie[B;KS7Yb_R]0
+!s100 jR_d15KQXZlc2Tcz`@^Jb0
+R24
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 0
+R29
+R30
+Etop_can
+Z44 w1660287169
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R19
+R20
 !i122 54
 R1
-Z21 8/home/tristan/dev/canif/rtl/top_can.vhd
-Z22 F/home/tristan/dev/canif/rtl/top_can.vhd
+Z45 8/home/tristan/dev/canif/rtl/top_can.vhd
+Z46 F/home/tristan/dev/canif/rtl/top_can.vhd
 l0
-L17 1
+R23
 VVRP6M0^7Toz7hc86S9<I<3
 !s100 7CBXTZcfcfTo4>B68Qc_d1
-Z23 OL;C;2021.2;73
+R24
 32
-Z24 !s110 1660296164
+Z47 !s110 1660296164
 !i10b 1
-Z25 !s108 1660296164.000000
-Z26 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-vopt|/home/tristan/dev/canif/rtl/top_can.vhd|
-Z27 !s107 /home/tristan/dev/canif/rtl/top_can.vhd|
+Z48 !s108 1660296164.000000
+Z49 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-vopt|/home/tristan/dev/canif/rtl/top_can.vhd|
+Z50 !s107 /home/tristan/dev/canif/rtl/top_can.vhd|
 !i113 0
-Z28 o-work canif -2002 -explicit
-Z29 tExplicit 1 CvgOpt 0
+R29
+R30
 Atop_can_rtl
-DEx14 ctu_can_fd_rtl 13 can_top_level 0 22 3^9fOkm4_nk0;NegnC;CL3
+R31
 R8
 R9
 R10
@@ -105,88 +225,88 @@ R20
 DEx4 work 7 top_can 0 22 VRP6M0^7Toz7hc86S9<I<3
 !i122 54
 l69
-L55 113
+R32
 V=:a=j@WIzgb9iWK>K:ZPm0
 !s100 UO5Bz5@:Q5gEalBOQAA9C1
-R23
-32
 R24
+32
+R47
 !i10b 1
-R25
-R26
-R27
+R48
+R49
+R50
 !i113 0
-R28
 R29
+R30
 Etop_cpu
-Z30 w1663420425
+Z51 w1663420425
 R18
 R19
 R20
 !i122 58
 R1
-Z31 8/home/tristan/dev/canif/rtl/top_cpu.vhd
-Z32 F/home/tristan/dev/canif/rtl/top_cpu.vhd
+Z52 8/home/tristan/dev/canif/rtl/top_cpu.vhd
+Z53 F/home/tristan/dev/canif/rtl/top_cpu.vhd
 l0
-L41 1
+R36
 V8GZoMNIF6NmQgOkL>c:=H2
 !s100 T4gkfDC;dXc4k<QOdcUSg1
-R23
+R24
 32
-Z33 !s110 1663420432
+Z54 !s110 1663420432
 !i10b 1
-Z34 !s108 1663420432.000000
-Z35 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/rtl/top_cpu.vhd|
-Z36 !s107 /home/tristan/dev/canif/rtl/top_cpu.vhd|
+Z55 !s108 1663420432.000000
+Z56 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/rtl/top_cpu.vhd|
+Z57 !s107 /home/tristan/dev/canif/rtl/top_cpu.vhd|
 !i113 0
-R28
 R29
+R30
 Atop_cpu_rtl
-DPx7 neorv32 15 neorv32_package 0 22 0Yle2XfjNf^ncGP`c7;?l1
-DEx7 neorv32 11 neorv32_top 0 22 kQ=AL6Xn[nf1C564To1M]0
+R41
+R42
 R18
 R19
 R20
 DEx4 work 7 top_cpu 0 22 8GZoMNIF6NmQgOkL>c:=H2
 !i122 58
 l100
-L75 172
+R43
 V7zZN^:koe;daH2zMFMcQQ0
 !s100 LaicI5[VKgKO9LI35QmdC0
-R23
+R24
 32
-R33
+R54
 !i10b 1
-R34
-R35
-R36
+R55
+R56
+R57
 !i113 0
-R28
 R29
+R30
 Etop_soc
-Z37 w1660290947
+Z58 w1664707658
 R19
 R20
-!i122 55
+!i122 62
 R1
-Z38 8/home/tristan/dev/canif/rtl/top_soc.vhd
-Z39 F/home/tristan/dev/canif/rtl/top_soc.vhd
+Z59 8/home/tristan/dev/canif/rtl/top_soc.vhd
+Z60 F/home/tristan/dev/canif/rtl/top_soc.vhd
 l0
 L7 1
 VDd76lfFjAN06:e3]68NZ:0
 !s100 K1]lTMC9PB8KW]HNhS3fR2
-R23
-32
 R24
+32
+Z61 !s110 1664707758
 !i10b 1
-R25
-Z40 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-vopt|/home/tristan/dev/canif/rtl/top_soc.vhd|
-Z41 !s107 /home/tristan/dev/canif/rtl/top_soc.vhd|
+Z62 !s108 1664707758.000000
+Z63 !s90 -reportprogress|300|-work|canif|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/rtl/top_soc.vhd|
+Z64 !s107 /home/tristan/dev/canif/rtl/top_soc.vhd|
 !i113 0
-R28
 R29
+R30
 Atop_soc_rtl
-DEx5 canif 7 top_cpu 0 22 8GZoMNIF6NmQgOkL>c:=H2
+DEx5 canif 3 mcu 0 22 g7_^of0@EzEaY`fQ2<`WX1
 R8
 R9
 R10
@@ -198,42 +318,42 @@ R15
 R16
 R17
 R18
-DEx5 canif 7 top_can 0 22 VRP6M0^7Toz7hc86S9<I<3
+DEx5 canif 10 can_periph 0 22 Hcf@[MNB>_h6j:G@i4Aoa3
 R19
 R20
 DEx4 work 7 top_soc 0 22 Dd76lfFjAN06:e3]68NZ:0
-!i122 55
+!i122 62
 l34
 L20 70
-VRM=9CDI<X:;<jE<7hI3z93
-!s100 d0^`67QFl>8EmSOVNRdJ81
-R23
-32
+V@4`ISL=Jf1eG=i3oDX8mS0
+!s100 1K6e]1N3ka6QRoB@o<:T91
 R24
+32
+R61
 !i10b 1
-R25
-R40
-R41
+R62
+R63
+R64
 !i113 0
-R28
 R29
+R30
 vtop_soc_tb
-!s110 1663420324
+!s110 1664827337
 !i10b 1
-!s100 JICLn>7HKZ2m`]NAj<jF20
-IWj7JNHX;5TGS4gNTBLPIb1
+!s100 ]FNWYWQ<G4B_Ih2jLzF3E3
+IFLVKhV`o`4lcFhC^Obg@U0
 R1
-w1663420319
+w1664713130
 8/home/tristan/dev/canif/verif/tb/top_soc_tb.v
 F/home/tristan/dev/canif/verif/tb/top_soc_tb.v
-!i122 57
-L0 3 17
+!i122 66
+L0 3 38
 VDg1SIo80bB@j0V0VzS_@n1
 OL;L;2021.2;73
 r1
 !s85 0
 31
-!s108 1663420324.000000
+!s108 1664827336.000000
 !s107 /home/tristan/dev/canif/verif/tb/top_soc_tb.v|
 !s90 -reportprogress|300|-work|canif|-vopt|-stats=none|/home/tristan/dev/canif/verif/tb/top_soc_tb.v|
 !i113 0

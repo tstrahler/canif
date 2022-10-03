@@ -33,7 +33,7 @@ architecture top_soc_rtl of top_soc is
     signal s_timestamp  : std_logic_vector(63 downto 0);
 begin
 
-    top_can_inst : entity canif.top_can
+    can_periph_inst : entity canif.can_periph
     port map(
         -- System controls
         i_clk   => i_clk,
@@ -60,7 +60,7 @@ begin
         i_timestamp => s_timestamp        
     );
 
-    top_cpu_inst : entity canif.top_cpu
+    mcu_inst : entity canif.mcu
     port map(
         i_clk   => i_clk,
         i_rstn  => i_rstn,

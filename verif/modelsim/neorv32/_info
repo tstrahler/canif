@@ -35,56 +35,56 @@ Z12 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_package.vhd|
 Z13 o-work neorv32 -2002 -explicit
 Z14 tExplicit 1 CvgOpt 0
 Bbody
-DPx4 work 25 neorv32_application_image 0 22 WhbnZ?jT@W9iRCXb0Gm0U2
+Z15 DPx4 work 25 neorv32_application_image 0 22 WhbnZ?jT@W9iRCXb0Gm0U2
 R1
 R2
 R3
 R4
-!i122 358
-w1660253301
-8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_application_image.vhd
-F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_application_image.vhd
+!i122 396
+w1664828434
+Z16 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_application_image.vhd
+Z17 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_application_image.vhd
 l0
 L8 1
-V=hjjkUaS6zV0LIR5;4ea:0
-!s100 MUm6Tji39]2;>QFf6@Yli2
+V@4GRU[T3@McmfF6BREz[01
+!s100 ?WmUHVPO>gN^n3EmMAPk81
 R8
 32
-Z15 !s110 1660296151
+!s110 1664828444
 !i10b 1
-Z16 !s108 1660296151.000000
-!s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_application_image.vhd|
-!s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_application_image.vhd|
+!s108 1664828444.000000
+Z18 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|-stats=none|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_application_image.vhd|
+Z19 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_application_image.vhd|
 !i113 0
 R13
 R14
 Eneorv32_boot_rom
 R5
-Z17 DPx7 neorv32 24 neorv32_bootloader_image 0 22 KzVCOWG;z?HT_liPWFDVb2
+Z20 DPx7 neorv32 24 neorv32_bootloader_image 0 22 KzVCOWG;z?HT_liPWFDVb2
 R2
 R1
 R3
 R4
 !i122 358
 R0
-Z18 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_boot_rom.vhd
-Z19 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_boot_rom.vhd
+Z21 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_boot_rom.vhd
+Z22 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_boot_rom.vhd
 l0
 L43 1
 V0l`3NL`5EFD:QU[JCIe^U3
 !s100 YPm7OI;jEgaYNK5ZP3=BM3
 R8
 32
-R15
+Z23 !s110 1660296151
 !i10b 1
-R16
-Z20 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_boot_rom.vhd|
-Z21 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_boot_rom.vhd|
+Z24 !s108 1660296151.000000
+Z25 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_boot_rom.vhd|
+Z26 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_boot_rom.vhd|
 !i113 0
 R13
 R14
 Aneorv32_boot_rom_rtl
-R17
+R20
 R2
 R1
 R3
@@ -97,11 +97,11 @@ VK@fZl0Ehz0l_>Hc4BShUo2
 !s100 4Yo@c82mK^c]Zjk1j]JF?0
 R8
 32
-R15
+R23
 !i10b 1
-R16
-R20
-R21
+R24
+R25
+R26
 !i113 0
 R13
 R14
@@ -145,9 +145,9 @@ VFYYP8Uda9EIi:^]:fkW=^1
 !s100 5Q6Eo7WQB>=8I<TP=3cZO3
 R8
 32
-Z22 !s110 1660296152
+Z27 !s110 1660296152
 !i10b 1
-R16
+R24
 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_bootloader_image.vhd|
 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_bootloader_image.vhd|
 !i113 0
@@ -161,19 +161,19 @@ R3
 R4
 !i122 359
 R0
-Z23 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_bus_keeper.vhd
-Z24 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_bus_keeper.vhd
+Z28 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_bus_keeper.vhd
+Z29 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_bus_keeper.vhd
 l0
-Z25 L46 1
+Z30 L46 1
 VDn2A:2:c63=GPKf3:XW0;2
 !s100 J;:c^DccD0SQVSZHnbndR0
 R8
 32
-R22
+R27
 !i10b 1
-Z26 !s108 1660296152.000000
-Z27 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_bus_keeper.vhd|
-Z28 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_bus_keeper.vhd|
+Z31 !s108 1660296152.000000
+Z32 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_bus_keeper.vhd|
+Z33 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_bus_keeper.vhd|
 !i113 0
 R13
 R14
@@ -190,11 +190,11 @@ V2P7FX366kE;kH^:a7NV<40
 !s100 I78bF5lUEPj_h1BB4Mha=1
 R8
 32
-R22
-!i10b 1
-R26
 R27
-R28
+!i10b 1
+R31
+R32
+R33
 !i113 0
 R13
 R14
@@ -206,19 +206,19 @@ R3
 R4
 !i122 360
 R0
-Z29 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_busswitch.vhd
-Z30 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_busswitch.vhd
+Z34 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_busswitch.vhd
+Z35 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_busswitch.vhd
 l0
-Z31 L45 1
+Z36 L45 1
 VhX61E72F2<4U<`clQnh=j0
 !s100 aUa>bg7HkO^jRc<VgCW241
 R8
 32
-R22
+R27
 !i10b 1
-R26
-Z32 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_busswitch.vhd|
-Z33 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_busswitch.vhd|
+R31
+Z37 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_busswitch.vhd|
+Z38 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_busswitch.vhd|
 !i113 0
 R13
 R14
@@ -235,11 +235,11 @@ VW67lk6I2M3dBW3X0hAl4A2
 !s100 ;9X5RBT2z24=^0RRNMVcQ3
 R8
 32
-R22
+R27
 !i10b 1
-R26
-R32
-R33
+R31
+R37
+R38
 !i113 0
 R13
 R14
@@ -251,19 +251,19 @@ R3
 R4
 !i122 361
 R0
-Z34 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cfs.vhd
-Z35 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cfs.vhd
+Z39 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cfs.vhd
+Z40 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cfs.vhd
 l0
-Z36 L49 1
+Z41 L49 1
 VB[MB8HlWlZ:EB1^7PzTmO0
 !s100 Z7<_SNkzdR^<XOIMVi]7G1
 R8
 32
-Z37 !s110 1660296153
+Z42 !s110 1660296153
 !i10b 1
-R26
-Z38 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cfs.vhd|
-Z39 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cfs.vhd|
+R31
+Z43 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cfs.vhd|
+Z44 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cfs.vhd|
 !i113 0
 R13
 R14
@@ -280,11 +280,11 @@ VIe_[4;j:HjCIUXB9eIY^@1
 !s100 1Ked6M:2n7FbXc]hlj>K<2
 R8
 32
-R37
+R42
 !i10b 1
-R26
-R38
-R39
+R31
+R43
+R44
 !i113 0
 R13
 R14
@@ -296,19 +296,19 @@ R3
 R4
 !i122 362
 R0
-Z40 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd
-Z41 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd
+Z45 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd
+Z46 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd
 l0
 L62 1
 VHQ;8X_0]EEHK388:]OZbO0
 !s100 0YZ1bjWHBF<h6V:8BalBZ2
 R8
 32
-R37
+R42
 !i10b 1
-Z42 !s108 1660296153.000000
-Z43 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd|
-Z44 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd|
+Z47 !s108 1660296153.000000
+Z48 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd|
+Z49 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd|
 !i113 0
 R13
 R14
@@ -325,11 +325,11 @@ VAKQg6FQ1G=W2`jTYL]YhW2
 !s100 ^`PAc25dV0hlm4XiIhZEH0
 R8
 32
-R37
-!i10b 1
 R42
-R43
-R44
+!i10b 1
+R47
+R48
+R49
 !i113 0
 R13
 R14
@@ -341,19 +341,19 @@ R3
 R4
 !i122 363
 R0
-Z45 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_alu.vhd
-Z46 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_alu.vhd
+Z50 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_alu.vhd
+Z51 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_alu.vhd
 l0
-Z47 L44 1
+Z52 L44 1
 VjbmW8:MDR]5T>=W[H]VYB0
 !s100 R[XgIo>[^m^6l6Bh7ZR;Z1
 R8
 32
-Z48 !s110 1660296154
+Z53 !s110 1660296154
 !i10b 1
-R42
-Z49 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_alu.vhd|
-Z50 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_alu.vhd|
+R47
+Z54 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_alu.vhd|
+Z55 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_alu.vhd|
 !i113 0
 R13
 R14
@@ -370,11 +370,11 @@ V?mgKRPmR:D?a7=<1g5U8J0
 !s100 imYA8geORm_`IdM3DlOm>0
 R8
 32
-R48
+R53
 !i10b 1
-R42
-R49
-R50
+R47
+R54
+R55
 !i113 0
 R13
 R14
@@ -386,19 +386,19 @@ R3
 R4
 !i122 364
 R0
-Z51 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_bus.vhd
-Z52 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_bus.vhd
+Z56 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_bus.vhd
+Z57 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_bus.vhd
 l0
-R47
+R52
 VP9OZDz;VFLieO`TH9l^Pm0
 !s100 _8T_[Jj^>L`WSEGCbBX_L1
 R8
 32
-R48
+R53
 !i10b 1
-Z53 !s108 1660296154.000000
-Z54 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_bus.vhd|
-Z55 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_bus.vhd|
+Z58 !s108 1660296154.000000
+Z59 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_bus.vhd|
+Z60 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_bus.vhd|
 !i113 0
 R13
 R14
@@ -415,11 +415,11 @@ V?zhYBC<149elDE:zJ4BAc1
 !s100 c13lkk87EO0@LQ8i;]F;i2
 R8
 32
-R48
-!i10b 1
 R53
-R54
-R55
+!i10b 1
+R58
+R59
+R60
 !i113 0
 R13
 R14
@@ -431,19 +431,19 @@ R3
 R4
 !i122 365
 R0
-Z56 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd
-Z57 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd
+Z61 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd
+Z62 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd
 l0
 L52 1
 VK9bePYY>?3akP`Dl9MVVR2
 !s100 ZjhKL^8UQ@fgFJ9e2gJGC2
 R8
 32
-R48
-!i10b 1
 R53
-Z58 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd|
-Z59 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd|
+!i10b 1
+R58
+Z63 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd|
+Z64 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd|
 !i113 0
 R13
 R14
@@ -460,11 +460,11 @@ VZ0SzEZ6QX]RF1YA]QJgb_3
 !s100 1E<YPhJ457N?L4=L>Y4To2
 R8
 32
-R48
-!i10b 1
 R53
+!i10b 1
 R58
-R59
+R63
+R64
 !i113 0
 R13
 R14
@@ -476,19 +476,19 @@ R3
 R4
 !i122 366
 R0
-Z60 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd
-Z61 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd
+Z65 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd
+Z66 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd
 l0
 L54 1
 VZU_SXNa58B_3e<gjC[aZP1
 !s100 HbOmkNT;H0LeAU]=agP8[1
 R8
 32
-Z62 !s110 1660296155
+Z67 !s110 1660296155
 !i10b 1
-Z63 !s108 1660296155.000000
-Z64 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd|
-Z65 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd|
+Z68 !s108 1660296155.000000
+Z69 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd|
+Z70 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd|
 !i113 0
 R13
 R14
@@ -505,11 +505,11 @@ VhGL97f];J5;2oF;7W6i8d1
 !s100 K;kjbBn]n:iI3la5>[L2=1
 R8
 32
-R62
+R67
 !i10b 1
-R63
-R64
-R65
+R68
+R69
+R70
 !i113 0
 R13
 R14
@@ -521,19 +521,19 @@ R3
 R4
 !i122 367
 R0
-Z66 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_cfu.vhd
-Z67 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_cfu.vhd
+Z71 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_cfu.vhd
+Z72 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_cfu.vhd
 l0
-Z68 L47 1
+Z73 L47 1
 VlV4mo:79BU;:o?2JaR04Z2
 !s100 =ocK_Rh_Pik:b6fnIEfiX2
 R8
 32
-R62
+R67
 !i10b 1
-R63
-Z69 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_cfu.vhd|
-Z70 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_cfu.vhd|
+R68
+Z74 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_cfu.vhd|
+Z75 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_cfu.vhd|
 !i113 0
 R13
 R14
@@ -550,11 +550,11 @@ VV4Q`IAHBM^HTFQ9<UOhMV0
 !s100 nBh6_KlPfkV]H6<AUJ_eJ0
 R8
 32
-R62
+R67
 !i10b 1
-R63
-R69
-R70
+R68
+R74
+R75
 !i113 0
 R13
 R14
@@ -566,19 +566,19 @@ R3
 R4
 !i122 368
 R0
-Z71 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd
-Z72 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd
+Z76 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd
+Z77 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd
 l0
-Z73 L58 1
+Z78 L58 1
 V??I[eeiiRcTYMIOaXEE@H3
 !s100 Z6^]5nKK@5`Q@nHWYlIVU0
 R8
 32
-R62
+R67
 !i10b 1
-R63
-Z74 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd|
-Z75 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd|
+R68
+Z79 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd|
+Z80 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd|
 !i113 0
 R13
 R14
@@ -595,11 +595,11 @@ VhVRdQ^@1dhkh?AlXO]?9H2
 !s100 B<BCM]8j0OXY=<UiLzL9O0
 R8
 32
-R62
+R67
 !i10b 1
-R63
-R74
-R75
+R68
+R79
+R80
 !i113 0
 R13
 R14
@@ -611,19 +611,19 @@ R3
 R4
 !i122 368
 R0
-R71
-R72
+R76
+R77
 l0
 L1599 1
 V;M5YNHQAX;iHMZca<Mm5>3
 !s100 zfA839[@I6[`4a<Ifid[C0
 R8
 32
-R62
+R67
 !i10b 1
-R63
-R74
-R75
+R68
+R79
+R80
 !i113 0
 R13
 R14
@@ -640,11 +640,11 @@ V>GBa@H;:GP3=>f3IG8k5X2
 !s100 >SL5eKVc1YH<AlEU[immm3
 R8
 32
-R62
+R67
 !i10b 1
-R63
-R74
-R75
+R68
+R79
+R80
 !i113 0
 R13
 R14
@@ -656,19 +656,19 @@ R3
 R4
 !i122 368
 R0
-R71
-R72
+R76
+R77
 l0
 L1212 1
 VHKKbY<nhCKacK2hQRUQ]Z3
 !s100 M@9ZHXbSUL7IjNSSTZI1c1
 R8
 32
-R62
+R67
 !i10b 1
-R63
-R74
-R75
+R68
+R79
+R80
 !i113 0
 R13
 R14
@@ -685,11 +685,11 @@ VAYla;<hc4bIo1@aP1>eV<0
 !s100 :EO;z3og7m?d]zn4_cUnQ2
 R8
 32
-R62
+R67
 !i10b 1
-R63
-R74
-R75
+R68
+R79
+R80
 !i113 0
 R13
 R14
@@ -701,19 +701,19 @@ R3
 R4
 !i122 369
 R0
-Z76 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd
-Z77 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd
+Z81 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd
+Z82 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd
 l0
-R25
+R30
 V4=VYY>a=Xka1MGgM6FWlK0
 !s100 1T5K0]Ta]z834KkJnJ1Tc1
 R8
 32
-R62
+R67
 !i10b 1
-R63
-Z78 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd|
-Z79 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd|
+R68
+Z83 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd|
+Z84 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd|
 !i113 0
 R13
 R14
@@ -730,11 +730,11 @@ Vn`iPN^e9=:e:LIiR^6SLX2
 !s100 TJ8lKZAmlN<nF1=?P<Uzf2
 R8
 32
-R62
+R67
 !i10b 1
-R63
-R78
-R79
+R68
+R83
+R84
 !i113 0
 R13
 R14
@@ -746,19 +746,19 @@ R3
 R4
 !i122 370
 R0
-Z80 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd
-Z81 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd
+Z85 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd
+Z86 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd
 l0
-R31
+R36
 V3=]EmRaz5i[[FdD1:WG;;1
 !s100 R7fG?oH@C3nPRQfiLfOz^2
 R8
 32
-Z82 !s110 1660296156
+Z87 !s110 1660296156
 !i10b 1
-R63
-Z83 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd|
-Z84 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd|
+R68
+Z88 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd|
+Z89 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd|
 !i113 0
 R13
 R14
@@ -775,11 +775,11 @@ VzLc1>=mDg_B6GKbhEh^Cc3
 !s100 VLf7a@0MQA1K4UcKch7Am1
 R8
 32
-R82
+R87
 !i10b 1
-R63
-R83
-R84
+R68
+R88
+R89
 !i113 0
 R13
 R14
@@ -791,19 +791,19 @@ R3
 R4
 !i122 371
 R0
-Z85 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_decompressor.vhd
-Z86 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_decompressor.vhd
+Z90 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_decompressor.vhd
+Z91 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_decompressor.vhd
 l0
-Z87 L42 1
+Z92 L42 1
 Vf`W:Y=VlTnW^:SQWY5aCB0
 !s100 JCRoC]^iMQ:]A0lSiil9f3
 R8
 32
-R82
+R87
 !i10b 1
 R10
-Z88 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_decompressor.vhd|
-Z89 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_decompressor.vhd|
+Z93 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_decompressor.vhd|
+Z94 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_decompressor.vhd|
 !i113 0
 R13
 R14
@@ -820,11 +820,11 @@ VZRg2@@D_hn1aPZJAheomU1
 !s100 00Ko]1g<]L@d?j8U[@9e:1
 R8
 32
-R82
+R87
 !i10b 1
 R10
-R88
-R89
+R93
+R94
 !i113 0
 R13
 R14
@@ -836,19 +836,19 @@ R3
 R4
 !i122 372
 R0
-Z90 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_regfile.vhd
-Z91 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_regfile.vhd
+Z95 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_regfile.vhd
+Z96 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_regfile.vhd
 l0
-Z92 L53 1
+Z97 L53 1
 VFc>lX1OPK2@SCHajLLzHR2
 !s100 Xc=D4:Mzfb=7S;gEb4zj81
 R8
 32
-R82
+R87
 !i10b 1
 R10
-Z93 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_regfile.vhd|
-Z94 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_regfile.vhd|
+Z98 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_regfile.vhd|
+Z99 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_regfile.vhd|
 !i113 0
 R13
 R14
@@ -865,11 +865,11 @@ VR3d1]f2`g`3N3jBSdNb@o2
 !s100 @mhaa[AfOcNzndCn0>Wh82
 R8
 32
-R82
+R87
 !i10b 1
 R10
-R93
-R94
+R98
+R99
 !i113 0
 R13
 R14
@@ -881,19 +881,19 @@ R3
 R4
 !i122 373
 R0
-Z95 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dm.vhd
-Z96 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dm.vhd
+Z100 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dm.vhd
+Z101 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dm.vhd
 l0
-R73
+R78
 V<I`cG<AVe1`[9WE4<9;G92
 !s100 VXQDSUTQeJkZ<C;7QOG2k1
 R8
 32
-R82
+R87
 !i10b 1
 R10
-Z97 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dm.vhd|
-Z98 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dm.vhd|
+Z102 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dm.vhd|
+Z103 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dm.vhd|
 !i113 0
 R13
 R14
@@ -910,11 +910,11 @@ VQJ<zGGd;m[nnlDJSN?@?h2
 !s100 ^7;dMC@Zc:P10oLhch1zb3
 R8
 32
-R82
+R87
 !i10b 1
 R10
-R97
-R98
+R102
+R103
 !i113 0
 R13
 R14
@@ -924,19 +924,19 @@ R3
 R4
 !i122 374
 R0
-Z99 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dtm.vhd
-Z100 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dtm.vhd
+Z104 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dtm.vhd
+Z105 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dtm.vhd
 l0
 L41 1
 VnMcZ?[]`Uo5]BeW5Nemh31
 !s100 V1g]^iOk<U0O35<nz<FXF3
 R8
 32
-R82
+R87
 !i10b 1
 R10
-Z101 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dtm.vhd|
-Z102 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dtm.vhd|
+Z106 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dtm.vhd|
+Z107 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_debug_dtm.vhd|
 !i113 0
 R13
 R14
@@ -951,11 +951,11 @@ VL1B@R]1SFW_B2Q2l<cljz2
 !s100 fBS6Q;loZlAc`EfY<4aH[0
 R8
 32
-R82
+R87
 !i10b 1
 R10
-R101
-R102
+R106
+R107
 !i113 0
 R13
 R14
@@ -969,12 +969,12 @@ R0
 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_dmem.entity.vhd
 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_dmem.entity.vhd
 l0
-Z103 L39 1
+Z108 L39 1
 V[Y1Hnkech7JzQ2nfB68B[0
 !s100 FQgHeW=_R]Y39XT;_<fAO1
 R8
 32
-R82
+R87
 !i10b 1
 R10
 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_dmem.entity.vhd|
@@ -997,9 +997,9 @@ V]OGkHlGdSo[QUn1N_Q`@D2
 !s100 Cz<XnDY?GZ`BcEZi2<0ad3
 R8
 32
-Z104 !s110 1660296158
+Z109 !s110 1660296158
 !i10b 1
-Z105 !s108 1660296157.000000
+Z110 !s108 1660296157.000000
 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/mem/neorv32_dmem.default.vhd|
 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/mem/neorv32_dmem.default.vhd|
 !i113 0
@@ -1013,19 +1013,19 @@ R3
 R4
 !i122 376
 R0
-Z106 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_fifo.vhd
-Z107 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_fifo.vhd
+Z111 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_fifo.vhd
+Z112 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_fifo.vhd
 l0
-R87
+R92
 VmkOO_bWTGh8Gkz;WUR5m]3
 !s100 _h]1f>4AFWOkZVN8CM`A01
 R8
 32
-R82
+R87
 !i10b 1
 R10
-Z108 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_fifo.vhd|
-Z109 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_fifo.vhd|
+Z113 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_fifo.vhd|
+Z114 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_fifo.vhd|
 !i113 0
 R13
 R14
@@ -1042,11 +1042,11 @@ V?IfEb=3UD32C7QGV]>EUg0
 !s100 KT<m?j5G5FZJNzjAgN1[d1
 R8
 32
-R82
+R87
 !i10b 1
 R10
-R108
-R109
+R113
+R114
 !i113 0
 R13
 R14
@@ -1058,19 +1058,19 @@ R3
 R4
 !i122 377
 R0
-Z110 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gpio.vhd
-Z111 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gpio.vhd
+Z115 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gpio.vhd
+Z116 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gpio.vhd
 l0
-R31
+R36
 Vbz8<=g1296zOARc_[1blZ2
 !s100 W6g1J42^m_VDSa?WfEWTD0
 R8
 32
-R82
+R87
 !i10b 1
 R10
-Z112 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gpio.vhd|
-Z113 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gpio.vhd|
+Z117 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gpio.vhd|
+Z118 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gpio.vhd|
 !i113 0
 R13
 R14
@@ -1087,11 +1087,11 @@ VMEWF?@HWoe<C3JlVHZB?E3
 !s100 GCPeZ]k90zVG?Y]9bFX=a0
 R8
 32
-R82
+R87
 !i10b 1
 R10
-R112
-R113
+R117
+R118
 !i113 0
 R13
 R14
@@ -1103,19 +1103,19 @@ R3
 R4
 !i122 378
 R0
-Z114 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gptmr.vhd
-Z115 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gptmr.vhd
+Z119 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gptmr.vhd
+Z120 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gptmr.vhd
 l0
-R68
+R73
 Vc?b2P035RHZ[=fek]d;3^0
 !s100 bKnDSgz?B3UN]BD1:JL<V1
 R8
 32
-R82
+R87
 !i10b 1
 R10
-Z116 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gptmr.vhd|
-Z117 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gptmr.vhd|
+Z121 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gptmr.vhd|
+Z122 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_gptmr.vhd|
 !i113 0
 R13
 R14
@@ -1132,11 +1132,11 @@ V3[Bj89`7icPS1_[YX]X?S2
 !s100 7:FfkzGW5nY1[7iQJoBCz3
 R8
 32
-R82
+R87
 !i10b 1
 R10
-R116
-R117
+R121
+R122
 !i113 0
 R13
 R14
@@ -1148,19 +1148,19 @@ R3
 R4
 !i122 379
 R0
-Z118 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_icache.vhd
-Z119 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_icache.vhd
+Z123 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_icache.vhd
+Z124 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_icache.vhd
 l0
-R31
+R36
 VXDoNlN;6Rmn1c6@a]]HDk0
 !s100 zQcdk`^`XZKIKGVPHZ4=P1
 R8
 32
-R82
+R87
 !i10b 1
 R10
-Z120 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_icache.vhd|
-Z121 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_icache.vhd|
+Z125 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_icache.vhd|
+Z126 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_icache.vhd|
 !i113 0
 R13
 R14
@@ -1177,11 +1177,11 @@ VI09]SPkm_UgG>MF6kQ;^D0
 !s100 Hk91TSmcW4m`XhV:``:070
 R8
 32
-R82
+R87
 !i10b 1
 R10
-R120
-R121
+R125
+R126
 !i113 0
 R13
 R14
@@ -1193,19 +1193,19 @@ R3
 R4
 !i122 379
 R0
-R118
-R119
+R123
+R124
 l0
 L371 1
 V_LbBW]W7zPg>jMmCT39iN3
 !s100 67cIWzzO_i_MOo85>VRfJ3
 R8
 32
-R82
+R87
 !i10b 1
 R10
-R120
-R121
+R125
+R126
 !i113 0
 R13
 R14
@@ -1222,11 +1222,11 @@ V?i_]bJF2CS0YVogT;EVVN1
 !s100 QRi=]?f@b7]hEa<n@<m]=0
 R8
 32
-R82
+R87
 !i10b 1
 R10
-R120
-R121
+R125
+R126
 !i113 0
 R13
 R14
@@ -1240,12 +1240,12 @@ R0
 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_imem.entity.vhd
 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_imem.entity.vhd
 l0
-R87
+R92
 V]0Rhin@WfSj;bDOTn;i2S1
 !s100 k7XoY5WkFA@0]KVPP7`T`1
 R8
 32
-R82
+R87
 !i10b 1
 R10
 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_imem.entity.vhd|
@@ -1254,26 +1254,26 @@ R10
 R13
 R14
 Aneorv32_imem_rtl
-Z122 DEx4 work 12 neorv32_imem 0 22 ]0Rhin@WfSj;bDOTn;i2S1
-Z123 DPx7 neorv32 25 neorv32_application_image 0 22 WhbnZ?jT@W9iRCXb0Gm0U2
+DEx4 work 12 neorv32_imem 0 22 ]0Rhin@WfSj;bDOTn;i2S1
+DPx7 neorv32 25 neorv32_application_image 0 22 WhbnZ?jT@W9iRCXb0Gm0U2
 R2
 R1
 R3
 R4
 !i122 396
-Z124 8/home/tristan/dev/canif/ip/neorv32/rtl/core/mem/neorv32_imem.default.vhd
-Z125 F/home/tristan/dev/canif/ip/neorv32/rtl/core/mem/neorv32_imem.default.vhd
+8/home/tristan/dev/canif/ip/neorv32/rtl/core/mem/neorv32_imem.default.vhd
+F/home/tristan/dev/canif/ip/neorv32/rtl/core/mem/neorv32_imem.default.vhd
 l85
-Z126 L46 136
-Z127 VGUNR5jeOKS3jk1>QTdYWM0
-Z128 !s100 3lYSZHdSM4WL]eJKn40iZ2
+L46 136
+VGUNR5jeOKS3jk1>QTdYWM0
+!s100 3lYSZHdSM4WL]eJKn40iZ2
 R8
 32
-R104
+R109
 !i10b 1
 !s108 1660296158.000000
 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/mem/neorv32_imem.default.vhd|
-Z129 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/mem/neorv32_imem.default.vhd|
+!s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/mem/neorv32_imem.default.vhd|
 !i113 0
 R13
 R14
@@ -1285,19 +1285,19 @@ R3
 R4
 !i122 381
 R0
-Z130 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_mtime.vhd
-Z131 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_mtime.vhd
+Z127 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_mtime.vhd
+Z128 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_mtime.vhd
 l0
-R31
+R36
 VAW@<NlGo?cEAgeO>E<zDW1
 !s100 H:;_PFD9OD5G<MfQz=j_I2
 R8
 32
-R82
+R87
 !i10b 1
 R10
-Z132 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_mtime.vhd|
-Z133 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_mtime.vhd|
+Z129 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_mtime.vhd|
+Z130 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_mtime.vhd|
 !i113 0
 R13
 R14
@@ -1314,11 +1314,11 @@ V:B^AY?B1BI3ffDk]Wj^660
 !s100 gVP9clU_SghFP2eidzTn`2
 R8
 32
-R82
+R87
 !i10b 1
 R10
-R132
-R133
+R129
+R130
 !i113 0
 R13
 R14
@@ -1330,19 +1330,19 @@ R3
 R4
 !i122 382
 R0
-Z134 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_neoled.vhd
-Z135 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_neoled.vhd
+Z131 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_neoled.vhd
+Z132 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_neoled.vhd
 l0
 L56 1
 Vgd_dc7b9=l6M6fSBMMlh`1
 !s100 T`>CB@^;Fzk5gSXl7ObdX1
 R8
 32
-R82
+R87
 !i10b 1
 R10
-Z136 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_neoled.vhd|
-Z137 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_neoled.vhd|
+Z133 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_neoled.vhd|
+Z134 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_neoled.vhd|
 !i113 0
 R13
 R14
@@ -1359,11 +1359,11 @@ V[i4Pl0;_67cYzU_;fZP_S1
 !s100 9T7_]NV50RHbo1FCPNnLn3
 R8
 32
-R82
+R87
 !i10b 1
 R10
-R136
-R137
+R133
+R134
 !i113 0
 R13
 R14
@@ -1377,7 +1377,7 @@ R0
 R6
 R7
 l0
-R103
+R108
 V0Yle2XfjNf^ncGP`c7;?l1
 !s100 3`=h<oQ<VH?4UBY_Q9cYB3
 R8
@@ -1419,19 +1419,19 @@ R3
 R4
 !i122 384
 R0
-Z138 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_pwm.vhd
-Z139 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_pwm.vhd
+Z135 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_pwm.vhd
+Z136 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_pwm.vhd
 l0
-R31
+R36
 VJM3dFcOE;bmLK<8;PKIC[2
 !s100 9>eX5T<lS;;YCYE9cY<ld0
 R8
 32
 R9
 !i10b 1
-R105
-Z140 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_pwm.vhd|
-Z141 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_pwm.vhd|
+R110
+Z137 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_pwm.vhd|
+Z138 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_pwm.vhd|
 !i113 0
 R13
 R14
@@ -1450,9 +1450,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R140
-R141
+R110
+R137
+R138
 !i113 0
 R13
 R14
@@ -1464,19 +1464,19 @@ R3
 R4
 !i122 385
 R0
-Z142 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_slink.vhd
-Z143 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_slink.vhd
+Z139 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_slink.vhd
+Z140 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_slink.vhd
 l0
-R68
+R73
 Vb>9J2<`XC<KT@jfMMHz`o0
 !s100 1TCQLkgao2b>;[NO8jUzY1
 R8
 32
 R9
 !i10b 1
-R105
-Z144 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_slink.vhd|
-Z145 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_slink.vhd|
+R110
+Z141 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_slink.vhd|
+Z142 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_slink.vhd|
 !i113 0
 R13
 R14
@@ -1495,9 +1495,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R144
-R145
+R110
+R141
+R142
 !i113 0
 R13
 R14
@@ -1509,19 +1509,19 @@ R3
 R4
 !i122 386
 R0
-Z146 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_spi.vhd
-Z147 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_spi.vhd
+Z143 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_spi.vhd
+Z144 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_spi.vhd
 l0
-R31
+R36
 V]YRT7_074A6eFjY?S^QC31
 !s100 2e9B`SZmgeSY03Zio[`L[1
 R8
 32
 R9
 !i10b 1
-R105
-Z148 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_spi.vhd|
-Z149 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_spi.vhd|
+R110
+Z145 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_spi.vhd|
+Z146 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_spi.vhd|
 !i113 0
 R13
 R14
@@ -1540,9 +1540,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R148
-R149
+R110
+R145
+R146
 !i113 0
 R13
 R14
@@ -1554,19 +1554,19 @@ R3
 R4
 !i122 387
 R0
-Z150 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_sysinfo.vhd
-Z151 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_sysinfo.vhd
+Z147 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_sysinfo.vhd
+Z148 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_sysinfo.vhd
 l0
-R31
+R36
 Vdi=h5TUVISP6RU];Jk@750
 !s100 M68lI5SAF2[E_8F?9LXiQ0
 R8
 32
 R9
 !i10b 1
-R105
-Z152 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_sysinfo.vhd|
-Z153 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_sysinfo.vhd|
+R110
+Z149 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_sysinfo.vhd|
+Z150 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_sysinfo.vhd|
 !i113 0
 R13
 R14
@@ -1585,9 +1585,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R152
-R153
+R110
+R149
+R150
 !i113 0
 R13
 R14
@@ -1599,19 +1599,19 @@ R3
 R4
 !i122 388
 R0
-Z154 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_top.vhd
-Z155 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_top.vhd
+Z151 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_top.vhd
+Z152 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_top.vhd
 l0
-R68
+R73
 VkQ=AL6Xn[nf1C564To1M]0
 !s100 nTXKXz_EknJPmV^UB42=b3
 R8
 32
 R9
 !i10b 1
-R105
-Z156 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_top.vhd|
-Z157 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_top.vhd|
+R110
+Z153 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_top.vhd|
+Z154 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_top.vhd|
 !i113 0
 R13
 R14
@@ -1630,9 +1630,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R156
-R157
+R110
+R153
+R154
 !i113 0
 R13
 R14
@@ -1644,19 +1644,19 @@ R3
 R4
 !i122 389
 R0
-Z158 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_trng.vhd
-Z159 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_trng.vhd
+Z155 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_trng.vhd
+Z156 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_trng.vhd
 l0
-R25
+R30
 VBQeAD5d>fJA^bUZF>>OlB0
 !s100 `95Qa:ckQY<c1k3NeJ0mm1
 R8
 32
 R9
 !i10b 1
-R105
-Z160 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_trng.vhd|
-Z161 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_trng.vhd|
+R110
+Z157 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_trng.vhd|
+Z158 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_trng.vhd|
 !i113 0
 R13
 R14
@@ -1675,9 +1675,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R160
-R161
+R110
+R157
+R158
 !i113 0
 R13
 R14
@@ -1689,19 +1689,19 @@ R3
 R4
 !i122 390
 R0
-Z162 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_twi.vhd
-Z163 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_twi.vhd
+Z159 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_twi.vhd
+Z160 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_twi.vhd
 l0
-R25
+R30
 Vnk9iATzY;_7VciD_`P6Te0
 !s100 iSEMJ[J>JcZAWn:iOJWUF3
 R8
 32
 R9
 !i10b 1
-R105
-Z164 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_twi.vhd|
-Z165 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_twi.vhd|
+R110
+Z161 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_twi.vhd|
+Z162 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_twi.vhd|
 !i113 0
 R13
 R14
@@ -1720,9 +1720,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R164
-R165
+R110
+R161
+R162
 !i113 0
 R13
 R14
@@ -1734,8 +1734,8 @@ R3
 R4
 !i122 391
 R0
-Z166 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_uart.vhd
-Z167 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_uart.vhd
+Z163 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_uart.vhd
+Z164 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_uart.vhd
 l0
 L68 1
 V>2X`<fDIL34Z?4fh1FinQ3
@@ -1744,9 +1744,9 @@ R8
 32
 R9
 !i10b 1
-R105
-Z168 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_uart.vhd|
-Z169 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_uart.vhd|
+R110
+Z165 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_uart.vhd|
+Z166 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_uart.vhd|
 !i113 0
 R13
 R14
@@ -1765,9 +1765,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R168
-R169
+R110
+R165
+R166
 !i113 0
 R13
 R14
@@ -1779,19 +1779,19 @@ R3
 R4
 !i122 392
 R0
-Z170 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wdt.vhd
-Z171 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wdt.vhd
+Z167 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wdt.vhd
+Z168 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wdt.vhd
 l0
-R92
+R97
 VQRI0fJ54b0W0keRSMlcJB0
 !s100 V=TPmRNO:2GmG`hf;>MYa3
 R8
 32
 R9
 !i10b 1
-R105
-Z172 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wdt.vhd|
-Z173 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wdt.vhd|
+R110
+Z169 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wdt.vhd|
+Z170 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wdt.vhd|
 !i113 0
 R13
 R14
@@ -1810,9 +1810,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R172
-R173
+R110
+R169
+R170
 !i113 0
 R13
 R14
@@ -1824,8 +1824,8 @@ R3
 R4
 !i122 393
 R0
-Z174 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wishbone.vhd
-Z175 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wishbone.vhd
+Z171 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wishbone.vhd
+Z172 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wishbone.vhd
 l0
 L55 1
 VBAJ50_RMBIUWMCZc^1=0j3
@@ -1834,9 +1834,9 @@ R8
 32
 R9
 !i10b 1
-R105
-Z176 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wishbone.vhd|
-Z177 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wishbone.vhd|
+R110
+Z173 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wishbone.vhd|
+Z174 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_wishbone.vhd|
 !i113 0
 R13
 R14
@@ -1855,9 +1855,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R176
-R177
+R110
+R173
+R174
 !i113 0
 R13
 R14
@@ -1869,8 +1869,8 @@ R3
 R4
 !i122 394
 R0
-Z178 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xip.vhd
-Z179 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xip.vhd
+Z175 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xip.vhd
+Z176 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xip.vhd
 l0
 L48 1
 VZSo<614L5`jG=gdJV7M2z2
@@ -1879,9 +1879,9 @@ R8
 32
 R9
 !i10b 1
-R105
-Z180 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xip.vhd|
-Z181 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xip.vhd|
+R110
+Z177 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xip.vhd|
+Z178 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xip.vhd|
 !i113 0
 R13
 R14
@@ -1900,9 +1900,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R180
-R181
+R110
+R177
+R178
 !i113 0
 R13
 R14
@@ -1914,8 +1914,8 @@ R3
 R4
 !i122 394
 R0
-R178
-R179
+R175
+R176
 l0
 L480 1
 Vm;ObmdWFWM^U@HlDJL<fO2
@@ -1924,9 +1924,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R180
-R181
+R110
+R177
+R178
 !i113 0
 R13
 R14
@@ -1945,9 +1945,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R180
-R181
+R110
+R177
+R178
 !i113 0
 R13
 R14
@@ -1959,19 +1959,19 @@ R3
 R4
 !i122 395
 R0
-Z182 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xirq.vhd
-Z183 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xirq.vhd
+Z179 8/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xirq.vhd
+Z180 F/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xirq.vhd
 l0
-R36
+R41
 VFFllbb7o^ICJF0NmX`9Pf0
 !s100 jNmlcm9z2:8DfHb3OVYKc2
 R8
 32
 R9
 !i10b 1
-R105
-Z184 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xirq.vhd|
-Z185 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xirq.vhd|
+R110
+Z181 !s90 -reportprogress|300|-work|neorv32|-2002|-explicit|-vopt|/home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xirq.vhd|
+Z182 !s107 /home/tristan/dev/canif/ip/neorv32/rtl/core/neorv32_xirq.vhd|
 !i113 0
 R13
 R14
@@ -1990,9 +1990,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R184
-R185
+R110
+R181
+R182
 !i113 0
 R13
 R14
@@ -2003,8 +2003,8 @@ R3
 R4
 !i122 389
 R0
-R158
-R159
+R155
+R156
 l0
 L288 1
 VWj9Ql1HTb4C3@3gYMMQGZ1
@@ -2013,9 +2013,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R160
-R161
+R110
+R157
+R158
 !i113 0
 R13
 R14
@@ -2033,9 +2033,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R160
-R161
+R110
+R157
+R158
 !i113 0
 R13
 R14
@@ -2046,8 +2046,8 @@ R3
 R4
 !i122 389
 R0
-R158
-R159
+R155
+R156
 l0
 L595 1
 VjIdlFJ@R?;3X<6@ZZFnAK0
@@ -2056,9 +2056,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R160
-R161
+R110
+R157
+R158
 !i113 0
 R13
 R14
@@ -2076,9 +2076,9 @@ R8
 32
 R9
 !i10b 1
-R105
-R160
-R161
+R110
+R157
+R158
 !i113 0
 R13
 R14
