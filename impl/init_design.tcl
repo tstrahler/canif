@@ -1,29 +1,34 @@
 ## Adaptation of the generic Genus synthesis flow
 
 # Set project root
-set PROJECT_ROOT /cipuser/fphys/kw283/dev/canif-impl
+set PROJECT_ROOT /cipuser/fphys/kw283/dev/canif
+
+# Set PDK root
+set PDK_ROOT /cipuser/fphys/kw283/dev/pdk/skywater-pdk
 
 # Define library path
 set_db init_hdl_search_path [list \
-    $PROJECT_ROOT/canif/rtl \
-    $PROJECT_ROOT/canif/ip/neorv32/rtl/core \
-    $PROJECT_ROOT/canif/ip/ctucanfd/src \
-    $PROJECT_ROOT/canif/ip/ctucanfd/src/bus_sampling \
-    $PROJECT_ROOT/canif/ip/ctucanfd/src/can_core \
-    $PROJECT_ROOT/canif/ip/ctucanfd/src/common_blocks \
-    $PROJECT_ROOT/canif/ip/ctucanfd/src/frame_filters \
-    $PROJECT_ROOT/canif/ip/ctucanfd/src/interface \
-    $PROJECT_ROOT/canif/ip/ctucanfd/src/interrupt_manager \
-    $PROJECT_ROOT/canif/ip/ctucanfd/src/memory_registers \
-    $PROJECT_ROOT/canif/ip/ctucanfd/src/packages \
-    $PROJECT_ROOT/canif/ip/ctucanfd/src/prescaler \
-    $PROJECT_ROOT/canif/ip/ctucanfd/src/rx_buffer \
-    $PROJECT_ROOT/canif/ip/ctucanfd/src/tx_arbitrator \
-    $PROJECT_ROOT/canif/ip/ctucanfd/src/txt_buffer \
+    $PROJECT_ROOT/rtl \
+    $PROJECT_ROOT/ip/neorv32/rtl/core \
+    $PROJECT_ROOT/ip/neorv32/rtl/core/mem \
+    $PROJECT_ROOT/ip/ctucanfd/src \
+    $PROJECT_ROOT/ip/ctucanfd/src/bus_sampling \
+    $PROJECT_ROOT/ip/ctucanfd/src/can_core \
+    $PROJECT_ROOT/ip/ctucanfd/src/common_blocks \
+    $PROJECT_ROOT/ip/ctucanfd/src/frame_filters \
+    $PROJECT_ROOT/ip/ctucanfd/src/interface \
+    $PROJECT_ROOT/ip/ctucanfd/src/interrupt_manager \
+    $PROJECT_ROOT/ip/ctucanfd/src/memory_registers \
+    $PROJECT_ROOT/ip/ctucanfd/src/packages \
+    $PROJECT_ROOT/ip/ctucanfd/src/prescaler \
+    $PROJECT_ROOT/ip/ctucanfd/src/rx_buffer \
+    $PROJECT_ROOT/ip/ctucanfd/src/tx_arbitrator \
+    $PROJECT_ROOT/ip/ctucanfd/src/txt_buffer \
 ]
 
 # Source files for neorv32 library
 set source_files_neorv32 [list \
+    neorv32_package.vhd \
     neorv32_bus_keeper.vhd \
     neorv32_busswitch.vhd \
     neorv32_cfs.vhd \
@@ -48,7 +53,6 @@ set source_files_neorv32 [list \
     neorv32_imem.entity.vhd \
     neorv32_mtime.vhd \
     neorv32_neoled.vhd \
-    neorv32_package.vhd \
     neorv32_pwm.vhd \
     neorv32_slink.vhd \
     neorv32_spi.vhd \
@@ -65,6 +69,14 @@ set source_files_neorv32 [list \
 
 # CTU-CAN library files
 set source_files_ctucan [list \
+    id_transfer_pkg.vhd \
+    can_registers_pkg.vhd \
+    cmn_reg_map_pkg.vhd \
+    can_config_pkg.vhd \
+    can_constants_pkg.vhd \
+    can_types_pkg.vhd \
+    unary_ops_pkg.vhd \
+    drv_stat_pkg.vhd \
     dff_arst.vhd \
     dff_arst_ce.vhd \
     inf_ram_wrapper.vhd \
@@ -78,24 +90,16 @@ set source_files_ctucan [list \
     sig_sync.vhd \
     access_signaler.vhd \
     address_decoder.vhd \
-    can_registers_pkg.vhd \
-    cmn_reg_map_pkg.vhd \
     data_mux.vhd \
     memory_bus.vhd \
     memory_reg.vhd \
-    can_config_pkg.vhd \
-    can_constants_pkg.vhd \
     can_fd_frame_format.vhd \
     can_fd_register_map.vhd \
-    drv_stat_pkg.vhd \
-    unary_ops_pkg.vhd \
     clk_gate.vhd \
     dlc_decoder.vhd \
     rst_reg.vhd \
     control_registers_reg_map.vhd \
     test_registers_reg_map.vhd \
-    can_types_pkg.vhd \
-    id_transfer_pkg.vhd \
     bit_segment_meter.vhd \
     bit_time_cfg_capture.vhd \
     bit_time_counters.vhd \
@@ -153,14 +157,14 @@ set source_files_ctucan [list \
 # Core VHDL source files
 set source_files_vhdl [list \
     can_top_level.vhd \
-    top_can.vhd \
+    can_periph.vhd \
+    mcu.vhd \
     top_soc.vhd \
-    top_cpu.vhd \
 ]
 
 # Target technology search path
 set_db init_lib_search_path [list \
-    $PROJECT_ROOT/skywater-pdk/libraries/sky130_fd_sc_hd/latest/timing \
+    $PDK_ROOT/libraries/sky130_fd_sc_hd/latest/timing \
 ]
 
 set_db library [list \
@@ -169,5 +173,5 @@ set_db library [list \
 
 # Load target technology tech file
 set_db lef_library [ list \
-    $PROJECT_ROOT/skywater-pdk/libraries/sky130_fd_sc_hd/latest/tech/sky130_fd_sc_hd.tlef \
+    $PDK_ROOT/libraries/sky130_fd_sc_hd/latest/tech/sky130_fd_sc_hd.tlef \
 ]

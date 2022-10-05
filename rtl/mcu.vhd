@@ -145,11 +145,11 @@ begin
         CPU_CNT_WIDTH                => 32,  -- total width of CPU cycle and instret counters (0..64)
 
         -- Physical Memory Protection (PMP) --
-        PMP_NUM_REGIONS              => 0,       -- number of regions (0..16)
+        PMP_NUM_REGIONS              => 1,       -- number of regions (0..16)
         PMP_MIN_GRANULARITY          => 8,   -- minimal region granularity in bytes, has to be a power of 2, min 8 bytes
 
         -- Hardware Performance Monitors (HPM) --
-        HPM_NUM_CNTS                 => 0,          -- number of implemented HPM counters (0..29)
+        HPM_NUM_CNTS                 => 1,          -- number of implemented HPM counters (0..29)
         HPM_CNT_WIDTH                => 1,         -- total size of HPM counters (1..64)
 
         -- Internal Instruction memory --

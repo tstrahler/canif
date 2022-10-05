@@ -1,0 +1,459 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 19.16-s111_1, built Fri Feb 12 03:22:37 PST 2021
+Options: 
+Date:    Wed Oct 05 10:57:49 2022
+Host:    physik3 (x86_64 w/Linux 4.19.0-20-amd64) (4cores*16cpus*4physical cpus*Quad-Core AMD Opteron(tm) Processor 8350 512KB) (16425048KB)
+PID:     14469
+OS:      CentOS Linux release 7.9.2009 (Core)
+
+Checking out license: Genus_Synthesis
+
+Loading tool scripts...
+
+Finished loading tool scripts (73 seconds elapsed).
+
+WARNING: This version of the tool is 599 days old.
+@genus:root: 1> ls
+fv
+genus.cmd
+genus.log
+synth.tcl
+synth_constraints.sdc
+top.mtarpt
+@genus:root: 2> source synth.tcl
+Sourcing './synth.tcl' (Wed Oct 05 10:59:14 CEST 2022)...
+#@ Begin verbose source ./synth.tcl
+@file(synth.tcl) 2: source ../init_design.tcl
+Sourcing '../init_design.tcl' (Wed Oct 05 10:59:14 CEST 2022)...
+#@ Begin verbose source ../init_design.tcl
+@file(init_design.tcl) 4: set PROJECT_ROOT /cipuser/fphys/kw283/dev/canif
+@file(init_design.tcl) 7: set PDK_ROOT /cipuser/fphys/kw283/dev/pdk/skywater-pdk
+@file(init_design.tcl) 10: set_db init_hdl_search_path [list \
+    $PROJECT_ROOT/rtl \
+    $PROJECT_ROOT/ip/neorv32/rtl/core \
+    $PROJECT_ROOT/ip/neorv32/rtl/core/mem \
+    $PROJECT_ROOT/ip/ctucanfd/src \
+    $PROJECT_ROOT/ip/ctucanfd/src/bus_sampling \
+    $PROJECT_ROOT/ip/ctucanfd/src/can_core \
+    $PROJECT_ROOT/ip/ctucanfd/src/common_blocks \
+    $PROJECT_ROOT/ip/ctucanfd/src/frame_filters \
+    $PROJECT_ROOT/ip/ctucanfd/src/interface \
+    $PROJECT_ROOT/ip/ctucanfd/src/interrupt_manager \
+    $PROJECT_ROOT/ip/ctucanfd/src/memory_registers \
+    $PROJECT_ROOT/ip/ctucanfd/src/packages \
+    $PROJECT_ROOT/ip/ctucanfd/src/prescaler \
+    $PROJECT_ROOT/ip/ctucanfd/src/rx_buffer \
+    $PROJECT_ROOT/ip/ctucanfd/src/tx_arbitrator \
+    $PROJECT_ROOT/ip/ctucanfd/src/txt_buffer \
+]
+  Setting attribute of root '/': 'init_hdl_search_path' = /cipuser/fphys/kw283/dev/canif/rtl /cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core /cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/mem /cipuser/fphys/kw283/dev/canif/ip/ctucanfd/src /cipuser/fphys/kw283/dev/canif/ip/ctucanfd/src/bus_sampling /cipuser/fphys/kw283/dev/canif/ip/ctucanfd/src/can_core /cipuser/fphys/kw283/dev/canif/ip/ctucanfd/src/common_blocks /cipuser/fphys/kw283/dev/canif/ip/ctucanfd/src/frame_filters /cipuser/fphys/kw283/dev/canif/ip/ctucanfd/src/interface /cipuser/fphys/kw283/dev/canif/ip/ctucanfd/src/interrupt_manager /cipuser/fphys/kw283/dev/canif/ip/ctucanfd/src/memory_registers /cipuser/fphys/kw283/dev/canif/ip/ctucanfd/src/packages /cipuser/fphys/kw283/dev/canif/ip/ctucanfd/src/prescaler /cipuser/fphys/kw283/dev/canif/ip/ctucanfd/src/rx_buffer /cipuser/fphys/kw283/dev/canif/ip/ctucanfd/src/tx_arbitrator /cipuser/fphys/kw283/dev/canif/ip/ctucanfd/src/txt_buffer
+@file(init_design.tcl) 30: set source_files_neorv32 [list \
+    neorv32_package.vhd \
+    neorv32_bus_keeper.vhd \
+    neorv32_busswitch.vhd \
+    neorv32_cfs.vhd \
+    neorv32_cpu.vhd \
+    neorv32_cpu_alu.vhd \
+    neorv32_cpu_bus.vhd \
+    neorv32_cpu_control.vhd \
+    neorv32_cpu_cp_bitmanip.vhd \
+    neorv32_cpu_cp_cfu.vhd \
+    neorv32_cpu_cp_fpu.vhd \
+    neorv32_cpu_cp_muldiv.vhd \
+    neorv32_cpu_cp_shifter.vhd \
+    neorv32_cpu_decompressor.vhd \
+    neorv32_cpu_regfile.vhd \
+    neorv32_debug_dm.vhd \
+    neorv32_debug_dtm.vhd \
+    neorv32_dmem.entity.vhd \
+    neorv32_fifo.vhd \
+    neorv32_gpio.vhd \
+    neorv32_gptmr.vhd \
+    neorv32_icache.vhd \
+    neorv32_imem.entity.vhd \
+    neorv32_mtime.vhd \
+    neorv32_neoled.vhd \
+    neorv32_pwm.vhd \
+    neorv32_slink.vhd \
+    neorv32_spi.vhd \
+    neorv32_sysinfo.vhd \
+    neorv32_top.vhd \
+    neorv32_trng.vhd \
+    neorv32_twi.vhd \
+    neorv32_uart.vhd \
+    neorv32_wdt.vhd \
+    neorv32_wishbone.vhd \
+    neorv32_xip.vhd \
+    neorv32_xirq.vhd \
+]
+@file(init_design.tcl) 71: set source_files_ctucan [list \
+    id_transfer_pkg.vhd \
+    can_registers_pkg.vhd \
+    cmn_reg_map_pkg.vhd \
+    can_config_pkg.vhd \
+    can_constants_pkg.vhd \
+    can_types_pkg.vhd \
+    unary_ops_pkg.vhd \
+    drv_stat_pkg.vhd \
+    dff_arst.vhd \
+    dff_arst_ce.vhd \
+    inf_ram_wrapper.vhd \
+    majority_decoder_3.vhd \
+    mux2.vhd \
+    parity_calculator.vhd \
+    rst_sync.vhd \
+    shift_reg.vhd \
+    shift_reg_byte.vhd \
+    shift_reg_preload.vhd \
+    sig_sync.vhd \
+    access_signaler.vhd \
+    address_decoder.vhd \
+    data_mux.vhd \
+    memory_bus.vhd \
+    memory_reg.vhd \
+    can_fd_frame_format.vhd \
+    can_fd_register_map.vhd \
+    clk_gate.vhd \
+    dlc_decoder.vhd \
+    rst_reg.vhd \
+    control_registers_reg_map.vhd \
+    test_registers_reg_map.vhd \
+    bit_segment_meter.vhd \
+    bit_time_cfg_capture.vhd \
+    bit_time_counters.vhd \
+    bit_time_fsm.vhd \
+    segment_end_detector.vhd \
+    synchronisation_checker.vhd \
+    trigger_generator.vhd \
+    rx_buffer_fsm.vhd \
+    rx_buffer_pointers.vhd \
+    rx_buffer_ram.vhd \
+    priority_decoder.vhd \
+    tx_arbitrator_fsm.vhd \
+    txt_buffer_fsm.vhd \
+    txt_buffer_ram.vhd \
+    bit_err_detector.vhd \
+    data_edge_detector.vhd \
+    sample_mux.vhd \
+    ssp_generator.vhd \
+    trv_delay_meas.vhd \
+    tx_data_cache.vhd \
+    bit_destuffing.vhd \
+    bit_stuffing.vhd \
+    bus_traffic_counters.vhd \
+    control_counter.vhd \
+    crc_calc.vhd \
+    err_counters.vhd \
+    err_detector.vhd \
+    fault_confinement_fsm.vhd \
+    fault_confinement_rules.vhd \
+    operation_control.vhd \
+    protocol_control_fsm.vhd \
+    reintegration_counter.vhd \
+    retransmitt_counter.vhd \
+    rx_shift_reg.vhd \
+    trigger_mux.vhd \
+    tx_shift_reg.vhd \
+    endian_swapper.vhd \
+    bit_filter.vhd \
+    range_filter.vhd \
+    int_module.vhd \
+    memory_registers.vhd \
+    prescaler.vhd \
+    rx_buffer.vhd \
+    tx_arbitrator.vhd \
+    txt_buffer.vhd \
+    bus_sampling.vhd \
+    can_core.vhd \
+    can_crc.vhd \
+    fault_confinement.vhd \
+    protocol_control.vhd \
+    frame_filters.vhd \
+    int_manager.vhd \
+]
+@file(init_design.tcl) 158: set source_files_vhdl [list \
+    can_top_level.vhd \
+    can_periph.vhd \
+    mcu.vhd \
+    top_soc.vhd \
+]
+@file(init_design.tcl) 166: set_db init_lib_search_path [list \
+    $PDK_ROOT/libraries/sky130_fd_sc_hd/latest/timing \
+]
+  Setting attribute of root '/': 'init_lib_search_path' = /cipuser/fphys/kw283/dev/pdk/skywater-pdk/libraries/sky130_fd_sc_hd/latest/timing
+@file(init_design.tcl) 170: set_db library [list \
+    sky130_fd_sc_hd__ss_100C_1v60.lib \
+]
+
+Threads Configured:3
+Warning : Missing pg_pin group in the library. [LBR-702]
+        : No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1'. The attribute 'related_bias_pin' specified for the pg_pin 'VPWR' is being ignored. (File /cipuser/fphys/kw283/dev/pdk/skywater-pdk/libraries/sky130_fd_sc_hd/latest/timing/sky130_fd_sc_hd__ss_100C_1v60.lib, Line 82107)
+Warning : Missing pg_pin group in the library. [LBR-702]
+        : No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2'. The attribute 'related_bias_pin' specified for the pg_pin 'VPWR' is being ignored. (File /cipuser/fphys/kw283/dev/pdk/skywater-pdk/libraries/sky130_fd_sc_hd/latest/timing/sky130_fd_sc_hd__ss_100C_1v60.lib, Line 82241)
+Warning : Missing pg_pin group in the library. [LBR-702]
+        : No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4'. The attribute 'related_bias_pin' specified for the pg_pin 'VPWR' is being ignored. (File /cipuser/fphys/kw283/dev/pdk/skywater-pdk/libraries/sky130_fd_sc_hd/latest/timing/sky130_fd_sc_hd__ss_100C_1v60.lib, Line 82375)
+Warning : Missing pg_pin group in the library. [LBR-702]
+        : No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1'. The attribute 'related_bias_pin' specified for the pg_pin 'VPWR' is being ignored. (File /cipuser/fphys/kw283/dev/pdk/skywater-pdk/libraries/sky130_fd_sc_hd/latest/timing/sky130_fd_sc_hd__ss_100C_1v60.lib, Line 82652)
+Warning : Missing pg_pin group in the library. [LBR-702]
+        : No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2'. The attribute 'related_bias_pin' specified for the pg_pin 'VPWR' is being ignored. (File /cipuser/fphys/kw283/dev/pdk/skywater-pdk/libraries/sky130_fd_sc_hd/latest/timing/sky130_fd_sc_hd__ss_100C_1v60.lib, Line 82786)
+Warning : Missing pg_pin group in the library. [LBR-702]
+        : No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4'. The attribute 'related_bias_pin' specified for the pg_pin 'VPWR' is being ignored. (File /cipuser/fphys/kw283/dev/pdk/skywater-pdk/libraries/sky130_fd_sc_hd/latest/timing/sky130_fd_sc_hd__ss_100C_1v60.lib, Line 82920)
+
+  Message Summary for Library sky130_fd_sc_hd__ss_100C_1v60.lib:
+  **************************************************************
+  Missing pg_pin group in the library. [LBR-702]: 6
+  An unsupported construct was detected in this library. [LBR-40]: 1
+  **************************************************************
+ 
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.600000, 100.000000) in library 'sky130_fd_sc_hd__ss_100C_1v60.lib'.
+        : The nominal operating condition is represented, either by the nominal PVT values specified in the library source (via nom_process,nom_voltage and nom_temperature respectively), or by the default PVT values (1.0,1.0,1.0).
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_12' must have an output pin.
+        : Add the missing output pin(s), then reload the library. Else the library cell will be marked as timing model i.e. unusable. Timing_model means that the cell does not have any defined function. If there is no output pin, Genus will mark library cell as unusable i.e. the attribute 'usable' will be marked to 'false' on the libcell. Therefore, the cell is not used for mapping and it will not be picked up from the library for synthesis. If you query the attribute 'unusable_reason' on the libcell; result will be: 'Library cell has no output pins.'Note: The message LBR-9 is only for the logical pins and not for the power_ground pins. Genus will depend upon the output function defined in the pin group (output pin) of the cell, to use it for mapping. The pg_pin will not have any function defined.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_12' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_3' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_3' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_4' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_4' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_6' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_6' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_8' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__decap_8' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__diode_2' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__diode_2' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_bleeder_1' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_bleeder_1' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_decapkapwr_12' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_decapkapwr_12' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_decapkapwr_3' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_decapkapwr_3' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_decapkapwr_4' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'sky130_fd_sc_hd__lpflow_decapkapwr_4' must have an output pin.
+  Setting attribute of root '/': 'library' = sky130_fd_sc_hd__ss_100C_1v60.lib
+@file(init_design.tcl) 175: set_db lef_library [ list \
+    $PDK_ROOT/libraries/sky130_fd_sc_hd/latest/tech/sky130_fd_sc_hd.tlef \
+]
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'L1M1_PR' has no resistance value.
+        : If this is the expected behavior, this message can be ignored.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'L1M1_PR_R' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'L1M1_PR_M' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'L1M1_PR_MR' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'L1M1_PR_C' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M1M2_PR' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M1M2_PR_R' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M1M2_PR_M' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M1M2_PR_MR' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M1M2_PR_C' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M2M3_PR' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M2M3_PR_R' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M2M3_PR_M' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M2M3_PR_MR' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M2M3_PR_C' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M3M4_PR' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M3M4_PR_R' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M3M4_PR_M' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M3M4_PR_MR' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned for resistance value. [PHYS-129]
+        : Via 'M3M4_PR_C' has no resistance value.
+
+  According to lef_library, there are total 6 routing layers [ V(3) / H(3) ]
+
+Warning : The variant range of wire parameters is too large. An example of wire parameters are, a WIDTH for layer, PITCH for layer, MINSPACING for layers, etc. [PHYS-12]
+        : The variant range (0.14, 1.6) of 'WIDTH' for layers 'met2' and 'met5' is too large.
+        : Check the consistency of the parameters, and see if you can ignore this message or you're using different LEF file with wrong parameters.
+Warning : The variant range of wire parameters is too large. An example of wire parameters are, a WIDTH for layer, PITCH for layer, MINSPACING for layers, etc. [PHYS-12]
+        : The variant range (0.0285, 12.2) of 'RPERSQ' for layers 'met5' and 'li1' is too large.
+Warning : The variant range of wire parameters is too large. An example of wire parameters are, a WIDTH for layer, PITCH for layer, MINSPACING for layers, etc. [PHYS-12]
+        : The variant range (0.14, 1.6) of 'MINSPACING' for layers 'met2' and 'met5' is too large.
+Warning : None of the loaded LEF files have MACRO statements. [PHYS-20]
+        : Make sure the LEF file containing MACRO statement was not missed.
+        : The LEF file containing the cell specific information was not loaded. The LEF MACRO construct is used to set the physical data on cells in the timing library. It is likely that only the technology LEF file was loaded. Load all the associated LEF files.
+  Setting attribute of root '/': 'lef_library' = /cipuser/fphys/kw283/dev/pdk/skywater-pdk/libraries/sky130_fd_sc_hd/latest/tech/sky130_fd_sc_hd.tlef
+#@ End verbose source ../init_design.tcl
+@file(synth.tcl) 5: read_hdl -language vhdl -library neorv32 $source_files_neorv32
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_bus_keeper.vhd' on line 111.
+        : The specified construct has no effect on synthesis. In some cases (such as 'after' clauses in signal assignments) may cause a mismatch between and simulation.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 164.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 186.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 189.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 190.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 193.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 194.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 195.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 198.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 199.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 202.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 205.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 206.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 209.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 212.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 213.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 216.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 217.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 218.
+Warning : Concurrent assertion statements are ignored for synthesis. [VHDL-645]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu.vhd' on line 219.
+Warning : Initial values are ignored for synthesis. [VHDL-639]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_top.vhd' on line 253.
+        : The specified construct has no effect on synthesis. In some cases (such as 'after' clauses in signal assignments) may cause a mismatch between and simulation.
+Warning : Initial values are ignored for synthesis. [VHDL-639]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_top.vhd' on line 254.
+Warning : Initial values are ignored for synthesis. [VHDL-639]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_top.vhd' on line 358.
+Warning : File declarations are not supported for synthesis. [VHDL-637]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_uart.vhd' on line 603.
+Warning : File declarations are not supported for synthesis. [VHDL-637]
+        : in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_uart.vhd' on line 604.
+@file(synth.tcl) 7: read_hdl -language vhdl mcu.vhd
+@file(synth.tcl) 11: elaborate mcu
+  Library has 328 usable logic and 62 usable sequential lib-cells.
+Info    : Elaborating Design. [ELAB-1]
+        : Elaborating top-level block 'mcu' from file '/cipuser/fphys/kw283/dev/canif/rtl/mcu.vhd'.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'mcu_rtl' for entity 'mcu'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'mcu' with default parameters value.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'neorv32_top_rtl' for entity 'neorv32_top'.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'neorv32_cpu_rtl' for entity 'neorv32_cpu'.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'neorv32_cpu_control_rtl' for entity 'neorv32_cpu_control'.
+Warning : Unreachable statements for case item. [CDFG-472]
+        : Case item 'others' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 406.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'neorv32_fifo_rtl' for entity 'neorv32_fifo'.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'neorv32_cpu_decompressor_rtl' for entity 'neorv32_cpu_decompressor'.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'decode_aux[is_b_reg]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 787.
+        : Genus removes the flip-flop or latch inferred for an unused signal or variable. To preserve the flip-flop or latch, set the hdl_preserve_unused_registers attribute to true or use a pragma in the RTL.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'decode_aux[is_b_imm]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 787.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'decode_aux[is_f_op]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 787.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'debug_ctrl[dret]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 885.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'illegal_reg' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 1318.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'csr[tdata2]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 1742.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'csr[tdata1_exe]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 1742.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'csr[dscratch0]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 1742.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'csr[dpc]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 1742.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'csr[dcsr_ebreaku]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 1742.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'csr[fflags]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 1742.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'csr[mhpmevent][0]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 1742.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'csr[mcountinhibit_hpm]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 1742.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'csr[pmpcfg_rd][3]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 2089.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'csr[pmpcfg_rd][2]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 2089.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused latch register 'csr[pmpcfg_rd][1]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 2089.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused flip-flop register 'csr[mhpmcounterh][0]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 2402.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused flip-flop register 'csr[mhpmcounter_ovfl][0]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 2402.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused flip-flop register 'csr[mhpmcounter][0]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 2402.
+Warning : Removing unused register. [CDFG-508]
+        : Removing unused flip-flop register 'csr[minstreth]' in module 'neorv32_cpu_control_HW_THREAD_ID0_CPU_BOOT_ADDR0_CPU_DEBUG_ADDRn2048_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_C1_CPU_EXTENSION_RISCV_E0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_U0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zicsr1_CPU_EXTENSION_RISCV_Zicntr1_CPU_EXTENSION_RISCV_Zihpm0_CPU_EXTENSION_RISCV_Zifencei0_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zxcfu0_CPU_EXTENSION_RISCV_DEBUG0_FAST_MUL_EN0_FAST_SHIFT_EN0_CPU_CNT_WIDTH32_CPU_IPB_ENTRIES2_PMP_NUM_REGIONS1_PMP_MIN_GRANULARITY8_HPM_NUM_CNTS1_HPM_CNT_WIDTH1' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_control.vhd' on line 2402.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'neorv32_cpu_regfile_rtl' for entity 'neorv32_cpu_regfile'.
+Warning : Unreachable statements for case item. [CDFG-472]
+        : Case item 'others' in module 'neorv32_cpu_regfile_CPU_EXTENSION_RISCV_E0' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_regfile.vhd' on line 93.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'neorv32_cpu_cpu_rtl' for entity 'neorv32_cpu_alu'.
+Warning : Unreachable statements for case item. [CDFG-472]
+        : Case item 'others' in module 'neorv32_cpu_alu_CPU_EXTENSION_RISCV_B0_CPU_EXTENSION_RISCV_M1_CPU_EXTENSION_RISCV_Zmmul0_CPU_EXTENSION_RISCV_Zfinx0_CPU_EXTENSION_RISCV_Zxcfu0_FAST_MUL_EN0_FAST_SHIFT_EN0' in file '/cipuser/fphys/kw283/dev/canif/ip/neorv32/rtl/core/neorv32_cpu_alu.vhd' on line 138.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'neorv32_cpu_cp_shifter_rtl' for entity 'neorv32_cpu_cp_shifter'.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'neorv32_cpu_cp_muldiv_rtl' for entity 'neorv32_cpu_cp_muldiv'.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'neorv32_cpu_bus_rtl' for entity 'neorv32_cpu_bus'.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'neorv32_busswitch_rtl' for entity 'neorv32_busswitch'.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'neorv32_bus_keeper_rtl' for entity 'neorv32_bus_keeper'.
+Error   : No design architecture specified. [CDFG-321] [elaborate]
+        : Architecture for entity 'neorv32_imem'.
+        : Specify the name of the preferred architecture to use for the entity with the 'hdl_vhdl_preferred_architecture' command.
+Info    : Unable to elaborate the design. [ELAB-4]
+        : Module 'mcu' contains errors and cannot be elaborated.
+UM:   timing.setup.tns  timing.setup.wns  snapshot
+UM:*                                      elaborate
+#@ End verbose source ./synth.tcl
+1
+@genus:root: 3> q
+Normal exit.
