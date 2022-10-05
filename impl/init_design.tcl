@@ -24,9 +24,6 @@ set_db init_hdl_search_path [list \
 
 # Source files for neorv32 library
 set source_files_neorv32 [list \
-    neorv32_application_image.vhd \
-    neorv32_boot_rom.vhd \
-    neorv32_bootloader_image.vhd \
     neorv32_bus_keeper.vhd \
     neorv32_busswitch.vhd \
     neorv32_cfs.vhd \
@@ -64,8 +61,6 @@ set source_files_neorv32 [list \
     neorv32_wishbone.vhd \
     neorv32_xip.vhd \
     neorv32_xirq.vhd \
-    neorv32_dmem.default.vhd \
-    neorv32_imem.default.vhd \
 ]
 
 # CTU-CAN library files
